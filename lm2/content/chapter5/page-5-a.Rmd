@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Die **z-Transformation** wird auch als **Standardisierung** bezeichnet. Nach der Transformation sind die Werte nicht mehr in den Originalmaßeinheiten gemessen, sondern in Vielfachen der [Standardabweichung](../../glossar/standardabweichung/index.html) des Merkmals.
 
 Aus Rohwerten ($x$-Werte) kann häufig nur sehr bedingt auf deren relative Position innerhalb einer Verteilung geschlossen werden, das [arithmetische Mittel](../../glossar/mittelwert/index.html) und die Standardabweichung vermitteln zusätzliche Informationen. Werden Rohwerte in z-Werte transformiert, erhält man anhand der Berücksichtigung des arithmetischen Mittels und der Standardabweichung exakte Informationen über die relative Position des jeweiligen Rohwertes. Der Mittelwert von **z-transformierten Merkmalen** ist immer $0$ ($\bar{x}=0$).

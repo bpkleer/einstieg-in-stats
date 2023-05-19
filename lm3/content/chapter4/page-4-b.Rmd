@@ -4,6 +4,12 @@ weight: 402
 tags: ["grenzwerttheorem", "inferenz"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Wenn man theoretisch unendlich viele [Stichproben](../../glossar/stichprobe/index.html) vom jeweils gleichen Umfang $n$ aus derselben [Population](../../glossar/grundgesamtheit/index.html) zieht, ergibt sich für die Verteilung der [Mittelwerte](../../glossar/mittelwert/index.html) der Stichproben folgendes Bild.
 
 ![Histogramm der Stichprobenmittelwerte](../images/normalverteilung_stata1.png)

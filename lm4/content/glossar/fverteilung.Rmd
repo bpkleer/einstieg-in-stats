@@ -4,4 +4,8 @@ title: "F-Verteilung"
 
 Fisher-Verteilung; Verteilungsform der Quotienten zweier $\chi^2$-verteilter Zufallsvariablen dividiert durch die Anzahl der Freiheitsgerade; wichtige Verteilung für die Varianzanalyse (inferenzstatistische Verfahren)
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
 
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}

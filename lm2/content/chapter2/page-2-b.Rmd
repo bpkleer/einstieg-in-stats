@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Der **Median** ist jene Ausprägung/Wert, welcher die Verteilung genau in zwei gleich große Abschnitte teilt. Der **Median** ist der Wert, der in einer geordneten Liste genau in der Mitte liegt, d.h. dass sich genauso viele Werte oberhalb wie unterhalb des Wertes befinden (jeweils $50\%$ der Fälle). Folglich setzt der **Median** eine Ordnung der Werte voraus und damit ein [ordinales Skalenniveau](../../glossar/ordinalskala/index.html). Sowohl bei der Berechnung des **Medians** als auch beim ordinalen Skalenniveau sind die Werte der Größe nach sortiert.
 
 Je nachdem, ob man eine ungerade Anzahl an Fällen ($n$) oder gerade Anzahl an Fällen hat, wird der **Median** unterschiedlich berechnet. Das Zeichen für den **Median** ist: $\tilde{x}: Median$

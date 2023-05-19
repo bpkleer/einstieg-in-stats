@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Der **Modus**, auch **Modalwert**, ist der am häufigsten vorkommende Wert (Ausprägung). Somit ist die Wahrscheinlichkeit, dass dieser Wert/diese Ausprägung zufällig aus den ermittelten Werten gezogen wird, am größten. Dieses Maß der zentralen Tendenz ist besonders wichtig für nominalskalierte [Skalenniveau](../../glossar/skalenniveau/index.html) Variablen, da bei diesen die Angabe eines **arithmetischen Mittelwertes** oder **Medians** nicht sinnvoll angewendet werden kann.
 
 So kann für die Variable Augenfarbe kein Durchschnittswert angegeben, der häufigste Wert (**Modus**) dagegen erscheint sinnvoll. Der **Modus** ist aussagekräftig, wenn ein einzelner Wert sehr häufig vorkommt (z.B. $27$ Frauen und $3$ Männer) und unsinnig, wenn der häufigste Wert nur relativ selten vorkommt. Das Zeichen für den Modalwert ist

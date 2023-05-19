@@ -4,4 +4,8 @@ title: "Histogramm"
 
 grafische Darstellung einer univariaten Häufigkeitsverteilung in Form von direkt nebeneinanderliegenden Säulen, die den Häufigkeiten der Messwerte entsprechen. Mithilfe von Histogrammen wird oftmals die Verteilungsform der Variablen grafisch betrachtet.
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
 
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}

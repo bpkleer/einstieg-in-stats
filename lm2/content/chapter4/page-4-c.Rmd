@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 **Histogramme** sind auch bekannt als **Flächendiagramme.** Auf der $x$-Achse ist die [Merkmalsausprägung](../../glossar/merkmalsauspraegung/index.html) abgetragen und auf der $y$-Achse die [absolute Häufigkeit](../glossar/absoluteHaeufigkeit.html) der jeweiligen Merkmalsausprägung. [Merkmale](../../glossar/merkmal/index.html) müssen mindestens [intervall-skaliert](../../glossar/intervallskala/index.html) sein, damit **Histogramme** ausgegeben werden können. **Histogramme** beschreiben daher ein Ausprägungskontinuum. Damit schließen die Ausprägungskategorien nahtlos aneinander an [vgl. @Gehring2009, 113]. Da bei intervall-skalierten Variablen ebenfalls eine Ordnung vorliegt, wird in einem **Histogramm** immer die Ordnung der Merkmalsausprägungen befolgt.
 
 

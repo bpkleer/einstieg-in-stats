@@ -4,6 +4,12 @@ weight: 303
 tags: ["regression", "bivariat"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Bei der Berechnung einer **linearen Regression** in den Sozialwissenschaften lässt sich das Regressionsmodell nur mit einer Anpassung als lineare Darstellung durchführen. Dies liegt daran, dass keine [abhängige](../../glossar/abhaengigevariable/index.html) Variable perfekt durch eine oder mehrere [unabhängige](../../glossar/unabhaengigevariable/index.html) Variable(n) darstellbar ist. In der Modellannahme wird deshalb davon ausgegangen, dass es einen nicht-erklärbaren Anteil gibt, der mit der [Störvariable](../../glossar/stoervariable/index.html) $\varepsilon$ (manchmal auch $U$) angegeben wird. In den Sozialwissenschaften ergibt sich diese Störvariable aus der Forschungslogik heraus: Wir können in den Sozialwissenschaften niemals alle Variablen, die auf etwas wirken, berücksichtigen, da ein soziales Ereignis stets umfassend ist. 
 
 Aus dieser Überlegung heraus ergibt sich die Anpassung einer linearen Gleichung zur bivariaten **linearen Regression** für die [Grundgesamtheit](../../glossar/grundgesamtheit/index.html):

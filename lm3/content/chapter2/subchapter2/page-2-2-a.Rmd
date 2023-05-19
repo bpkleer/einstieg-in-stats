@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Für den Zusammenhang zweier [ordinaler Variablen](../../../glossar/ordinalskala/index.html) kann man die **Rangkorrelation** nach **Spearman ($\rho$)** benutzen. Voraussetzung hierfür sind die *Monotonie* des Zusammenhangs und mindestens ordinale Variablen des Zusammenhangs. Auch kann ein *nicht-linearer*, aber *monotoner* Zusammenhang zweier [metrischer Variablen](../glossar/metrischesSkalenniveau.html) mit **Spearmans $\rho$** analysiert werden.
 
 Wie auch der [Korrelationskoeffizient nach Pearson](../../../glossar/pearsonsr/index.html) nimmt **Spearmans $\rho$** Werte im Intervall $[-1;+1]$ an. Für den *perfekt positiven* Zusammenhang nimmt er die Maßzahl $+1 $ an, für den *perfekt negativen* den Wert $-1$.

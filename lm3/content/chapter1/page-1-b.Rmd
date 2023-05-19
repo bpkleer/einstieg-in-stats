@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Die [Indifferenztabelle](../../glossar/indifferenztabelle/index.html) ist die Grundlage der Berechnung von $\chi^2$ (Chi-Quadrat), welches ein Maß zur Bewertung der Unabhängigkeit zwischen zwei [Variablen](../../glossar/variable/index.html) ist. Das untenstehende Rechenbeispiel wird auf der nächsten Seite in einem Lernvideo nochmals erklärt.
 
 Je stärker sich **erwartete** (Indifferenztabelle) und **beobachtete Häufigkeiten** (Kontingenztabelle) voneinander unterscheiden, desto stärker ist der Zusammenhang zwischen beiden Variablen.

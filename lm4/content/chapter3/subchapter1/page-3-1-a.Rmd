@@ -4,6 +4,12 @@ weight: 311
 tags: ["bestimmtheitsmaß", "$r^2$", "regression"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Um zu messen, wie aussagekräftig die **Regression** ist, wird über eine Varianzzerlegung das **Bestimmtheitsmaß** $R^2$ bestimmt. Vereinfacht dargestellt beschreibt $R^2$ den Anteil der erklärten Varianz am Gesamtanteil.
 
 Umgangssprachlich könnte man sagen, dass $R^2$ angibt, wie viel die unabhängigen Variablen (an der Varianz) der abhängigen Variable erklären. Es ist somit ein Maß der Güte des Modells. Das Ziel ist es, ein Modell zu finden, dass möglichst einen großen Anteil der Varianz einer abhängigen Variable erklären kann (also ein hohes $R^2$ aufweist).

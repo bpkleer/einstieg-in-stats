@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Auch bei [Korrelationen](../../glossar/korrelation/index.html) testet man die **Signifikanz.** Es wird also geprüft, ob der Zusammenhang in der [Grundgesamtheit](../../glossar/grundgesamtheit/index.html) auch wahrscheinlich ist. In unserem vorherigen Teil haben wir die Ergebnisse noch nicht auf **Signifikanz** geprüft. Daher werden wir dies nun im Beispiel berechnen und durchführen.
 
 Zur Erinnerung unser Beispiel aus der Berechnung der [Pearson-Korrelation](../../glossar/pearsonsr/index.html): Wir haben eine Stichprobe mit $5$ Fällen, die jeweils das *Alter* und die *Präferenz zur Partei CDU* angegeben haben. Dies ist ein fiktives Beispiel, dass auf keiner [Zufallsstichprobe](../../glossar/zufallsstichprobe/index.html) basiert. Für die Einfachheit des Rechenbeispiels wird aber hier angenommen, dass es sich um eine ausreichend große Zufallsstichprobe für die Berechnung der Signifikanz handelt.

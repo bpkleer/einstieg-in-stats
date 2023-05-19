@@ -4,6 +4,12 @@ weight: 101
 tags: ["grundbegriffe", "deskriptivstatistik", "inferenzstatistik"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 **Deskriptive** oder auch explorative Statistik, trifft immer Aussagen über vorhandene Daten, d.h. es handelt sich hierbei um eine beschreibende [Statistik](../../glossar/statistik/index.html). Dazu zählen Verfahren zur Berechnung von **Lage-** und **Streumaßen**, aber auch alle **grafischen Darstellungen** wie z.B. Box-Plots. Korrelationen und Regressionen können auch als deskriptive Verfahren genutzt werden, üblicher ist aber, dass diese **inferenzstatistisch** genutzt werden. Daher werden diese beide Verfahren in [Lernmodul 4](../../LM4/) vorgestellt.
 
 Mithilfe der **Inferenzstatistik** werden Wahrscheinlichkeitsaussagen über Populationswerte getroffen. Wir haben Daten aus einer Auswahl ([Stichprobe](../../glossar/stichprobe/index.html)) vorliegen, möchten anhand dieser jedoch Aussagen über die gesamte Bezugsgruppe ([Grundgesamtheit](../../glossar/grundgesamtheit/index.html)) treffen. Zum Beispiel werden in Wahlstudien niemals alle wahlberechtigten Personen befragt, sondern nur ein Teil der Wahlberechtigten und die Erkenntnisse mit Hilfe der **Inferenzstatistik** auf die Gesamtheit der wahlberechtigten Personen bezogen. Die Anwendung mathematischer Wahrscheinlichkeitsrechnung ist hierbei grundlegend. Diese Verfahren der Auswahl von Teilgruppen wird in [Lernmodul 3](../../LM3) vertieft.

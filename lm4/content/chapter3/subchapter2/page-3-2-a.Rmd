@@ -4,6 +4,12 @@ weight: 321
 tags: ["kategorial", "regression"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Nun möchten wir das Bildungslevel der Befragten in die Regressionsrechnung einfügen. Insgesamt hat diese Variable drei [Ausprägungen](../../../../glossar/merkmalsauspraegung/index.html): $(1)$ Haupt-/Realschule, $(2)$ Abitur und $(3)$ mind. BA-Abschluss. Der Bildungslevel beschreibt die höchste formale Bildungsqualifikation.
 
 Ein Statistikprogramm kann ausschließlich mit Zahlen operieren. Warum wir die Variable nicht wie eine metrische Variable einfügen können, erklärt folgendes Problem: Bei metrischen Variablen können wir die Steigerung um eine Einheit interpretieren, da die Abstände eindeutig sind. Bei einer Variable wie dem Bildungslevel können wir dies nicht. Wir können den Abstand zwischen *Abitur* und *mind. BA-Abschluss* nicht mit dem Zahlenwert $1$ gleichsetzen (den wir aufgrund der Kodierung als Abstand identifizieren würden). Daher können [kategoriale Variablen](../../../glossar/kategorialesskalenniveau/index.html) nicht einfach in ein Regressionsmodell als [unabhängige Variable](../../../glossar/unabhaengigevariable/index.html) eingefügt werden.

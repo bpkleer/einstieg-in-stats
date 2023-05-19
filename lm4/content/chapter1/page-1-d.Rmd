@@ -4,6 +4,12 @@ weight: 104
 tags: ["vertrauenswahrscheinlichkeit", "signifikanz", "hypothesentest"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Die Vertrauenswahrscheinlichkeit ($p = 1 − \alpha$) gibt die Wahrscheinlichkeit an, dass das Intervall den wahren Wert enthält. Sollte der Wert also innerhalb dieses Intervalls liegen, muss die Nullhypothese beibehalten werden und die Alternativhypothese muss verworfen werden.
 
 Zum besseren Verständnis hier eine grafische Darstellung eines ungerichteten (zweiseitigen) Hypothesentests:

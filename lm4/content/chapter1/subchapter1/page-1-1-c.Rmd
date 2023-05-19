@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Bei Stichproben mit kleinem $n$ und unbekannter Varianz in der Grundgesamtheit ($\sigma_x$) empfiehlt es sich statt der $z$-Verteilung die $t$-Verteilung für die Berechnung eines Konfidenzintervalls zu nutzen. 
 
 Bei der t-Verteilung ist abhängig von den Freiheitsgraden ($\nu$). Freiheitsgrade geben an, wie viele Werte in einem statistischen Ausdruck frei variieren können. In der $t$-Verteilung berechnen sich die Freiheitsgrade wie folgt: $\nu = n-1$.

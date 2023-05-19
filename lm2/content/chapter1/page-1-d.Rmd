@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Eine [univariate Datenanalyse](../../glossar/univariatestatistik/index.html) in tabellarischer Form ergibt eine **Häufigkeitstabelle**. Diese **Häufigkeitstabelle** beschreibt, wie sich die Personen auf die [Ausprägungen](../../glossar/merkmalsauspraegung/index.html) des einen [Merkmals](../../glossar/merkmal/index.html) verteilen.
 Nehmen wir das Beispiel der [Urliste](../../glossar/urliste/index.html) von der vorherigen Seite wieder auf:
 Die [Variable](../../glossar/variable/index.html) Augenfarbe ($X$) hat die Ausprägungen grün, blau und braun. Dieses Merkmal $X$ umfasst mehrere Merkmalsausprägungen, in unserem konkreten Fall $3$ (grün, blau und braun).

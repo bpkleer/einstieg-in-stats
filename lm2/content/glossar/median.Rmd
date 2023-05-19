@@ -4,4 +4,8 @@ title: "Median"
 
 Maß der zentralen Tendenz; stellt den Mittelpunkt der Verteilung dar und daher muss das Merkmal mind. ordinalskaliert sein. Der Median teilt die geordnete Verteilung genau in 50 % ein und stellt das mittlere Quartil dar.
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
 
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}

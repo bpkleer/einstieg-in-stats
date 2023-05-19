@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Da [Merkmale](../../glossar/merkmal/index.html) mit einem höheren [arithmetischen Mittel](../../glossar/mittelwert/index.html) auch häufig eine größere [Standardabweichung](../../glossar/standardabweichung/index.html) aufweisen, wird der **Variationskoeffizient** genutzt, um dies zu relativieren [@Gehring2009, 138]. Bei der Berechnung des Variationskoeffizienten kürzt sich die Maßeinheit heraus, daher ist er eine **dimensionslose Größe** [@Gehring2009, 138]. Es ist zusätzlich ein **relatives Maß**, da die Werte ins Verhältnis zum Mittelwert berechnet werden. So können verschiedene Streuungen verglichen werden, die nicht die gleiche Maßeinheit haben.
 
 Der **Variationskoeffizient** berechnet sich wie folgt:

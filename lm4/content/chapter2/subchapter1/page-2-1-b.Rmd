@@ -4,6 +4,12 @@ weight: 212
 tags: ["t-test", "gleiche varianzen", "mittelwertvergleich", "lernvideo"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Kommen wir nun zu einem Rechenbeispiel des zweiseitigen t-Tests für unabhängige Stichproben mit gleichen Varianzen. Als Beispiel übernehmen wir die Fragestellung, die wir eingangs als Beispiel benannt haben: Weisen Frauen und Männer einen unterschiedlichen Mittelwert bei der wöchentlichen Arbeitszeit auf? Falls ja, sind diese Unterschiede statistisch signifikant?
 
 Aus einem Survey haben wir folgende Daten:

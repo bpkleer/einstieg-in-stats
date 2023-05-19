@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Mit Mittelwertvergleichen werden also Zusammenhänge zwischen [nominalen](../../glossar/nominalskala/index.html) (Gruppenvariable, im Beispiel *Geschlecht*) und metrischen Variablen (im Beispiel *Einkommen*) getestet.
 
 Für den **Mittelwertvergleich** gibt es mehrere Verfahren, die in Abhängigkeit der *Gruppenanzahl* der nominalen Variable und in Abhängigkeit der [Stichprobe](../../glossar/stichprobe/index.html) angewandt werden. Für einen **Mittelwertvergleich** zwischen *zwei Gruppen* wird der sogenannte **t-test (Mittelwertvergleich)** genutzt und für eine Untersuchung von *mehr als zwei Gruppen* der sogenannte **F-Test (Varianzanalyse)**.

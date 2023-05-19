@@ -5,6 +5,12 @@ tags: ["irrtumswahrscheinlichkeit", "signifikanz", "hypothesentest"]
 
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Um einen [Hypothesentest](../../glossar/signifikanztest/index.html) bewerten zu können, wird eine **Irrtumswahrscheinlichkeit** ($\alpha$) angegeben, auf die der Test *signifikant* ist oder nicht. Um dies zu verstehen, müssen wir uns nochmals kurz verdeutlichen, welche Testsituationen auftreten können. Anhand der Vierfelder-Tabelle sind die Testsituationen dargestellt:
 
 ![Fehler 1. Art und Fehler 2. Art](../images/fehlertabelle.png)

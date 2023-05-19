@@ -4,6 +4,12 @@ weight: 114
 tags: ["konfidenzintervall", "signifikanz", "hypothesentest", "lernvideo"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Im Folgenden werden zwei Beispiele berechnet, die auch in dem Lernvideo nochmals erklärt werden.
 
 ## bekanntes $\sigma_x$

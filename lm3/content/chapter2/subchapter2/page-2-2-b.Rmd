@@ -4,6 +4,12 @@ weight: 222
 tags: ["gamma", "pre maß"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 $\gamma$ ist ein [PRE-Maß](../../../glossar/premass/index.html) und wird angewendet, um den Zusammenhang zweier Merkmale, deren Skalenniveau mindestens ordinal ist, in einer Kreuztabelle zu überprüfen. Hierbei werden die Zahl konkordanter Paare $C$ ($x_i < x_j$) und diskonkordanter Paare $D$ ($y_i < y_j$) in Relation gesetzt. Im Unterschied zu anderen Zusammenhangsmaßen bleiben sogenannte *Ties* außen vor. *Ties* werden auch Rangbindungen genannt. Diese liegen vor, wenn mehrere Fälle denselben Rang in der geordneten Datenstruktur vorliegen. Wenn wir zum Beispiel das Klausurergebnis einer Prüfung nehmen, werden mehrere Personen *8 Notenpunkte* erhalten und erhalten dann in der geordneten Auflistung denselben Rang, da unter den Personen mit *8 Notenpunkten* keine weitere Rangfolge zu bilden ist. Dies ist eine Schwäche von $\gamma$, da der Koeffizient so bei Vorliegen von *ties* einen zu hohen Wert ausgibt.
 
 Die Gesamtanzahl zweier Variablen wird wie folgt berechnet: $Anzahl \, möglicher \, Paare = \frac{N(N-1)}{2} $

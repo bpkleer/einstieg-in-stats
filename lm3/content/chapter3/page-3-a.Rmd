@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Die **Normalverteilung** ist das wichtigste Verteilungsmodell der Statistik und wird für verschiedene Zwecke verwendet. Die **Normalverteilung** ist eine Verteilungsfunktion [stetiger Variablen](../../glossar/stetig/index.html). Die **Normalverteilung** ist relevant als Verteilung empirischer [Merkmale](../../glossar/merkmal/index.html), als Verteilung von [Stichprobenkennwerten](../../glossar/stichprobenkennwerte/index.html) und als Approximation anderer theoretischer Verteilungen ([zentraler Grenzwertsatz](../../glossar/zentralergrenzwertsatz/index.html), dazu im [nächsten Kapitel](../chapter4/) mehr). 
 
 Die **Normalverteilung** wird auch als *Gauß*-Verteilung beschrieben, da sie auf Carl Friedrich Gauß und Abraham de Moivre zurückgeht. Aufgrund der charakteristischen Form wird sie vereinfacht auch *Glockenkurve* genannt. Das Maximum einer **Normalverteilung** liegt dabei immer im Erwartungswert $\mu$ und die Fläche unterhalb der Kurve der **Normalverteilung** ist stets 1 (im Intervall $[-\infty; +\infty]$). Die Dichtefunktion der Normalverteilung lautet: $f(x) = \frac{1}{\sqrt{2\pi \sigma^2}} e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}$. 

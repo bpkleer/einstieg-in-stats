@@ -4,5 +4,9 @@ title: "Kovarianz"
 
 umfasst die quadrierten Abstände zum Mittelpunkt zweier Variablen (bivariaten Schwerpunkt $(\bar{x};\bar{y})$); Zeichen: $cov(x,y)$ oder $s^2_{xy}$
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
 
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
 

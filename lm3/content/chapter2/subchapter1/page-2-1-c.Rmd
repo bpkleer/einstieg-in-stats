@@ -4,6 +4,12 @@ weight: 213
 tags: ["lambda", "pre maß"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Mit $\lambda$ ist ein [PRE-Maß](../../../glossar/premass/index.html) und wird angewendet, um den Zusammenhang zweier Merkmale, deren Skalenniveau mindestens [nominal](../../../glossar/nominalskala/index.html) ist, in einer Kreuztabelle zu überprüfen. 
 
 Hierzu nehmen wir wieder das Beispiel von vorher auf (Wahl der CDU in Abhängigkeit des Wohnorts). Wichtig: Die Wahl der CDU war unsere [abhängige Variable](../../../glossar/abhaengigevariable/index.html) und der Wohnort die unabhängige Varible.

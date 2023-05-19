@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Mit dem **Interquartilsabstand (IQR)** wird die Differenz zwischen dem oberen Quartil und dem unteren Quartil angegeben. Anders als die [Variationsweite](../../glossar/spannweite/index.html) ist diese Kennzahl weniger anfällig für Ausreißer, berücksichtigt allerdings auch nur die mittleren $50\%$ einer Verteilung. Dieser Wert enthält also die Information, zwischen welchen Werten sich die mittleren $50\%$ einer [Variablen](../../glossar/variable/index.html) befinden. Auch hier gilt wieder, dass dieser Kennwert die Ordnung der Werte ([ordinalskaliert](../../glossar/ordinalskala/index.html)) voraussetzt.
 
 $$IQR=\tilde{x}_{0.75} - \tilde{x}_{0.25}$$

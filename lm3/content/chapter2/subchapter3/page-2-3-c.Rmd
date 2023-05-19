@@ -4,6 +4,12 @@ weight: 233
 tags: ["eta-qudrat", "pre maß"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Mit $\eta^2$ ist ein [PRE-Maß](../../../glossar/premass/index.html) und wird angewendet, um den Zusammenhang zweier Merkmale, von denen eine Variable ein [metrisches Skalenniveau](../../../glossar/metrischesskalenniveau/index.html) aufweist und die andere ein [nominales Skalenniveau](../../../glossar/nominalskala/index.html) besitzt.
 
 $\eta^2$ beruht auf der Zerlegung der Quadratsummen: Wir können die *Gesamt-Quadratsumme* in zwei Teile zerlegen. Zum einen wird die *Quadratsumme innerhalb der Gruppen* (der nominalen oder ordinalen Variable)  gebildet. Dies ist die Summe der quadrierten Abweichungen der Werte in den einzelnen Gruppen vom Gruppenmittelwert. Zum anderen kann die Summe der quadrierten Abweichungen der Gruppenmittelwerte vom Gesamtmittelwert gebildetet werden. Dies stellt die *Quadratsumme zwischen den Gruppen* dar. 

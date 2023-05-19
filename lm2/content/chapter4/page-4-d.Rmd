@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Empirisch erhobene Daten können anhand von **Häufigkeitsverteilungen** tabellarisch zusammengefasst oder grafisch dargestellt werden, wie zuvor erläutert wurde. Darüber hinaus lässt sich die Form einer Verteilung in [Histogrammen](../../glossar/histogramm/index.html) auch verbal beschreiben. Hier spielen die Verteilungen der drei Maße der zentralen Tendenz - [Modus](../../glossar/modus/index.html), [Median](../../glossar/median/index.html) und [arithmetisches Mittel](../../glossar/mittelwert/index.html) - eine Rolle.
 
 Von einer **symmetrischen Verteilung** und **Eingipfligkeit** ([unimodal](../../glossar/unimodaleverteilung/index.html)) wird gesprochen, wenn die gleiche Anzahl von Werten rechts und links des Gipfels liegt. Bei dieser Verteilungsform nehmen Modus, Median und artihmetisches Mittel den gleichen Wert an ($x_{Modus}=\tilde{x}=\bar{x}$).

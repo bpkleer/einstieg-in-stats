@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Als besondere Form der [Normalverteilung](../../glossar/normalverteilung/index.html) gibt es noch die **Standardnormalverteilung**: Diese liegt vor, wenn Erwartungswert $\mu = 0$ ist und die Varianz $\sigma^2 = 1$ und die [Standardabweichung](../../glossar/standardabweichung/index.html) $\sigma = 1$ ist.
 
 Man erreicht eine **Standardnormalverteilung** durch eine Transformation der Rohwerte. Diese Transformation wird [z-Transformation](../../glossar/ztransformation/index.html) genannt. Mit Hilfe der z-Transformation kann auf die relative Position innerhalb einer Verteilung geschlossen werden. Der numerische Wert informiert über die Distanz zwischen dem Rohwert und dessen [Mittelwert](../../glossar/mittelwert/index.html) in der Einheit Standardabweichungen. Ein z-Wert von 1.33 bedeutet, dass der Rohwert 1.33 Standardabweichungen vom Mittelwert ($z$-Wert = 0) abweicht. Das Vorzeichen des z-Wertes gibt dabei an, ob sich der jeweilige Wert unterhalb ($-$) oder oberhalb ($+$) des Mittelwertes ($\bar{x}$) befindet.

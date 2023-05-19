@@ -4,6 +4,12 @@ weight: 222
 tags: ["t-test", "gepaart", "mittelwertvergleich", "lernvideo"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Man kann den $t$-Test für abhängige Stichproben auch berechnen, wenn die Werte des Mittelwerts der Differenzen der gepaarten Mittelwerte ($\bar{x}_d$) sowie die Standardabweichung der Differenzen der gepaarten Mittelwerte ($\hat{\sigma}_d$) angegeben sind. Wir nehmen das Beispiel von oben, gehen aber nun von folgenden Werten für eine Stichprobe mit $1.000$ Schüler:innen aus.
 
 $\bar{x}_d = -3.7$

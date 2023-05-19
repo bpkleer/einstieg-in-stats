@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Zuerst führen wir in das **Gesetz der großen Zahlen** ein. Vereinfacht gesagt, besagt das **Gesetz der großen Zahlen** folgendes: *„Je größer die Stichprobe (..), um so eher kann man eine ziemlich genaue Übereinstimmung zwischen Stichprobenwerten und Parametern der Grundgesamtheit erwarten“* [@Kromrey2016, 279].
 
 Als einfaches Beispiel zählt der Wurf eines sechsseitigen Würfels: Jede Augenzahl (Seite) hat bei jedem Wurf eine Wahrscheinlichkeit von $\frac{1}{6}$ geworfen zu werden. Wiederholt man den Wurf immer wieder, stellt man fest, dass die Wahrscheinlichkeit der Augenzahl bei wiederholter Durchführung in Richtung der Eintrittswahrscheinlichkeit ($\frac{1}{6}$) tendiert. Dies wird auch als **schwaches Gesetz der großen Zahl** beschrieben. Das **starke Gesetz der großen Zahl** wird auf den Standardfehler angewendet. Der Standardfehler (dazu gleich mehr) tendiert gegen $0$, je größer der Stichprobenumfang wird. Denn mit einem größerem [Stichprobenumfang](../../glossar/stichprobenumfang/index.html) wird die Informationsunsicherheit geringer, die bei der Stichprobenziehung vorliegt.

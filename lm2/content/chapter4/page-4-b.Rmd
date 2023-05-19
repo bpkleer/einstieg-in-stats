@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 **Säulendiagramme** sind auch bekannt als **Linien-** oder **Stabdiagramme**, die Säulen sind dann zu Linien bzw. Stäben verschmälert. In Säulendiagrammen sind die Säulen horizontal angeordnet. Bei Balkendiagrammen sind die Säulen dagegen vertikal angeordnet.
 
 Für jede [Merkmalsausprägung](../../glossar/merkmalsauspraegung/index.html) wird eine Säule erstellt. Die Höhe bzw. Länge einer Säule stellt die [absolute](../../glossar/absolutehaeufigkeit/index.html) oder [relative Häufigkeit](../../glossar/relativehaeufigkeit/index.html) dar. Säulendiagramme können sowohl für [nominal-](../../glossar/nominalskala/index.html) wie [ordinal-skalierte Merkmale](../../glossar/ordinalskala/index.html) verwendet werden.

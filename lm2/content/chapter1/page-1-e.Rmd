@@ -4,6 +4,12 @@ weight: 105
 tags: ["häufigkeit kumuliert", "häufigkeit"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Wie im Kapitel Grundbegriffe dargestellt, stellen [Häufigkeitstabellen](../../glossar/haeufigkeitstabellen/index.html) die Darstellung der [absoluten](../../glossar/absolutehaeufigkeit/index.html) und [relativen Häufigkeiten](../../glossar/relativehaeufigkeit/index.html) der [Merkmalsausprägung](../../glossar/merkmalsauspraegung/index.html) einer [Variablen](../../glossar/variable/index.html) dar. Neben den absoluten und relativen Häufigkeiten, werden oftmals auch **kumulierte relative Häufigkeiten** zusätzlich angegeben. Für **kumulierte relative Häufigkeiten** muss eine Rangordnung zwischen den Ausprägungen vorhanden sein, also mindestens ein [ordinales Skalenniveau](../../glossar/ordinalskala/index.html) vorliegen.
 
 Nehmen wir ein Beispiel, bei dem wir von $100$ Befragten die Anzahl abgefragt haben, in wie viele Länder der Welt sie bereits gereist sind.

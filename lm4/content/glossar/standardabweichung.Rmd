@@ -6,5 +6,9 @@ Streuungsmaß; Angabe mit $\sigma$; wird berechnet als Wurzel aus der Varianz ($
 Für die Berechnung einer Standardabweichung aus einer Stichprobe wird die Bessel-Korrektur angewendet ($\frac{1}{n-1}$):
 $s = \sqrt{\frac{1}{n-1}*s^2}$
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
 
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
 

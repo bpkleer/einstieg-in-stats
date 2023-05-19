@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Die **Varianz** ist eine Kennzahl, welche die Streuung der [Variable](../../glossar/variable/index.html) ausdrückt und alle Werte berücksichtigt. Sie wird berechnet, indem man den Durchschnitt der quadrierten Abweichung vom [arithmetischen Mittel](../../glossar/mittelwert/index.html) berechnet. Die **Varianz** beschreibt also den durchschnittlichen quadrierten Abstand zum Mittelwert.
 
 Die Formel zur Anwendung auf eine Vollerhebung ist folgende:

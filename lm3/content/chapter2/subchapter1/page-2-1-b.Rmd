@@ -4,6 +4,12 @@ weight: 212
 tags: ["kontingenzkoeffizient"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Der Kontingenzkoeffizient $C$ ist ein weiteres auf $\chi^2$-basiertes Zusammenhangsmaß. Es kann angewendet werden, wenn beide Variablen mindestens [nominalskaliert](../../../glossar/nominalskala.html) sind. Idealerweise wird er erst angewendet, wenn beide Variablen mehr als drei Ausprägungen haben (mind. $3x3$ Tabelle). Bei $2x2$ Tabellen sollte stattdessen $\phi$ genutzt werden. 
 
 Der Kontingenzkoeffizient $C$ berechnet sich nach folgender Formel: $C = \sqrt {\frac {\chi^2}{\chi^2 + N}}$

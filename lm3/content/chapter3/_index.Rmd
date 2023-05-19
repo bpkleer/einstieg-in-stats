@@ -13,3 +13,9 @@ tags: ["verteilungen"]
 In diesem Kapitel wird in **statistische Verteilungen** eingeführt. Der Unterschied zu Häufigkeitsverteilungen aus der deskriptiven Statistik liegt darin, dass in der schließenden Statistik die Verteilung für die Wahrscheinlichkeit von einzelnen Werten von Variablen steht. Mathematisch nennt man dies auch Verteilungfunktion. Die Verteilungsfunktion ist für [diskrete](../glossar/diskret/index.html) und [stetige](../glossar/stetig/index.html) Zufallsvariablen definiert, wird aber unterschiedlich berechnet. Bei [diskreten](../glossar/diskret/index.html) Variablen erfolgt die Bildung der Verteilungsfunktion über die Wahrscheinlichkeitsfunktion, bei [stetigen](../glossar/stetig/index.html) Variablen erfolgt die Bildung über die Dichtefunktion. Eine Zufallsvariable $X$ ist dabei eine Funktion, die den Ergebnissen eines Zufallsexperiments ($\omega \in \Omega$) reelle Zahlen ($\mathbb{R}$) zuordnet. 
 
 Im Folgenden werden die einzelnen Schritte zum Berechnen der Wahrscheinlichkeit einer diskreten Variable gezeigt und die Interpretation von Wahrscheinlichkeiten einer stetigen Variable dargestellt. Anschließend wird in die statistischen stetigen Verteilungsformen der Normal-, Standardnormal- und t-Verteilung eingeführt.
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}

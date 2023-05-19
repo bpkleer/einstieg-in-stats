@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Mit **Kreuztabellen** wird versucht, die Unabhängigkeit von [Variablen](../../glossar/variable/index.html) zu prüfen. Bei Unabhängigkeit muss die prozentuale Verteilung der [abhängigen Variablen](../../glossar/abhaengigevariable/index.html) in jeder [Ausprägung](../../glossar/merkmalsauspraegung/index.html) der [unabhängigen Variable](../../glossar/unabhaengigevariable/index.html) gelten. Im Beispiel hieße es, dass sowohl auf dem Land als auch in der Stadt die Aufteilung zwischen Wahl der CDU und Nicht-Wahl der CDU gleich der Gesamtaufteilung ist.
 
 Abweichungen von diesen Verteilungen lassen darauf schließen, dass die Variablen nicht unabhängig voneinander sind. Wenn die Variablen nicht unabhängig voneinander sind, wird dies als Zusammenhang gewertet.

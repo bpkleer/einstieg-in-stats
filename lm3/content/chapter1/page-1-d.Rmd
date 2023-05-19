@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 **Korrelationen** werden berechnet, um den *Zusammenhang*, die *Richtung* und die *Stärke* des Zusammenhangs zweier Variablen festzustellen. Eine **Korrelation** misst allerdings keine [Kausalität](../../glossar/kausalitaet/index.html).
 
 In einem Beispiel erklärt, bedeutet dies, wenn *Arbeitszeit* und *Einkommen* positiv miteinander korrelieren, das daraus nicht geschlussfolgert werden kann, dass das *Einkommen* aufgrund höherer *Arbeitszeit* steigt bzw. dass die *Arbeitszeit* aufgrund höherem *Einkommen* steigt. Die Kausalität kann mit einer **Korrelationsanalyse** nicht belegt werden.

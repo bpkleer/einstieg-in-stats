@@ -4,6 +4,12 @@ weight: 102
 tags: ["testsituation", "signifikanz", "hypothesentest"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Nehmen wir folgendes Beispiel zur Formulierung einer [Null-](../../glossar/nullhypothese/index.html) und [Alternativhypothese](../../glossar/alternativhypothese/index.html): Wir möchten testen, ob das *mittlere Einkommen* von *Männern* in einer Stichprobe größer als *2300 Euro* ist. Zur Erinnerung der [Erwartungswert](../../glossar/erwartungswert/index.html) wird immer mit $\mu$ angegeben.
 
 Diese Aussage formulieren wir in einer Alternativhypothese, die wie folgt lautet:

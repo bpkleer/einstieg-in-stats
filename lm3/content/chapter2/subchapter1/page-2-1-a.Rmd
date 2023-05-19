@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 $\chi^2$ (Chi-Quadrat) weist drei Probleme auf. Erstens ist $\chi^2$ (Chi-Quadrat) abhängig von den [absoluten Häufigkeiten](../../glossar/absolutehaeufigkeit/index.html). Verdoppeln sich bspw. die Häufigkeiten, so verdoppelt sich auch $\chi^2$ (Chi-Quadrat). Die prozentuale Verteilung ändert sich jedoch nicht. Alternativ könnte der $\chi^2$ (Chi-Quadrat)-Wert normiert werden.
 
 Für die zwei unten erklärten berechneten Koeffizienten finden Sie auf der nächsten Seite Rechenbeispiele in Lernvideos. 

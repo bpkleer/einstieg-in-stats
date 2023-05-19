@@ -4,6 +4,12 @@ weight: 112
 tags: ["z-verteilung", "konfidenzintervall", "signifikanz", "hypothesentest"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Nutzt man die $z$-Verteilung muss die Standardabweichung der Grundgesamtheit ($\sigma_x$) bekannt sein, oder durch die Stichprobe geschätzt werden. Das Intervall berechnet sich wie folgt:
 
 $\bar{x} \pm z_{1-\frac{\alpha}{2}} \ast {\sigma_{\bar{x}}}$

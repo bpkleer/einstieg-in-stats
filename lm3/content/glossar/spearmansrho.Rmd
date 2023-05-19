@@ -4,4 +4,8 @@ title: "Spearmans Rho"
 
 Maß des Zusammenhangs zwischen zwei mind. ordinalskalierten Variablen; auch Rangkorrelation genannt; kann für metrische Variablen genutzt werden, wenn die Beziehung nicht linear ist; Voraussetzung: Monotonie des Zusammenhangs; Zeichen: $\rho$
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
 
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}

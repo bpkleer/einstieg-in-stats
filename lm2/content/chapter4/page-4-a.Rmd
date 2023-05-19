@@ -9,6 +9,11 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
 
 **Pie Charts** werden im Deutschen oft als **Kreisdiagramme** bezeichnet. Ein Kreis wird so in Kreissektoren unterteilt, dass die Flächen der Kreissektoren zu den beobachteten [Häufigkeiten](../../glossar/relativehaeufigkeit/index.html) der einzelnen [Ausprägungen](../../glossar/merkmalsauspraegung/index.html) proportional sind. Diese Darstellungsform wird vor allem für [nominale Daten](../../glossar/nominalskala/index.html) verwendet [vgl. @Gehring2009, 112].
 

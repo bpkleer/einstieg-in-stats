@@ -8,6 +8,12 @@ link-citations: true
 csl: [../../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 In Veröffentlichungen sind die Ergebnisse oft verkürzt dargestellt. Hier kommen wir auf ein ähnliches Beispiel wie auf der vorherigen Seite zurück, allerdings mit Daten aus dem ALLBUS 2008. Bei einem Mittelwertvergleich werden immer die Mittelwerte ($\bar{x}$) beider Gruppen sowie die Differenz angegeben.
 
 ![Mittelwertvergleich (Wochenarbeitsstunden nach Geschlecht)](../images/mittelwertvergleich-beispiel1.png)

@@ -10,3 +10,9 @@ Die lineare Regression ist ein strukturprüfendes Modell, mit dem eine Ursachena
 **Wirkungsprognose**: Wie verändert sich abhängige Variable bei der Veränderung der unabhängigen Variable?
 
 **Allgemeines Modell der linearen Regression**: $y_i=\beta_0 + \beta_1 ∗ x_{1,i} + ... + \beta_{k} ∗ x_{k,i} + \epsilon_i$, wobei $y_i$ = berechneter Wert für abhängige Variable bei i-ten Fall, $\beta_0$ = Konstante (Intercept), $β_k$ = Regressionskoeffizienten für k-te Variable, $x_{k,i}$ = Wert der k-ten unabhängigen Variable für i-ten Fall, und $\epsilon_i$ = Residuum des Falls i.
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}

@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Der **Mittelwert**, auch **arithmetisches Mittel**, gibt den durchschnittlichen Wert einer/s [Variable/Merkmals](../../glossar/variable/index.html) an. Dazu müssen die Abstände zwischen den Werte interpretierbar sein, also muss mindestens Intervallskalenniveau vorliegen.
 
 Der **Mittelwert** wird berechnet aus der Summe aller Werte, die durch die Anzahl der Werte (n) geteilt wird.

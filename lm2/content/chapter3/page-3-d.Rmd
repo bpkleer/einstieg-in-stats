@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Die **Standardabweichung** ist die Wurzel der [Varianz](../../glossar/varianz/index.html), also die Wurzel der quadrierten durchschnittlichen Abweichung der Werte zum [Mittelwert](../../glossar/mittelwert/index.html). Diese ist wieder in der Maßeinheit der [Variablen](../../glossar/variable/index.html) zu interpretieren und wird deshalb auch häufiger genutzt. Die **Standardabweichung** gibt somit die durchschnittliche Abweichung der Werte zum Mittelwert an. Mit diesem Maß wird nicht die Abweichung einzelner Werte zum Mittelwert berechnet, sondern die durchschnittliche Größe der Abweichungen zum Mittelwert repräsentiert (Bortz/Schuster 2010: 31).
 
 Berechnet wird die **Standardabweichung** bei einer Vollerhebung wie folgt:

@@ -8,6 +8,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Für [diskrete](../../../glossar/diskret/index.html) Zufallsvariablen wird die Verteilungsfunktion aus der Wahrscheinlichkeitsfunktion, die jedem $x_i$ genau eine Wahrscheinlichkeit $P(X= x_i)$ zuordnet, berechnet. Dabei wird eine kumulative Wahrscheinlichkeit $P(X\leq x_i)$ gebildet. Wichtig hierbei ist, dass die Verteilungsfunktion $F(x)$ monoton und rechtsseitig steigend ist. Ebenso gilt, dass diese Funktion Werte zwischen $0$ und $1$ annimmt ($F(x) \in (0,1)$). Die Grenzwerte werden daher wie folgt beschrieben $lim_{x \rightarrow - \infty} F(x) = 0$ und $lim_{x \rightarrow -\infty}F(x) = 1$. Die Darstellung der Verteilungsfunktion ist eine *Treppenfunktion*: An den entsprechenden Datenpunkten macht die Funktion jeweils einen Sprung.
 
 Wir nehmen dazu folgendes Beispiel an: Wir werfen einen 6-seitigen Würfel zweimal und addieren die Werte zur Augensumme. DIe Zufallsvariable $X$ umfasst die Augensumme, die Werte von $2$ bis $12$ annehmen kann ($X \in (2,12)$. Pro Würfelwurf gilt für jede der 6 Seiten eine Wahrscheinlichkeit von $\frac {1}{6}$. Im Beispiel liegt eine diskrete Gleichverteilung vor: Diese ist dadurch charakterisiert, dass verschiede Werte $x_1, x_2, ..., x_k$ mit gleicher Wahrscheinlichkeit angenommen werden.

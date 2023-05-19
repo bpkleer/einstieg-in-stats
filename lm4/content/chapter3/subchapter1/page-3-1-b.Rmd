@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Neben $R^2$ muss ein weiteres Modellmaß interpretiert werden: der $F$-Test des Bestimmtheitsmaßes: Der $F$-Test ist ein [Hypothesentest](../../../glossar/signifikanztest/index.html) und prüft in der [Nullhypothese](../../../glossar/nullhypothese/index.html), dass das [Bestimmtheitsmaß $R^2$](../../../glossar/bestimmtheitsmass/index.html) $=0$ ist, also dass das zugrunde gelegte Modell keine [Varianz](../../../glossar/varianz/index.html) der [abhängigen Variable](../../../glossar/abhaengigevariable/index.html) erklärt. Trifft diese Nullhypothese zu, muss das Modell verworfen werden. In Veröffentlichungen findet man daher nur Modelle, die diesen $F$-Test „bestanden haben“, also in denen mindestens ein [Regressionskoeffizient](../../../glossar/regressionskoeffizienten/index.html) einer [unabhängigen Variable](../../../glossar/unabhaengigevariable/index.html) von $0$ abweicht.
 
 Wie interpretieren wir den $F$-Test nun: In der Abbildung sehen wir einen weiteren Auszug aus der Ausgabe unserer Beispielregression in SPSS.

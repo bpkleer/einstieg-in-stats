@@ -4,6 +4,12 @@ weight: 221
 tags: ["t-test", "gepaart", "mittelwertvergleich", "lernvideo"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Dazu nehmen wir folgendes Beispiel an: In einem Landtag wurde ein neues Bildungsprogramm für Schulen initiiert, dass u.a. das politische Wissen der teilnehmenden Schüler:innen steigern soll. Dazu wurde vor der Teilnahme und nach der Teilnahme jeweils das politische Wissen gemessen. Von jeder Schüler:in liegen also zwei Messwerte vor: einmal das politische Wissen vor der Teilnahme ($x_1$) und einmal das politische Wissen nach der Teilnahme ($x_2$).
 
 Wir haben folgende Messwerte für 5 fiktive Schüler:innen: $x_1$ ist der Messwert vor der Teilnahme, $x_2$ der Messwert nach der Teilnahme und $d$ die Differenz zwischen $x_1$ und $x_2$.

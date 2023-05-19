@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Im ersten Schritt werden nun die **mathematischen Grundlagen** des Verfahrens der **linearen Regression** am Beispiel einer **bivariaten linearen Regression** vorgestellt. Aufbauend darauf werden die Grundlagen auf eine **multivariate lineare Regression** übertragen und die Interpretation der **wichtigsten Kennzahlen** vorgestellt. Abschließend wird zum besseren Verständnis ein **Praxisbeispiel** aktueller Forschung der empirischen Demokratieforschung dargestellt.
 
 Die **Regressionsanalyse** ist eine statistische Methode, um die Beziehungsstruktur zwischen mehreren [Variablen](../../glossar/variable/index.html) zu untersuchen. Dabei findet eine *Informationsreduktion* statt, so dass die Untersuchung auf wenige **Kennzahlen** beschränkt werden kann. Mit der **Regressionsanalyse** kann die Wirkung einer oder mehrerer [unabhängiger Variable(n)](../../glossar/unabhaengigevariable/index.html) auf eine [abhängige Variable](../../glossar/abhaengigevariable/index.html) in Bezug auf die Richtung und die Stärke des Einflusses überprüft werden.

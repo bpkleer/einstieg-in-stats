@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Nun erweitern wir die Annahmen auf mehrere [unabhängige Variablen](../../glossar/unabhaengigevariable/index.html). Mit der **Regression** als [multivariate](../../glossar/multivariat/index.html) Analyse können Einflüsse möglicher Drittvariablen kontrolliert werden und es wird Aufschluss über die Abhängigkeitsstrukturen zwischen mehreren [Variablen](../../glossar/variable/index.html) gegeben. Die **Regression** ist daher ein strukturprüfendes Verfahren.
 
 Bei der multivariaten Regression betrachten wir nicht mehr nur eine unabhängige Variable, sondern beziehen mehrere unabhängige Variablen in das Modell hinein. Der Einbezug von unabhängigen Variablen findet stets theoriegeleitet statt. Die Modellformulierung der multivariaten linearen Regression ändert sich daher auf folgende:

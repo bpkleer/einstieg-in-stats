@@ -4,6 +4,12 @@ weight: 232
 tags: ["linearität", "monotonie"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Bei der Berechnung der **Korrelation nach Pearson** müssen zwei Bedingungen erfüllt sein: Der Zusammenhang muss *linear* und *monoton* sein.
 
 Die folgende Abbildung zeigt einen [Scatterplot](../../../glossar/scatterplot/index.html) eines *nicht linearen* und *nicht monotonen* Zusammenhangs zweier [Variablen](../../../glossar/variable/index.html). Beides kann auf Sicht in einem Scatterplot erkannt werden. Das Verfahren der Korrelationsberechnung erkennt dies nicht.

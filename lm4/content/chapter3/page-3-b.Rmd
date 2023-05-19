@@ -4,6 +4,12 @@ weight: 302
 tags: ["linear", "bivariat"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Die Grundannahme einer **linearen Regression** ist die lineare Darstellung, in der die [abhängige Variable](../../glossar/abhaengigevariable/index.html) $Y$ über eine Linearkombination mit der [unabhängigen Variable](../../glossar/unabhaengigevariable/index.html) $X$ dargestellt wird:
 
 $y = \beta_0 + \beta_1 \ast x$

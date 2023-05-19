@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Als **Variationsweite**, auch **Spannweite**, wird die Differenz zwischen dem größten (xmax) und dem kleinsten Wert (xmin) der Verteilung bezeichnet. Sie beschreibt die Größe des Bereichs, innerhalb derer sich die Daten befinden. **Variationsweite** wird teilweise auf Englisch als **Range** bezeichnet. Da es ein Minimum und Maximum geben muss, setzt die Variationsweite voraus, dass die Daten eine Rangordnung haben, also ordinalskaliert sind.
 
 $$V=R=x_{max} – x_{min}$$
