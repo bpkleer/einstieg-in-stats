@@ -1,0 +1,18 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+{{ $href1 := .Get "href" }}
+{{ $href2 := urlquery .Page.Permalink }}
+{{ $link :=  print $href1 $href2 }}
+
+<a href={{ $link }} target="_blank" class="btn btn-git">
+  {{ $icon := .Get "icon" }}
+  {{ $iconposition := .Get "icon-position" }}
+  {{ if ($icon) }}
+    {{ if or (not ($iconposition)) (eq $iconposition "left") }}
+  <i class="{{$icon}}"></i>
+    {{ end }}
+  {{ end }}
+  {{ .Inner }}
+  {{ if and ($icon) (eq $iconposition "right")}}
+  <i class="{{$icon}}"></i>
+  {{ end }}
+</a>
