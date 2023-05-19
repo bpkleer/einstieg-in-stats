@@ -34,6 +34,7 @@ JLU grau
     --MENU-SECTIONS-LINK-HOVER-color: #0069B3;  /* Color of links in menu, when hovered */
     --MENU-SECTION-ACTIVE-CATEGORY-color: #53606B; /* Color of active category text */
     --MENU-SECTION-ACTIVE-CATEGORY-BG-color: rgba(83, 96, 107, 0.2); /* Color of background for the active category (only) */
+    --MENU-SECTIONS-EXPAND-color: rgba(83, 96, 107, 0.1); 
 
     --MENU-VISITED-color: #0069B3; /* Color of 'page visited' icons in menu */
     --MENU-SECTION-HR-color: #0069B3; /* Color of <hr> separator in menu */
@@ -48,10 +49,10 @@ JLU grau
 
 /* Font import */
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans);
-@import url(https://fonts.googleapis.com/css?family=Fira+Code);
 @import url(https://bpkleer.de/general/firamath/stylesheet.css);
 @import url('http://fonts.cdnfonts.com/css/droid-serif-2');
 @import url('http://fonts.cdnfonts.com/css/palatino-linotype');
+@import url('https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css');
 
 body {
     color: var(--MAIN-TEXT-color) !important;
@@ -66,13 +67,26 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 
 
 code, kbd, pre, samp {
-    font-family: 'Fira Code', 'Lucida Console', Monaco, monospace;!important
+    font-family: 'Hack', 'Lucida Console', Monaco, monospace;!important
 }
 
-p code {
-    background-color: var(--CODE-BACKGROUND-color);
-    border-color: var(--CODE-BACKGROUND-color);
-    border-width: 1px;
+h1 code, h2 code, h3 code, h4 code, p code {
+  background-color: var(--CODE-BACKGROUND-color);
+  border-color: var(--CODE-BACKGROUND-color);
+  border-width: 1px;
+}
+
+ul li code, ol li code{
+  background-color: var(--CODE-BACKGROUND-color);
+  border-color: var(--CODE-BACKGROUND-color);
+  border-width: 1px;
+}
+
+ol.index-list, ul.index-list{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-position: inside;
 }
 
 .copy-to-clipboard {
@@ -226,4 +240,40 @@ img:hover {
 
 #body a:hover {
     color: var(--MENU-NAVIGATION-LINK-HOVER-color);!important
+}
+
+#body .expand {
+  background-color: var(--MENU-SECTIONS-EXPAND-color);
+}
+
+.btn-default {
+  color: var(--MAIN-LINK-color) !important;
+  background-color: #fff !important;
+  border-color: #ccc !important;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+  color: #fff !important;
+  background-color: var(--MAIN-LINK-color) !important;
+  border-color: var(--MENU-SECTIONS-LINK-color) !important;
+}
+.btn-default:active {
+  background-image: none !important;
+}
+
+.btn-git {
+  color: var(--MAIN-LINK-color) !important;
+  background-color: #fff !important;
+  border-color: #ccc !important;
+}
+.btn-git:hover,
+.btn-git:focus,
+.btn-git:active {
+  color: #fff !important;
+  background-color: var(--MAIN-LINK-color) !important;
+  border-color: var(--MENU-SECTIONS-LINK-color) !important;
+}
+.btn-git:active {
+  background-image: none !important;
 }
