@@ -1,12 +1,20 @@
 ---
-title: Literatur
-chapter: true
-pre: ""
+title: "Literatur"
+chapter: yes
+pre: ''
 weight: 1000
-disableToc: true
-bibliography: [../../static/files/publications.bib]
-nocite: "@*" 
-csl: [../../static/files/apa.csl]
+disableToc: yes
+bibliography: ../../static/files/publications.bib
+nocite: '@*'
+csl: ../../static/files/apa.csl
 ---
 
 ## Literaturnachweise
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+<br>
