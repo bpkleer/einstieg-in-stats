@@ -3,6 +3,10 @@ title: Credits
 disableToc: true
 ---
 
+## Contributors Web-Based-Training (since v1.0)
+
+{{% glcontributors %}}
+
 ## Contributors to hugo-learner-theme
 
 Thanks to them <i class="fas fa-heart"></i> for making Open Source Software a better place!
