@@ -4,6 +4,12 @@ weight: 305
 tags: ["schichtung", "zufallsstichprobe", "grundbegriff"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Bei der **Schichtung** wird eine [Grundgesamtheit](../../grundgesamtheit/index.html) nach einem [Merkmal](../../glossar/merkmal/index.html) gegliedert. Somit ergeben sich die Schichten. Aus diesen Schichten werden wie in der [einfachen Zufallsstichprobe](../../glossar/einfachezufallsauswahl/index.html) Beobachtungseinheiten gezogen. Je homogener die Schichten sind, desto präziser wird das Verfahren. Um eine **Zufallsstichprobe per Schichtung** durchführen zu können, müssen Informationen über Merkmalsverteilungen in der Grundgesamtheit vorliegen. Denn erst mit dieser Information können Schichten gebildet werden.
 
 Bei einer Bevölkerungsbefragung kann z.B. die Bevölkerung nach Bundesländern geschichtet werden, bevor per Zufall einzelne Individuen gezogen werden. **Schichtungs-Stichproben** können entweder proportional oder disproportional gezogen werden. Insbesondere, wenn eine bestimmte Gruppe (*Schicht*) besonders berücksichtigt werden soll, werden disproportionale Schichten gezogen. Dies wird genutzt, wenn bestimmte Gruppen in einfachen Zufallsstichproben zu gering präsentiert sind, um über diese Gruppen sichere Aussagen treffen zu können. Die **Schichtung** ist vereinfacht in der Grafik dargestellt.

@@ -4,6 +4,11 @@ weight: 103
 tags: ["variable", "grundbegriff"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
 
 **Variablen** sind die gemessenen Merkmale bzw. Eigenschaften von [Beobachtungseinheiten](../../glossar/beobachtungseinheit/index.html). **Variablen** haben verschiedene Merkmalsausprägungen. Beispielsweise kann die **Variable** *Wohnort* die [Merkmalsausprägungen](../../glossar/merkmalsauspraegung/index.html) *Gießen*, *Frankfurt* oder *Wetterau* annehmen. Wie viele Ausprägungen eine **Variable** hat, hängt von der Definition des theoretischen Begriffs und der Entscheidung der [Messung](../../glossar/messung/index.html) ab. So kann die Variable *Wohnort* alle Ortschaften Deutschlands umfassen, wenn diese nicht eingegrenzt wird oder keine Sammelkategorie *sonstige* geschaffen wird.
 

@@ -4,6 +4,12 @@ weight: 201
 tags: ["grundgesamtheit", "stichprobe", "grundbegriff"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Um auf der [Mikroebene](../../glossar/mikroebene/index.html) sozialwissenschaftliche Untersuchungen durchführen zu können, die generalisierbar sind, werden [Stichproben](../../glossar/stichprobe/index.html) aus der [Grundgesamtheit](../../glossar/grundgesamtheit/index.html) gezogen. Dies ist notwendig, da in den seltensten Fällen Vollerhebungen durchgeführt werden können. Sie können z.B. nur sehr schwer und unter hohen Kosten eine Vollerhebung der Bürger*innen Deutschlands durchführen, eine Stichprobe aus dieser Grundgesamtheit lässt sich aber kostengünstiger und einfacher umsetzen.
 
 Bei der Ziehung von Stichproben unterscheiden wir drei Begriffe: Grundgesamtheit (auch **Zielpopulation**), **Auswahlgesamtheit** und **Survey-Population (auch Inferenzpopulation)**. Diese Unterscheidung ist wichtig, um das Ziehen einer **Stichprobe** möglichst genau zu verstehen. Bei der Ziehung von **Stichproben** kommt es nämlich zu Ausfällen. Die **Zielpopulation** (auch angestrebte **Grundgesamtheit**) ist die Menge aller Einheiten, über die wir eine Aussage treffen wollen.

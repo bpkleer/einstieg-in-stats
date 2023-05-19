@@ -4,6 +4,12 @@ weight: 302
 tags: ["willkürlich", "grundbegriff"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Die **willkürliche Auswahl** umfasst Auswahlverfahren *auf das Geratewohl*. Die Auswahl beruht nicht auf einem Plan, sondern auf der willkürlichen Entscheidung der ausführenden Person. Bei der Anwendung dieses Verfahrens ist die [Grundgesamtheit](../../glossar/grundgesamtheit/index.html) nicht identifizierbar. Daher sind auch keine statistisch kontrollierte wissenschaftliche Aussagen mit einer solchen [Stichprobe](../../glossar/stichprobe/index.html) möglich.
 
 **Beispiel:**

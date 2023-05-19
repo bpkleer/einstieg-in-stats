@@ -9,6 +9,12 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Die **bewusste Auswahl** ist eine gezielte Auswahl, die oft in [explorativen](../../explorativeuntersuchung/index.html) Vorstudien eingesetzt wird, um Hypothesen zu gewinnen. Es wird planvoll, meist aufgrund vorhergehender Überlegungen nach angebbaren und intersubjektiv nachvollziehbaren Kriterien eine Auswahl vorgenommen [@Kromrey2016, 268]. Oft werden hierbei „typische Fälle“ untersucht, wofür allerdings Vorkenntnisse der [Grundgesamtheit](../../glossar/grundgesamtheit/index.html) vorliegen müssen. Eine **bewusste Auswahl** findet ebenfalls statt, wenn ausschlaggebende/extreme Fälle untersucht werden ([Auswahl nach dem Konzentrationsprinzip](../../glossar/auswahlkonzentrationsprinzip/index.html)). Auch hier wird aufgrund vorheriger Merkmale festgelegt, welche Fälle als ausschlaggebend gelten. Die Fälle haben aufgrund ihres „Ausschlags“ Bedeutsamkeit.
 
 Die **bewusste Auswahl** eignet sich daher nur bei speziellen und eingeschränkten Fragestellungen.

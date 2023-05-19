@@ -4,6 +4,12 @@ weight: 304
 tags: ["zufallsstichprobe", "grundbegriff"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Die **einfache Zufallsauwahl** ist ein gängiges Instrument, vor allem für Befragungen auf der [Mikroebene](../../glossar/mikroebene/index.html). Ein einfaches Beispiel verdeutlicht das Vorgehen hierbei sehr simpel: Nehmen wir an, es soll eine Wahlstudie in Deutschland durchgeführt werden. Bei der **einfachen Zufallsstichprobe** werfen wir (theoretisch) nun alle Wahlberechtigten in einen "Topf" (siehe Abbildung, jeder Ball stellt eine andere Person der [Grundgesamtheit](../../glossar/grundgesamtheit/index.html) dar). Dann ziehen wir aus diesem "Topf" (Grundgesamtheit) eine gewisse Anzahl an Personen (Kreise), die dann unsere [Stichprobe](../../glossar/stichprobe/index.html) darstellen. Jede Person hat hierbei die gleiche Chance, gezogen zu werden, und die Wahrscheinlichkeit, gezogen zu werden, bleibt dabei konstant. Dies bedeutet, dass die Wahrscheinlichkeit nach jedem Zug konstant bleibt zwischen den verbliebenen Personen.
 
 ![Zufallsstichprobe](../images/zufallsstichprobe.png)

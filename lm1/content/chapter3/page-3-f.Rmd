@@ -4,6 +4,12 @@ weight: 306
 tags: ["klumpenstichprobe", "zufallsstichprobe", "grundbegriff"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 Bei manchen Untersuchungen wird eine **geklumpte** [Grundgesamtheit](../../glossar/grundgesamtheit/index.html) untersucht. Dies liegt vor, wenn sich die Grundgesamtheit in Einheiten organisieren lässt. Ein Beispiel wären Schüler:innen in Schulklassen oder Beschäftigte in Betrieben oder Wähler:innen in Staaten (wenn mehrere Staaten betrachtet werden). Hierbei wird dann oft eine **Klumpenstichprobe** gezogen. **Klumpenstichproben** werden gezogen, wenn die Miterhebung von sozialen Kontexten (aus den *Klumpen*) relevant ist. Bei der **Klumpenstichprobe** werden *Klumpen* bestimmt und gemeinsame Klumpen werden in je einem "Topf" gesammelt. Aus diesen "Klumpen-Töpfen" (grau markierte Kästchen) werden dann einzelnen *Klumpen* zufällig ausgewählt. Abschließend werden dann aus diesen Klumpen wiederum alle einzelnen Elemente ausgewählt. Das Verfahren der **Klumpenstichprobe** ist präziser, je heterogener die Elemente in den *Klumpen* sind.
 
 ![Klumpenstichprobe](../images/klumpen.png)

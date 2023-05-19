@@ -4,6 +4,12 @@ weight: 303
 tags: ["quota-verfahren", "willkürlich", "bewusst", "grundbegriff"]
 ---
 
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
 **Quota-Verfahren** beruhen auf zum Teil auf [bewusster Auswahl](../../glossar/bewussteauswahl/index.html), zum Teil auf [willkürlicher Auswahl](../../glossar/willkuerlicheauswahl/index.html). **Quota-Verfahren** können nur angewandt werden, sofern die Verteilung von [Merkmalen](../../glossar/merkmal/index.html) in der [Grundgesamtheit](../../glossar/grundgesamtheit/index.html) bekannt ist. Entsprechend dieser werden Quoten aufgestellt, die zu erfüllen sind (einfach oder kombiniert). Somit ist das **Quota-Verfahren** partiell bewusst, durch die Planung der Quoten. Der Unterschied zur **zufallsbasierten Schichtung** liegt darin, dass die letztendliche Auswahl nicht per Zufall erfolgt, sondern über eine willkürliche Auswahl des Durchführenden (partiell willkürlich).
 
 **Beispiel:**
