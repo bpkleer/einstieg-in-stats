@@ -1,0 +1,7 @@
+---
+title: "unimodale Verteilung"
+---
+
+Verteilung mit einem Modalwert, also einem einzigen häufigsten Wert.
+
+

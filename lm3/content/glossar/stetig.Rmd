@@ -1,0 +1,8 @@
+---
+title: "stetig"
+---
+
+Kontinuierliche (oder auch stetige) Variablen können jeden beliebigen Wert eines bestimmten Intervalls annehmen.
+Bei der Messung der Körpergröße z.B. können beliebig viele Werte gemessen werden (in Abhängigkeit der Messgenauigkeit).
+
+

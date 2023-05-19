@@ -1,0 +1,9 @@
+---
+title: "Kollektivhypothese"
+---
+
+Bei einer Kollektivhypothese beziehen sich sowohl abhängige als auch unabhängige Variable auf Kollektivmerkmale.
+
+Z.B.: Je höher der Anteil an Angestellten im Bezirk ist, desto höher ist der Anteil für die SPD im Bezirk.
+
+

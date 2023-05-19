@@ -1,0 +1,176 @@
+---
+title: "Diskrete Zufallsvariable"
+weight: 32
+tags: ["diskret", "zufallsvariable"]
+---
+
+<script src="/stats101/LM2rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>Für <a href="../../../glossar/diskret/index.html">diskrete</a> Zufallsvariablen wird die Verteilungsfunktion aus der Wahrscheinlichkeitsfunktion, die jedem <span class="math inline">\(x_i\)</span> genau eine Wahrscheinlichkeit <span class="math inline">\(P(X= x_i)\)</span> zuordnet, berechnet. Dabei wird eine kumulative Wahrscheinlichkeit <span class="math inline">\(P(X\leq x_i)\)</span> gebildet. Wichtig hierbei ist, dass die Verteilungsfunktion <span class="math inline">\(F(x)\)</span> monoton und rechtsseitig steigend ist. Ebenso gilt, dass diese Funktion Werte zwischen <span class="math inline">\(0\)</span> und <span class="math inline">\(1\)</span> annimmt (<span class="math inline">\(F(x) \in (0,1)\)</span>). Die Grenzwerte werden daher wie folgt beschrieben <span class="math inline">\(lim_{x \rightarrow - \infty} F(x) = 0\)</span> und <span class="math inline">\(lim_{x \rightarrow -\infty}F(x) = 1\)</span>. Die Darstellung der Verteilungsfunktion ist eine <em>Treppenfunktion</em>: An den entsprechenden Datenpunkten macht die Funktion jeweils einen Sprung.</p>
+<p>Wir nehmen dazu folgendes Beispiel an: Wir werfen einen 6-seitigen Würfel zweimal und addieren die Werte zur Augensumme. DIe Zufallsvariable <span class="math inline">\(X\)</span> umfasst die Augensumme, die Werte von <span class="math inline">\(2\)</span> bis <span class="math inline">\(12\)</span> annehmen kann (<span class="math inline">\(X \in (2,12)\)</span>. Pro Würfelwurf gilt für jede der 6 Seiten eine Wahrscheinlichkeit von <span class="math inline">\(\frac {1}{6}\)</span>. Im Beispiel liegt eine diskrete Gleichverteilung vor: Diese ist dadurch charakterisiert, dass verschiede Werte <span class="math inline">\(x_1, x_2, ..., x_k\)</span> mit gleicher Wahrscheinlichkeit angenommen werden.</p>
+<p>Jetzt teilen wir dem Zufallsexperiment reelle Zahlen zu (<span class="math inline">\(\omega \rightarrow x\)</span>). Wir erhalten im Zufallsexperiments <span class="math inline">\(\Omega\)</span> folgende Werte <span class="math inline">\(\omega_i\)</span> (die zwei Würfe, 11 für 1 bei erstem und zweitem Wurf) und die Zuordnung der Augensumme <span class="math inline">\(x_i\)</span> (hier nur die Auswahl für Würfe, in denen eine 1 vorkommt).</p>
+<div class="figure">
+<img src="../images/zufall1.png" alt="" />
+<p class="caption">Ergebnisse des Zufallsexperimentes und die Zuordnung reeller Zahlen</p>
+</div>
+<p>Wenn wir also zuerst eine <span class="math inline">\(1\)</span> und dann eine <span class="math inline">\(4\)</span> würfeln (5. Spalte), erhalten wir als Ergebnis der Augensumme <span class="math inline">\(5\)</span>. Für ein Würfelergebnis von zuerst <span class="math inline">\(6\)</span> und dann <span class="math inline">\(1\)</span> erhalten wir <span class="math inline">\(7\)</span>.</p>
+<p>Wir können diese Ergebnisse auch zusammenfassen.
+<span class="math display">\[X(\omega) = \begin{cases} 2 &amp; \text{für } \omega = 11 \\ 3 &amp; \text{für } \omega = 12, 21 \\ 4 &amp; \text{für } \omega = 13, 31, 22 \\ 5 &amp; \text{für } \omega = 14, 41, 23, 32 \\ 6 &amp; \text{für } \omega = 15, 51, 24, 42, 33 \\ 7 &amp; \text{für } \omega = 16, 61, 25, 52, 34, 43 \\ 8 &amp; \text{für } \omega = 26, 62, 35, 53, 44 \\ 9 &amp; \text{für } \omega = 36, 63, 45, 54 \\ 10 &amp; \text{für } \omega = 46, 64, 55 \\ 11 &amp; \text{für } \omega = 56, 65 \\ 12 &amp; \text{für } \omega = 66 \end{cases}\]</span></p>
+<p>Der Wert 9 wird zugeordnet, wenn folgende Würfelpaare auftreten: <span class="math inline">\(3\)</span> &amp; <span class="math inline">\(6\)</span>, <span class="math inline">\(6\)</span> &amp;<span class="math inline">\(3\)</span>, <span class="math inline">\(4\)</span> &amp; <span class="math inline">\(5\)</span>, <span class="math inline">\(5\)</span> &amp; <span class="math inline">\(4\)</span>.</p>
+<p>Nun berechnen wir die Wahrscheinlichkeitsfunktion (<span class="math inline">\(x \rightarrow P(X = x)\)</span>): Jeder Augensumme <span class="math inline">\(x\)</span> ordnet wir die Wahrscheinlichkeit zu. Insgesamt können <span class="math inline">\(36\)</span> Ereignisse in der Zufallsvariable auftreten (<span class="math inline">\(|\Omega| = 36\)</span>. Beachte: <span class="math inline">\(\omega = 16\)</span> ist ein anderes Ereignis als <span class="math inline">\(\omega = 61\)</span>, auch wenn die Augensumme gleich ist. Im ersten Fall wird zuerst die <span class="math inline">\(1\)</span> und dann die <span class="math inline">\(6\)</span> gewürfelt, im zweiten Fall erst die <span class="math inline">\(6\)</span> und dann die <span class="math inline">\(1\)</span>.</p>
+<p>Wir möchten nun die Wahrscheinlichkeit errechnen, dass <span class="math inline">\(X = 5\)</span> ist.
+Zuerst können wir den Erwartungswert festlegen. Wir zählen also wie oft, dieses Ereignis eintreten kann:
+<span class="math inline">\(E(X = 5) = {14, 41, 23, 32} \Rightarrow |E| = 4\)</span>.</p>
+<p>Das Ereignis kann in <span class="math inline">\(4\)</span> Situtationen eintreten: Wenn zuerst eine <span class="math inline">\(1\)</span> und dann eine <span class="math inline">\(4\)</span> gewürfelt wird, wenn zuerst eine <span class="math inline">\(4\)</span> und dann eine <span class="math inline">\(1\)</span> gewürfelt wird, wenn zuerst eine <span class="math inline">\(2\)</span> und dann eine <span class="math inline">\(3\)</span> gewürfelt wird und wenn zuerst eine <span class="math inline">\(3\)</span> und dann eine <span class="math inline">\(2\)</span> gewürfelt wird.</p>
+<p>Die Wahrscheinlichkeit, dass <span class="math inline">\(X=5\)</span> ist, berechnet sich wie folgt:
+<span class="math inline">\(P(X = 5) = \frac {|E|}{|\Omega|} = \frac {4}{36} = \frac{1}{9} \approx 0,111\)</span>
+Die Wahrscheinlichkeit, dass wir in unserem Zufallsexperiment die Augenzahl 5 werfen, liegt also bei <span class="math inline">\(0,111 (11 \%)\)</span>.</p>
+<p>Berechnen wir eine weitere Wahrscheinlichkeit, diesmal dafür, dass die Augenzahl gleich <span class="math inline">\(11\)</span> ist:
+<span class="math inline">\(E(X=11)={56, 65} \Rightarrow |E| = 2\)</span>
+<span class="math inline">\(P(X=11) = \frac {|E|}{|\Omega|} = \frac {2}{36} = \frac{1}{18} \approx 0,056\)</span>
+Die Wahrscheinlichkeit, dass wir in unserem Zufallsexperiment die Augenzahl 11 werfen, liegt also bei <span class="math inline">\(0,056 (5,6\%)\)</span>.</p>
+<p>Hier können Sie die Tabelle mit den zugeordneten Wahrscheinlichkeitswerte für jede Summe der Augenzahl sehen:</p>
+<div class="figure">
+<img src="../images/zufall2.png" alt="" />
+<p class="caption">Wahrscheinlichkeitsfunktion</p>
+</div>
+<p>In den Grafiken sehen Sie verschiedene Bereiche der Verteilungsfunktion markiert, die weiter unten auch berechnet werden. Beachten Sie: Auch wenn hier eine Fläche markiert ist, ist bei diskreten Variablen die Fläche nicht gleich der Wahrscheinlichkeit. Denn die Verteilungsfunktion ist kumulativ. D.h. dass der “Balken” der nächsthöheren Augenzahl schon die Wahrscheinlichkeit der vorherigen Augensummen inkludiert. Daher entspricht die Fläche eines Bereichs nicht der Wahrscheinlichkeit.</p>
+<div class="figure">
+<img src="../images/wahrscheinlichkeitsverteilung1.png" alt="" />
+<p class="caption">Wahrscheinlichkeitsfunktion</p>
+</div>
+<div class="figure">
+<img src="../images/wahrscheinlichkeitsverteilung2.png" alt="" />
+<p class="caption">Wahrscheinlichkeitsfunktion</p>
+</div>
+<div class="figure">
+<img src="../images/wahrscheinlichkeitsverteilung3.png" alt="" />
+<p class="caption">Wahrscheinlichkeitsfunktion</p>
+</div>
+<p>Der Tabelle kann man auch entnehmen, dass sich die Wahrscheinlichkeiten aufsummieren zu <span class="math inline">\(1\)</span> (<span class="math inline">\(\sum_{i = 1}^n f(x_i)\)</span>).
+Wir können auch hier zusammenfassend die Wahrscheinlichkeiten darstellen:
+<span class="math display">\[f(x_i) = P(X=x_i) = \begin{cases} 0,028 &amp; \text{für } x = 2 \\ 0,056 &amp; \text{für } x = 3 \\ 0,083 &amp; \text{für } x= 4\\ 0,111 &amp; \text{für } x= 5 \\ 0,139 &amp; \text{für } x = 6 \\ 0,167 &amp; \text{für } x = 7 \\ 0,139 &amp; \text{für } x= 8\\ 0,111 &amp; \text{für } x= 9\\ 0,083 &amp; \text{für } x= 10\\ 0,056 &amp; \text{für } x= 11 \\ 0,028&amp; \text{für } x= 12\end{cases}\]</span></p>
+<p>Aus diesen errechneten Einzel-Wahrscheinlichkeiten können wir nun die Verteilungsfunktion bilden (<span class="math inline">\(x \rightarrow P(X \leq x)\)</span>). Diese ordnet jeder Augensumme <span class="math inline">\(x\)</span> die kumulierte Wahrscheinlichkeit zu: <span class="math inline">\(F(x) = P(X \leq x) = \sum_{x_i \leq x} P(X = x_i)\)</span>. Die Wahrscheinlichkeit, dass die Zufallsgröße <span class="math inline">\(X\)</span> kleiner gleich <span class="math inline">\(x\)</span> ist, ist also die Summe aller Einzelwahrscheinlichkeiten <span class="math inline">\(x_i\)</span>, solagen <span class="math inline">\(x_i \leq x\)</span> gilt.</p>
+<p>Berechnen wir ein Beispiel: Wir wollen <span class="math inline">\(X \leq 6\)</span> berechnen.
+<span class="math inline">\(P(X \leq 6) = P(X=2) + P(X =3) + P(X=4) +P(X=5) + P(X=6) = \frac{1}{36} + \frac{2}{36} + \frac{3}{36} + \frac{4}{36} + \frac{5}{36} = \frac{15}{36} \approx 0.417\)</span>
+Die Wahrscheinlichkeit höchstens eine Augensumme von <span class="math inline">\(6\)</span> zu würfeln beträgt <span class="math inline">\(0,417 (41,7 \%)\)</span>.</p>
+<p>Berechnen wir ein weiteres Beispiel: <span class="math inline">\(X \leq 3\)</span>
+<span class="math inline">\(P(X \leq 3) = P(X = 2) + P(X=3) = \frac{1}{36} + \frac{2}{36} = \frac{3}{36} \approx 0.083\)</span>
+Die Wahrscheinlichkeit höchstens eine Augensumme von <span class="math inline">\(3\)</span> zu würfeln beträgt <span class="math inline">\(0.083 (8.3 \%)\)</span>.</p>
+<p>Auch dieses können wir wieder in einer Tabelle für alle Werte darstellen:</p>
+<div class="figure">
+<img src="../images/zufall3.png" alt="" />
+<p class="caption">Verteilungsfunktion</p>
+</div>
+<p>Wie wir in der Tabelle sehen und auch schon weiter oben festgestellt haben, ist die Summe der Verteilungsfunktion <span class="math inline">\(1\)</span>.</p>
+<p>Wir haben nun bereits errechnet, wie Wahrscheinlichkeiten bis zu einem bestimmten <span class="math inline">\(x_i\)</span> berechnet werden. Doch wie berechnen wir die Wahrscheinlichkeit von <span class="math inline">\(P(X &gt; x_i)\)</span>? Oder die Wahrscheinlichkeit von Bereichen wie <span class="math inline">\(P(x_i &lt; X \leq x_i+2)\)</span>?</p>
+<p>Für die Berechnung der Wahrscheinlichkeiten gelten folgende Regeln:</p>
+<ol style="list-style-type: decimal">
+<li><p><span class="math inline">\(P(X \leq a) = F(a)\)</span></p></li>
+<li><p><span class="math inline">\(P(X &lt; a) = F(a) - P(X =a)\)</span></p></li>
+<li><p><span class="math inline">\(P(X &gt; a) = 1- F(a)\)</span></p></li>
+<li><p><span class="math inline">\(P(X \geq a) = 1-F(a) +P(X=a)\)</span></p></li>
+<li><p><span class="math inline">\(P(a &lt; X \leq b) = F(b) - F(a)\)</span></p></li>
+<li><p><span class="math inline">\(P(a \leq X \leq b) = F(b) - F(a) + P(X =a)\)</span></p></li>
+<li><p><span class="math inline">\(P(a &lt; X &lt; b) = F(b)- F(a) -P(X=b)\)</span></p></li>
+<li><p><span class="math inline">\(P(a \leq X &lt; b) = F(b)-F(a) + P(X=a) - P(X=b)\)</span></p></li>
+</ol>
+<p>Machen wir nun ein paar Beispiele:</p>
+<ol style="list-style-type: decimal">
+<li><p><em>Siehe oben</em></p></li>
+<li><p><span class="math inline">\(P(X &lt; 4)\)</span>
+<span class="math inline">\(P(X &lt; 4) = F(4) - P(X=4) = \frac{6}{36} - \frac{3}{36} = \frac{3}{36} \approx 0.083\)</span>
+Die Wahrscheinlichkeit, dass die Augensumme kleiner <span class="math inline">\(4\)</span> ist, beträgt <span class="math inline">\(0.083 (8.3 \%)\)</span>.</p></li>
+<li><p><span class="math inline">\(P(X &gt; 5)\)</span>
+<span class="math inline">\(P(X&gt;5) = 1 - F(5) = 1- \frac{10}{36} = \frac{26}{36} \approx 0.722\)</span>
+Die Wahrscheinlichkeit, dass die Augensumme größer als <span class="math inline">\(5\)</span> ist liegt bei <span class="math inline">\(0.722 (72.2\%)\)</span>.</p></li>
+<li><p><span class="math inline">\(P(X \geq 6)\)</span>
+<span class="math inline">\(P(X \geq 6) = 1-F(6) +P(X=6)= 1- \frac{15}{36} + \frac{5}{36} = \frac{26}{36} \approx 0.722\)</span>
+Die Wahrscheinlichkeit, dass die Augensumme größer gleich <span class="math inline">\(6\)</span> ist liegt bei <span class="math inline">\(0.722 (72.2\%)\)</span>.</p></li>
+<li><p><span class="math inline">\(P(4 &lt; X \leq 6)\)</span>
+<span class="math inline">\(P(4 &lt; X \leq 6) = F(6) - F(4) = \frac{15}{36} - \frac{6}{36} = \frac{9}{36} = 0.25\)</span>
+Die Wahrscheinlichkeit, dass die Augensumme größer als <span class="math inline">\(4\)</span> und kleiner gleich <span class="math inline">\(6\)</span> ist, beträgt <span class="math inline">\(0.25 (25\%)\)</span>.</p></li>
+<li><p><span class="math inline">\(P(4 \leq X \leq 6)\)</span>
+<span class="math inline">\(P(4 \leq X \leq 6) = F(6) - F(4) + P(X =4) = \frac{15}{36} - \frac{6}{36} + \frac{3}{36} = \frac{12}{36} \approx 0.333\)</span>
+Die Wahrscheinlichkeit, dass die Augensumme größer gleich <span class="math inline">\(4\)</span> und kleiner gleich <span class="math inline">\(6\)</span> ist, beträgt <span class="math inline">\(0.333 (33.3\%)\)</span>.</p></li>
+<li><p><span class="math inline">\(P(4 &lt; X &lt;6)\)</span>
+<span class="math inline">\(P(4 &lt; X &lt; 6) = F(6)- F(4) -P(X=6) = \frac{15}{36} - \frac{6}{36} - \frac{5}{36} = \frac{4}{36} \approx 0.111\)</span>
+Die Wahrscheinlichkeit, dass die Augensumme größer als <span class="math inline">\(4\)</span> und kleiner als <span class="math inline">\(6\)</span> ist, beträgt <span class="math inline">\(0.111 (11.1\%)\)</span>.</p></li>
+<li><p><span class="math inline">\(P(4 \leq X &lt; 6)\)</span>
+<span class="math inline">\(P(4 \leq X &lt; 6) = F(6)-F(4) + P(X=4) - P(X=6) = \frac{15}{36} - \frac{6}{36} + \frac{3}{36} - \frac{5}{36} = \frac{7}{36} \approx 0.194\)</span>
+Die Wahrscheinlichkeit, dass die Augensumme größer gleich <span class="math inline">\(4\)</span> und kleiner als <span class="math inline">\(6\)</span> ist, beträgt <span class="math inline">\(0.194 (19.4\%)\)</span>.</p></li>
+</ol>
+<p>In den Grafiken können Sie zuerst einen Teil der Rechenschritte in der Verteilungsfunktion und Wahrscheinlichkeitsfunktion nachverfolgen.</p>
+<div class="figure">
+<img src="../images/verteilungsfunktion1.png" alt="" />
+<p class="caption">Verteilungsfunktion</p>
+</div>
+<div class="figure">
+<img src="../images/verteilungsfunktion2.png" alt="" />
+<p class="caption">Verteilungsfunktion P(X≥4)</p>
+</div>
+<div class="figure">
+<img src="../images/verteilungsfunktion3.png" Width="75%" alt="" />
+<p class="caption">Verteilungsfunktion P(X&lt;4)</p>
+</div>
+<div class="figure">
+<img src="../images/verteilungsfunktion4.png" Width="75%" alt="" />
+<p class="caption">Verteilungsfunktion P(X&gt;5)</p>
+</div>
+<div class="figure">
+<img src="../images/verteilungsfunktion5.png" Width="75%" alt="" />
+<p class="caption">Verteilungsfunktion P(X≥6)</p>
+</div>
+<div class="figure">
+<img src="../images/verteilungsfunktion6.png" Width="75%" alt="" />
+<p class="caption">Verteilungsfunktion P(4&lt;X≤6</p>
+</div>
+<div class="figure">
+<img src="../images/verteilungsfunktion7.png" Width="75%" alt="" />
+<p class="caption">Verteilungsfunktion P(4≤X≤6)</p>
+</div>
+<div class="figure">
+<img src="../images/verteilungsfunktion8.png" Width="75%" alt="" />
+<p class="caption">Verteilungsfunktion P(4&lt;X&lt;6)</p>
+</div>
+<div class="figure">
+<img src="../images/verteilungsfunktion9.png" Width="75%" alt="" />
+<p class="caption">Verteilungsfunktion P(4≤X&lt;6)</p>
+</div>
+<div class="figure">
+<img src="../images/wahrscheinlichkeitsverteilung4.png" alt="" />
+<p class="caption">Wahrscheinlichkeitsfunktion P(X≤4)</p>
+</div>
+<div class="figure">
+<img src="../images/wahrscheinlichkeitsverteilung5.png" alt="" />
+<p class="caption">Wahrscheinlichkeitsfunktion P(X&lt;4)</p>
+</div>
+<div class="figure">
+<img src="../images/wahrscheinlichkeitsverteilung6.png" alt="" />
+<p class="caption">Wahrscheinlichkeitsfunktion P(X&gt;5)</p>
+</div>
+<div class="figure">
+<img src="../images/wahrscheinlichkeitsverteilung7.png" alt="" />
+<p class="caption">Wahrscheinlichkeitsfunktion P(X≥6)</p>
+</div>
+<div class="figure">
+<img src="../images/wahrscheinlichkeitsverteilung8.png" alt="" />
+<p class="caption">Wahrscheinlichkeitsfunktion P(4&lt;X≤6)</p>
+</div>
+<div class="figure">
+<img src="../images/wahrscheinlichkeitsverteilung9.png" alt="" />
+<p class="caption">Wahrscheinlichkeitsfunktion P(4≤X≤6)</p>
+</div>
+<div class="figure">
+<img src="../images/wahrscheinlichkeitsverteilung10.png" alt="" />
+<p class="caption">Wahrscheinlichkeitsfunktion P(4&lt;X&lt;6)</p>
+</div>
+<div class="figure">
+<img src="../images/wahrscheinlichkeitsverteilung11.png" alt="" />
+<p class="caption">Wahrscheinlichkeitsfunktion P(4≤X&lt;6</p>
+</div>
+<p>Auf der nächsten Seite berechnen wir nun die Wahrscheinlichkeit für <a href="../../../glossar/stetig/index.html">stetige</a> Zufallsvariablen.</p>
+<p>{{% notice tip %}}
+Siehe auch: Bortz/Schuster 2010 (Kapitel 5.1, 5.2).
+{{% /notice %}}</p>

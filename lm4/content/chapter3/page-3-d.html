@@ -1,0 +1,40 @@
+---
+title: "Beispiel"
+weight: 304
+tags: ["bivariat", "regression"]
+bibliography: [../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../static/files/apa.csl]
+---
+
+<script src="/stats101/LM4/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>Kommen wir nun zu einem eingängigeren Beispiel: Die folgenden Daten sind fiktiv generiert, damit diese das Verfahren gut simulieren können. Wir möchten eine bivariate lineare Regression berechnen, in der die Zufriedenheit mit der Demokratie (<em>satdem</em>) durch die Zufriedenheit mit der ökonomischen Leistung (<em>sateco</em>) berechnet wird. Wir prüfen also, ob und inwieweit die Zufriedenheit mit der ökonomischen Leistung die Zufriedenheit mit der Demokratie beeinflusst.</p>
+<p>Die Formel unseres Modells lautet daher:
+<span class="math inline">\(satdem_i= \beta_0 + \beta_1 \ast sateco_i + e_i\)</span>, wobei <span class="math inline">\(i=1,…,n\)</span>.</p>
+<p>Die Formel unserer geschätzten Werte ist in diesem Beispiel wie folgt:
+<span class="math inline">\(\hat{satdem}_i = \hat{\beta}_0 + \hat{\beta}_1 \ast sateco_i\)</span>, wobei <span class="math inline">\(i=1,...,n\)</span></p>
+<p>Das Residuum ergibt sich aus der Differenz zwischen beobachteten und geschätzten Werten:
+<span class="math inline">\(e_i = {satdem}_i - \hat{satdem}_i\)</span></p>
+<p>Hier erschließt sich auch nochmals der Sinn der Residuen inhaltlich: Denn die <a href="../../glossar/varianz/index.html">Varianz</a> der Zufriedenheit mit der Demokratie wird sich nicht vollkommen allein über die Zufriedenheit mit der ökonomischen Leistung erklären lassen. Weitere Faktoren können die Höhe der Zufriedenheit mit der Demokratie beeinflussen. Die Residuen werden im Schätzmodell zusammengefasst und als Residuen mit <span class="math inline">\(e\)</span> dargestellt.</p>
+<p>Grafisch lässt sich dies leichter darstellen: Im Plot sehen wir die beobachteten Werte (<em>blau</em>) und die geschätzten Werte (<em>rot</em>).</p>
+<div class="figure">
+<img src="../images/regplot1.png" alt="" />
+<p class="caption">Residuen in der linearen Regression</p>
+</div>
+<p>In der Abbildung sehen wir einen <a href="../../glossar/scatterplot/index.html">Scatterplot</a> zwischen <em>Zufriedenheit mit der Demokratie</em> und <em>Zufriedenheit mit der ökon. Leistung</em>. Eingezeichnet ist ebenfalls die geschätzte Regressionsgerade (rote Linie). Auf der <span class="math inline">\(x\)</span>-Achse ist die unabhängige Variable (<em>Zufriedenheit mit der ökon. Leistung</em>) abgetragen, auf der <span class="math inline">\(y\)</span>-Achse die abhängige Variable (<em>Zufriedenheit mit der Demokratie</em>). Die blauen Punkte geben die beobachteten und gemessenen <span class="math inline">\(y\)</span>-Werte wieder (aus der Stichprobe) und die rote Linie die geschätzten Werte (<span class="math inline">\(\hat{y}\)</span>) aus der Regressionsrechnung. Der Abstand zwischen einem beobachteten blauen Punkt der Daten und dem jeweiligen geschätzten roten Punkt auf der Regressionsgerade ist der Wert des Residuums (<span class="math inline">\(e\)</span>). Das Residuum umfasst also die Abweichung des beobachteten Wertes vom geschätzten Wert. Die Summe dieser Abweichungen beinhaltet den Anteil der nicht erklärten Varianz.</p>
+<p>In der nächsten Grafik ist dies nochmals eingezeichnet und deutlicher dargestellt am Beispiel eines Datenpunktes.</p>
+<div class="figure">
+<img src="../images/regplot2.png" alt="" />
+<p class="caption">Residuen in der linearen Regression</p>
+</div>
+<p>Für jede einzelne Berechnung wird das Residuum (<em>grün</em>) errechnet. Dieses ist der Abstand zwischen beobachtetem (<em>blau</em>) und geschätztem (<em>rot</em>) Wert.</p>
+<p>Residuen werden daher für jede einzelne Beobachtung wie folgt berechnet:
+<span class="math inline">\(e_i = y_i - \hat{y}_i\)</span></p>
+<p>Wichtig für die Unterscheidung ist: Residuen treten in den Modellen auf und variieren pro Fall (in diesem Beispiel Individuum). Residuen treten nicht in der Grundgesamtheit auf. In der Grundgesamtheit finden sich Störvariablen, die den nicht erklärten Teil des Modells beinhalten. Die Schätzung der Regression ist also immer eine Anpassung, die einen nicht erklärten Teil beinhaltet.</p>
+<p>{{% notice tip %}}
+Siehe auch: <span class="citation"><a href="#ref-Fromm2010" role="doc-biblioref">Fromm</a> (<a href="#ref-Fromm2010" role="doc-biblioref">2010</a>, Kapitel 3.2)</span>; <span class="citation"><a href="#ref-Urban2011" role="doc-biblioref">Urban &amp; Mayerl</a> (<a href="#ref-Urban2011" role="doc-biblioref">2011</a>, Kapitel 2.1 &amp; 2.2)</span>.
+{{% /notice %}}</p>

@@ -1,0 +1,17 @@
+---
+title: "iid"
+---
+
+*independent and identically distributed*
+
+deutsch: unabhängig und identisch verteilt
+
+d. h.,
+
+- unabhängig und identisch verteilte Zufallsvariablen dieselbe Verteilung besitzen
+
+- diese nehmen mit gleicher Wahrscheinlichkeit gleiche Werte an
+
+- beeinflussen sich aber nicht
+
+

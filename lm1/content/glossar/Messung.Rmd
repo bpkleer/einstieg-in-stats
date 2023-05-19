@@ -1,0 +1,7 @@
+---
+title: "Messung"
+---
+
+Messung meint die Zuordnung von Zahlen zu Objekten nach bestimmten Regeln. Eine genaue Messung setzt eine Beziehung der einzelnen Messwerte zueinander voraus; so können die einzelnen Werte geordnet werden.
+
+

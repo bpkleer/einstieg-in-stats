@@ -1,0 +1,8 @@
+---
+title: "Populationsmittelwert"
+---
+
+Mittelwert der Population (Grundgesamtheit); entspricht dem Erwartungswert ($\mu$); Mittelwert der Stichprobenmittelwerte (unendlich viele Stichproben) entspricht dem Populationsmittelwert (unverzerrt, erwartungstreu).
+
+
+

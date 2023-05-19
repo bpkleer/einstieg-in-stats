@@ -1,0 +1,9 @@
+---
+title: "PRE-Maß"
+---
+
+sind Zusammenhangsmaße, die ausdrücken, wie gut durch die Kenntnis einer Variablen die Ausprägungen einer weiteren Variablen vorhergesagt werden kann. Die relative Verbesserung der Vorhersage (Verringerung der Fehlerquote = Proportional Reduction of Error) wird dann im Ergebnis ausgedrückt.
+
+Generell gilt die Formel: $PRE = \frac{E_1 - E_2}{E_1}$, wobei $E1$ den Fall angibt, dass man keine Kenntnis über den Zusammenhang der zwei Variablen hat und $E2$ den Fall angibt, dass man entsprechende Kenntnisse besitzt.
+
+

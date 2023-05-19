@@ -1,0 +1,7 @@
+---
+title: "dummykodierte Variable"
+---
+
+Möglichkeit der Inklusion von ordinalen und nominalen Variablen als unabhängige Variablen im linearen Regressionsmodell; bei Interpretation muss Referenzkategorie festgelegt werden;
+
+

@@ -1,0 +1,7 @@
+---
+title: "Residuum"
+---
+
+Umfasst die Differenz von geschätzten $y$-Wert und beobachteten $y$-Wert $(\hat{y})$; Formel: $e_i= y_i - \hat{y}_i$ ; mathematische Rechenwert in der Regression
+
+

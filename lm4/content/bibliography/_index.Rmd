@@ -1,0 +1,12 @@
+---
+title: Literatur
+chapter: true
+pre: ""
+weight: 1000
+disableToc: true
+bibliography: [../../static/files/publications.bib]
+nocite: "@*" 
+csl: [../../static/files/apa.csl]
+---
+
+## Literaturnachweise

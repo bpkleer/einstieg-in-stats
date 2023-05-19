@@ -1,0 +1,7 @@
+---
+title: "Merkmal"
+---
+
+Merkmale sind die Eigenschaften eines zu untersuchenden Objektes. Ein Objekt weist i.d.R. mehrere Merkmale auf.
+
+

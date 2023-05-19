@@ -1,0 +1,46 @@
+---
+title: "Beispiel ungleiche Varianzen"
+weight: 213
+tags: ["t-test", "ungleiche varianzen", "mittelwertvergleich", "lernvideo"]
+---
+
+Nun wollen wir ein Beispiel für einen $t$-Test mit unabhängigen Stichproben, aber ungleichen Varianzen berechnen. Dieser Test wird auch Welch-Test oder $t$-Test mit Welch-Korrektur genannt.
+Aus einer weiteren Stichprobe haben wir folgende Werte, wobei Varianzgleichheit zwischen den Gruppen nicht gegeben ist.
+
+Frauen: $\bar{x}_1 = 34.14084, s_1 = 5.89673, n_1 = 884$
+
+Männer: $\bar{x}_2 = 43.64809, s_2 = 11.541511, n_2 = 1023$
+
+Der empirische $t$-Wert berechnet sich wie folgt:
+
+$t_{emp} = \frac{\bar{x}_1 - \bar{x}_2}{\sqrt{\frac{s^2_1}{n_1} + \frac{s^2_2}{n_2}}}$
+
+Die Anzahl der Freiheitsgrade berechnet sich bei ungleichen Varianzen wie folgt:
+
+$\nu = \frac{(\frac{s^2_1}{n_1}+ \frac{s^2_2}{n_2})^2}{\frac{(\frac{s^2_1}{n_1})^2}{n_1-1} + \frac{(\frac{s^2_2}{n_2})^2}{n_2-1}}$
+
+Setzen wir die Werte in die Formel ein:
+
+$t_{emp} = \frac{34.14084 - 43.64809}{\sqrt{\frac{5.89673}{884} + \frac{11.541511}{1023}}} \approx -23.089$
+
+$\nu = \frac{(\frac{5.89673}{884}+ \frac{11.541511}{1023})^2}{\frac{(\frac{5.89673}{884})^2}{884-1} + \frac{(\frac{11.541511}{1023})^2}{1023-1}} \approx 1567$
+
+Nun müssen wir den Betrag der Prüfgröße ($|t_{emp}|$) gegenüber dem kritischen Wert prüfen. Wir prüfen auf das $99\%$-Niveau und haben insgesamt $1567$ Freiheitsgrade ($\nu$). Wir führen einen einseitigen Test durch. Da die meisten $t$-Tabellen nur bis $1000$ Freiheitsgrade verzeichnet sind nehmen wir approximativ den kritischen Wert an der Stelle $t_{krit(\nu=1000; p =0.99)}$.
+
+Der kritische Wert beträgt an der genannten Stelle:
+
+$t_{krit_{(\nu=1000; p=0.99)}} = 2.330$.
+
+Damit das errechnete Ergebnis der Signifikanz gilt, muss:
+
+$|t_{emp} | > t_{krit}$
+
+Im Beispiel ist dies erfüllt: $|-20.313| > 2.330$
+
+Wir können somit schlussfolgern, dass Frauen im Mittel $6.909$ Stunden weniger als Männer in Erwerbsarbeit tätig sind.
+
+Hier ein weiteres Beispiel im Video:
+
+<center>
+<iframe src="https://player.vimeo.com/video/512532522?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+</center>

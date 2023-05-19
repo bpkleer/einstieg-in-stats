@@ -1,0 +1,76 @@
+---
+title: "Korrelation"
+weight: 104
+tags: ["korrelation"]
+bibliography: [../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../static/files/apa.csl]
+---
+
+<script src="/stats101/LM3/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p><strong>Korrelationen</strong> werden berechnet, um den <em>Zusammenhang</em>, die <em>Richtung</em> und die <em>Stärke</em> des Zusammenhangs zweier Variablen festzustellen. Eine <strong>Korrelation</strong> misst allerdings keine <a href="../../glossar/kausalitaet/index.html">Kausalität</a>.</p>
+<p>In einem Beispiel erklärt, bedeutet dies, wenn <em>Arbeitszeit</em> und <em>Einkommen</em> positiv miteinander korrelieren, das daraus nicht geschlussfolgert werden kann, dass das <em>Einkommen</em> aufgrund höherer <em>Arbeitszeit</em> steigt bzw. dass die <em>Arbeitszeit</em> aufgrund höherem <em>Einkommen</em> steigt. Die Kausalität kann mit einer <strong>Korrelationsanalyse</strong> nicht belegt werden.</p>
+<p>Entsprechend der <a href="../../glossar/skalenniveau/index.html">Skalenniveaus</a> einer Variable gibt es verschiedene Korrelationskoeffizienten:</p>
+<ul>
+<li><p><strong>Pearson’s r</strong> (wird für den Zusammenhang zweier <a href="../../glossar/metrischesskalenniveau/index.html">metrischer Variablen</a> genutzt)</p></li>
+<li><p><strong>Spearman’s <span class="math inline">\(\rho\)</span></strong> (für mindestens <a href="../../glossar/ordinalskala/index.html">ordinale Variablen</a>)</p></li>
+</ul>
+<p>Gemeinsam haben diese <strong>Korrelationskoeffizienten</strong>, dass sie alle Werte zwischen <span class="math inline">\([-1;+1]\)</span> einnehmen und gleich interpretiert werden. <em>Positive Werte</em> bedeuten, dass mit dem Steigen der Variable <span class="math inline">\(A\)</span> auch Variable <span class="math inline">\(B\)</span> steigt und <em>negative Werte</em> bedeuten, dass beim Steigen der Variable <span class="math inline">\(A\)</span> die Variable <span class="math inline">\(B\)</span> sinkt.</p>
+<div class="figure">
+<img src="../images/korrelation1.png" alt="" />
+<p class="caption">Beispiel positiver und negativer Zusammenhang</p>
+</div>
+<p>Im Beispiel der roten Linie sinkt die Variable <span class="math inline">\(B\)</span>, wenn Variable <span class="math inline">\(A\)</span> steigt und im Beispiel der grünen Linie steigt die Variable <span class="math inline">\(B\)</span>, wenn die Variable <span class="math inline">\(A\)</span> steigt. Für die grüne Linie würde sich ein <em>positiver</em> <strong>Korrelationskoeffizient</strong> ergeben, für die rote Linie ein <em>negativer</em>.</p>
+<p>Im Beispiel der roten Linie sinkt die Variable B um <span class="math inline">\(1,5\)</span> je Steigen um ein <span class="math inline">\(x\)</span> und im Beispiel grünen Linien steigt die Variable B um <span class="math inline">\(1,5\)</span> je Steigen um ein <span class="math inline">\(x\)</span>.</p>
+<div class="figure">
+<img src="../images/korrelation2.png" alt="" />
+<p class="caption">Beispiel positiver und negativer Zusammenhang</p>
+</div>
+<p>Je näher der <strong>Korrelationskoeffizient</strong> an das Ende des Intervalls kommt (also an <span class="math inline">\(+1\)</span> oder <span class="math inline">\(−1\)</span>), desto stärker ist der Zusammenhang zwischen den zwei <a href="../../glossar/variable/index.html">Variablen</a>.</p>
+<p>Ist der <strong>Korrelationskoeffizient</strong> nahe <span class="math inline">\(0\)</span>, liegt nur ein sehr schwacher Zusammenhang vor. Ein <strong>Korrelationskoeffizient</strong> von <span class="math inline">\(0\)</span> bedeutet, dass es keinen Zusammenhang zwischen den zwei Variablen gibt.</p>
+<p>Als Grenzwerte für die <strong>Korrelationskoeffizienten</strong> werden folgende festgehalten:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center">Wert des Korrelationskoeffizienten</th>
+<th align="center">Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><span class="math inline">\(\leq |0.05|\)</span></td>
+<td align="center">zu vernachlässigen</td>
+</tr>
+<tr class="even">
+<td align="center"><span class="math inline">\(|0.05| \leq |0.2|\)</span></td>
+<td align="center">geringer Zusammenhang</td>
+</tr>
+<tr class="odd">
+<td align="center"><span class="math inline">\(|0.2| \leq |0.5|\)</span></td>
+<td align="center">mittlerer Zusammenhang</td>
+</tr>
+<tr class="even">
+<td align="center"><span class="math inline">\(|0.5| \leq |0.7|\)</span></td>
+<td align="center">starker Zusammenhang</td>
+</tr>
+<tr class="odd">
+<td align="center"><span class="math inline">\(\geq |0.7|\)</span></td>
+<td align="center">sehr starker Zusammenhang</td>
+</tr>
+</tbody>
+</table>
+<center>
+Quelle: Kühnel/Krebs 2010, S. 404/405
+</center>
+<p>In den folgenden Teilen des Web-Based-Trainings werden zwei Korrelationsmaße vorgestellt:</p>
+<ul>
+<li><p><strong>Pearsons r</strong></p></li>
+<li><p><strong>Spearmans <span class="math inline">\(\rho\)</span></strong></p></li>
+</ul>
+<p>{{% notice tip %}}
+Siehe auch: <span class="citation"><a href="#ref-Gehring2009" role="doc-biblioref">Gehring &amp; Weins</a> (<a href="#ref-Gehring2009" role="doc-biblioref">2009</a>, Kapitel 7.6: Pearson’s r)</span>; <span class="citation"><a href="#ref-Behnke2006" role="doc-biblioref">Behnke &amp; Behnke</a> (<a href="#ref-Behnke2006" role="doc-biblioref">2006</a>, Kapitel 14.3.2: Spearman’s rho)</span>; <span class="citation"><a href="#ref-Behnke2006" role="doc-biblioref">Behnke &amp; Behnke</a> (<a href="#ref-Behnke2006" role="doc-biblioref">2006</a>, Kapitel 14.4: Kovarianz und Pearson-Korrelation)</span>; <span class="citation"><a href="#ref-Bortz2010" role="doc-biblioref">Bortz &amp; Schuster</a> (<a href="#ref-Bortz2010" role="doc-biblioref">2010</a>, Kapitel 10.3.2: Pearson’s r)</span>; <span class="citation"><a href="#ref-Bortz2010" role="doc-biblioref">Bortz &amp; Schuster</a> (<a href="#ref-Bortz2010" role="doc-biblioref">2010</a>, Kapitel 10.3.6: Spearman’s rho)</span>; <span class="citation"><a href="#ref-Cleff2011" role="doc-biblioref">Cleff</a> (<a href="#ref-Cleff2011" role="doc-biblioref">2011</a>, Kapitel 4.3.2 Pearson’s r)</span>; <span class="citation"><a href="#ref-Cleff2011" role="doc-biblioref">Cleff</a> (<a href="#ref-Cleff2011" role="doc-biblioref">2011</a>, Kapitel 4.4.1 Spearman’s rho)</span>.
+{{% /notice %}}</p>

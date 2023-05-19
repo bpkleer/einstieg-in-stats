@@ -1,0 +1,9 @@
+---
+title: "Varianz"
+---
+Streuungsmaß; Zeichen der Varianz $\sigma^2$; Summe der quadrierten Abweichungen der Werte vom Mittelwert; Einheit der Varianz ist nicht interpretierbar; Berechnung: $s^2=\sigma^2=\frac{1}{n} \ast \sum_{i=1}^n(x_i - \bar{x})^2$
+Für die Berechnung einer Standardabweichung aus einer Stichprobe wird die Bessel-Korrektur angewendet ($\frac{1}{n-1}$):
+
+$$s^2 = \frac{1}{n-1}* \sum_{i=1}^n (x_i - \bar{x})^2$$
+
+

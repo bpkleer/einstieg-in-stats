@@ -1,0 +1,7 @@
+---
+title: "Signifikanztest"
+---
+
+auch Hypothesentest genannt; Test der Inferenzstatistik; es wird getestet, inwieweit ein Zusammenhang in der Stichprobe auch in der Grundgesamtheit wahrscheinlich ist (->Inferenz); getestet wird die Nullhypothese (also das Gegenteil der Annahme muss widerlegt werden); Alternativhypothese beinhaltet theoretische Vermutung der Forscher*in; Entscheidung wird gegen Nullhypothese unter Irrtumswahrscheinlichkeit gefällt; Testgröße in Abhängigkeit der Verteilung (z.B. t-Test, F-Test oder z-Test); es wird zwischen einseitigen Signifikanztest (ungleich/gleich-Test) und zweiseitigen Signifikanztest (Richtungstest)
+
+

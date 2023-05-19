@@ -1,0 +1,7 @@
+---
+title: "Histogramm"
+---
+
+grafische Darstellung einer univariaten Häufigkeitsverteilung in Form von direkt nebeneinanderliegenden Säulen, die den Häufigkeiten der Messwerte entsprechen. Mithilfe von Histogrammen wird oftmals die Verteilungsform der Variablen grafisch betrachtet.
+
+

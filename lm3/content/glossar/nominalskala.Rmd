@@ -1,0 +1,14 @@
+---
+title: "Nominal-Skala"
+---
+
+Niedrigste Skala der vier Skalenniveaus.
+Zu untersuchende Objekte können lediglich hinsichtlich ihres Vorhandenseins/Nichtvorhandenseins bzw. der Gleichheit/Ungleichheit untersucht werden.
+
+Mathematische Operatoren: $=$ $/$ $≠$
+
+Messbare Eigenschaften: Häufigkeit
+
+Beispiel: Wohnort, Universität, Augenfarbe.
+
+

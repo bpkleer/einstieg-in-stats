@@ -1,0 +1,7 @@
+---
+title: "Deskriptive Statistik"
+---
+
+Deskriptive (oder auch explorative Statistik) trifft immer Aussagen über vorhandene Daten, d.h. es handelt sich hierbei um eine beschreibende Statistik. Dazu zählen Verfahren zur Berechnung von Lage- und Streumaßen, aber auch grafische Darstellungen wie z.B. Box-Plots.
+
+

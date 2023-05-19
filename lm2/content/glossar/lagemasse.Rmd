@@ -1,0 +1,7 @@
+---
+title: "Lagemaße"
+---
+
+inkludieren Maße der zentralen Tendenz sowie Quartile oder generell Quantile; geben an, wo sich ein gewisser Punkt (z.B. Mittelwert) einer Variable befindet; Lagemaße werden zur Beschreibung einer Verteilung genutzt (Deskriptivstatistik).
+
+

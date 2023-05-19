@@ -1,0 +1,7 @@
+---
+title: "F-Verteilung"
+---
+
+Fisher-Verteilung; Verteilungsform der Quotienten zweier $\chi^2$-verteilter Zufallsvariablen dividiert durch die Anzahl der Freiheitsgerade; wichtige Verteilung für die Varianzanalyse (inferenzstatistische Verfahren)
+
+

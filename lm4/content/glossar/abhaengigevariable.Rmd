@@ -1,0 +1,7 @@
+---
+title: "abhängige Variable"
+---
+
+Die abhängige Variable (Kurzform: aV) ist die Variable, die beeinflusst wird (Wirkung). In Gleichungen wird diese mit einem $Y$ gekennzeichnet. Sie wird auch als Zielvariable  oder zu erklärende Variable bezeichnet.
+
+

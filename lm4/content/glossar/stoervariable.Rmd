@@ -1,0 +1,7 @@
+---
+title: "Störvariable"
+---
+
+Theoretische Größe des theoretischen Regressionsmodell; in Sozialwissenschaften können nie alle notwendigen Variablen erfasst werden, daher kann nie ein perfekter Zusammenhang dargestellt werden; Störvariablen bilden den Term ϵ, der als Fehlerterm der Lineargleichung der Regression hinzugefügt wird.
+
+

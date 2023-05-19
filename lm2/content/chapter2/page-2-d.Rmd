@@ -1,0 +1,26 @@
+---
+title: "Maße der zentralen Tendenz Lernvideo"
+weight: 204
+tags: ["lagemasse", "lernvideo"]
+bibliography: [../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../static/files/apa.csl]
+---
+
+In diesem Lernvideo wird Ihnen die Berechnung des Modus, des Medians und arithmetischen Mittelwertes dargestellt.
+
+<center>
+<div class="embed-container">
+<iframe src="https://player.vimeo.com/video/506075882?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+</div>
+</center>
+
+Je nach Verteilung, [Skalenniveau](../../glossar/skalenniveau/index.html) und Art der Daten sind unterschiedliche [Lagemaße](../../glossar/lagemasse/index.html) sinnvoll. Der [Modus](../../glossar/modus/index.html) wird für [nominale Daten](../../glossar/nominalskala/index.html) verwendet, der [Median](../../glossar/median/index.html) für mind. [ordinale Daten](../glossar/Ordinal-Skala.html) sowie [intervall-](../../glossar/intervallskala/index.html) oder [ratio-skalierte Daten](../../glossar/ratioskala/index.html) mit extremen Ausreißern und der [Mittelwert](../../glossar/mittelwert/index.html) für intervall- oder ratioskalierte [Variablen](../../glossar/variable/index.html) (ohne Ausreißer).
+
+![Übersicht Maße der zentralen Tendenz](../images/zentrale-masse.png)
+
+{{% notice tip %}}
+Siehe auch: @Gehring2009 [Kapitel 6.1].
+{{% /notice %}}

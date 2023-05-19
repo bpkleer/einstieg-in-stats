@@ -1,0 +1,64 @@
+---
+title: "Chi-Quadrat, Phi-Koeffizient & Cramers V"
+weight: 211
+tags: ["chi-quadrat", "phi-Koeffizient", "Cramers V", "lernvideo"]
+bibliography: [../../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../../static/files/apa.csl]
+---
+
+$\chi^2$ (Chi-Quadrat) weist drei Probleme auf. Erstens ist $\chi^2$ (Chi-Quadrat) abhängig von den [absoluten Häufigkeiten](../../glossar/absolutehaeufigkeit/index.html). Verdoppeln sich bspw. die Häufigkeiten, so verdoppelt sich auch $\chi^2$ (Chi-Quadrat). Die prozentuale Verteilung ändert sich jedoch nicht. Alternativ könnte der $\chi^2$ (Chi-Quadrat)-Wert normiert werden.
+
+Für die zwei unten erklärten berechneten Koeffizienten finden Sie auf der nächsten Seite Rechenbeispiele in Lernvideos. 
+
+Nur für 2x2-Kreuztabellen (wie im Beispiel) bietet sich $\phi$ **(Phi)** an. Das Ziel von $\phi$ **(Phi)** ist die Relativierung von $\chi^2$ (Chi-Quadrat) für die Anzahl von Beobachtungen. Je größer $\phi$ **(Phi)**, desto stärker ist der Zusammenhang zwischen den beiden [Variablen.](../../glossar/variable/index.html) $\phi$ **(Phi)** variiert zwischen $0$ (min.) und $1$ (max.) ($\phi \in [0;1]$).
+
+Die Formel zur Berechnung von $\phi$ **(Phi)** lautet:
+
+$\phi = \sqrt \frac{\chi^2}{n}$, wobei $\phi \in [0;1]$
+
+Im vorherigen Beispiel ergibt sich daher:
+
+$$\begin{align*} \phi &= \sqrt \frac{\chi^2}{n} \\ &=\sqrt \frac{252.53}{1000} \\ &\approx 0.503 \end{align*}$$
+
+Zweiten ist $\chi^2$ (Chi-Quadrat) abhängig von der Kategorienanzahl pro Tabelle. Drittens lassen sich Kontingenzkoeffizienten aus Tabellen unterschiedlicher Größe schwierig miteinander vergleichen. Diese Fehler behebt die Berechnung von **Cramer´s V**. Formal wird der $\chi^2$ (Chi-Quadrat)-Wert durch den maximal erreichbaren $\chi_{max}^2$ (Chi-Quadrat)-Wert dividiert.
+
+Für Mehrfeldertabellen gilt:
+
+$\chi_{max}^2 = n \ast (R-1)$, wobei $R$ die minimale Spalten- bzw. Zeilenzahl ist.
+
+Die Formel für **Cramer´s V** ist daher:
+
+$V = \sqrt \frac {\chi^2}{\chi_{max}^2}= \sqrt \frac {\chi^2}{n \ast (min(k, m)-1)}$, wobei $V \in [0;1]$, wobei $n$: Anzahl Beobachtungen; $k$: Anzahl Spalten; $m$: Anzahl Zeilen
+
+Der Wertebereich von **Cramer´s V** beträgt $0$ bis $1$. Für die Interpretation der Werte gibt es Konventionen:
+
+![Interpretation Cramer´s V](../images/cramer-grenzwerte.png)
+
+Um die Probleme von $\chi^2$ (Chi-Quadrat) zu umgehen, wird am häufigsten **Cramer’s V** genutzt, da diese Maßzahl alle drei Probleme umgeht. 
+
+Im Beispiel ergibt sich für uns folgender Wert von **Cramer´s V**:
+
+Die Anzahl der Beobachtungen ist: $n = 1000$
+
+Die Anzahl der Spalten ist: $k = 2$
+
+Die Anzahl der Zeilen ist: $m = 2$
+
+Da die Anzahl der Spalten und Zeilen gleich ist, können wir entweder $m$ oder $k$ benutzen. Ist die Anzahl nicht gleich, muss der kleinere Wert genutzt werden.
+
+$$ \begin{align*} V &= \sqrt \frac {\chi^2}{\chi_{max}^2} \\ &= \sqrt \frac {\chi^2}{n \ast (min(k, m)-1)} \\&= \sqrt \frac{252.53}{1000 \ast (2-1)} \\ &\approx 0.503 \end{align*}$$
+
+**Cramer´s V** gibt einen Wert von $0,387$ aus und damit laut obigen Konventionen einen mittleren Zusammenhang zwischen den zwei Variablen. Im Beispiel ist der Wert von **Cramer´s V** dem Wert von $\phi$ **(Phi)** gleich, da es sich um eine 2x2-Tabelle handelt. 
+
+{{% notice tip %}}
+Siehe auch: @Gehring2009 [Kapitel 7.3.1]; @Bortz2010 [Kapitel 10.3.4].
+{{% /notice %}}
+
+In diesem Lernvideo wird Ihnen die Berechnung von $\chi^2$ sowie der Koeffizienten $\phi$ und Cramers V anhand zweier Beispiel gezeigt.
+
+<center>
+<iframe src="https://player.vimeo.com/video/507516082?quality=720p&dnt=1" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+</center>

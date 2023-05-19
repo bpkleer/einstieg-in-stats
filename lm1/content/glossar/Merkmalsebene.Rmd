@@ -1,0 +1,7 @@
+---
+title: "Merkmalsebene"
+---
+
+Es werden zwei Merkmals- bzw. Analyseebene unterschieden: Makro- und Mikroebene.
+
+

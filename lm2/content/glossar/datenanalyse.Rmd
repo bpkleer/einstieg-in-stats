@@ -1,0 +1,7 @@
+---
+title: "Datenanalyse"
+---
+
+Bei der Datenanalyse werden vorhandene, also erhobene Daten genutzt, um daraus Erkenntnisse zu generieren; je nach Fragestellung und/oder Thema können verschiedene Verfahren der Datenanalyse geeignet sein.
+
+

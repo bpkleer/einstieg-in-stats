@@ -1,0 +1,7 @@
+---
+title: "Multivariat"
+---
+
+Betrachtet man die gemeinsame Verteilung von mehr als zwei Merkmalen bzw. Variablen, spricht man von einer **multivariaten** Analyse.
+
+

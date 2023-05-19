@@ -1,0 +1,7 @@
+---
+title: "Quartil"
+---
+
+Sonderform eines Quantils, in der die Verteilung in vier gleiche Teile eingeteilt wird (1., 2., 3. (=Median) und 4. Quartil); Interquartilsabstand als Differenz zwischen 3. und 1. Quartil wichtig zur Beschreibung der Streuung einer Variable (mittlere 50 % einer Verteilung).
+
+

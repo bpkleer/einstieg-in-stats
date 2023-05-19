@@ -1,0 +1,7 @@
+---
+title: "Merkmalsausprägung"
+---
+
+Merkmale können verschiedene Werte annehmen, die Merkmalsausprägungen genannt werden (Bsp. Augenfarbe; Merkmalsausprägungen= grün, blau, braun).
+
+

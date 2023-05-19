@@ -1,0 +1,8 @@
+---
+title: "zentraler Grenzwertesatz"
+---
+
+besagt, dass die Stichprobenverteilung der Mittelwerte asymptotisch normalverteilt sein wird, unabhängig von der Form der zugrundeliegenden Verteilung der Daten, vorausgesetzt die Daten sind unabhängig und identisch verteilt; je größer die Stichprobe, desto näher ist die Stichprobe normalverteilt
+
+
+

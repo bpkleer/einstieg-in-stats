@@ -1,0 +1,6 @@
+---
+title: "Alternativhypothese"
+---
+
+Ungetestete Hypothese in einem Hypothesentest; wird angenommen, wenn Nullhypothese verworfen wird; die Alternativhypothese nimmt in den Sozialwissenschaften inhaltlich die theoretische Vermutung der Forschenden ein.
+

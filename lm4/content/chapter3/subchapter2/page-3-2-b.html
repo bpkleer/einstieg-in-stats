@@ -1,0 +1,65 @@
+---
+title: "Beispiel 2"
+weight: 322
+tags: ["kategorial", "regression"]
+bibliography: [../../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../../static/files/apa.csl]
+---
+
+<script src="/stats101/LM4/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>In den zwei Lernvideos wird zum einen gezeigt wie Dummy-Variablen grafisch zu interpretieren sind und wie Dummy-Variablen gebildet werden.</p>
+<center>
+<iframe src="https://player.vimeo.com/video/506078732?quality=720p&amp;dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer">
+</iframe>
+</center>
+<center>
+<iframe src="https://player.vimeo.com/video/506078203?quality=720p&amp;dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer">
+</iframe>
+</center>
+<p>Nehmen wir ein weiteres Beispiel für <a href="../../../glossar/dummykodiertevariable/index.html">dummykodierte Variablen</a> mit <a href="../../../glossar/ordinalskala/index.html">ordinalen Skalenniveau</a>: Wir möchten testen, welchen Einfluss - neben den bereits genutzten <a href="../../../glossar/variable/index.html">Variable</a> (<em>Alter, Arbeitszeit, Geschlecht</em>) - der <em>Schulabschluss</em> auf das <em>Einkommen</em> einer Person hat. Der <em>Schulabschluss</em> ist in unserem Beispiel mit drei <a href="../../../glossar/merkmalsauspraegung/index.html">Merkmalsausprägungen</a> kodiert:</p>
+<p><span class="math inline">\(1:Hauptschule\)</span></p>
+<p><span class="math inline">\(2:Realschule\)</span></p>
+<p><span class="math inline">\(3:(Fach−)Abitur\)</span></p>
+<p>Welche Ausprägung die <a href="../../../glossar/referenzkategorie/index.html">Referenzkategorie</a> ist, liegt in der Entscheidung der Forscher:in. Oftmals wird entlang der gebildeten Hypothesen entschieden, welche Ausprägung die Referenzkategorie bildet, da so die vermutete Differenz zwischen den Merkmalsausprägungen getestet werden kann. Sollte eine Variable sehr viele Ausprägungen haben, ist es sinnvoll, Ausprägungen vorher zusammenzufassen.</p>
+<p>In diesem Beispiel des <em>Schulabschlusses</em> könnte man den höchsten Abschluss <em>(Fach-)Abitur</em> als <a href="../../../glossar/referenzkategorie/index.html">Referenzkategorie</a> wählen und zwei Dummy-Variablen mit <em>Hauptschule</em> (Dummy-Variable 1) und <em>Realschule</em> (Dummy-Variable 2) in die Regressionsrechnung einfügen.</p>
+<div class="figure">
+<img src="../images/Tabelle_dummy_schulbildung.png" alt="" />
+<p class="caption">Dummy-Bildung aus Variable Schulabschluss</p>
+</div>
+<p>Im Beispiel ist (Fach-)Abitur die <a href="../../../glossar/referenzkategorie/index.html">Referenzkategorie</a> und die erste Dummy-Variable würde also die Steigerung/Minderung des <em>Einkommens</em> von Personen mit <em>Hauptschulabschluss</em> gegenüber Personen mit <em>(Fach-)Abitur</em> messen, die zweite Dummy-Variable von Personen mit <em>Realschulabschluss</em> in Referenz zu Personen mit <em>(Fach-)Abitur</em>. Beide Variablen sind <span class="math inline">\(0/1\)</span>-kodiert, also mit Merkmal vorhanden (<span class="math inline">\(1\)</span>) und Merkmal nicht vorhanden (<span class="math inline">\(0\)</span>).</p>
+<p>Die Schätzung einer einzelnen Beobachtung würde daher wie folgt aussehen:</p>
+<p><span class="math inline">\(Einkommen_i = \beta_0 + \beta_1 \ast Alter_i + \beta_2 \ast Arbeitszeit_i + \beta_3 \ast Geschlecht_i + \beta_4 * dummy_{HS_i} + \beta_5 * dummy_{RS_i}\)</span></p>
+<p>Jetzt vergleichen wir die Gleichungen von verschiedenen Personen hinsichtlich ihrer Ausprägungen auf den Dummy-Variablen und nehmen an, dass alle Personen im Beispiel <span class="math inline">\(40\)</span> Jahre alt sind und <span class="math inline">\(40\)</span> Stunden arbeiten.</p>
+<p>Beispiel 1: Person 1 ist <em>weiblich</em> und hat <em>Abitur</em>
+<span class="math inline">\(Einkommen_1 = \beta_0 + \beta_1 \ast 40 + \beta_2 \ast 40 + \beta_3 \ast 0 + \beta_4 * 0 + \beta_5 * 0 = \beta_0 + \beta_1 * 40 + \beta_2 * 40\)</span></p>
+<p>Beispiel 2: Person 2 ist <em>männlich</em> und hat <em>Realschulabschluss</em>
+<span class="math inline">\(Einkommen_1 = \beta_0 + \beta_1 \ast 40 + \beta_2 \ast 40 + \beta_3 \ast 1+ \beta_4 * 0 + \beta_5 * 1 = \beta_0 + \beta_1 * 40 + \beta_2 * 40 + \beta_3 * 1 + \beta_5 * 1\)</span></p>
+<p>Beispiel 3: Person 3 ist <em>weiblich</em> und hat <em>Hauptschulabschluss</em>
+<span class="math inline">\(Einkommen_1 = \beta_0 + \beta_1 \ast 40 + \beta_2 \ast 40 + \beta_3 \ast 0 + \beta_4 * 1 + \beta_5 * 0 = \beta_0 + \beta_1 * 40 + \beta_2 * 40 + \beta_4 * 1\)</span></p>
+<p>Wir erkennen an den drei Beispielen nun folgendes: Die Referenzkategorien <em>weiblich</em> für <em>Geschlecht</em> und <em>(Fach-)Abitur</em> für <em>Schulabschluss</em> sind nicht mit eigenen Regressionskoeffizienten angegeben. Beide Effekte sind Referenzen zu den jeweiligen Dummys (<em>männlich</em>, <em>Hauptschule</em> und <em>Realschule</em>). Die Konstante (<span class="math inline">\(\beta_0\)</span>) fasst die Referenzkategorien mathematisch und daher können diese Effekte nicht einzeln betrachtet werden. Daher ist es von Nöten, bevor ordinale Variablen (oder <a href="../../../glossar/polytom/index.html">polytome</a> <a href="../../../glossar/nominalskala/index.html">nominale Variablen</a>) in ein Regressionsmodell aufgenommen werden, sich klar zu machen, über welche <a href="../../../glossar/merkmalsauspraegung/index.html">Ausprägungen</a> man eine Aussage treffen möchte und die Referenzkategorien dementsprechend zu wählen.</p>
+<p>Nun wollen wir zurück auf unser Beispiel kommen und die Interpretation errechneter Werte:</p>
+<div class="figure">
+<img src="../images/spss-dummy-vid.png" alt="" />
+<p class="caption">SPSS Koeffizientenblock</p>
+</div>
+<div class="figure">
+<img src="../images/reg-dummy-vid.PNG" alt="" />
+<p class="caption">R-Output</p>
+</div>
+<p>Für unsere drei Beispiel-Personen ergeben sich folgende geschätzte Einkommenswerte in der Stichprobe:</p>
+<p>Beispiel 1: Person 1 ist <em>weiblich</em> und hat <em>Abitur</em>
+<span class="math inline">\(Einkommen_1 = \beta_0 + \beta_1 \ast 40 + \beta_2 \ast 40 + \beta_3 \ast 0 + \beta_4 * 0 + \beta_5 * 0 = 2092.624 + (-3.009) * 40 + 4.071 * 40 = 2135.104\)</span></p>
+<p>Beispiel 2: Person 2 ist <em>männlich</em> und hat <em>Realschulabschluss</em>
+<span class="math inline">\(Einkommen_2 = \beta_0 + \beta_1 \ast 40 + \beta_2 \ast 40 + \beta_3 \ast 1+ \beta_4 * 0 + \beta_5 * 1 = 2092.624 + (-3.009) * 40 + 4.071 * 40 + 381.848 * 1\)</span>
+<span class="math inline">\(+ (-437.378) * 1=2079.574\)</span></p>
+<p>Beispiel 3: Person 3 ist <em>weiblich</em> und hat <em>Hauptschulabschluss</em>
+<span class="math inline">\(Einkommen_3 = \beta_0 + \beta_1 \ast 40 + \beta_2 \ast 40 + \beta_3 \ast 0 + \beta_4 * 1 + \beta_5 * 0 = 2092.624 + (-3.009) * 40 + 4.071 * 40 + (-1131.309)* 1 = 1003.795\)</span></p>
+<p>Personen, die männlich sind, verdienen knapp <span class="math inline">\(382\)</span> Euro mehr als weibliche Personen (<span class="math inline">\(\beta_3\)</span>). Personen mit Realschulabschluss verdienen knapp <span class="math inline">\(437\)</span> Euro weniger als Personen mit (Fach-)Abitur (<span class="math inline">\(\beta_4\)</span>) und Personen mit Hauptschulabschluss verdienen sogar <span class="math inline">\(1131\)</span> Euro weniger als Personen mit (Fach-)Abitur (<span class="math inline">\(\beta_5\)</span>).</p>
+<p>{{% notice tip %}}
+Siehe auch: <span class="citation"><a href="#ref-Urban2011" role="doc-biblioref">Urban &amp; Mayerl</a> (<a href="#ref-Urban2011" role="doc-biblioref">2011</a>, Kapitel 5.1.1)</span>.
+{{% /notice %}}</p>

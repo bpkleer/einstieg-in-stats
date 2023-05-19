@@ -1,0 +1,7 @@
+---
+title: "Vertrauenswahrscheinlichkeit"
+---
+
+gibt die Wahrscheinlichkeit an, dass ein Intervall den wahren Wert enthält ($p=1- \alpha$)
+
+

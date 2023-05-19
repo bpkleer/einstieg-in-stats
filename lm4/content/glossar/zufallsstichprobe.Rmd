@@ -1,0 +1,7 @@
+---
+title: "Zufallsstichprobe"
+---
+
+Verfahren der Stichprobenziehung, dass auf der Stochastik beruht; mithilfe von Zufallsstichproben können Verfahren der Inferenzstatistik angewendet werden.
+
+

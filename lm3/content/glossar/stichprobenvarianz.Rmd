@@ -1,0 +1,9 @@
+---
+title: "Stichprobenvarianz"
+---
+
+schätzt die Varianz der Grundgesamtheit mithilfe einer Stichprobe; wenn wahrer Mittelwert $\mu$ unbekannt ist, muss Formel um ($n−1$) angepasst werden im Vergleich zur Berechnung der Populationsvarianz;
+
+Formel: $s^2 = \frac {\sum_{i=1} ^n (x_i - \bar{x})} {n-1}$
+
+

@@ -1,0 +1,32 @@
+---
+title: "Interquartilsabstand"
+weight: 302
+tags: ["streumasse","iqr", "interquartilsabstand"]
+bibliography: [../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../static/files/apa.csl]
+---
+
+Mit dem **Interquartilsabstand (IQR)** wird die Differenz zwischen dem oberen Quartil und dem unteren Quartil angegeben. Anders als die [Variationsweite](../../glossar/spannweite/index.html) ist diese Kennzahl weniger anfällig für Ausreißer, berücksichtigt allerdings auch nur die mittleren $50\%$ einer Verteilung. Dieser Wert enthält also die Information, zwischen welchen Werten sich die mittleren $50\%$ einer [Variablen](../../glossar/variable/index.html) befinden. Auch hier gilt wieder, dass dieser Kennwert die Ordnung der Werte ([ordinalskaliert](../../glossar/ordinalskala/index.html)) voraussetzt.
+
+$$IQR=\tilde{x}_{0.75} - \tilde{x}_{0.25}$$
+
+Dieser Wert dient zur Einschätzung der Streuung einer Häufigkeitsverteilung und ist dann sinnvoll, wenn der Kernbereich einer Verteilung interessiert. Der **Interquartilsabstand** ist wesentlicher Bestandteil von [Boxplots](../../glossar/boxplot/index.html).
+
+Im Beispiel der Berechnung von Quartilen haben wir für das untere und obere Quartil der Anzahl an politikwissenschaftlichen Büchern folgende Werte erhalten:
+
+$$\tilde{x}_{0.25}=5$$
+
+$$\tilde{x}_{0.75}=18$$
+
+Daraus ergibt sich nun:
+
+$$IQR=\tilde{x}_{0.75} - \tilde{x}_{0.25}=18-5=13$$
+
+Wir erhalten damit die Information, dass $50\%$ der befragten Personen zwischen $5$ und $18$ Bücher besitzen und die mittlere Weite $13$ Bücher umfasst.
+
+{{% notice tip %}}
+Siehe auch: @Gehring2009 [Kapitel 6.2.3].
+{{% /notice %}}

@@ -1,0 +1,7 @@
+---
+title: "polytom"
+---
+
+Als polytom werden Variablen beschrieben, die mehr als zwei Ausprägungen besitzen. (z.B. die Augenzahl beim Wurf eines Würfels).
+
+

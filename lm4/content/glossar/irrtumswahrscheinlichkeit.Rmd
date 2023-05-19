@@ -1,0 +1,7 @@
+---
+title: "Irrtumswahrscheinlichkeit"
+---
+
+Auch Fehler 1. Art oder $\alpha$-Fehler; gibt an, in wie vielen Fällen die Entscheidung auf die Alternativhypothese fällt, obwohl die Nullhypothese richtig ist.
+
+

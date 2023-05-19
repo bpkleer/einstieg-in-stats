@@ -1,0 +1,7 @@
+---
+title: "unabhängige Variable"
+---
+
+Die unabhängige Variable (Kurzform: uV) ist die Variable, die die Wirkung auslöst (Ursache). Sie wird zumeist mit X bezeichnet. Sie kann auch als Prädiktor-Variable oder erklärende Variable bezeichnet.
+
+

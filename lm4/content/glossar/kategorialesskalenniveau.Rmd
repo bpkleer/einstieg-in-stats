@@ -1,0 +1,5 @@
+---
+title: "kategoriales Skalenniveau" 
+---
+
+umfasst nominale wie ordinale Skalenniveaus.

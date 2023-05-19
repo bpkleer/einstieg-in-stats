@@ -1,0 +1,7 @@
+---
+title: "t-Verteilung"
+---
+
+glockenförmige, flache Verteilung; wird für kleine Stichproben genutzt (n<30); kann auch bei Unwissenheit über die Standardabweichung der Grundgesamtheit genutzt werden; geht bei großen Stichproben in Normalverteilung über;
+
+

@@ -1,0 +1,7 @@
+---
+title: "Häufigkeitstabelle"
+---
+
+enthält die absoluten oder relativen Häufigkeiten einer Variable; wird die Kombination mehrerer Variablen mit absoluten oder relativen Häufigkeiten dargestellt, wird dies als Kreuztabelle benannt; die Kontingenztabelle (auch Kontingenztabelle) stellt dabei die Sonderform der Kombination der absoluten/relativen Häufigkeiten von zwei Variablen dar.
+
+

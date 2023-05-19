@@ -1,0 +1,7 @@
+---
+title: "Skalenniveau"
+---
+
+Skalenniveaus werden zur Bestimmung der Relationen zwischen Variablen definiert. Man unterscheidet zwischen Nominal-, Ordinal-, Intervall- und Ratio-Skala.
+
+

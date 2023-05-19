@@ -1,0 +1,7 @@
+---
+title: "univariate Statistik"
+---
+
+es interessiert die Frage, was bei einem ausgewählten Merkmal bzw. einer Variable über die erhobenen Ausprägungen ausgesagt werden kann; Beispiel: Wie viele Personen haben den einzelnen Antwortmöglichkeiten eines Merkmals/einer Variable zugestimmt.
+
+

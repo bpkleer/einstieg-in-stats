@@ -1,0 +1,7 @@
+---
+title: "Stichprobenkennwerte"
+---
+
+Kennwerte werden gezogen, um Rückschlüsse auf die Grundgesamtheit zu ziehen; Ein Stichprobenkennwert ist der Mittelwert; variiert über verschiedene Stichproben
+
+

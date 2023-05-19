@@ -1,0 +1,7 @@
+---
+title: "dichotom"
+---
+
+Eine Variable ist dichotom, wenn sie nur zwei Merkmalsausprägungen hat (Bsp. Wahlteilnahme: ja/nein).
+
+

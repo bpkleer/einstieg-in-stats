@@ -1,0 +1,7 @@
+---
+title: "Stichprobe"
+---
+
+ist ein Teil der Grundgesamtheit; da oftmals keine Vollerhebung stattfinden kann, werden Stichproben aus der Grundgesamtheit gezogen; um inferenzstatistische Verfahren anwenden zu können, müssen Stichproben zufallsbasiert gezogen werden.
+
+

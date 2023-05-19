@@ -1,0 +1,7 @@
+---
+title: "Nullhypothese"
+---
+
+Getestete Hypothese in einem Hypothesentest; die Nullhypothese umfasst i.d.R. die Negierung der aufgestellten Alternativhypothese (der Forschungshypothese)
+
+

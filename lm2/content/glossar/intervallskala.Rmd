@@ -1,0 +1,16 @@
+---
+title: "Intervall-Skala"
+---
+
+dritthöchste Skala der vier Skalenniveaus;
+Zusammen mit der Ratio-Skala stellt die Intervall-Skal das metrische Messniveau dar.
+
+Die Intervall-Skala besitzt die Eigenschaften der Nominal-skala (Verlinkung) und Ordinal-Skala (Verlinkung) und zusätzlich haben die Ausprägungen eines Merkmals auf dieser Skala gleich große Abstände. Die Intervall-Skala besitzt allerdings keinen natürlichen Nullpunkt.
+
+Mathematische Operatoren: $=/≠ ; </> ; −/ +$
+
+Messbare Eigenschaften: Häufigkeit, Reihenfolge, Abstand
+
+Beispiel: IQ-Testscore
+
+

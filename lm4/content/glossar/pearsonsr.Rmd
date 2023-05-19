@@ -1,0 +1,7 @@
+---
+title: "Pearsons r"
+---
+
+Korrelationskoeffizient für metrische Variablen; Voraussetzung zur Berechnung ist Linearität und Monotonie des Zusammenhangs.
+
+

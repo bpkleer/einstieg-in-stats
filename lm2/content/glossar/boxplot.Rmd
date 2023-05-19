@@ -1,0 +1,7 @@
+---
+title: "Boxplot"
+---
+
+Form der univariaten Analyse; grafische Darstellung von Minimum, 1. Quartil, Median, 3. Quartil, Maximum, Interquartilsabstand und Spannweiter einer Variablen; ggf. werden auch Ausreißer und Extremwerte angegeben.
+
+

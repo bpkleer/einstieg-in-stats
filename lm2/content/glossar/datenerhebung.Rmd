@@ -1,0 +1,7 @@
+---
+title: "Datenerhebung"
+---
+
+Sammeln und Auswerten von Daten; je nach Fragestellung und/oder Thema können verschiedene Methoden der Datenerhebung geeignet sein; bspw. Befragung, Beobachtung oder Inhaltsanalyse.
+
+

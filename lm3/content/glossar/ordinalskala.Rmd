@@ -1,0 +1,11 @@
+---
+title: "Ordinal-Skala"
+---
+
+Zweitniedrigste Skala der vier Skalenniveaus.
+Die Ordinal-Skala besitzt die Eigenschaften der Nominalskala (Verlinkung) und zusätzlich können die Ausprägungen in eine bestimmte Rangfolge bringen (größer/kleiner, schlechter/besser).
+Mathematische Operatoren: $= / ≠ ; < / >$
+Messbare Eigenschaften: Häufigkeit, Rangordnung
+Beispiel: Schulabschluss
+
+

@@ -1,0 +1,6 @@
+---
+title: "Makroebene"
+---
+
+Analyseebene der Sozialwissenschaft. Stellt die Aggregatebene dar, z.B. Länder, Wahlkreise, Gemeinden etc.
+

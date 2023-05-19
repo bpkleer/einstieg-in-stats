@@ -1,0 +1,7 @@
+---
+title: "Modus"
+---
+
+Maß der zentralen Tendenz; zu untersuchendes Merkmal muss mind. nominalskaliert sein; der Modus stellt die Ausprägung einer Variablen dar, die am häufigsten vorkommt.
+
+

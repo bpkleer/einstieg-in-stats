@@ -1,0 +1,9 @@
+---
+title: "Interquartilsabstand"
+---
+
+Differenz zwischen dem 3. Quartil und dem 1. Quartil; beschreibt die mittleren 50 Prozent einer Verteilung.
+
+Formel zur Berechnung: $IQR=\bar{x}_{75} - \bar{x}_{25}$.
+
+

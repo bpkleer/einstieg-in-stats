@@ -1,0 +1,8 @@
+---
+title: "Standardnormalverteilung"
+---
+
+Auch z-Verteilung genannt; transformierte Form der Normalverteilung; für eine Standardnormalverteilung gilt: $\bar{x}=0, s^2 =s=1$; z-Transformation: $z_i = \frac{x_i - \bar{x}}{s}$ ; z-Wert gibt relative Position zum Mittelwert in Standardabweichungen an
+
+
+

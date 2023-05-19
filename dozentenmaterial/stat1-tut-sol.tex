@@ -1,0 +1,123 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{polyglossia}
+\setdefaultlanguage{german}
+\usepackage{lmodern}
+\usepackage{csquotes}
+
+%Einstellung Seitenränder
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+% math-umgebung
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+% Color und Hyperlink packages
+\usepackage{hyperref}
+\usepackage[svgnames,hyperref]{xcolor}
+
+% Datumspaket
+\usepackage[german]{isodate}
+
+% Table packages
+\usepackage{tabularx}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} % linksbündig mit Breitenangabe
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} % zentriert mit Breitenangabe
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}} \usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{multirow}
+
+% Code highlighting
+\usepackage{color}
+\newcommand{\correct}[1]{\textcolor{ForestGreen}{#1}}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+	
+% Fortlaufende Zählung
+\usepackage{enumitem}
+
+%Einstellungen hyperlink
+\hypersetup{
+    colorlinks=true,
+    filecolor=Purple,    
+    linkcolor = mauve,  
+    urlcolor=MediumSeaGreen,
+    citecolor = black,
+    pdftitle={Seminarplan}
+}
+
+\urlstyle{same}
+% how to use Hyperlinks: https://de.overleaf.com/learn/latex/Hyperlinks
+
+%New Font
+\usepackage{fontspec} % changing font (unten freimachen für Änderung
+	% \defaultfontfeatures{Mapping = tex-text}
+	\setmainfont{Fira Sans} %user-defined Font.
+
+% Setting math font	
+\usepackage{unicode-math}
+	\setmathfont{Fira Math}
+	
+% Name, Titel, etc.
+\author{Serdar Selova, Alexander Lechner \\ \TeX: B. Philipp Kleer \\ \footnotesize Team Professur für Methoden der Politikwissenschaft}
+\title{%
+  Tutorien (Lösungen) \\
+  \normalsize Statistik I \\
+%  WiSe/SoSe
+  }
+
+\date{\today \\ \small{Version: v2.1}}
+
+\begin{document}
+\maketitle
+
+Dieses Material ist ausschließlich für Tutor:innen der Professur für Methoden der Politikwissenschaft unter Berücksichtigung der Demokratie- und politischen Sozialisationsforschung. \textbf{Eine Weitergabe ist untersagt!}
+
+\textbf{Hinweis:} Da das \textit{typesetting} der Formelsammlung mit englischem Sprachformat erfolgt, ist das Dezimalzeichen ein Punkt ($.$) und nicht ein Komma (wie im Deutschen üblich).
+
+\tableofcontents 
+
+\newpage
+
+\input{subfiles/stat1-tut1-sol}
+
+\newpage
+
+\input{subfiles/stat1-tut2-sol}
+
+\newpage
+
+\input{subfiles/stat1-tut3-sol}
+
+\newpage
+
+\input{subfiles/stat1-tut4-sol}
+
+\newpage
+
+\input{subfiles/stat1-tut5-sol}
+
+\newpage
+
+\input{subfiles/stat1-tut6-sol}
+
+\newpage
+
+\input{subfiles/stat1-tut7-sol}
+
+\newpage
+
+\input{subfiles/stat1-tut8-sol}
+
+\newpage
+
+\input{subfiles/stat1-tut9-sol}
+
+\end{document}
+

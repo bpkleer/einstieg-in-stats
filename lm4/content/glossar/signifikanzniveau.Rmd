@@ -1,0 +1,7 @@
+---
+title: "Signifikanzniveau"
+---
+
+gibt an, wie hoch das Risiko ist einen Fehler 1. Art ($\alpha$-Fehler) zu begehen; auch Irrtumswahrscheinlichkeit
+
+

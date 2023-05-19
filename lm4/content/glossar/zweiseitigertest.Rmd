@@ -1,0 +1,7 @@
+---
+title: "zweiseitiger Signifikanztest"
+---
+
+uch Hypothesentest, auch ungerichteter S.; es wird keine Richtung festgelegt; der Ablehnungsbereich einer Hypothese ist je hälftig auf beiden Seiten anzulegen $(\frac {\alpha} {2} \thinspace und \thinspace (1-\frac {\alpha} {2}))$
+
+

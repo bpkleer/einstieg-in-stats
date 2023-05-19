@@ -1,0 +1,32 @@
+---
+title: "Beispiel ungleiche Varianzen"
+weight: 213
+tags: ["t-test", "ungleiche varianzen", "mittelwertvergleich", "lernvideo"]
+---
+
+<script src="/stats101/LM4/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>Nun wollen wir ein Beispiel für einen <span class="math inline">\(t\)</span>-Test mit unabhängigen Stichproben, aber ungleichen Varianzen berechnen. Dieser Test wird auch Welch-Test oder <span class="math inline">\(t\)</span>-Test mit Welch-Korrektur genannt.
+Aus einer weiteren Stichprobe haben wir folgende Werte, wobei Varianzgleichheit zwischen den Gruppen nicht gegeben ist.</p>
+<p>Frauen: <span class="math inline">\(\bar{x}_1 = 34.14084, s_1 = 5.89673, n_1 = 884\)</span></p>
+<p>Männer: <span class="math inline">\(\bar{x}_2 = 43.64809, s_2 = 11.541511, n_2 = 1023\)</span></p>
+<p>Der empirische <span class="math inline">\(t\)</span>-Wert berechnet sich wie folgt:</p>
+<p><span class="math inline">\(t_{emp} = \frac{\bar{x}_1 - \bar{x}_2}{\sqrt{\frac{s^2_1}{n_1} + \frac{s^2_2}{n_2}}}\)</span></p>
+<p>Die Anzahl der Freiheitsgrade berechnet sich bei ungleichen Varianzen wie folgt:</p>
+<p><span class="math inline">\(\nu = \frac{(\frac{s^2_1}{n_1}+ \frac{s^2_2}{n_2})^2}{\frac{(\frac{s^2_1}{n_1})^2}{n_1-1} + \frac{(\frac{s^2_2}{n_2})^2}{n_2-1}}\)</span></p>
+<p>Setzen wir die Werte in die Formel ein:</p>
+<p><span class="math inline">\(t_{emp} = \frac{34.14084 - 43.64809}{\sqrt{\frac{5.89673}{884} + \frac{11.541511}{1023}}} \approx -23.089\)</span></p>
+<p><span class="math inline">\(\nu = \frac{(\frac{5.89673}{884}+ \frac{11.541511}{1023})^2}{\frac{(\frac{5.89673}{884})^2}{884-1} + \frac{(\frac{11.541511}{1023})^2}{1023-1}} \approx 1567\)</span></p>
+<p>Nun müssen wir den Betrag der Prüfgröße (<span class="math inline">\(|t_{emp}|\)</span>) gegenüber dem kritischen Wert prüfen. Wir prüfen auf das <span class="math inline">\(99\%\)</span>-Niveau und haben insgesamt <span class="math inline">\(1567\)</span> Freiheitsgrade (<span class="math inline">\(\nu\)</span>). Wir führen einen einseitigen Test durch. Da die meisten <span class="math inline">\(t\)</span>-Tabellen nur bis <span class="math inline">\(1000\)</span> Freiheitsgrade verzeichnet sind nehmen wir approximativ den kritischen Wert an der Stelle <span class="math inline">\(t_{krit(\nu=1000; p =0.99)}\)</span>.</p>
+<p>Der kritische Wert beträgt an der genannten Stelle:</p>
+<p><span class="math inline">\(t_{krit_{(\nu=1000; p=0.99)}} = 2.330\)</span>.</p>
+<p>Damit das errechnete Ergebnis der Signifikanz gilt, muss:</p>
+<p><span class="math inline">\(|t_{emp} | &gt; t_{krit}\)</span></p>
+<p>Im Beispiel ist dies erfüllt: <span class="math inline">\(|-20.313| &gt; 2.330\)</span></p>
+<p>Wir können somit schlussfolgern, dass Frauen im Mittel <span class="math inline">\(6.909\)</span> Stunden weniger als Männer in Erwerbsarbeit tätig sind.</p>
+<p>Hier ein weiteres Beispiel im Video:</p>
+<center>
+<iframe src="https://player.vimeo.com/video/512532522?quality=720p&amp;dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer">
+</iframe>
+</center>

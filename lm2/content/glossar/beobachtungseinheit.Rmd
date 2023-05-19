@@ -1,0 +1,10 @@
+---
+title: "Beobachtungseinheit"
+---
+
+Die Beobachtungseinheit ist der Merkmalsträger bzw. im Speziellen sind es die Objekte, an denen etwas beobachtet wird.
+Hierbei werden zwei Analyseebenen unterschieden: Die Mikro-(Verlinkung) und die Makroebene(Verlinkung).
+
+Eine Wahlstudie beobachtet das Wahlverhalten von Individuen, damit ist die Beobachtungseinheit das Individuum (Mikroebene).
+
+

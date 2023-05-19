@@ -1,0 +1,7 @@
+---
+title: "bimodale Verteilung"
+---
+
+Verteilung mit zwei Modalwerten, also zwei Ausprägungen, die beide am häufigsten vorkommen.
+
+

@@ -1,0 +1,7 @@
+---
+title: "Regressionskoeffizienten"
+---
+
+Einflussfaktoren einzelner unabhängiger Variable auf abhängige Variable (unter Konstanthalten der anderen unabhängigen Variablen); es wird unterschieden zwischen standardisierten und nicht-standardisierten Regressionskoeffizienten
+
+

@@ -1,0 +1,10 @@
+---
+title: "Mittelwert"
+---
+
+auch arithmetisches Mittel; Maß der zentralen Tendenz; stellt den Durchschnittswert der Verteilung dar und daher muss das Merkmal mind. intervallskaliert sein. Es werden alle erhobenen Werte aufsummiert und dann durch die Anzahl der vorhandenen Werte geteilt.
+Der Mittelwert wird durch Ausreißer und Extremwerte stark beeinflusst, da alle Werte gleichermaßen und ungewichtet in die Berechnung einbezogen werden.
+
+Formel zur Berechnung: $\bar{x}=\frac {1} {n} * \sum_{i=1} ^n x_i$
+
+

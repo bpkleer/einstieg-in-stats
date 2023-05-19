@@ -1,0 +1,7 @@
+---
+title: "Inferenzstatistik"
+---
+
+Mithilfe der Inferenzstatistik können Rückschlüsse aus einer zufallsbasierten Stichprobe auf die Grundgesamtheit übertragen. Hierbei werden i.d.R. Hypothesen- bzw. Signifikanztests durchgeführt.
+
+

@@ -1,0 +1,9 @@
+---
+title: "Standardfehler"
+---
+
+Mathematische Rechengröße; bei Stichproben auch Stichprobenfehler genannt; Standardabweichung der einzelnen Stichproben
+Weitere Erklärungen im Web-Based-Training hier
+
+
+

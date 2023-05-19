@@ -1,0 +1,7 @@
+---
+title: "Ordinary-Least-Squares-Verfahren"
+---
+
+auch OLS-Verfahren; auch kleinste-Quadrate-Verfahren genannt; Berechnungsmethode der linearen Regression; Regressionsgerade wird über Minimierung der Summe der Abweichungen der Residuen geschätzt.
+
+

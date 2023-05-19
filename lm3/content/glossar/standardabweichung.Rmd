@@ -1,0 +1,10 @@
+---
+title: "Standardabweichung"
+---
+
+Streuungsmaß; Angabe mit $\sigma$; wird berechnet als Wurzel aus der Varianz ($\sigma=\sqrt{\sigma^2}$; gibt die durchschnittliche Abweichung vom Mittelwert der Verteilung an (in der Maßeinheit der Variablen).
+Für die Berechnung einer Standardabweichung aus einer Stichprobe wird die Bessel-Korrektur angewendet ($\frac{1}{n-1}$):
+$s = \sqrt{\frac{1}{n-1}*s^2}$
+
+
+

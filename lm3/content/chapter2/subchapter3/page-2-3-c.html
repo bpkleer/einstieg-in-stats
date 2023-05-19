@@ -1,0 +1,67 @@
+---
+title: "Eta-Quadrat"
+weight: 233
+tags: ["eta-qudrat", "pre maß"]
+---
+
+<script src="/stats101/LM3/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>Mit <span class="math inline">\(\eta^2\)</span> ist ein <a href="../../../glossar/premass/index.html">PRE-Maß</a> und wird angewendet, um den Zusammenhang zweier Merkmale, von denen eine Variable ein <a href="../../../glossar/metrischesskalenniveau/index.html">metrisches Skalenniveau</a> aufweist und die andere ein <a href="../../../glossar/nominalskala/index.html">nominales Skalenniveau</a> besitzt.</p>
+<p><span class="math inline">\(\eta^2\)</span> beruht auf der Zerlegung der Quadratsummen: Wir können die <em>Gesamt-Quadratsumme</em> in zwei Teile zerlegen. Zum einen wird die <em>Quadratsumme innerhalb der Gruppen</em> (der nominalen oder ordinalen Variable) gebildet. Dies ist die Summe der quadrierten Abweichungen der Werte in den einzelnen Gruppen vom Gruppenmittelwert. Zum anderen kann die Summe der quadrierten Abweichungen der Gruppenmittelwerte vom Gesamtmittelwert gebildetet werden. Dies stellt die <em>Quadratsumme zwischen den Gruppen</em> dar.</p>
+<p>Für <span class="math inline">\(\eta^2\)</span> gilt folgendes:
+<span class="math inline">\(\eta^2 = \frac {QS_{zwischen}}{QS_{gesamt}}= \frac{QS_{zwischen}}{QS_{zwischen} + QS_{in}}\)</span></p>
+<p>Gibt es keine Unterschiede zwischen den Gruppen, so erreicht man auch bei Kenntnis der Gruppenzugehörigkeit keine Verbesserung der Vorhersage (<span class="math inline">\(QS_{zwischen} = 0\)</span>). Je größer aber die Unterschiede zwischen den Gruppen (<span class="math inline">\(QS_{zwischen} &gt; 0\)</span>) relativ zu den Unterschieden innerhalb der Gruppen sind, desto besser wird die Vorhersage.</p>
+<p>Für die Interpretation von <span class="math inline">\(\eta^2\)</span> gelten folgende Daumenregeln (Cohen 1998):</p>
+<ul>
+<li><p><span class="math inline">\(\eta^2 &lt; 0.01\)</span> kein Zusammenhang</p></li>
+<li><p><span class="math inline">\(0.01 \leq \eta^2 &lt; 0.04\)</span> geringer Zusammenhang</p></li>
+<li><p><span class="math inline">\(0.04 \leq \eta^2 &lt; 0.16\)</span> mittlerer Zusammenhang und</p></li>
+<li><p><span class="math inline">\(0.16 \leq \eta^2\)</span> starker Zusammenhang</p></li>
+</ul>
+<p>Nehmen wir dazu ein Rechenbeispiel auf: Wir möchten den Zusammenhang zwischen Zufriedenheit mit der Demokratie und dem Geschlecht prüfen. Zu Illustatrionszwecken nehmen wir folgendes Beispiel der Tabelle auf:</p>
+<div class="figure">
+<img src="../images/eta-tabelle.png" alt="" />
+<p class="caption">Beispiel Eta</p>
+</div>
+<p>Zur Berechnung von <span class="math inline">\(\eta^2\)</span> gehen wir in vier Schritten vor:</p>
+<ol style="list-style-type: decimal">
+<li><p>Mittelwerte berechnen</p></li>
+<li><p>quadrierte Abweichungen innerhalb der Gruppen berechnen und summieren (<span class="math inline">\(QS_{in}\)</span>)</p></li>
+<li><p>quadrierte Abweichungen der Gruppenmittelwerte vom Gesamtmittelwert berechnen und summieren (<span class="math inline">\(QS_{zwischen}\)</span>)</p></li>
+<li><p><span class="math inline">\(\eta^2\)</span> berechnen</p></li>
+<li><p>Mittelwerte berechnen</p></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>Frauen
+<span class="math inline">\(\bar{x}_w = \frac{5.5 + 4.5 + 5.2 + 4.9}{4} = 5.025\)</span></li>
+<li>Männer
+<span class="math inline">\(\bar{x}_m = \frac{7.2 + 8.1 + 7.8 + 8.4}{4} = 7.875\)</span></li>
+<li>gesamt
+<span class="math inline">\(\bar{x} = \frac{5.5+4.5+5.2+4.9+7.2+8.1+7.8+8.4}{8} = 6.45\)</span></li>
+</ol>
+<ol start="2" style="list-style-type: decimal">
+<li>quadrierte Abweichungen innerhalb der Gruppen berechnen und summieren (<span class="math inline">\(QS_in\)</span>)</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>Frauen
+<span class="math inline">\(QS_{in_w}= (5.5 - 5.025)^2 + (4.5 - 5.025)^2 + ( 5.2 - 5.025)^2 + (4.9 - 5.025)^2 = 0.5475\)</span></li>
+<li>Männer
+<span class="math inline">\(QS_{in_m} = (7.2 - 7.875)^2 + (8.1-7.875)^2 +(7.8-7.875)^2 + (8.4-7.875)^2 = 0.7875\)</span></li>
+</ol>
+<p><strong>Summe</strong> <span class="math inline">\(QS_{in} = QS_{in_w} + QS_{in_m} = 0.5475 + 0.7875 = 1.335\)</span></p>
+<ol start="3" style="list-style-type: decimal">
+<li>quadrierte Abweichungen der Gruppenmittelwerte vom Gesamtmittelwert berechnen und summieren (<span class="math inline">\(QS_{zwischen}\)</span>)</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>Frauen
+<span class="math inline">\(n_w * (\bar{x_w} - \bar{x})^2= 4 * (5.025-6.45)^2 = 8.1225\)</span></li>
+<li>Männer
+<span class="math inline">\(n_m * (\bar{x_m} - \bar{x})^2= 4 * (7.875-6.45)^2 = 8.1225\)</span></li>
+</ol>
+<p><strong>Summe</strong>: <span class="math inline">\(QS_{zwischen} = 8.1225 + 8.1225 = 16.245\)</span></p>
+<ol start="4" style="list-style-type: decimal">
+<li><span class="math inline">\(\eta^2\)</span> berechnen
+<span class="math inline">\(\eta^2 = \frac {QS_{zwischen}}{QS_{gesamt}} = \frac {QS_{zwischen}}{QS_{zwischen} + QS_{in}}= \frac{16.245}{16.245 + 1.335} \approx 0.924\)</span></li>
+</ol>
+<p>Wir haben also ein <span class="math inline">\(\eta^2 \approx 0.924\)</span>, das auf einen starken Zusammenhang hinweist. Dies liegt u.a. daran, dass wir in den Gruppen kaum Varianz vorliegen haben.</p>

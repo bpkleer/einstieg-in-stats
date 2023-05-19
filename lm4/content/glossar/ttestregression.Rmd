@@ -1,0 +1,7 @@
+---
+title: "t-Test (Regression)"
+---
+
+testet die Signifikanz der einzelnen Regressionskoeffizienten gegen die Nullhypothese, dass diese je 0 sind $(H_0: \beta_i=0)$; beruht auf t-Verteilung;
+
+

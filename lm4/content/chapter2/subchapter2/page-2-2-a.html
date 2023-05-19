@@ -1,0 +1,94 @@
+---
+title: "Berechnung mit Rohwerten"
+weight: 221
+tags: ["t-test", "gepaart", "mittelwertvergleich", "lernvideo"]
+---
+
+
+
+<p>Dazu nehmen wir folgendes Beispiel an: In einem Landtag wurde ein neues Bildungsprogramm für Schulen initiiert, dass u.a. das politische Wissen der teilnehmenden Schüler:innen steigern soll. Dazu wurde vor der Teilnahme und nach der Teilnahme jeweils das politische Wissen gemessen. Von jeder Schüler:in liegen also zwei Messwerte vor: einmal das politische Wissen vor der Teilnahme (<span class="math inline">\(x_1\)</span>) und einmal das politische Wissen nach der Teilnahme (<span class="math inline">\(x_2\)</span>).</p>
+<p>Wir haben folgende Messwerte für 5 fiktive Schüler:innen: <span class="math inline">\(x_1\)</span> ist der Messwert vor der Teilnahme, <span class="math inline">\(x_2\)</span> der Messwert nach der Teilnahme und <span class="math inline">\(d\)</span> die Differenz zwischen <span class="math inline">\(x_1\)</span> und <span class="math inline">\(x_2\)</span>.</p>
+<center>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Schüler-ID</th>
+<th align="center"><span class="math inline">\(x_1\)</span></th>
+<th align="center"><span class="math inline">\(x_2\)</span></th>
+<th align="center"><span class="math inline">\(d\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><span class="math inline">\(1\)</span></td>
+<td align="center"><span class="math inline">\(4\)</span></td>
+<td align="center"><span class="math inline">\(7\)</span></td>
+<td align="center"><span class="math inline">\(-3\)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><span class="math inline">\(2\)</span></td>
+<td align="center"><span class="math inline">\(8\)</span></td>
+<td align="center"><span class="math inline">\(8\)</span></td>
+<td align="center"><span class="math inline">\(0\)</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span class="math inline">\(3\)</span></td>
+<td align="center"><span class="math inline">\(3\)</span></td>
+<td align="center"><span class="math inline">\(9\)</span></td>
+<td align="center"><span class="math inline">\(-6\)</span></td>
+</tr>
+<tr class="even">
+<td align="left"><span class="math inline">\(4\)</span></td>
+<td align="center"><span class="math inline">\(2\)</span></td>
+<td align="center"><span class="math inline">\(6\)</span></td>
+<td align="center"><span class="math inline">\(-4\)</span></td>
+</tr>
+<tr class="odd">
+<td align="left"><span class="math inline">\(5\)</span></td>
+<td align="center"><span class="math inline">\(7\)</span></td>
+<td align="center"><span class="math inline">\(10\)</span></td>
+<td align="center"><span class="math inline">\(-3\)</span></td>
+</tr>
+</tbody>
+</table>
+</center>
+<p>Die Formel zur Berechnung des <span class="math inline">\(t\)</span>-Tests für abhängige Stichproben lautet wie folgt:</p>
+<p><span class="math inline">\(t_{emp} = \frac{\bar{x}_d - \mu_d}{\hat{\sigma}_{\bar{x}_d}} = \frac{\bar{x}_d - 0}{\hat{\sigma}_{\bar{x}_d}} = \frac{\bar{x}_d}{\hat{\sigma}_{\bar{x}_d}}\)</span></p>
+<p>mit <span class="math inline">\(\hat{\sigma}_{\bar{x}_d} = \frac{\hat{\sigma}_d}{\sqrt{n}}\)</span></p>
+<p>und <span class="math inline">\(\hat{\sigma}_d = \frac{\sum_{i=1}^n (d_i - \bar{x}_d)^2}{n-1}\)</span></p>
+<p>und <span class="math inline">\(d_i = x_{1_i} - x_{2_i}\)</span></p>
+<p>und <span class="math inline">\(\bar{x}_d = \frac{1}{n}\sum_{i=1}^n {x_{1_i} - x_{2_i}}\)</span></p>
+<p>Die Freiheitsgrade (<span class="math inline">\(\nu\)</span>) ergeben sich aus <span class="math inline">\(\nu = 2*n-2\)</span>, wobei <span class="math inline">\(n\)</span> die Größe einer Gruppe ist. Bei abhängigen Stichproben muss die Gruppengröße gleich sein.</p>
+<p>Berechnen wir nun den <span class="math inline">\(t\)</span>-Test für abhängige Stichproben:</p>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(\bar{x}_d\)</span></li>
+</ol>
+<p><span class="math inline">\(\bar{x}_d = \frac{1}{n}\sum_{i=1}^n {x_{1_i} - x_{2_i}} = \frac{1}{5}*((-3) + 0 + (-6) + (-4) + (-3)) = -3.2\)</span></p>
+<ol start="2" style="list-style-type: decimal">
+<li><span class="math inline">\(\hat{\sigma}_d\)</span></li>
+</ol>
+<p><span class="math inline">\(\hat{\sigma}_d = \frac{\sum_{i=1}^n (d_i - \bar{x}_d)^2}{n-1} = \frac{(-3-(-3.2))^2+(0-(-3.2))^2 +(-6-(-3.2))^2+(-4-(-3.2))^2+(-3-(-3.2))^2}{5-1} = 4.7\)</span></p>
+<ol start="3" style="list-style-type: decimal">
+<li><span class="math inline">\(\hat{\sigma}_{\bar{x}_d}\)</span></li>
+</ol>
+<p><span class="math inline">\(\hat{\sigma}_{\bar{x}_d} = \frac{\hat{\sigma}_d}{\sqrt{n}} = \frac{4.7}{\sqrt{5}} \approx 2.102\)</span></p>
+<ol start="4" style="list-style-type: decimal">
+<li><span class="math inline">\(t_{emp}\)</span></li>
+</ol>
+<p><span class="math inline">\(t_{emp} = \frac{\bar{x}_d}{\hat{\sigma}_{\bar{x}_d}} = \frac{-3.2}{2.102} \approx -1.552\)</span></p>
+<ol start="5" style="list-style-type: decimal">
+<li><span class="math inline">\(\nu\)</span></li>
+</ol>
+<p><span class="math inline">\(\nu = 2 * n - 2 = 2 * 5 -2 = 8\)</span></p>
+<p>Auch hier würde man nun den empirischen <span class="math inline">\(t\)</span>-Wert am kritischen <span class="math inline">\(t\)</span>-Wert überprüfen. Dies werden wir hier nur zu Illustrationszwecken machen. Wir prüfen auf das <span class="math inline">\(90\%\)</span>-Niveau und haben insgesamt <span class="math inline">\(8\)</span> Freiheitsgrade (<span class="math inline">\(\nu\)</span>). Wir führen einen zweiseitigen Test durch. Der kritische <span class="math inline">\(t\)</span>-Wert an dieser Stelle ist <span class="math inline">\(t_{krit(\nu=8; p = 0.95)} = 1.860\)</span>.</p>
+<p>Der kritische Wert beträgt an der genannten Stelle:</p>
+<p><span class="math inline">\(t_{krit_{(\nu=8; p=0.95)}} = 1.860\)</span>.</p>
+<p>Damit das errechnete Ergebnis der Signifikanz gilt, muss:</p>
+<p><span class="math inline">\(|t_{emp} | &gt; t_{krit}\)</span></p>
+<p>Im Beispiel ist dies nicht erfüllt: <span class="math inline">\(|-1.552| &gt; 1.860\)</span></p>
+<p>Wir haben also kein signifikantes Ergebnis in diesem Beispiel.</p>
+<p>Hier ein weiteres Beispiel im Video:</p>
+<center>
+<iframe src="https://player.vimeo.com/video/512539180?quality=720p&amp;dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer">
+</iframe>
+</center>

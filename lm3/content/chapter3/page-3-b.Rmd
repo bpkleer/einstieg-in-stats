@@ -1,0 +1,29 @@
+---
+title: "Standardnormalverteilung"
+weight: 302
+tags: ["standardnormalverteilung","verteilung"]
+bibliography: [../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../static/files/apa.csl]
+---
+
+Als besondere Form der [Normalverteilung](../../glossar/normalverteilung/index.html) gibt es noch die **Standardnormalverteilung**: Diese liegt vor, wenn Erwartungswert $\mu = 0$ ist und die Varianz $\sigma^2 = 1$ und die [Standardabweichung](../../glossar/standardabweichung/index.html) $\sigma = 1$ ist.
+
+Man erreicht eine **Standardnormalverteilung** durch eine Transformation der Rohwerte. Diese Transformation wird [z-Transformation](../../glossar/ztransformation/index.html) genannt. Mit Hilfe der z-Transformation kann auf die relative Position innerhalb einer Verteilung geschlossen werden. Der numerische Wert informiert über die Distanz zwischen dem Rohwert und dessen [Mittelwert](../../glossar/mittelwert/index.html) in der Einheit Standardabweichungen. Ein z-Wert von 1.33 bedeutet, dass der Rohwert 1.33 Standardabweichungen vom Mittelwert ($z$-Wert = 0) abweicht. Das Vorzeichen des z-Wertes gibt dabei an, ob sich der jeweilige Wert unterhalb ($-$) oder oberhalb ($+$) des Mittelwertes ($\bar{x}$) befindet.
+
+Gleichzeitig gehen aber Informationen über die absoluten Abstände zwischen den Messwerten verloren. Die z-Transformation weist immer die exakt gleiche Form wie die Originalverteilung auf.
+
+Die z-Transformation erfolgt nach der Formel:
+$z_{i} = \frac { (x_{i} - \bar{x})} {s}$
+
+Vom entsprechenden $x$-Wert wird der Mittelwert ($\bar{x}$) subtrahiert und das Ergebnis durch die Standardabweichung ($s$) dividiert. Abschließend erhält man dann eine z-transformierte Verteilung (**Standardnormalverteilung**) mit Mittelwert von $\bar{x} = 0$ und Standardabweichung von $s=1$ sowie [Varianz](../../glossar/varianz/index.html) von $s^2=1$.
+
+Bei der Transformation wird vereinfacht gesagt, die Differenz eines gemessenen Wertes vom Mittelwert an der Standardabweichung relativiert wird. Dadurch erhält man die relative Position eines Wertes.
+
+Die Verteilungswerte der **Standardnormalverteilung** sind in nahezu jedem Statistikbuch abgedruckt und müssen für [Hypothesentests](../../glossar/signifikanztest/index.html) ([siehe Lernmodul 4](https://lehre.bpkleer.de/stats101/LM4/)) nicht einzeln berechnet werden.
+
+{{% notice tip %}}
+Siehe auch: @Gehring2009 [Kapitel 10.3.1].
+{{% /notice %}}

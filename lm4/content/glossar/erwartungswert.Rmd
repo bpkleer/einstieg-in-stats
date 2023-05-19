@@ -1,0 +1,7 @@
+---
+title: "Erwartungswert"
+---
+
+Grundbegriff der Wahrscheinlichkeitsrechnung; griechischer Buchstabe $\mu$; Erwartungswert ist der Wert, die die untersuchte Variable im Mittelwert in der Population annimmt (in Abhängigkeit der Verteilungsform der Variablen)
+
+

@@ -1,0 +1,10 @@
+---
+title: "absolute Häufgkeit"
+---
+
+Darstellung der tatsächlich beobachteten Häufigkeiten einer Merkmalsausprägung;
+
+Beispiel: fünf Personen haben grüne Augen, d.h. die absolute Häufigkeit der Merkmalsausprägung grün auf dem Merkmal der Augenfarbe beträgt fünf.
+
+Als Zeichen der beobachteten Häufigkeiten wird $f_{x_{k}}$ verwendet.
+

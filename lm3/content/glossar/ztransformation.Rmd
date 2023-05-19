@@ -1,0 +1,8 @@
+---
+title: "z-Transformation"
+---
+
+notwendig, um Normalverteilung in Standardnormalverteilung zu überführen; Transformationsregel: $z_i = \frac{x_i - \bar{x}}{s}$ ; z-Werte geben relative Position zum Mittelwert in Standardabweichungen an
+
+
+

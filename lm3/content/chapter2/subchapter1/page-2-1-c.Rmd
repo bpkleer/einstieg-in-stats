@@ -1,0 +1,55 @@
+---
+title: "Lambda"
+weight: 213
+tags: ["lambda", "pre maß"]
+---
+
+Mit $\lambda$ ist ein [PRE-Maß](../../../glossar/premass/index.html) und wird angewendet, um den Zusammenhang zweier Merkmale, deren Skalenniveau mindestens [nominal](../../../glossar/nominalskala/index.html) ist, in einer Kreuztabelle zu überprüfen. 
+
+Hierzu nehmen wir wieder das Beispiel von vorher auf (Wahl der CDU in Abhängigkeit des Wohnorts). Wichtig: Die Wahl der CDU war unsere [abhängige Variable](../../../glossar/abhaengigevariable/index.html) und der Wohnort die unabhängige Varible.
+
+<center>
+
+![Beispiel Kontingenztabelle](../images/chi-kontingenz.png){Width=50%}
+
+</center>
+
+Um $\lambda$ zu berechnen, benötigen wir drei Schritte:
+
+1. Vorhersagefehler der abhängigen Variable ohne Kenntnis der unabhängigen Variable
+
+2. Vorhersagefehler der abhängigen Variable mit Kenntnis der unabhängigen Variable
+
+3. Ermittlung des PRE-Maßes
+
+**1. Prognose des Wertes der abhängigen Variable ohne Kenntnis der unabhängigen Variable**
+<br>
+
+Hierzu suchen wir die Modalkategorie der zwei Kategorien: *CDU* und *Nicht-CDU*. In diesem Beispiel liegen für den Fall *CDU* 450 Beobachtungen vor und für den Fall *Nicht-CDU* 550. Die Modalkategorie ist daher *Nicht-CDU*.
+Der Vorhersagefehler $E_1$ wird wie folgt berechnet: 
+$E_1 = 1 - \frac {f_{x_M}}{n}$, wobei gilt $M = Modalkategorie$
+
+im Beispiel also: 
+
+$$\begin{align*} E_1 &= 1-\frac{f_{x_{Nicht-CDU}}}{n} \\ &= 1- \frac{550}{1000} \\ &= 1- 0.55 \\ &= 0.45 \end{align*}$$
+
+Der Vorhersagefehler ohne Kenntnis der unabhängigen Variable beträgt also $E_1 = 0.45$ also 45 %.
+
+**2. Prognose des Wertes der abhängigen Variable mit Kenntnis der unabhängigen Variable**
+<br>
+
+Die Vorhersage unter Kenntnis des Zusammenhangs ist die Modalkategorie der abhängigen Variable in Abhängigkeit von den kategorien der unabhängigen Variablen. Pro Spalte wird also die Modalkategorie festgelegt und davon der Vorhersagefehler berechnet. Diese werden dann über alle Spalte summiert und ergeben $E_2$. Der Vorhersagefehler berechnet sich daher wie folgt:
+$E_2 = \sum_j \frac{h_{.j}}{n} (1- \frac{h_{Mj}}{h_{.j}})$
+
+im Beispiel also 
+$$ \begin{align*} E_2 &= \sum_j \frac{h_{.j}}{n} (1- \frac{h_{Mj}}{h_{.j}}) \\ &=  (\frac{500}{1000} (1-\frac{400}{500})) + (\frac{500}{1000}(1-\frac{350}{500})) \\ &= 0.25 \end{align*}$$
+
+Der Vorhersagefehler unter Kenntnis der unabhängigen Variable beträgt also $E_2 = 0.25$
+
+**3. Ermittlung des PRE-Maßes**
+<br>
+
+Nun können wir $\lambda$ berechnen:
+$$ \begin{align*} \lambda &= \frac{E_1 -E_2}{E_1} \\ &= \frac{0.45 - 0.25}{0.45} \\ &= \frac{0.20}{0.45} \\ &\approx 0.444 \end{align*}$$
+
+**Ergebnis**: Unter Kenntnis des Wohnorts verringert sich der Fehler bei der Prognose der Wahl der CDU um 44 %.

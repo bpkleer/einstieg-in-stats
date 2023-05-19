@@ -1,0 +1,34 @@
+---
+title: "Bestimmtheitsmaß"
+weight: 311
+tags: ["bestimmtheitsmaß", "$r^2$", "regression"]
+---
+
+
+
+<p>Um zu messen, wie aussagekräftig die <strong>Regression</strong> ist, wird über eine Varianzzerlegung das <strong>Bestimmtheitsmaß</strong> <span class="math inline">\(R^2\)</span> bestimmt. Vereinfacht dargestellt beschreibt <span class="math inline">\(R^2\)</span> den Anteil der erklärten Varianz am Gesamtanteil.</p>
+<p>Umgangssprachlich könnte man sagen, dass <span class="math inline">\(R^2\)</span> angibt, wie viel die unabhängigen Variablen (an der Varianz) der abhängigen Variable erklären. Es ist somit ein Maß der Güte des Modells. Das Ziel ist es, ein Modell zu finden, dass möglichst einen großen Anteil der Varianz einer abhängigen Variable erklären kann (also ein hohes <span class="math inline">\(R^2\)</span> aufweist).</p>
+<p><span class="math inline">\(R^2\)</span> kann Werte zwischen <span class="math inline">\(0\)</span> und <span class="math inline">\(1\)</span> annehmen. Ein <span class="math inline">\(R^2=1\)</span> gibt an, dass das Modell die komplette Varianz der abhängigen Variable erklärt, ein <span class="math inline">\(R^2=0\)</span> gibt an, dass das Modell keinen Anteil an der Erklärung der Varianz der abhängigen Variable hat. In diesem Fall ist das Modell unbrauchbar.</p>
+<p>Die Varianzzerlegung zerlegt den Anteil der Varianz des Gesamtmodells auf die Schätzung (Regressionsgerade) und die Residuen.</p>
+<p>Die Formel ist folgende:
+Varianzzerlegung: <span class="math inline">\(\sum\limits_{i=1}^n (y_i - \bar{y})^2 = \sum\limits_{i=1}^n (\hat{y}_i - \bar{y})^2 + \sum\limits_{i=1}^n (y_i - \hat{y}_i)^2\)</span>
+<span class="math inline">\(SS_{total} = SS_{model} + SS_{residual}\)</span></p>
+<p><span class="math inline">\(SS_Y = SS_X + SS_e\)</span></p>
+<p><span class="math inline">\(\hat{y}_i: \thinspace geschätzte \thinspace Werte, \thinspace y_i: \thinspace beobachtete \thinspace Werte, \thinspace \bar{y}: \thinspace Mittelwert \thinspace der \thinspace beobachteten \thinspace Werte\)</span></p>
+<p>Das <strong>Bestimmtheitsmaß</strong> <span class="math inline">\(R^2\)</span> errechnet sich dann wie folgt:</p>
+<p><span class="math inline">\(R^2 = \frac {SS_{model}} {SS_{total}}\)</span>, wobei <span class="math inline">\(R^2 \in [0;1]\)</span></p>
+<p>Bei multivariaten Regressionsmodellen wird <span class="math inline">\(R^2\)</span> um die Anzahl der Beobachtungen angepasst und als korrigiertes <span class="math inline">\(\thinspace R^2\)</span> ausgegeben.
+Die Formel des <span class="math inline">\(korrigierten \thinspace bzw. \thinspace angepassten \thinspace R^2\)</span> lautet:</p>
+<p><span class="math inline">\(R_{korr}^2 =1- \frac {(1-R^2) \ast (n-1)} {(n-p-1)}\)</span>.</p>
+<p>Dies ist notwendig, da <span class="math inline">\(R^2\)</span> allein aufgrund der Hinzunahme weiterer Variablen steigt.</p>
+<p>Sehen wir uns nun an unserem Beispiel den Auszug des multivariaten linearen Regressionsmodells für Zufriedenheit mit Demokratie aus dem Statistikprogramm SPSS und R an.</p>
+<div class="figure">
+<img src="../images/spss-multi-modell.png" alt="" />
+<p class="caption">Modellblock lineare Regression (SPSS)</p>
+</div>
+<div class="figure">
+<img src="../images/r-reg-multi.PNG" alt="" />
+<p class="caption">Modell lineare Regression (R)</p>
+</div>
+<p>In der Modellübersicht in SPSS sehen wir die Angabe von <span class="math inline">\(R^2\)</span> und dem <span class="math inline">\(angepassten\thinspace R^2\)</span>. Da es sich um ein multivariates Modell handelt, müssen wir letzteres interpretieren. Der Wert des <span class="math inline">\(angepassten\thinspace R^2\)</span> beträgt <span class="math inline">\(0.976\)</span>. Das heißt, dass unser Modell mit den unabhängigen Variablen politisches Interesse und Alter <span class="math inline">\(97.6 \%\)</span> der Varianz der abhängigen Variable politisches Wissen erklärt. Bitte beachten Sie, dass dieser Wert untypisch hoch ist. Wir haben hier einen Trainings-Datensatz, um das Beispiel zu veranschaulichen. Mit real erhobenen Datensätzen liegen diese Werte in der Regel zwischen <span class="math inline">\(0.15\)</span> und <span class="math inline">\(0.6\)</span>.</p>
+<p>Im Modell in R wird <span class="math inline">\(R^2\)</span> in der vorletzten Zeile ausgegeben. Auch hier nehmen wir den Wert des <em>Adjusted</em> <span class="math inline">\(R^2\)</span>, der hier mit <span class="math inline">\(0.9761\)</span> angegeben ist (also um eine Nachkommastelle genauer).</p>

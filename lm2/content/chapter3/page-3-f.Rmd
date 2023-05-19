@@ -1,0 +1,13 @@
+---
+title: "Lernvideo zu Streumaßen"
+weight: 306
+tags: ["streumasse", "lernvideo"]
+---
+
+In diesem Lernvideo werden die hier vorgestellten Streumaße an einem Rechenbeispiel erklärt.
+
+<center>
+
+<iframe src="https://player.vimeo.com/video/506075269?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+
+</center>

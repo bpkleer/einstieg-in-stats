@@ -1,0 +1,7 @@
+---
+title: "Stichprobenumfang"
+---
+
+Anzahl der Beobachtungseinheiten in einer Stichprobe.
+
+

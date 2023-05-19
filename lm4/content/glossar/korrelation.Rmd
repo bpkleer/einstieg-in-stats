@@ -1,0 +1,7 @@
+---
+title: "Korrelation"
+---
+
+beschreibt in allgemeiner Weise den Zusammenhang zwischen zwei Variablen; mithilfe des Korrelationskoeffizienten wird eine Kennzahl berechnet, die einfach interpretierbar ist.
+
+

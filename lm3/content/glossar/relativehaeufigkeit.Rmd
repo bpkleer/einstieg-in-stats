@@ -1,0 +1,8 @@
+---
+title: "relative Häufigkeit"
+---
+
+Anteil einer Ausprägung an der Gesamtanzahl; wird errechnet aus der absoluten Häufigkeit ($\frac {f_{x_k}} {n}$); gibt somit den Anteil der Elemente einer Menge wieder, bei denen eine bestimmte Merkmalsausprägung vorliegt.
+
+
+

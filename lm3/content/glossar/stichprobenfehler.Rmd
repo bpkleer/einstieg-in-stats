@@ -1,0 +1,9 @@
+---
+title: "Stichprobenfehler"
+---
+
+Auch *sampling error* genannt; zufällige Abweichung des Stichprobenkennwertes vom wahren Wert μ der Grundgesamtheit; beinhaltet die Diskrepanz zwischen den Stichprobenkennwert und den Erwartungswert der Population
+Formel: $\sigma_\bar{x} = \sqrt{ \frac{\sigma^2_x}{n}} = \frac{\sigma_x}{\sqrt{n}}$
+
+
+

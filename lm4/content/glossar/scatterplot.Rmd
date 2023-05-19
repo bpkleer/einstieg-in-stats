@@ -1,0 +1,7 @@
+---
+title: "Scatterplot"
+---
+
+auch Streudiagramm genannt; S. zwischen zwei Variablen; wird insbesondere bei Zusammenhang zwischen metrischen Variablen genutzt; wird zur Kontrolle der Linearität und Monotonie bei Pearson-Korrelation genutzt.
+
+

@@ -1,0 +1,67 @@
+---
+title: "Perzentile"
+weight: 205
+tags: ["lagemasse", "perzentil", "quartil"]
+bibliography: [../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../static/files/apa.csl]
+---
+
+<script src="/stats101/LM2/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p><strong>Perzentile</strong> teilen die <a href="../../glossar/merkmalsauspraegung/index.html">Ausprägungen</a> der <a href="../../glossar/variable/index.html">Variablen</a> in gleich große Gruppen, sodass sich in jeder Gruppe der gleiche Prozentsatz an Werten befindet. Häufig genutzt werden die <strong>Quartile</strong> (= Viertel, jeweils <span class="math inline">\(25\%\)</span>). Bei <strong>Dezilen</strong> handelt es sich hingegen um Gruppen von jeweils <span class="math inline">\(10\%\)</span> der Werte.</p>
+<p><strong>Quartile</strong> teilen die Verteilung in vier gleich große Viertel: <span class="math inline">\(25\%\)</span> der Werte sind kleiner oder gleich groß mit dem <strong>1. Quartil oder unterem Quartil</strong> (<span class="math inline">\(\tilde{x}_{0.25}\)</span>), <span class="math inline">\(50\%\)</span> sind kleiner oder gleich groß wie das <strong>2. Quartil oder mittlere Quartil</strong>, das daher gleichzusetzen ist mit dem <a href="../../glossar/median/index.html">Median</a> (<span class="math inline">\(\tilde{x}_{0.5}=\tilde{x}\)</span>) und 75 % sind kleiner oder gleich groß mit dem <strong>3. Quartil oder obere Quartil</strong> (<span class="math inline">\(\tilde{x}_{0.75}\)</span>).</p>
+<p><strong>Quartile</strong> werden erst ab einer <a href="../../glossar/stichprobenumfang/index.html">Stichprobengröße</a> von zumindest <span class="math inline">\(20\)</span> (<span class="math inline">\(n=20\)</span>) eingesetzt.
+Die grundsätzliche Berechnung von <strong>Perzentilen</strong> ist wie folgt:</p>
+<p>Wenn <span class="math inline">\(n*p\)</span> ganzzahlig:</p>
+<p><span class="math display">\[\tilde{x}_p = \frac{1}{2} (x_{n*p} + x_{n*p+1})\]</span></p>
+<p>Wenn <span class="math inline">\(n*p\)</span> nicht ganzzahlig:</p>
+<p><span class="math display">\[\tilde{x}_p=x_{\lceil n*p \rceil}\]</span></p>
+<p>Für die <strong>Quartile</strong>, als gängigste Form der <strong>Perzentile</strong>, ergeben sich folgende Formeln:</p>
+<p>Wenn <span class="math inline">\(n*0.75\)</span> ganzzahlig:</p>
+<p><span class="math display">\[\tilde{x}_{0.75} = \frac{1}{2} (x_{n*0.75} + x_{n*0.75+1}))\]</span></p>
+<p>Wenn <span class="math inline">\(n*0.75\)</span> nicht ganzzahlig:</p>
+<p><span class="math display">\[\tilde{x}_{0.75}=x_{\lceil n*0.75 \rceil}⌉\]</span></p>
+<p>Wenn <span class="math inline">\(n*0.25\)</span> ganzzahlig:</p>
+<p><span class="math display">\[\tilde{x}_{0.75}=x_{\lceil n*0.75 \rceil}\]</span></p>
+<p>Wenn <span class="math inline">\(n*0.25\)</span> nicht ganzzahlig:</p>
+<p><span class="math display">\[\tilde{x}_{0.25}=x_{\lceil n*0.25 \rceil}⌉\]</span></p>
+<p>Das <strong>mittlere Quartil</strong> ist gleich dem <a href="../../glossar/median/index.html">Median</a>:</p>
+<p><span class="math display">\[\tilde{x}_{0.5}=\tilde{x}\]</span></p>
+<p>Dies berechnen wir kurz an einem Beispiel: Wir haben <span class="math inline">\(20\)</span> Studierende (<span class="math inline">\(n=20\)</span>) befragt nach der Anzahl der <em>politikwissenschaftlichen Bücher</em>, die sie jeweils besitzen.</p>
+<div class="figure">
+<img src="../images/perzentile.png" alt="" />
+<p class="caption">Häufigkeitstabelle</p>
+</div>
+<p>Für die Berechnung eines <strong>Perzentils</strong>, bzw. im genaueren Fall eines <strong>Quartils</strong>, müssen die Daten immer in eine geordnete Reihe gesetzt werden:</p>
+<p><span class="math display">\[1,3,4,4,5,5,7,7,7,9,9,11,12,17,18,18,24,24,31,31\]</span></p>
+<p><span class="math display">\[x_1, x_2, x_3, x_.4, x_5, x_6, x_7, x_8, x_9, x_{10}, x_{11}, x_{12}, x_{13}, x_{14}, x_{15}, x_{16}, x_{17}, x_{18}, x_{19}, x_{20}\]</span></p>
+<p>Um nun zu wissen, welche Formel wir für die <strong>Quartile</strong> berechnen müssen, müssen wir zuerst <span class="math inline">\(n∗p\)</span> berechnen.</p>
+<p><span class="math display">\[0.25*20=5\]</span></p>
+<p><span class="math display">\[0.5*20=10\]</span></p>
+<p><span class="math display">\[0.75*20=15\]</span></p>
+<p>Wir erhalten in allen Fällen ganzzahlige Ergebnisse, daher werden die <strong>Quartile</strong> wie folgt berechnet:</p>
+<p><span class="math display">\[\tilde{x}_{0.75} = \frac{1}{2} (x_{n*0.75} + x_{n*0.75+1})\]</span></p>
+<p><span class="math display">\[\tilde{x}_{0.25} = \frac{1}{2} (x_{n*0.25} + x_{n*0.25+1})\]</span></p>
+<p>Für das <strong>dritte</strong> <strong>Quartil</strong> (<span class="math inline">\(75\%\)</span>) ergibt sich daher:</p>
+<p><span class="math display">\[\tilde{x}_{0.75} = \frac{1}{2} (x_{n*0.75} + x_{n*0.75+1})=\frac{1}{2} \ast (x_{15} + x_{16})\]</span></p>
+<p>An der 15. bzw. 16. Stellen der geordneten Datenreihe ist:
+<span class="math inline">\(x_{15}=18\)</span> und <span class="math inline">\(x_{16}=18\)</span></p>
+<p><span class="math display">\[\tilde{x}_{0.75} = \frac{1}{2} \ast (x_{15} + x_{16})=\frac{1}{2} \ast (18+18)=18\]</span></p>
+<p>Das <strong>obere Quartil</strong> hat daher den Wert <span class="math inline">\(18\)</span> (<span class="math inline">\(\tilde{x}_{0.75}=18\)</span>).</p>
+<p>Für das <strong>untere Quartil</strong> ergibt sich ebenso:</p>
+<p><span class="math display">\[\tilde{x}_{0.25} = \frac{1}{2} (x_{20*0.25} + x_{20*0.25+1})=\frac{1}{2} \ast (x_5 + x_6)\]</span></p>
+<p>An der 5. bzw. 6. Stellen der geordneten Datenreihe ist:
+<span class="math inline">\(x_5=5\)</span> und <span class="math inline">\(x_6=5\)</span></p>
+<p><span class="math display">\[\tilde{x}_{0.25} =\frac{1}{2} \ast (x_5 + x_6)= \frac {1}{2} \ast (5+5) =5\]</span></p>
+<p>Der Wert des <strong>unteren Quartils</strong> ist daher <span class="math inline">\(5\)</span> (<span class="math inline">\(\tilde{x}_{0.25}=5\)</span>).</p>
+<p><span class="math inline">\(25\%\)</span> der Werte des Merkmals <em>Anzahl politikwissenschaftlicher Bücher</em> sind kleiner/gleich <span class="math inline">\(5\)</span> und <span class="math inline">\(75\%\)</span> der Werte des Merkmals sind kleiner/gleich <span class="math inline">\(18\)</span>.</p>
+<p>Bei ungeradem Wert von <span class="math inline">\(n*p\)</span> wird - entsprechend der Formel - der Wert aufgerundet.</p>
+<p>Wenn wir nur <span class="math inline">\(18\)</span> Beobachtungen hätten, wäre <span class="math inline">\(n*p=18*0.75=13.5\)</span> bzw. <span class="math inline">\(18*0.25=4.5\)</span>.</p>
+<p>Das <strong>obere Quartil</strong> wäre daher <span class="math inline">\(\tilde{x}_{0.75} = x_{\lceil 13.5 \rceil} =x_{14}\)</span> bzw. das <strong>untere Quartil</strong> wäre <span class="math inline">\(\tilde{x}_{0.25}=x_{\lceil 4.5 \rceil}=x_5\)</span>.</p>
+<p>{{% notice tip %}}
+Siehe auch: <span class="citation"><a href="#ref-Gehring2009" role="doc-biblioref">Gehring &amp; Weins</a> (<a href="#ref-Gehring2009" role="doc-biblioref">2009, pp. 132–135</a>)</span>.
+{{% /notice %}}</p>

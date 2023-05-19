@@ -1,0 +1,9 @@
+---
+title: "nicht-zufallsgesteuerte Stichprobenziehungen"
+---
+
+auch nicht-wahrscheinlichkeitsbasierte Stichproben; lassen keinen Rückschluss auf Grundgesamtheit zu; werden oftmals in explorativen Vorstudien genutzt oder wenn keine Grundgesamtheit eindeutig identifizierbar ist, aus der eine Stichprobe gezogen werden kann
+
+Formen: bewusste Auswahl, willkürliche Auswahl, Quota-Stichprobe
+
+

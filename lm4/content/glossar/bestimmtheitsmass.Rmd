@@ -1,0 +1,7 @@
+---
+title: "Bestimmtheitsmaß"
+---
+
+$R^2$; Gütemaß einer Modellregression; nimmt Werte zwischen 0 und 1 an; je höher $R^2$, desto mehr erklären die unabhängigen Variablen die Varianz der abhängigen; umgangssprachlich gibt $R^2$ die Prozente an, die das Regressionsmodell erklärt; Beispiel $R^2= 0,54$ $\Rightarrow$ erklärt 54 % der Varianz der abhängigen Variable.
+
+

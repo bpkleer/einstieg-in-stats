@@ -1,0 +1,23 @@
+---
+title: "Lineare Gleichung"
+weight: 302
+tags: ["linear", "bivariat"]
+---
+
+Die Grundannahme einer **linearen Regression** ist die lineare Darstellung, in der die [abhängige Variable](../../glossar/abhaengigevariable/index.html) $Y$ über eine Linearkombination mit der [unabhängigen Variable](../../glossar/unabhaengigevariable/index.html) $X$ dargestellt wird:
+
+$y = \beta_0 + \beta_1 \ast x$
+
+$\beta_0$ stellt die Konstante (engl. *intercept*) dar, also den Schnittpunkt mit der $y$-Achse. In manchen Veröffentlichungen wird hierfür auch ein kleines $a$ oder $\alpha$ verwendet. $\beta_1$ ist die Steigung der Geraden, in diesem Fall die Steigung der abhängigen Variable $y$ durch die unabhängige Variable $x$ (englt. *slope*). Beide Variablen stellen in diesem Modell beobachtete, nicht zufällige Messwerte dar. Mithilfe einer linearen Funktion errechnen wir diese Gerade, die aus der Konstanten ($\beta_0$) und der Steigung ($\beta_1$) besteht.
+
+Grafisch lässt sich dies leichter nachvollziehen. Nehmen wir folgende Lineardarstellung als Beispiel:
+
+$y = 0 + 1 \ast x$
+
+![Beispiel Regression](../images/reg1.png)
+
+Die blauen Punkte stellen einzelne Fälle dar. Die Linie spiegelt die lineare Gleichung wieder, also die Darstellung mit der sich $y$ aus der Steigung von $x$ und einer Konstante darstellen lässt.
+
+Nochmal zum besseren Verständnis: $\beta_0$ stellt den Schnittpunkt mit der $y$-Achse dar, also gibt den Wert wieder, wenn $x=0$. $\beta_1$ dagegen gibt die Steigung bei der Erhöhung von $x$ dar. Diese ist für jede gleiche Steigerung von $X$ (im Beispiel 1) gleich.
+
+![Perfekte lineare Darstellung](../images/reg2.png)

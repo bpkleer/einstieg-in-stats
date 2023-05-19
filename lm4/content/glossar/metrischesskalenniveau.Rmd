@@ -1,0 +1,7 @@
+---
+title: "metrisches Skalenniveau"
+---
+
+umfasst intervall- und ratio-skalierte Merkmale.
+
+

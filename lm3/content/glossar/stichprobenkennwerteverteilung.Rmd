@@ -1,0 +1,7 @@
+---
+title: "Stichprobenkennwerteverteilung"
+---
+
+Auch Stichprobenverteilung oder *sampling distribution* genannt; Verteilung eines Kennwertes von mehreren Stichproben, die unter den gleichen Bedingungen durchgeführt werden
+
+

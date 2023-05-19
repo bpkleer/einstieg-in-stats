@@ -1,0 +1,23 @@
+---
+title: "Kreisdiagramme"
+weight: 401
+tags: ["grafik", "kreisdiagramm", "pie chart"]
+bibliography: [../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../static/files/apa.csl]
+---
+
+
+**Pie Charts** werden im Deutschen oft als **Kreisdiagramme** bezeichnet. Ein Kreis wird so in Kreissektoren unterteilt, dass die Flächen der Kreissektoren zu den beobachteten [Häufigkeiten](../../glossar/relativehaeufigkeit/index.html) der einzelnen [Ausprägungen](../../glossar/merkmalsauspraegung/index.html) proportional sind. Diese Darstellungsform wird vor allem für [nominale Daten](../../glossar/nominalskala/index.html) verwendet [vgl. @Gehring2009, 112].
+
+Ausgangspunkt ist eine fiktive Befragung des *Wohnorts* von $100$ Studierenden des Masters Demokratie und Governance.
+
+![Häufigkeitstabelle](../images/piechart-tabelle.png)
+
+![Pie-Chart](../images/piechart.png)
+
+{{% notice tip %}}
+Siehe auch: @Gehring2009 [Kapitel 5.2.1]; @Bortz2010 
+{{% /notice %}}

@@ -1,0 +1,38 @@
+---
+title: "Chi-Quadrat-Unabhängigkeitstest"
+weight: 102
+tags: ["chi-quadrat", "unabhängigkeitstest"]
+bibliography: [../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../static/files/apa.csl]
+---
+
+<script src="/stats101/LM3/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>Die <a href="../../glossar/indifferenztabelle/index.html">Indifferenztabelle</a> ist die Grundlage der Berechnung von <span class="math inline">\(\chi^2\)</span> (Chi-Quadrat), welches ein Maß zur Bewertung der Unabhängigkeit zwischen zwei <a href="../../glossar/variable/index.html">Variablen</a> ist. Das untenstehende Rechenbeispiel wird auf der nächsten Seite in einem Lernvideo nochmals erklärt.</p>
+<p>Je stärker sich <strong>erwartete</strong> (Indifferenztabelle) und <strong>beobachtete Häufigkeiten</strong> (Kontingenztabelle) voneinander unterscheiden, desto stärker ist der Zusammenhang zwischen beiden Variablen.</p>
+<p>Die <strong>beobachtete Häufigkeit</strong> wird hierbei mit <span class="math inline">\(f_b\)</span> bezeichnet und die <strong>erwartete Häufigkeit</strong> mit <span class="math inline">\(f_e\)</span>. Vereinfacht ausgedrückt werden die tatsächlich <strong>beobachteten absoluten Häufigkeiten</strong> ins Verhältnis zu den <strong>erwarteten absoluten Häufigkeiten</strong> gesetzt.</p>
+<p>Hier zum Verständnis die Tabelle mit den <strong>erwarteten</strong> und <strong>beobachteten Häufigkeiten</strong>:</p>
+<div class="figure">
+<img src="../images/chi-zusammen.png" alt="" />
+<p class="caption">Häufigkeitstabelle mit erwarteten und beobachteten Häufigkeiten</p>
+</div>
+<p>Als <strong>Residuum</strong> wird dabei die Differenz zwischen <span class="math inline">\(f_b\)</span> und <span class="math inline">\(f_e\)</span> bezeichnet, die für jedes Feld berechnet werden muss (<span class="math inline">\(res=f_b – f_e\)</span>).</p>
+<p>Die Formel zur Berechnung von <span class="math inline">\(\chi^2\)</span> (Chi-Quadrat) lautet daher:</p>
+<p><span class="math display">\[\chi^2 = \sum_{i=1}^k \sum_{j=1}^m \frac{(f_{b_{ij}} – f_{e_{ij}})^2}{f_{e_{ij}}}\]</span></p>
+<p><span class="math inline">\(i\)</span> ist dabei der Laufindex für die Zeilen und <span class="math inline">\(j\)</span> der Laufindex für die Spalten.</p>
+<p>Im Beispiel ergibt sich daher folgende Rechnung:</p>
+<p><span class="math display">\[ \begin{align*} \chi^2 &amp;= \sum_{i=1}^k \sum_{j=1}^m \frac{(f_{b_{ij}} – f_{e_{ij}})^2}{f_{e_{ij}}} \\ &amp;=\frac {(100-225)^2}{225} + \frac{(400-275)^2}{275} + \frac {(350-225)^2}{225} + \frac {(150-275)^2}{275} \\ &amp;\approx 69,44 + 56,82 + 69,44 + 56,82 \\ &amp;\approx 252,53 \end{align*}\]</span></p>
+<p><span class="math inline">\(\chi^2\)</span> (Chi-Quadrat) weist einen Wertebereich von <span class="math inline">\(0\)</span> bis <span class="math inline">\(+\infty\)</span> (<span class="math inline">\(\chi^2 \in [0;+\infty]\)</span>) auf. Ein <span class="math inline">\(\chi^2\)</span> (Chi-Quadrat)-Wert von <span class="math inline">\(0\)</span> würde bedeuten, dass zwischen den beiden Variablen kein Zusammenhang besteht. Diese Maßzahl ist abhängig von der Fallzahl und der Tabellengröße. Außerdem können <span class="math inline">\(\chi^2\)</span> (Chi-Quadrat)-Werte unterschiedlicher Tabellengrößen nicht miteinander verglichen werden.</p>
+<p>In unserem Beispiel sehen wir, dass der Wert deutlich von <span class="math inline">\(0\)</span> entfernt ist und somit keine Unabhängigkeit vorliegt. Die drei nachfolgenden Zusammenhangsmaße beruhen auf <span class="math inline">\(\chi^2\)</span> und werden im weiteren Verlauf vorgestellt:</p>
+<ul>
+<li><p><strong>Phi-Koeffizient</strong> (2x2 Kreuztabelle)</p></li>
+<li><p><strong>Cramers V</strong> (jede mögliche Kreuztabelle)</p></li>
+<li><p><strong>Kontingenzkoeffizient C</strong> (jede mögliche Kreuztabelle)</p></li>
+</ul>
+<p>{{% notice tip %}}
+Siehe auch: <span class="citation"><a href="#ref-Gehring2009" role="doc-biblioref">Gehring &amp; Weins</a> (<a href="#ref-Gehring2009" role="doc-biblioref">2009</a>, Kapitel 7.3.1)</span>; <span class="citation"><a href="#ref-Bortz2010" role="doc-biblioref">Bortz &amp; Schuster</a> (<a href="#ref-Bortz2010" role="doc-biblioref">2010</a>, Kapitel 9.1)</span>.
+{{% /notice %}}</p>

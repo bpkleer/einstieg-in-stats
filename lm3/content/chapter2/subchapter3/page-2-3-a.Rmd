@@ -1,0 +1,84 @@
+---
+title: "Pearson's r"
+weight: 231
+tags: ["pearsons r", "lernvideo", "metrisch"]
+bibliography: [../../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../../static/files/apa.csl]
+---
+
+Die **Korrelation nach Pearson** ist ein Standardmaß für den Zusammenhang zwischen zwei [metrischen Variablen](../../../glossar/metrischesskalenniveau/index.html). Eine weitere Voraussetzung für dieses Maß ist, dass der Zusammenhang *linear* und *monoton* ist.
+
+Bei der Berechnung einer **Korrelation nach Pearson** sollte daher immer ein [Scatterplot](../../../glossar/scatterplot/index.html) der zwei zu untersuchenden [Variablen](../../../glossar/variable/index.html) ausgegeben werden, um diese zwei Annahmen zu überprüfen. Dies wird im folgenden Lernvideo dargestellt. Ein weiteres Beispiel folgt im Text nach dem Lernvideo.
+
+<center>
+<iframe src="https://player.vimeo.com/video/506077330?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+</center>
+
+Die Grafik zeigt einen Scatterplot zwischen *Körpergröße in cm* und *Körpergewicht in kg*. Man kann erkennen, dass der Zusammenhang *linear* und *monoton* ist. 
+
+Der **Korrelationskoeffizient** für diese zwei Variablen beträgt $r = 0.801$. Es besteht also ein *starker positiver* Zusammenhang. Da die Punkte (Fälle) nicht alle auf einer Linie liegen, weicht der **Korrelationskoeffizient** von $1$ ab.
+
+Wir können den **Korrelationskoeffizienten** wie folgt interpretieren: Je höher die Körpergröße ist, desto höher ist auch das Gewicht bzw. je höher das Gewicht ist, desto höher ist auch die Körpergröße.
+
+![Scatterplot zwischen Körpergröße und Körpergewicht](../images/korrelation3.png)
+
+### Beispiel
+Kommen wir nun zur Berechnung des [Korrelationskoeffizienten nach Pearson](../../../glossar/pearsonsr/index.html): Die Berechnung des Korrelationskoeffizienten beruht auf der **Kovarianz** der Variablen. Die **Kovarianz** ist ähnlich der [Varianz](../../../glossar/varianz/index.html), sie umfasst die quadrierten Abstände zum Mittelpunkt. Der Mittelpunkt ist hier nur nicht auf eine Variable bezogen, sondern man nimmt den **bivariaten Schwerpunkt** $(\bar{x}; \bar{y})$, der die zwei [Mittelwerte](../../../glossar/mittelwert/index.html) beider Variablen darstellt. Die **Korrelation** gibt an, wie eng die Wertepaare zweier Variablen um eine fiktive Gerade liegen. Sie gibt nicht an, wie steil diese Gerade ist. 
+
+Dabei gilt für die Variablen $x$ und $y$:
+
+$X = (x_1, x_2, x_3, ..., x_n)$
+$Y = (y_1, y_2, y_3, ..., y_n)$
+
+Die **Korrelation** berechnet sich für Werte aus einer Grundgesamtheit wie folgt:
+$$\begin{align*}r&= \frac {cov(x;y)}{s_x \ast s_y} \\ &= \frac { \frac{1}{n} \ast \sum\limits_{i=1} ^n (x_i - \bar{x}) \ast (y_i - \bar{y})} {\sqrt { \frac {1} {n} \ast \sum \limits_{i=1} ^n (x_i - \bar{x})^2 ) \ast \frac {1} {n} \ast \sum \limits_{i=1} ^n (y_i - \bar{y})^2})} \end{align*}$$
+
+Dabei ist die **Kovarianz** $cov(x;y)$ als durchschnittliche Abweichung vom **bivariaten Schwerpunkt** zu verstehen, analog zur Varianz.
+$$\begin{align*}cov(x;y) &= \frac {1} {n} \ast \sum \limits_{i=1}^n (x_i - \bar{x}) \ast (y_i - \bar{y}) \\ &= \frac {1} {n} \ast \sum\limits_{i=1}^n x_i \ast y_i - \bar{x} \ast \bar{y} \end{align*}$$
+
+Beispielrechnung: Im Beispiel wollen wir nun die **Korrelation** zwischen *Alter* (offene Abfrage) und *Wahlpräferenz CDU* (Skala 0 (sehr unwahrscheinlich) bis 100 (sehr wahrscheinlich)) berechnen. In diesem Rechenbeispiel verkleinern wir die Stichprobe zu Illustrationszwecken auf 5 Personen. Am Ende der Seite finden Sie die Berechnung auch in einem Lernvideo erklärt.
+
+![Datenmatrix Alter und Präferenz CDU](../images/korrelation-datentabelle.png)
+
+Das [Scatterplot](../../../glossar/scatterplot/index.html) für diese Daten sieht wie folgt aus: Die blauen Punkte bilden unsere fünf Datenpunkte und die gestrichelte Linie ist bereits eine Trendlinie der **Korrelation**. Wir sehen, dass der Zusammenhang annähernd monoton und linear ist.
+
+![Scatterplot: Präferenz CDU und Alter](../images/korrelation-plot.png)
+
+Für die Berechnung der **Korrelation** benötigen wir entsprechend der Formel die Varianz der Variablen und die [Kovarianz](../../../glossar/kovarianz/index.html), wofür wir wiederum die Mittelwerte benötigen.
+
+**1) Berechnung der Mittelwerte**
+Für Alter:
+$$\begin{align*}\bar{x} &= \sum\limits_{i=1}^5 \frac {x_i} {5} \\ &= \frac {19 + 34 + 27 + 56 + 69}{5} \\ &= 41 \end{align*}$$
+
+Für Präferenz CDU:
+$$\begin{align*}\bar{y} &= \sum\limits_{i=1}^5 \frac {y_i} {5} \\ &= \frac {24 + 41 + 20 + 74 + 81}{5} \\ &= 48 \end{align*}$$
+
+**2) Berechnung der Varianz und [Standardabweichung](../../../glossar/standardabweichung/index.html) von x und y:**
+<br>
+
+$$\begin{align*}s_{x}^2 &= \frac {1}{n} \ast \sum\limits_{i=1}^n (x_i - \bar{x})^2 \\ &= \frac {1} {5} \ast [(19-41)^2 + (34-41)^2 + (27-41)^2 + (56-41)^2 + (69-41)^2] \\ &= 347.6 \end{align*}$$
+
+$$\begin{align*}s_x &= \sqrt s^2_{x} \\ &= \sqrt 347.6 \\ &\approx 18.64 \end{align*}$$
+
+$$\begin{align*}s_{y}^2 &= \frac {1}{n} \ast \sum\limits_{i=1}^n (y_i - \bar{y})^2 \\ &= \frac {1} {5} \ast [(24-48)^2 + (41-48)^2 + (20-48)^2 + (74-48)^2 + (81-48)^2] \\ &= 634.8 \end{align*}$$ 
+
+$$\begin{align*}s_y &= \sqrt s^2_{y} \\ &= \sqrt 634.8 \\ &\approx 25.20 \end{align*}$$
+
+**3) Nun muss noch die Kovarianz berechnet werden:**
+$$\begin{align*}cov(x;y) &= \frac {1} {n} \sum\limits_{i=1}^n (x_i - \bar{x}) \ast (y_i - \bar{y}) \\ &= \frac {1}{5} \ast [((19-41) \ast (24-48)) + ((34-41) \ast (41-48)) + ((27-41) \ast (20-48)) + ((56-41) \ast (74-48)) + ((69-41) \ast (81-48))] \\ &= \frac {1}{5} \ast (528+49+392+390+924) \\ &= 456.6 \end{align*}$$
+
+**4) Einsetzen in Formel für Pearson's r**
+$$\begin{align*} r &= \frac {cov(x;y)}{s_x \ast s_y} \\ &= \frac {456.6} {18.64 \ast 25.20} \\ &\approx 0.972 \end{align*}$$
+
+In diesem Beispiel ist also die **Korrelation** zwischen den Variablen Alter und Präferenz für die CDU positiv und bildet einen sehr starken Zusammenhang aus $r=0.972$.
+
+<center>
+<iframe src="https://player.vimeo.com/video/506077587" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+</center>
+
+{{% notice tip %}}
+Siehe auch: @Gehring2009 [Kapitel 7.6]; @Behnke2006 [Kapitel 14.4]; @Cleff2011 [Kapitel 4.3.2]
+{{% /notice %}}

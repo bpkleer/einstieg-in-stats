@@ -1,0 +1,96 @@
+baseURL = "https://lehre.bpkleer.de/stats101/"
+languageCode = "en-US"
+defaultContentLanguage = "de"
+
+title = "WBT Statistik für die Sozialwissenschaften"
+theme = "hugo-theme-learn"
+themesdir = "./themes/"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= false
+
+[params]
+  baseURL = "https://lehre.bpkleer.de/stats101/"
+  themeVariant = "jlug"
+#  editURL = "https://lehre.bpkleer.de/stats101/"
+  description = "WBT für die Vorlesung Statistik in den Sozialwissenschaften"
+  author = "B. Philipp Kleer"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableLandingPageButton = true
+  disableMermaid = false
+  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+  titleSeparator = "::"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-chalkboard-teacher'></i> Lernmodul 1"
+url = "https://lehre.bpkleer.de/stats101/LM1/"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-chalkboard-teacher'></i> Lernmodul 2"
+url = "https://lehre.bpkleer.de/stats101/LM2/"
+weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-chalkboard-teacher'></i> Lernmodul 3"
+url = "https://lehre.bpkleer.de/stats101/LM3/"
+weight = 30
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-chalkboard-teacher'></i> Lernmodul 4"
+url = "https://lehre.bpkleer.de/stats101/LM4/"
+weight = 40
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-gitlab'></i> Gitlab repo"
+url = "https://gitlab.com/bpkleer/wbt-stats-101"
+weight = 50
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-bullhorn'></i> Credits"
+url = "/credits"
+weight = 60
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-tags'></i> Tags"
+url = "/tags"
+weight = 70
+
+# no different languages so far
+#[Languages]
+#[Languages.en]
+#title = "Documentation for Hugo Learn Theme"
+#weight = 1
+#languageName = "English"
+#landingPageURL = "/en"
+#landingPageName = "<i class='fas fa-home'></i> Home"
+
+#[[Languages.en.menu.shortcuts]]
+#name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+#identifier = "ds"
+#url = "https://github.com/matcornic/hugo-theme-learn"
+#weight = 10
+
+#[[Languages.en.menu.shortcuts]]
+#name = "<i class='fas fa-fw fa-camera'></i> Showcases"
+#url = "showcase"
+#weight = 11
+
+#[[Languages.en.menu.shortcuts]]
+#name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
+#identifier = "hugodoc"
+#url = "https://gohugo.io/"
+#weight = 20
+
+#[[Languages.en.menu.shortcuts]]
+#name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+#url = "/credits"
+#weight = 30
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

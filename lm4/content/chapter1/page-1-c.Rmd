@@ -1,0 +1,20 @@
+---
+title: "Irrtumswahrscheinlichkeit"
+weight: 103
+tags: ["irrtumswahrscheinlichkeit", "signifikanz", "hypothesentest"]
+
+---
+
+Um einen [Hypothesentest](../../glossar/signifikanztest/index.html) bewerten zu können, wird eine **Irrtumswahrscheinlichkeit** ($\alpha$) angegeben, auf die der Test *signifikant* ist oder nicht. Um dies zu verstehen, müssen wir uns nochmals kurz verdeutlichen, welche Testsituationen auftreten können. Anhand der Vierfelder-Tabelle sind die Testsituationen dargestellt:
+
+![Fehler 1. Art und Fehler 2. Art](../images/fehlertabelle.png)
+
+Es gibt zwei Situationen, in denen wir korrekte Entscheidungen treffen. Wenn wir uns für die [Nullhypothese](../../glossar/nullhypothese/index.html) entscheiden und diese auch tatsächlich korrekt ist und wenn wir uns für die [Alternativhypothese](../../glossar/alternativhypothese/index.html) entscheiden und diese auch tatsächlich korrekt ist.
+
+Neben diesen zwei korrekten Feldern, gibt es aber auch zwei Fehler, die in der Entscheidung auftreten können. So können wir uns für die Alternativhypothese entscheiden, aber tatsächlich ist die Nullhypothese korrekt. Dies bezeichnet man als *Fehler 1. Art* oder auch $\alpha$-Fehler. Entscheiden wir uns für die Nullhypothese und die Alternativhypothese ist korrekt, so begehen wir einen *Fehler 2. Art* oder auch $\beta$-Fehler.
+
+Die Höhe des $\alpha$-Fehler (*Fehler 1. Art*) gibt an, in wie vielen Fällen wir uns für die Alternativhypothese entscheiden, in Wahrheit aber die Nullhypothese korrekt ist. In den Sozialwissenschaften ist eine **Irrtumswahrscheinlichkeit** von $5\%$ oder $1\%$, je nach theoretischem Bezug, die Konvention.
+
+Der $\beta$-Fehler (*Fehler 2. Art*) ist in den Sozialwissenschaften von geringerer Bedeutung, da die [Signifikanztests](../../glossar/signifikanztest/index.html) so konstruiert werden, dass die Nullhypothese falsifiziert werden muss. Somit ist die Alternativhypothese die prüfende Größe und gegen einen Fehler in dieser Konstruktion sichert die **Irrtumswahrscheinlichkeit** vor einem Fehler 1. Art ab.
+
+In den Sozialwissenschaften sichern wir unsere Ergebnisse i.d.R. auf einer **Irrtumswahrscheinlichkeit** von $5\%$ ab. Wir testen, ob das gewünschte Ergebnis mit $95\%$ Sicherheit nicht durch Zufall oder Artefakte entstanden ist. Bei einer **Irrtumswahrscheinlichkeit** von $5\%$ wird getestet, ob der beobachtete Wert nicht innerhalb eines $95\%$-Intervalls um den erwarteten Wert liegt. Liegt er in diesem Intervall, ist die Nullhypothese beizubehalten. Sollte der Wert aber außerhalb dieses Intervalls liegen, ist die Nullhypothese abzulehnen und die Alternativhypothese anzunehmen. Das errechnete Ergebnis ist damit signifikant, also zu $95\%$ abgesichert.

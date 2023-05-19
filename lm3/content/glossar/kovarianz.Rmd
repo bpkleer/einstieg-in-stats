@@ -1,0 +1,8 @@
+---
+title: "Kovarianz"
+---
+
+umfasst die quadrierten Abstände zum Mittelpunkt zweier Variablen (bivariaten Schwerpunkt $(\bar{x};\bar{y})$); Zeichen: $cov(x,y)$ oder $s^2_{xy}$
+
+
+

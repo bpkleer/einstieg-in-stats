@@ -1,0 +1,27 @@
+---
+title: "Kontingenzkoeffizient"
+weight: 212
+tags: ["kontingenzkoeffizient"]
+---
+
+Der Kontingenzkoeffizient $C$ ist ein weiteres auf $\chi^2$-basiertes Zusammenhangsmaß. Es kann angewendet werden, wenn beide Variablen mindestens [nominalskaliert](../../../glossar/nominalskala.html) sind. Idealerweise wird er erst angewendet, wenn beide Variablen mehr als drei Ausprägungen haben (mind. $3x3$ Tabelle). Bei $2x2$ Tabellen sollte stattdessen $\phi$ genutzt werden. 
+
+Der Kontingenzkoeffizient $C$ berechnet sich nach folgender Formel: $C = \sqrt {\frac {\chi^2}{\chi^2 + N}}$
+
+Wichtig bei der Interpretation von $C$ ist, dass der Maximalwert von C von der Zahl der Ausprägungen der Variablen abhängt. $C$ kann also nur interpretiert werden, wenn auch der Wert von $C_{max}$ berechnet wurde. Auch wird so der Vergleich verschiedener Werte von $C$ erschwert. 
+
+Die Formel zur Berechnung des Maximums lautet: $C_{max} = \sqrt{\frac{R-1}{R}}$, wobei $R = min(k,m)$ ist. 
+
+Kommen wir zu einem Beispiel zwischen dem Universitätswahl und Wohnort. Wir haben folgende Kreuztabelle zwischen beiden Variablen:
+
+![Beispiel Kontingenzkoeffizient C](../images/kontingenzC.png)
+
+Der Wert von $\chi^2$ beträgt: $\chi^2  \approx 545.89$.
+
+Damit können wir nun den Kontigenzkoeffizienten $C$ berechnen: 
+$$\begin{align*} C &= \sqrt{\frac{\chi^2}{\chi^2 + N}} \\ &= \sqrt{\frac{545.89}{545.89 + 1150}} \\ &\approx 0.567 \end{align*}$$
+
+Der maximale Wert beträgt bei dieser $3x3$ Tabelle: 
+$$ \begin{align*}C_{max} &= \sqrt{\frac{R - 1}{R}} \\ &= \sqrt{\frac{3-1}{3}} \\ &\approx 0.667 \end{align*}$$
+
+In diesem Beispiel ist also der Zusammenhang zwischen den zwei [nominalskalierten](../../../glossar/nominalskala/index.html) Variablen Wohnort und Universitätswahl stark. Der errechnete Wert des Kontingenzkoeffizienten $C$ kommt recht nah an den Wert von $C_{max}$.

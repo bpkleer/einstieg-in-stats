@@ -1,0 +1,7 @@
+---
+title: "bivariat"
+---
+
+betrachtet man die gemeinsame Verteilung zweier Merkmale bzw. Variablen, spricht man von einer bivariaten Analyse.
+
+

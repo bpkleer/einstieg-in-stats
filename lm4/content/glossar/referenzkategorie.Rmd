@@ -1,0 +1,7 @@
+---
+title: "Referenzkategorie"
+---
+
+Festlegen der Referenzkategorie bei Hinzufügen ordinaler/nominaler Variablen in der linearen Regression; Regressionskoeffizienten geben die Veränderung auf der abhängigen Variable im Vergleich von angegebener Kategorie zur Referenzkategorie aus
+
+
