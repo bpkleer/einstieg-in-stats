@@ -45,7 +45,6 @@ name = "<i class='fas fa-tags'></i> Tags"
 url = "/tags"
 weight = 30
 
-
 # no different languages so far
 #[Languages]
 #[Languages.en]
