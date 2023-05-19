@@ -1,6 +1,7 @@
 baseURL = "https://lehre.bpkleer.de/stats101/LM4/"
 languageCode = "en-US"
 defaultContentLanguage = "de"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
 title = "WBT Statistik für die Sozialwissenschaften"
 theme = "hugo-theme-learn"
