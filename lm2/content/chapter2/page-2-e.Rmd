@@ -11,10 +11,15 @@ csl: [../../static/files/apa.csl]
 
 {{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
 
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
 {{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
 
 {{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
-
 **Perzentile** teilen die [Ausprägungen](../../glossar/merkmalsauspraegung/index.html) der [Variablen](../../glossar/variable/index.html) in gleich große Gruppen, sodass sich in jeder Gruppe der gleiche Prozentsatz an Werten befindet. Häufig genutzt werden die **Quartile** (= Viertel, jeweils $25\%$). Bei **Dezilen** handelt es sich hingegen um Gruppen von jeweils $10\%$ der Werte.
 
 **Quartile** teilen die Verteilung in vier gleich große Viertel: $25\%$ der Werte sind kleiner oder gleich groß mit dem **1. Quartil oder unterem Quartil** ($\tilde{x}_{0.25}$), $50\%$ sind kleiner oder gleich groß wie das **2. Quartil oder mittlere Quartil**, das daher gleichzusetzen ist mit dem [Median](../../glossar/median/index.html) ($\tilde{x}_{0.5}=\tilde{x}$) und 75 % sind kleiner oder gleich groß mit dem **3. Quartil oder obere Quartil** ($\tilde{x}_{0.75}$).
