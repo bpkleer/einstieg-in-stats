@@ -14,3 +14,9 @@ In diesem Kapitel werden die Grundlagen für die Berechnung der Zusammenhangsma�
 In den nachfolgenden Kapiteln wird dann die Berechnung der einzelnen Maße vorgestellt. Anhand der folgenden Abbildung können Sie die verschiedenen Zusammenhangsmaße einordnen.
 
 ![Übersicht Zusammenhangsmaße](./images/uebersucht_zusam.PNG)
+
+{{% buttonGit href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href="https://twitter.com/share?url=" icon="fab fa-twitter" %}} {{% /buttonGit %}}
+
+{{% buttonGit href="https://www.facebook.com/sharer/sharer.php?u=" icon="fab fa-facebook" %}} {{% /buttonGit %}}

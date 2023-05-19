@@ -24,3 +24,9 @@ Bevor wir nun näher die zufallsgesteuerten Verfahren darstellen, wird kurz auf 
 {{% notice note %}}
 Siehe auch: @Kromrey2016 [Kapitel 6]; @Schnell2013 [Kapitel 6]; @Diekmann2008 [Kapitel IX].
 {{% /notice %}}
+
+{{% buttonGit href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href="https://twitter.com/share?url=" icon="fab fa-twitter" %}} {{% /buttonGit %}}
+
+{{% buttonGit href="https://www.facebook.com/sharer/sharer.php?u=" icon="fab fa-facebook" %}} {{% /buttonGit %}}

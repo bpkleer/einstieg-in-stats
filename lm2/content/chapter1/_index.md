@@ -17,4 +17,8 @@ Die [Datenanalyse](../glossar/datenanalyse/index.html) hat die Funktion, eine Ve
 
 Wir unterscheiden zwischen **Deskriptiv-** und **Inferenz-Statistik**. Mit **deskriptiven Statistiken** werden vorliegende Daten beschrieben – dazu werden Ihnen in diesem Lernmodul einige Verfahren vorgestellt. Die **Inferenzstatistik** zielt darauf ab, mit Daten einer Auswahl auf eine größere Gesamtheit zu schließen [vgl. @Gehring2009, VIII]. Diese Verfahren sind Teil des [Lernmoduls 4](../../LM4/).
 
+{{% buttonGit href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonGit %}} 
 
+{{% buttonGit href="https://twitter.com/share?url=" icon="fab fa-twitter" %}} {{% /buttonGit %}}
+
+{{% buttonGit href="https://www.facebook.com/sharer/sharer.php?u=" icon="fab fa-facebook" %}} {{% /buttonGit %}}

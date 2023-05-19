@@ -22,3 +22,9 @@ Im Folgenden werden nun die drei **Maße der zentralen Tendenz** mit ihren Eigen
 {{% notice tip %}}
 Siehe auch: Gehring/Weins 2009 (Kapitel 6.1))
 {{% /notice %}}
+
+{{% buttonGit href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href="https://twitter.com/share?url=" icon="fab fa-twitter" %}} {{% /buttonGit %}}
+
+{{% buttonGit href="https://www.facebook.com/sharer/sharer.php?u=" icon="fab fa-facebook" %}} {{% /buttonGit %}}
