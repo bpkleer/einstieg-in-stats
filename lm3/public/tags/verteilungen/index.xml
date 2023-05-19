@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>verteilungen on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM3/tags/verteilungen/</link>
+    <description>Recent content in verteilungen on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM3/tags/verteilungen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Verteilungen</title>
+      <link>https://lehre.bpkleer.de/stats101/LM3/chapter3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM3/chapter3/</guid>
+      <description>Kapitel 3 Verteilungen In diesem Kapitel wird in statistische Verteilungen eingeführt. Der Unterschied zu Häufigkeitsverteilungen aus der deskriptiven Statistik liegt darin, dass in der schließenden Statistik die Verteilung für die Wahrscheinlichkeit von einzelnen Werten von Variablen steht. Mathematisch nennt man dies auch Verteilungfunktion. Die Verteilungsfunktion ist für diskrete und stetige Zufallsvariablen definiert, wird aber unterschiedlich berechnet. Bei diskreten Variablen erfolgt die Bildung der Verteilungsfunktion über die Wahrscheinlichkeitsfunktion, bei stetigen Variablen erfolgt die Bildung über die Dichtefunktion.</description>
+    </item>
+    
+    <item>
+      <title>t-Verteilung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM3/chapter3/page-3-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM3/chapter3/page-3-c/</guid>
+      <description>Eine weitere wichtige Verteilungsform neben Normal- und Standardnormalverteilung ist die t-Verteilung.
+Die t-Verteilung ist glockenförmig, aber flacher als die Normalverteilung. Sie wird insbesondere dann genutzt, wenn weniger als 30 Stichproben herangezogen werden oder wir die Varianz (\(\sigma^2\)) nicht kennen. Dies wird insbesondere bei einigen Hypothesentests in der Statistik angewendet. Des Weiteren geht die t-Verteilung bei großen Fallzahlen in eine Normalverteilung über.
+Die t-Verteilung geht zurück auf William S. Gosset und stellt eine „genauere“ z-Verteilung dar.</description>
+    </item>
+    
+  </channel>
+</rss>

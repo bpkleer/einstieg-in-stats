@@ -1,0 +1,75 @@
+---
+title: "Beispiel gleiche Varianzen"
+weight: 212
+tags: ["t-test", "gleiche varianzen", "mittelwertvergleich", "lernvideo"]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Kommen wir nun zu einem Rechenbeispiel des zweiseitigen t-Tests für unabhängige Stichproben mit gleichen Varianzen. Als Beispiel übernehmen wir die Fragestellung, die wir eingangs als Beispiel benannt haben: Weisen Frauen und Männer einen unterschiedlichen Mittelwert bei der wöchentlichen Arbeitszeit auf? Falls ja, sind diese Unterschiede statistisch signifikant?
+
+Aus einem Survey haben wir folgende Daten:
+
+Frauen: $\bar{x}_1 = 34.14084, s_1 = 10.89673, n_1 = 884$
+
+Männer: $\bar{x}_2 = 43.64809, s_2 = 9.541511, n_2 = 1023$
+
+Die Hypothesen zum Hypothesentest lauten:
+$H_0: \mu_1 = \mu_2$, Die Mittelwerte der Stichproben unterscheidet sich nicht.
+$H_1: \mu_1 \neq \mu_2$, Die Mittelwerte der Stichproben unterscheiden sich, sind nicht gleich.
+
+Aus dem Hypothesen folgt, dass wir annehmen: $\mu_1 - \mu_2 = 0$
+
+Die Formel zur Berechnung des unabhängigen t-Tests mit gleichen Varianzen ist:
+
+$t_{emp} = \frac{\bar{x}_1 - \bar{x}_2}{\hat{\sigma}_{(\bar{x}_1 - \bar{x}_2)}}$
+
+Vereinfacht ausgedrückt berechnet die Prüfgröße:
+
+$t_{emp} = \frac{Mittelwertdifferenz \, der \, Stichproben}{Standardfehler \, der \, Mittelwertdifferenz}$
+
+Der Standardfehler der Mittelwertdifferenz berechnet sich wie folgt:
+
+$\hat{\sigma}_{(\bar{x}_1 - \bar{x}_2)} = \sqrt{\frac{(n_1 - 1)*s^2_1 + (n_2 - 1)*s^2_2}{n_1 + n_2 -2}} * \sqrt{ \frac{1}{n_1} + \frac{1}{n_2}}$
+
+Nun muss nur noch die Anzahl der Freiheitsgrade errechnet werden, um den kritischen $t$-Wert bestimmen zu können:
+
+$\nu = n_1 + n_2 -2$
+
+Nun setzen wir die Werte in die Formel ein:
+
+$\hat{\sigma}_{(\bar{x}_1 - \bar{x}_2)}= \sqrt{\frac{(884 - 1)*10.89673^2 + (1023 - 1)*9.541511^2}{884 + 1023 - 2}} * \sqrt{\frac{1}{884} + \frac{1}{1023}} \approx 0.468$
+
+$t_{emp} = \frac {34.14084 - 43.64809}{0.468} \approx -20.313$
+
+$\nu = n_1 + n_2 - 2 = 884 + 1023 - 2 = 1905$
+
+Nun müssen wir den Betrag der Prüfgröße ($|t_{emp}|$) gegenüber dem kritischen Wert prüfen. Wir prüfen auf das konventionellen $95\%$-Niveau und haben insgesamt $1905$ Freiheitsgrade ($\nu$). Wir führen einen zweiseitigen Test durch. Da die meisten $t$-Tabellen nur bis $1000$ Freiheitsgrade verzeichnet sind, nehmen wir approximativ den kritischen Wert an der Stelle $t_{krit(\nu=1000; p = 0.975)}$.
+
+Der kritische Wert beträgt an der genannten Stelle:
+
+$t_{krit_{(\nu=1000; p=0.975)}} = 1.962$.
+
+Damit das errechnete Ergebnis der Signifikanz gilt, muss:
+
+$|t_{emp} | > t_{krit}$
+
+Im Beispiel ist dies erfüllt: $|-20.313| > 1.962$
+
+Wir können somit schlussfolgern, dass Frauen im Mittel $6.909$ Stunden weniger als Männer in Erwerbsarbeit tätig sind.
+
+Hier ein weiteres Beispiel im Video:
+
+<center>
+<iframe src="https://player.vimeo.com/video/512526079?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+</center>

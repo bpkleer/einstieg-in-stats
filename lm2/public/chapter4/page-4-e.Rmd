@@ -1,0 +1,46 @@
+---
+title: "Boxplots"
+weight: 405
+tags: ["grafik", "boxplot"]
+bibliography: [../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../static/files/apa.csl]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Die Darstellung eines Boxplots ist in diesem Lernvideo erklärt. Alternativ können Sie weiter runterscrollen und die Textbeschreibung lesen.
+
+<center>
+
+<iframe src="https://player.vimeo.com/video/506074146?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+
+</center>
+
+Der **Boxplot**, auch **Box-Whisker-Plot**, ist eine kompakte deskriptive Darstellung verschiedener univariater Kennwerte eines [Merkmals](../../glossar/merkmal/index.html). Die Fünf-Punkte-Zusammenfassung einer Verteilung inkludiert das Minimum, das [1. Quartil](../../glossar/quartil/index.html), den [Median](../../glossar/median/index.html), das [3. Quartil](../../glossar/quartil/index.html) sowie das Maximum. **Boxplots** weisen damit eine extrem hohe Informationsdichte auf. Durch diese konzentrierten Informationen erlauben sie eine sehr schnelle Abschätzung der Streuung.
+
+Das Beispiel unten beschreibt beispielhaft die *durchschnittliche Semesterzahl* eines beliebigen Studiengangs. Grafisch wird diese Beschreibung durch **Boxplots** visualisiert. Die untere Grenze der Box ist das *1. Quartil* ($11 Semester$), die obere Grenze der Box ist das *3. Quartil* ($14 Semester$). Die Länge der Box entspricht dem [Interquartilsabstand](../../glossar/interquartilsabstand/index.html) ($14 – 11 = 3 Semester$).
+
+Innerhalb der Box ist der Median ($12$ Semester) durch eine Linie gekennzeichnet. An der Box erkennt man deutlich, dass die Studiendauer linkssteil verteilt ist. Der Abstand zwischen Median und *3. Quartil* ist größer als der Abstand zwischen *Median* und *1. Quartil*.
+
+Die Box wird durch zwei **Whisker** nach oben und unten verlängert. Diese Begrenzungen entsprechen dem Minimum und Maximum der Verteilung, sofern wie im Beispiel keine **Ausreißer** existieren. Die [Spannweite](../../glossar/spannweite/index.html) ist also ebenfalls im **Boxplot** dargestellt.
+
+**Ausreißer** sind Messwerte, die weiter als den $1.5$-fachen [Interquartilsabstand](../../glossar/interquartilsabstand/index.html) von der Box entfernt sind – sie werden einzeln dargestellt. Sind **Ausreißer** vorhanden, dann ist der **Whisker** an der Stelle des kleinsten bzw. größten Messwertes, der kein **Ausreißer** ist.
+
+![Boxplot Studiendauer](../images/boxplot.png)
+
+{{% notice tip %}}
+Siehe auch: @Bortz2010 [Kapitel 3.4]; @Gehring2009 [Kapitel 6.2.3].
+{{% /notice %}}

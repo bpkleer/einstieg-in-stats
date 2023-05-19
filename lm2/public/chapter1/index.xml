@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grundbegriffe on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM2/chapter1/</link>
+    <description>Recent content in Grundbegriffe on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM2/chapter1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deskriptiv- &amp; Inferenzstatistik</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-a/</guid>
+      <description>Deskriptive oder auch explorative Statistik, trifft immer Aussagen über vorhandene Daten, d.h. es handelt sich hierbei um eine beschreibende Statistik. Dazu zählen Verfahren zur Berechnung von Lage- und Streumaßen, aber auch alle grafischen Darstellungen wie z.B. Box-Plots. Korrelationen und Regressionen können auch als deskriptive Verfahren genutzt werden, üblicher ist aber, dass diese inferenzstatistisch genutzt werden. Daher werden diese beide Verfahren in Lernmodul 4 vorgestellt.
+Mithilfe der Inferenzstatistik werden Wahrscheinlichkeitsaussagen über Populationswerte getroffen.</description>
+    </item>
+    
+    <item>
+      <title>Uni-, bi &amp; multivariat</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-b/</guid>
+      <description>In der Statistik wird zusätzlich zwischen univariaten, bivariaten und multivariaten Verfahren unterschieden.
+Bei der univariaten Datenanalyse interessiert die Frage, was bei einem/r ausgewählten Merkmal/Variable über die erhobenen Ausprägungen ausgesagt werden kann. Zum Beispiel interessiert die Frage, wie viele Personen den einzelnen Antwortmöglichkeiten eines/r Merkmals/Variable zugestimmt haben. Hierzu wird eine Häufigkeitsverteilung erstellt oder Lage- und Streumaße dieses/r Merkmals/Variable berechnet. Einfache Häufigkeitsverteilung beschreiben, wie sich die untersuchten Personen auf die Merkmalsausprägungen des/r gewählten Merkmals/Variablen verteilen (häufen).</description>
+    </item>
+    
+    <item>
+      <title>Urliste</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-c/</guid>
+      <description>Qua Definition bezeichnet man eine Urliste als Ausdruck für die Auflistung der Messwerte einer Variablen. In dieser ist das Merkmal (z.B. Augenfarbe oder Alter) eingetragen und die zugehörigen Merkmalsausprägungen (blau, grün, etc. für die Augenfarbe und \(34\) Jahre, \(27\) Jahre, etc. für das Alter) für jede befragte Person (Zeile für Zeile) festgehalten.
+Urliste Aus einer (umfangreicheren) Urliste kann nur mit Mühe ersehen werden, wie sich die Personen auf die verschiedenen Merkmalsausprägungen verteilen.</description>
+    </item>
+    
+    <item>
+      <title>Häufigkeitstabelle</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-d/</guid>
+      <description>Eine univariate Datenanalyse in tabellarischer Form ergibt eine Häufigkeitstabelle. Diese Häufigkeitstabelle beschreibt, wie sich die Personen auf die Ausprägungen des einen Merkmals verteilen. Nehmen wir das Beispiel der Urliste von der vorherigen Seite wieder auf: Die Variable Augenfarbe (\(X\)) hat die Ausprägungen grün, blau und braun. Dieses Merkmal \(X\) umfasst mehrere Merkmalsausprägungen, in unserem konkreten Fall \(3\) (grün, blau und braun).
+Urliste In der Notation werden die Fälle einer Variablen wie folgt zusammengefasst: \(i \in {1, 2, …, n}\).</description>
+    </item>
+    
+    <item>
+      <title>Kumulierte Häufigkeiten</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-e/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-e/</guid>
+      <description>Wie im Kapitel Grundbegriffe dargestellt, stellen Häufigkeitstabellen die Darstellung der absoluten und relativen Häufigkeiten der Merkmalsausprägung einer Variablen dar. Neben den absoluten und relativen Häufigkeiten, werden oftmals auch kumulierte relative Häufigkeiten zusätzlich angegeben. Für kumulierte relative Häufigkeiten muss eine Rangordnung zwischen den Ausprägungen vorhanden sein, also mindestens ein ordinales Skalenniveau vorliegen.
+Nehmen wir ein Beispiel, bei dem wir von \(100\) Befragten die Anzahl abgefragt haben, in wie viele Länder der Welt sie bereits gereist sind.</description>
+    </item>
+    
+    <item>
+      <title>Datenmatrix</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-f/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-f/</guid>
+      <description>Als Datenmatrix bezeichnet man die Anordnung der Daten vor allem (aber nicht nur) in Statistik-Programmen. Im Gegensatz zur Urliste beinhaltet die Datenmatrix nicht nur eine Variable, sondern alle erhobenen Variablen.
+Hier im Beispiel: Es wurden Personen nach ihrem Alter, ihrem Schulabschluss und nach ihrer Lesehäufigkeit befragt. In dem unten dargestellten Beispiel liegen die Daten somit als Antworten zu den Fragen der Befragung vor.
+Datenmatrix In Statistikprogrammen wird in der Regel jedes erfragte Merkmal mit einer Kurzbezeichnung charakterisiert (z.</description>
+    </item>
+    
+  </channel>
+</rss>

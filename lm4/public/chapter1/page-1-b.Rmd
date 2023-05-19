@@ -1,0 +1,52 @@
+---
+title: "Testsituationen"
+weight: 102
+tags: ["testsituation", "signifikanz", "hypothesentest"]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Nehmen wir folgendes Beispiel zur Formulierung einer [Null-](../../glossar/nullhypothese/index.html) und [Alternativhypothese](../../glossar/alternativhypothese/index.html): Wir möchten testen, ob das *mittlere Einkommen* von *Männern* in einer Stichprobe größer als *2300 Euro* ist. Zur Erinnerung der [Erwartungswert](../../glossar/erwartungswert/index.html) wird immer mit $\mu$ angegeben.
+
+Diese Aussage formulieren wir in einer Alternativhypothese, die wie folgt lautet:
+$H_A: \mu > 2300$
+
+In der Nullhypothese nehmen wir an, dass die vermutete Beobachtung nicht zutrifft. Aus unserer getroffenen Alternativhypothese ergibt sich die Nullhypothese:
+$H_0: \mu ≤ 2300$
+
+Wie in der Formulierung sichtbar, testen wir *gerichtet* bzw. *einseitig*, da wir nicht wissen wollen, ob das *mittlere Einkommen* größer oder kleiner als (also ungleich von) *2300 Euro* ist, sondern, ob das *mittlere Einkommen* von *Männern* größer als *2300 Euro* ist.
+
+Für einen *zweiseitigen* Test formulieren wir die Alternativhypothese wie folgt um:
+$H_A: \mu \neq 2300$
+
+Wir möchten bei einem *zweiseitigen Test* prüfen, ob das *mittlere Einkommen* von *Männern* ungleich *2.300 Euro* ist. Daraus ergibt sich wieder die Nullhypothese:
+$H_0: \mu = 2300$
+
+Die Nullhypothese wird also falsifiziert, wenn das *mittlere Einkommen* kleiner als *2300 Euro* ist oder wenn das *mittlere Einkommen* größer als *2300 Euro* ist.
+
+Die formale Formulierung *zweiseitiger (ungerichteter)* Hypothesen ist immer gleich und wie folgt:
+$$H_0: \mu = angenommener \thinspace Wert$$
+
+$$H_A: \mu \neq angenommener \thinspace Wert$$
+
+Die formale Formulierung *einseitiger (gerichteter)* Hypothesen ist wie folgt:
+
+Bei einem *linksseitigen* Test:
+$$H_0: \mu \geq angenommener \thinspace Wert$$
+
+$$H_A: \mu < angenommener \thinspace Wert$$
+
+Und bei einem *rechtsseitigen* Test:
+$$H_0: \mu \leq angenommener \thinspace Wert$$
+
+$$H_A: \mu > angenommener \thinspace Wert$$

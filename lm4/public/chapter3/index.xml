@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lineare Regression on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/</link>
+    <description>Recent content in Lineare Regression on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM4/chapter3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Einführung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-a/</guid>
+      <description>Im ersten Schritt werden nun die mathematischen Grundlagen des Verfahrens der linearen Regression am Beispiel einer bivariaten linearen Regression vorgestellt. Aufbauend darauf werden die Grundlagen auf eine multivariate lineare Regression übertragen und die Interpretation der wichtigsten Kennzahlen vorgestellt. Abschließend wird zum besseren Verständnis ein Praxisbeispiel aktueller Forschung der empirischen Demokratieforschung dargestellt.
+Die Regressionsanalyse ist eine statistische Methode, um die Beziehungsstruktur zwischen mehreren Variablen zu untersuchen. Dabei findet eine Informationsreduktion statt, so dass die Untersuchung auf wenige Kennzahlen beschränkt werden kann.</description>
+    </item>
+    
+    <item>
+      <title>Lineare Gleichung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-b/</guid>
+      <description>Die Grundannahme einer linearen Regression ist die lineare Darstellung, in der die abhängige Variable \(Y\) über eine Linearkombination mit der unabhängigen Variable \(X\) dargestellt wird:
+\(y = \beta_0 + \beta_1 \ast x\)
+\(\beta_0\) stellt die Konstante (engl. intercept) dar, also den Schnittpunkt mit der \(y\)-Achse. In manchen Veröffentlichungen wird hierfür auch ein kleines \(a\) oder \(\alpha\) verwendet. \(\beta_1\) ist die Steigung der Geraden, in diesem Fall die Steigung der abhängigen Variable \(y\) durch die unabhängige Variable \(x\) (englt.</description>
+    </item>
+    
+    <item>
+      <title>Bivariate Regression</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-c/</guid>
+      <description>Bei der Berechnung einer linearen Regression in den Sozialwissenschaften lässt sich das Regressionsmodell nur mit einer Anpassung als lineare Darstellung durchführen. Dies liegt daran, dass keine abhängige Variable perfekt durch eine oder mehrere unabhängige Variable(n) darstellbar ist. In der Modellannahme wird deshalb davon ausgegangen, dass es einen nicht-erklärbaren Anteil gibt, der mit der Störvariable \(\varepsilon\) (manchmal auch \(U\)) angegeben wird. In den Sozialwissenschaften ergibt sich diese Störvariable aus der Forschungslogik heraus: Wir können in den Sozialwissenschaften niemals alle Variablen, die auf etwas wirken, berücksichtigen, da ein soziales Ereignis stets umfassend ist.</description>
+    </item>
+    
+    <item>
+      <title>Beispiel</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-d/</guid>
+      <description>Kommen wir nun zu einem eingängigeren Beispiel: Die folgenden Daten sind fiktiv generiert, damit diese das Verfahren gut simulieren können. Wir möchten eine bivariate lineare Regression berechnen, in der die Zufriedenheit mit der Demokratie (satdem) durch die Zufriedenheit mit der ökonomischen Leistung (sateco) berechnet wird. Wir prüfen also, ob und inwieweit die Zufriedenheit mit der ökonomischen Leistung die Zufriedenheit mit der Demokratie beeinflusst.
+Die Formel unseres Modells lautet daher: \(satdem_i= \beta_0 + \beta_1 \ast sateco_i + e_i\), wobei \(i=1,…,n\).</description>
+    </item>
+    
+    <item>
+      <title>Schätzverfahren</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-e/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-e/</guid>
+      <description>In diesem Lernvideo werden die relevanten Teile der Regressionsberechnung an einem weiteren Beispiel vereinfacht dargestellt und das mathematische Vorgehen der Berechnung der besten Regressionsgeraden kurz erläutert. Weitergehende Ausführungen sind unterhalb des Lernvideos im Text zu finden.
+Kommen wir zurück zur Modellschätzung. Die Gleichung einer Modellschätzung lautet: \(Y = \beta_0 + \beta_1 \ast X + e\) Mit \(Y = (y_1, y_2, ..., y_n), X = (x_1, x_2, ..., x_n)\) und \(e=(e_1, e_2, .</description>
+    </item>
+    
+    <item>
+      <title>Multivariate lineare Regression</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-f/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-f/</guid>
+      <description>Nun erweitern wir die Annahmen auf mehrere unabhängige Variablen. Mit der Regression als multivariate Analyse können Einflüsse möglicher Drittvariablen kontrolliert werden und es wird Aufschluss über die Abhängigkeitsstrukturen zwischen mehreren Variablen gegeben. Die Regression ist daher ein strukturprüfendes Verfahren.
+Bei der multivariaten Regression betrachten wir nicht mehr nur eine unabhängige Variable, sondern beziehen mehrere unabhängige Variablen in das Modell hinein. Der Einbezug von unabhängigen Variablen findet stets theoriegeleitet statt. Die Modellformulierung der multivariaten linearen Regression ändert sich daher auf folgende:</description>
+    </item>
+    
+  </channel>
+</rss>

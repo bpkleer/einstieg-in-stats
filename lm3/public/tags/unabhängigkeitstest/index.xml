@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>unabhängigkeitstest on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM3/tags/unabh%C3%A4ngigkeitstest/</link>
+    <description>Recent content in unabhängigkeitstest on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM3/tags/unabh%C3%A4ngigkeitstest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chi-Quadrat-Unabhängigkeitstest</title>
+      <link>https://lehre.bpkleer.de/stats101/LM3/chapter1/page-1-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM3/chapter1/page-1-b/</guid>
+      <description>Die Indifferenztabelle ist die Grundlage der Berechnung von \(\chi^2\) (Chi-Quadrat), welches ein Maß zur Bewertung der Unabhängigkeit zwischen zwei Variablen ist. Das untenstehende Rechenbeispiel wird auf der nächsten Seite in einem Lernvideo nochmals erklärt.
+Je stärker sich erwartete (Indifferenztabelle) und beobachtete Häufigkeiten (Kontingenztabelle) voneinander unterscheiden, desto stärker ist der Zusammenhang zwischen beiden Variablen.
+Die beobachtete Häufigkeit wird hierbei mit \(f_b\) bezeichnet und die erwartete Häufigkeit mit \(f_e\). Vereinfacht ausgedrückt werden die tatsächlich beobachteten absoluten Häufigkeiten ins Verhältnis zu den erwarteten absoluten Häufigkeiten gesetzt.</description>
+    </item>
+    
+  </channel>
+</rss>

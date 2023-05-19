@@ -1,0 +1,94 @@
+---
+title: "Variable"
+weight: 103
+tags: ["variable", "grundbegriff"]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+**Variablen** sind die gemessenen Merkmale bzw. Eigenschaften von [Beobachtungseinheiten](../../glossar/beobachtungseinheit/index.html). **Variablen** haben verschiedene Merkmalsausprägungen. Beispielsweise kann die **Variable** *Wohnort* die [Merkmalsausprägungen](../../glossar/merkmalsauspraegung/index.html) *Gießen*, *Frankfurt* oder *Wetterau* annehmen. Wie viele Ausprägungen eine **Variable** hat, hängt von der Definition des theoretischen Begriffs und der Entscheidung der [Messung](../../glossar/messung/index.html) ab. So kann die Variable *Wohnort* alle Ortschaften Deutschlands umfassen, wenn diese nicht eingegrenzt wird oder keine Sammelkategorie *sonstige* geschaffen wird.
+
+## Mikro- & Makroebene
+Die **Beobachtungseinheiten** sind die Merkmalsträger bzw. die Objekte, an denen etwas beobachtet wird. In den Sozialwissenschaften werden zwei Analyseebenen unterschieden, auf denen **Variablen** gemessen werden: Die **Mikro-** und die **Makroebene**.
+
+Auf der **Mikroebene** werden Individualdaten gemessen, auf der **Makroebene** aggregierte Daten (z.B. auf der Ebene des Stadtteiles, des Bundeslandes, oder des Staates). Auf der **Mikroebene** betrachtet man Beziehungen zwischen Individualmerkmalen und auf der **Makroebene** Beziehungen zwischen Systemeigenschaften (vom Individuum losgelöste Merkmale).
+
+Ein Beispiel einer quantitativen Untersuchung auf der **Mikroebene** sind Wahlstudien wie die [German Longitudinal Election Study](https://gles.eu/). Die Datenerhebung des [V-Dem Projekts](http://www.v-dem.net/en/about/) stellt eine quantitative Untersuchung auf der **Makroebene** dar: Hier werden zu einzelnen Ländern aggregierte Systemeigenschaften anhand sieben demokratischen Prinzipien gesammelt.
+
+In Abhängigkeit der Analyseebene kann zwischen **Individual-** ([Mikroebene](../../glossar/mikroebene/index.html)) und **Kollektivvariable** ([Makroebene](../../glossar/makroebene/index.html)) unterschieden werden. Bei einer Individualvariable bezieht sich die Variable auf ein **Individualmerkmal**. Bei einer **Kollektivvariable** bezieht sich die Variable auf ein Kollektivmerkmal.
+
+**Variablen werden** nicht nur auf ihrer [Merkmalsebene](../../glossar/merkmalsebene/index.html) hin unterschieden, sondern können aufgrund weiterer Eigenschaften unterschieden werden. Grundsätzlich wird zwischen *dichotomen* und *polytomen*, zwischen *diskreten* und *stetigen* **Variablen**, zwischen *latenten* und *manifesten* **Variablen** sowie zwischen *abhängiger* und *unabhängiger* **Variable** unterschieden. Diese Unterscheidungen werden nun im Folgenden vorgestellt.
+
+## Dichotom & polytom, stetig & diskret
+
+**Dichotome Variablen** beinhalten nur zwei [Merkmalsausprägungen](../../glossar/merkmalsauspraegung/index.html). So erfolgt z.B. die Abfrage des Geschlechts in Umfragen meist dichotom: Als Antwortmöglichkeiten werden oft nur „männlich“ und „weiblich“ genutzt. Dies stellt eine **dichotome Variable** dar.
+
+**Polytome Variablen** nehmen dagegen mehr als zwei Ausprägungen an. So ist z.B. die Variable „Beruf“ eine **polytome Variable**, denn hier werden in der Regel verschiedene Merkmalsausprägungen abgefragt: z.B. „Angestellte“, „Arbeiter:in“, „Selbstständiger Beruf“, oder „Freiberufler:in“.
+
+**Stetige** (oder auch kontinuierliche) **Variablen** können jeden beliebigen Wert eines bestimmten Intervalls annehmen. Dies gilt z.B. für die Körpergröße: Wenn in einer Umfrage die Körpergröße abgefragt wird, gibt es ein Minimum (1,56m) und ein Maximum (2,14m) in den erhobenen Daten, dazwischen ist aber jeder Wert (z.B. 1,69 oder 1,87m) annehmbar. Auch zwischen zwei Werten von 1,69 und 1,70 ist ein weiterer Wert theoretisch annehmbar: 1,691 oder 1,697. Dafür wäre eine hinreichend genaue Messung nötig, allerdings ist hier viel mehr die theoretische Feststellung der Eigenschaft wichtig.
+
+Bei **diskreten Variablen** ist dies dagegen eingeschränkt, da nur endlich viele Werte eingenommen werden können. Ein Beispiel ist die Augenzahl beim Würfel: Wir wissen, dass es nur 6 Merkmalsausprägungen gibt (1, 2, 3, 4, 5, 6) und nur eine dieser Ausprägungen zutreffen kann. Bei **diskreten Variablen** steht also die Anzahl der Merkmalsausprägungen im vornhinein fest, bei **stetigen Variablen** erst nach der Datenerhebung mit der Anzahl der verschiedenen gemessenen Merkmalsausprägungen.
+
+![Übersicht Variablen](../images/dichotom-polytom.png)
+
+## Lernvideo zu den Eigenschaften
+
+Im folgenden Lernvideo werden Ihnen anhand zweier Beispiele (auf der [Mikro-](../../glossar/mikroebene/index.html) und [Makroebene](../../glossar/makroebene/index.html)) die Begriffspaare **dichotom & polytom** sowie **stetig & diskret** vorgestellt. Alternativ können Sie auch zum Text unterhalb des Lernvideos scrollen.
+
+<center>
+
+<iframe src="https://player.vimeo.com/video/506052954?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+
+</center>
+
+## Latent & manifest
+Neben diesen zwei Unterscheidungen wird zusätzlich zwischen direkt beobachtbarer, **manifester**, und nicht direkt beobachtbarer, **latenter** Variable, unterschieden.
+
+**Manifeste Variablen** sind messbar und haben somit einen direkten empirischen Bezug. Sowohl die *Wochenarbeitszeit* als auch das *Alter* sind direkt messbare Variablen, die durch Zahlenwerte eindeutig ausgedrückt werden können. Beide sind somit **manifeste Variablen**.
+
+**Latente Variablen** hingegen sind nicht direkt beobachtbar und müssen über mehrere [Variablen](../../glossar/variable/index.html) bestimmt werden. Ein Beispiel für eine **latente Variable** ist z. B. *Stress*. Dies kann nicht über eine einzelne Abfrage wie „Wie hoch ist ihr Stress gerade?“ gemessen werden. *Stress* könnte sich äußern über folgende [Merkmale](../../glossar/merkmal/index.html): *höhere Herzfrequenz, hoher Blutdruck, verschnellerte Atmung oder einem erhöhten Adrenalinspiegel*. Es müssen bei **latenten Variablen** in der Regel mehrere empirisch beobachtbare Größen zusammengefasst werden.
+
+![Unterscheidung manifest & latent](../images/manifest-latent.png)
+
+## Abhängig & unabhängig 
+
+Wichtig in der empirischen Sozialforschung ist die Unterscheidung zwischen **abhängiger** und **unabhängiger** [Variable](../../glossar/variable/index.html). Wir gehen in der Sozialwissenschaft von einer Ursache-Wirkungs-Relation zwischen zwei Variablen aus: Die **abhängige Variable** ist diejenige, die beeinflusst wird (Wirkung) und die **unabhängige Variable** ist die Variable, die die Wirkung auslöst (Ursache). Die **unabhängige Variable** wird zumeist mit $X$ bezeichnet und die **abhängige Variable** mit $Y$.
+
+Die **abhängige Variable** wird manchmal auch als *Zielvariable* oder zu *erklärende Variable* bezeichnet. Die **unabhängige Variable** wird als *Prädiktor-Variable* oder *erklärende Variable* bezeichnet.
+
+Die **abhängige Variable (aV)** wird also durch die unabhängigen **Variable(n) (uV)** bedingt.
+
+In der Regel schreiben wir diese Beziehungen wie folgt auf:
+
+Nehmen wir an es gilt: „Je höher das politische Interesse ist, desto eher nimmt eine Person an einer Wahl teil (Wahlteilnahme).“
+
+![Beispiel aV & uV I](../images/uv-av.png)
+
+Ein anderes Beispiel wäre, wenn wir annehmen, dass „je höher die Lernmotivation einer Schüler*in ist, desto besser ist die Schulleistung“.
+
+![Beispiel aV & uV II](../images/uv-av2.png)
+
+**Abhängige** und **unabhängige Variablen** werden also in empirischen [Hypothesen](../../glossar/hypothese/index.html) genutzt. In Abhängigkeit der **Analyseebene** können Hypothesen dann zwischen [Individual-](../../glossar/individualhypothese/index.html), [Kollektiv-](../../glossar/kollektivhypothese/index.html) und [Kontexthypothese](../../glossar/kontexthypothese/index.html) unterschieden werden.
+
+Bei einer **Individualhypothese** beziehen sich sowohl **abhängige** als auch **unabhängige Variable** auf ein [Individualmerkmal](../../glossar/merkmalsebene/index.html) (beide Beispiele oben).
+
+Bei einer **Kollektivhypothese** beziehen sich sowohl **abhängige** als auch **unabhängige** Variable auf [Kollektivmerkmale](../../glossar/merkmalsebene/index.html).
+
+Beispiel: Je größer der Anteil an Arbeiter*innen im Bezirk, desto höher der Anteil für die SPD im Bezirk.
+
+Bei einer **Kontexthypothese** bezieht sich die **abhängige Variable** auf ein Individualmerkmal und die **unabhängige Variable** auf ein Kollektivmerkmal.
+Beispiel: Je höher die Arbeitslosenquote innerhalb eines Bezirks, desto niedriger ist die Zufriedenheit mit der Regierung jeder Person in diesem Bezirk (gleich ob arbeitslos oder nicht).
+
+Wichtig ist hierbei, dass **Kollektiv-** und **Individualhypothese** nicht gleichgesetzt werden können. Aus dem Beispiel der **Kollektivhypothese** können wir nicht den Individualschluss ziehen, dass Arbeiter:innen die SPD wählen. Denn eine **Individualhypothese** folgt nicht automatisch aus einer **Kollektivhypothese**. Die (ungeprüfte) Gleichsetzung von Kollektiv- und Individualhypothese bezeichnet man als **ökologischen Fehlschluss**.
+
+![Analyseebenen von Hypothesen](../images/coleman.png)

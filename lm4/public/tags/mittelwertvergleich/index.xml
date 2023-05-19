@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mittelwertvergleich on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM4/tags/mittelwertvergleich/</link>
+    <description>Recent content in mittelwertvergleich on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM4/tags/mittelwertvergleich/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Einführung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter2/page-2-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter2/page-2-a/</guid>
+      <description>Mit Mittelwertvergleichen werden also Zusammenhänge zwischen nominalen (Gruppenvariable, im Beispiel Geschlecht) und metrischen Variablen (im Beispiel Einkommen) getestet.
+Für den Mittelwertvergleich gibt es mehrere Verfahren, die in Abhängigkeit der Gruppenanzahl der nominalen Variable und in Abhängigkeit der Stichprobe angewandt werden. Für einen Mittelwertvergleich zwischen zwei Gruppen wird der sogenannte t-test (Mittelwertvergleich) genutzt und für eine Untersuchung von mehr als zwei Gruppen der sogenannte F-Test (Varianzanalyse).
+Bei beiden genannten Verfahren wird nochmals unterschieden, ob die Stichproben abhängig oder unabhängig voneinander sind.</description>
+    </item>
+    
+    <item>
+      <title>t-Test ungepaart</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter2/subchapter1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter2/subchapter1/</guid>
+      <description>Kapitel 2.1 t-Test ungepaart Der t-test wird für Mittelwertvergleiche genutzt, in denen zwei Gruppen verglichen werden. Dabei gibt es einen t-test für unabhängige Stichproben und einen t-test für abhängige Stichproben. Hier wird nun der t-test für unabhängige Stichproben vorgestellt. Wie zuvor auch beschränken wir uns hier auf die Interpretation des Verfahrens.</description>
+    </item>
+    
+    <item>
+      <title>Formulierung t-Test</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter2/subchapter1/page-2-1-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter2/subchapter1/page-2-1-a/</guid>
+      <description>Als Beispiel für die Berechnung eines ungepaarten \(t\)-tests nehmen wir folgende Frage auf: Weisen Frauen und Männer einen unterschiedlichen Mittelwert bei der wöchentlichen Arbeitszeit auf? Falls ja, sind diese Unterschiede statistisch signifikant?
+Der \(t\)-test ist ein Hypothesentest. In der Nullhypothese wird geprüft, dass es keine Unterschiede zwischen den Mittelwerten gibt und in der Alternativhypothese, dass es einen Unterschied gibt. Diese Alternativhypothese kann gerichtet (einseitig) wie ungerichtet (zweiseitig) geprüft werden.</description>
+    </item>
+    
+    <item>
+      <title>Beispiel gleiche Varianzen</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter2/subchapter1/page-2-1-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter2/subchapter1/page-2-1-b/</guid>
+      <description>Kommen wir nun zu einem Rechenbeispiel des zweiseitigen t-Tests für unabhängige Stichproben mit gleichen Varianzen. Als Beispiel übernehmen wir die Fragestellung, die wir eingangs als Beispiel benannt haben: Weisen Frauen und Männer einen unterschiedlichen Mittelwert bei der wöchentlichen Arbeitszeit auf? Falls ja, sind diese Unterschiede statistisch signifikant?
+Aus einem Survey haben wir folgende Daten:
+Frauen: \(\bar{x}_1 = 34.14084, s_1 = 10.89673, n_1 = 884\)
+Männer: \(\bar{x}_2 = 43.64809, s_2 = 9.</description>
+    </item>
+    
+    <item>
+      <title>Beispiel ungleiche Varianzen</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter2/subchapter1/page-2-1-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter2/subchapter1/page-2-1-c/</guid>
+      <description>Nun wollen wir ein Beispiel für einen \(t\)-Test mit unabhängigen Stichproben, aber ungleichen Varianzen berechnen. Dieser Test wird auch Welch-Test oder \(t\)-Test mit Welch-Korrektur genannt. Aus einer weiteren Stichprobe haben wir folgende Werte, wobei Varianzgleichheit zwischen den Gruppen nicht gegeben ist.
+Frauen: \(\bar{x}_1 = 34.14084, s_1 = 5.89673, n_1 = 884\)
+Männer: \(\bar{x}_2 = 43.64809, s_2 = 11.541511, n_2 = 1023\)
+Der empirische \(t\)-Wert berechnet sich wie folgt:
+\(t_{emp} = \frac{\bar{x}_1 - \bar{x}_2}{\sqrt{\frac{s^2_1}{n_1} + \frac{s^2_2}{n_2}}}\)</description>
+    </item>
+    
+    <item>
+      <title>t-Test gepaart</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter2/subchapter2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter2/subchapter2/</guid>
+      <description>Kapitel 2.2 t-Test gepaart Nun wird ein Beispiel für den t-Test mit abhängigen Stichproben vorgestellt. Dazu nehmen wir folgendes Beispiel an: In einem Landtag wurde ein neues Bildungsprogramm für Schulen initiiert, dass u.a. das politische Wissen der teilnehmenden Schüler:innen steigern soll. Dazu wurde vor der Teilnahme und nach der Teilnahme jeweils das politische Wissen gemessen. Von jeder Schüler:in liegen also zwei Messwerte vor: einmal das politische Wissen vor der Teilnahme und einmal das politische Wissen nach der Teilnahme.</description>
+    </item>
+    
+    <item>
+      <title>Berechnung mit Rohwerten</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter2/subchapter2/page-2-2-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter2/subchapter2/page-2-2-a/</guid>
+      <description>Dazu nehmen wir folgendes Beispiel an: In einem Landtag wurde ein neues Bildungsprogramm für Schulen initiiert, dass u.a. das politische Wissen der teilnehmenden Schüler:innen steigern soll. Dazu wurde vor der Teilnahme und nach der Teilnahme jeweils das politische Wissen gemessen. Von jeder Schüler:in liegen also zwei Messwerte vor: einmal das politische Wissen vor der Teilnahme (\(x_1\)) und einmal das politische Wissen nach der Teilnahme (\(x_2\)).
+Wir haben folgende Messwerte für 5 fiktive Schüler:innen: \(x_1\) ist der Messwert vor der Teilnahme, \(x_2\) der Messwert nach der Teilnahme und \(d\) die Differenz zwischen \(x_1\) und \(x_2\).</description>
+    </item>
+    
+    <item>
+      <title>Angegebene Differenzwerte</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter2/subchapter2/page-2-2-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter2/subchapter2/page-2-2-b/</guid>
+      <description>Man kann den \(t\)-Test für abhängige Stichproben auch berechnen, wenn die Werte des Mittelwerts der Differenzen der gepaarten Mittelwerte (\(\bar{x}_d\)) sowie die Standardabweichung der Differenzen der gepaarten Mittelwerte (\(\hat{\sigma}_d\)) angegeben sind. Wir nehmen das Beispiel von oben, gehen aber nun von folgenden Werten für eine Stichprobe mit \(1.000\) Schüler:innen aus.
+\(\bar{x}_d = -3.7\)
+\(\hat{\sigma}_d = 1.3\)
+\(n = 1000\)
+Hier müssen nun nur die Rechenschritte aus dem vorherigen Beispiel ab Punkt 3 berechnet werden:</description>
+    </item>
+    
+  </channel>
+</rss>

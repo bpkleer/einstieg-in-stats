@@ -1,0 +1,53 @@
+---
+title: "Angegebene Differenzwerte"
+weight: 222
+tags: ["t-test", "gepaart", "mittelwertvergleich", "lernvideo"]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Man kann den $t$-Test für abhängige Stichproben auch berechnen, wenn die Werte des Mittelwerts der Differenzen der gepaarten Mittelwerte ($\bar{x}_d$) sowie die Standardabweichung der Differenzen der gepaarten Mittelwerte ($\hat{\sigma}_d$) angegeben sind. Wir nehmen das Beispiel von oben, gehen aber nun von folgenden Werten für eine Stichprobe mit $1.000$ Schüler:innen aus.
+
+$\bar{x}_d = -3.7$
+
+$\hat{\sigma}_d = 1.3$
+
+$n = 1000$
+
+Hier müssen nun nur die Rechenschritte aus dem vorherigen Beispiel ab *Punkt 3* berechnet werden:
+
+$\hat{\sigma}_{\bar{x}_d} = \frac{\hat{\sigma}_d}{\sqrt{n}} = \frac{1.3}{\sqrt{1000}} \approx 0.041$
+
+$t_{emp} = \frac{\bar{x}_d}{\hat{\sigma}_{\bar{x}_d}} = \frac{-3.7}{0.041} \approx -90.003$
+
+$\nu = 2 * n -2 = 2* 1000 - 2 = 1998$
+
+Nun müssen wir den Betrag der Prüfgröße ($|t_{emp}|$) gegenüber dem kritischen Wert prüfen. Wir prüfen auf das konventionellen $90\%$-Niveau und haben insgesamt $1998$ Freiheitsgrade ($\nu$). Wir führen einen zweiseitigen Test durch. Da die meisten $t$-Tabellen nur bis $1000$ Freiheitsgrade verzeichnet sind nehmen wir approximativ den kritischen Wert an der Stelle $t_{krit(\nu=1000; p = 0.90)}$.
+
+Der kritische Wert beträgt an der genannten Stelle:
+
+$t_{krit_{(\nu=1000; p=0.90)}} = 1.282$.
+
+Damit das errechnete Ergebnis der Signifikanz gilt, muss:
+
+$|t_{emp} | > t_{krit}$
+
+Im Beispiel ist dies erfüllt: $|-90.003| > 1.282$
+
+Wir können somit schlussfolgern, dass das politische Wissen nach der Teilnahme signifikant im Mittel um $3.7$ Punkte steigt. 
+
+Hier ein weiteres Beispiel im Video:
+
+<center>
+<iframe src="https://player.vimeo.com/video/512545278?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+</center>

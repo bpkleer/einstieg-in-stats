@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>median on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM2/tags/median/</link>
+    <description>Recent content in median on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM2/tags/median/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Median</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter2/page-2-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter2/page-2-b/</guid>
+      <description>Der Median ist jene Ausprägung/Wert, welcher die Verteilung genau in zwei gleich große Abschnitte teilt. Der Median ist der Wert, der in einer geordneten Liste genau in der Mitte liegt, d.h. dass sich genauso viele Werte oberhalb wie unterhalb des Wertes befinden (jeweils \(50\%\) der Fälle). Folglich setzt der Median eine Ordnung der Werte voraus und damit ein ordinales Skalenniveau. Sowohl bei der Berechnung des Medians als auch beim ordinalen Skalenniveau sind die Werte der Größe nach sortiert.</description>
+    </item>
+    
+  </channel>
+</rss>

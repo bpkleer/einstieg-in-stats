@@ -1,0 +1,29 @@
+---
+title: "Datenmatrix"
+weight: 106
+tags: ["daten", "datenmatrix"]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Als **Datenmatrix** bezeichnet man die Anordnung der [Daten](../../glossar/daten/index.html) vor allem (aber nicht nur) in Statistik-Programmen. Im Gegensatz zur [Urliste](../../glossar/urliste/index.html) beinhaltet die **Datenmatrix** nicht nur eine [Variable](../../glossar/variable/index.html), sondern alle erhobenen Variablen.
+
+Hier im Beispiel: Es wurden Personen nach ihrem *Alter*, ihrem *Schulabschluss* und nach ihrer *Lesehäufigkeit* befragt. In dem unten dargestellten Beispiel liegen die Daten somit als Antworten zu den Fragen der Befragung vor.
+
+![Datenmatrix](../images/datenmatrix1.png)
+
+In Statistikprogrammen wird in der Regel jedes erfragte [Merkmal](../../glossar/merkmal/index.html) mit einer Kurzbezeichnung charakterisiert (z.B. *V1* für Variable 1, etc.). Die Antworten der Befragten werden in je einer Zeile festgehalten; d.h. die Rohdaten einer [Datenerhebung](../../glossar/datenerhebung/index.html) werden codiert, d.h. die [Ausprägungen](../../glossar/merkmalsauspraegung/index.html) der Merkmale werden als Zahlen dargestellt. Anstatt der Bezeichnung der [Beobachtungseinheiten](../../glossar/beobachtungseinheit/index.html) wird in der Regel der Laufindex $i$ für die Fallnummer genutzt, oder zur besseren Identifikation der Fälle ein persönlicher Codewert für jeden einzelnen Fall genutzt.
+
+Für die Variable Alter wird das erhobene Alter als Zahl übernommen, beim *Schulabschluss* wird dies der Reihenfolge nach kodiert: Abitur ($3$), Realschule ($2$), Hauptschule ($1$). Es wird hier also eine Ordnung vorgenommen, wobei die höchste Zahl dem höchsten *Schulabschluss* zugeordnet wird. Auch die *Lesehäufigkeit* wurde als [ordinales Skalenniveau](../../glossar/ordinalskala/index.html) Zahlenwerte zugeordnet: sehr oft ($4$), oft ($3$), selten ($2$) und nie ($1$).
+
+![Datenmatrix](../images/datenmatrix2.png)

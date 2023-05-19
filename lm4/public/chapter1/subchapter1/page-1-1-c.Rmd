@@ -1,0 +1,46 @@
+---
+title: "t-Verteilung"
+weight: 113
+tags: ["t-verteilung", "konfidenzintervall", "signifikanz", "hypothesentest"]
+bibliography: [../../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../../static/files/apa.csl]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Bei Stichproben mit kleinem $n$ und unbekannter Varianz in der Grundgesamtheit ($\sigma_x$) empfiehlt es sich statt der $z$-Verteilung die $t$-Verteilung für die Berechnung eines Konfidenzintervalls zu nutzen. 
+
+Bei der t-Verteilung ist abhängig von den Freiheitsgraden ($\nu$). Freiheitsgrade geben an, wie viele Werte in einem statistischen Ausdruck frei variieren können. In der $t$-Verteilung berechnen sich die Freiheitsgrade wie folgt: $\nu = n-1$.
+
+Neben den Freiheitsgraden muss zum Bestimmen des $t$-Wertes auch noch die Irrtumswahrscheinlichkeit ($\alpha$) festgelegt werden. 
+
+Das Konfidenzintervall berechnet sich analog wie bei der $z$-Verteilung:
+
+$\bar{x} \pm t_{(1-\frac{\alpha}{2}; n-1)} \ast {\sigma_{\bar{x}}}$
+
+Untergrenze Intervall:
+$x_U = \bar{x} - t_{(1-\frac{\alpha}{2}; n-1)} \ast {\sigma_{\bar{x}}}$
+
+Obergrenze Intervall:
+$x_O = \bar{x} + t_{(1-\frac{\alpha}{2}; n-1)} \ast {\sigma_{\bar{x}}}$
+
+wobei $\sigma_{\bar{x}} = \frac{\sigma_x}{\sqrt{n}}$
+
+Auch hier wird $\sigma_x$ über die Stichprobe wie folgt geschätzt: $\hat{\sigma}_x =\sqrt{\hat{\sigma}_x^2} = \sqrt{\frac{ \sum\limits_{i=1}^n (x_{i} - \bar{x})^2} {n-1}}$
+
+{{% notice tip %}}
+Siehe auch: @Gehring2009 [Kapitel 11]; @Bortz2010 [Kapitel 6.5].
+{{% /notice %}}

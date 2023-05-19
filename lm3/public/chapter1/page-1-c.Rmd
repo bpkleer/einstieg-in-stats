@@ -1,0 +1,32 @@
+---
+title: "PRE-Maße"
+weight: 103
+tags: ["pre-maße", "lambd", "gamm", "eta-quadrat"]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Neben der Berechnung von Zusammenhangsmaßen, die auf $\chi^2$ beruhen, können auch noch Zusammenhangsmaße berechnet werden, die auf der proportionalen Fehlerreduktion beruhen (**PRE-Maße**). Ziel dieser Maße ist es auszudrücken, wie gut durch die Kenntnis einer Variablen die Ausprägungen einer weiteren Variablen vorhergesagt werden können. Das errechnete Maß drückt dann diese Verbesserung aus. 
+Hierbei unterscheidet man zwei Fälle: Einmal den Fall, dass man keine Kenntnis über den Zusammenhang der zwei Variablen hat ($E_1$) und zum anderen, dass man eben über entsprechende Kenntnisse verfügt ($E_2$). Beides beschreibt das Ausmaß des Vorhersagefehlers (einmal unter Unkenntnis des Zusammenhangs und einmal unter Kenntnis des Zusammenhangs).
+
+Generell wird ein PRE-Maß daher wie folgt berechnet: 
+
+$$PRE = \frac{E_1 - E_2}{E_1}$$
+
+Die folgenden PRE-Maße werden im weiteren Verlauf vorgestellt: 
+
+- Goodman & Kruskals $\lambda$,
+
+- Goodman & Kruskals $\gamma$,
+
+- Goodman & Kruskals $\eta^2$.

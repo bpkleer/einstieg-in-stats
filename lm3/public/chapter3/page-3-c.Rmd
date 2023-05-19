@@ -1,0 +1,44 @@
+---
+title: "t-Verteilung"
+weight: 303
+tags: ["t-verteilung", "verteilungen"]
+bibliography: [../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../static/files/apa.csl]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Eine weitere wichtige Verteilungsform neben [Normal-](../../glossar/normalverteilung/index.html) und [Standardnormalverteilung](../../glossar/standardnormalverteilung/index.html) ist die **t-Verteilung**.
+
+Die **t-Verteilung** ist glockenförmig, aber flacher als die Normalverteilung. Sie wird insbesondere dann genutzt, wenn weniger als 30 [Stichproben](../../glossar/stichprobe/index.html) herangezogen werden oder wir die [Varianz](../../glossar/varianz/index.html) ($\sigma^2$) nicht kennen. Dies wird insbesondere bei einigen [Hypothesentests](../../glossar/signifikanztest/index.html) in der Statistik angewendet. Des Weiteren geht die **t-Verteilung** bei großen Fallzahlen in eine Normalverteilung über.
+
+Die **t-Verteilung** geht zurück auf William S. Gosset und stellt eine „genauere“ [z-Verteilung](../../glossar/zverteilung/index.html) dar.
+Ein Problem der Standardnormalverteilung liegt darin, dass mehr Annahmen getroffen werden, als in sozialwissenschaftlichen Forschungssituationen oftmals vorhanden sind. So ist die [Standardabweichung](../../glossar/standardabweichung/index.html) zur Berechnung des [Standardfehlers](../../glossar/standardfehler/index.html) für die [Grundgesamtheit](../../glossar/grundgesamtheit/index.html) meist nicht bekannt. Die „wahre Streuung“ wird daher aus der [Stichprobenstreuung](../../glossar/stichprobenvarianz/index.html) geschätzt, was zu Unsicherheit führt. Bei großen [Stichproben](../../glossar/stichprobe/index.html) ist dies unproblematisch, bei kleineren jedoch birgt dies Probleme. Daher wird bei kleineren Stichproben die **t-Verteilung** angenommen.
+
+Die Form der **t-Verteilung** hängt dabei von der Anzahl der Freiheitsgrade (*df = degrees of freedom*) ab, die wiederum die [Stichprobengröße](../../glossar/stichprobenumfang/index.html) widerspiegelt. Die Freiheitsgerade berechnen sich aus der Stichprobengröße: $df=n - 1$. Je höher die Anzahl der Freiheitsgrade, desto besser repräsentiert die [Stichprobenvarianz](../../glossar/stichprobenvarianz/index.html) die [Populationsvarianz](../../glossar/populationsvarianz/index.html) und desto besser repräsentiert die $t$-Statistik den entsprechenden $z$-Wert.
+
+Die erste der untenstehenden Grafiken zeigt eine **t-Verteilung**, bei der sich die Anzahl der Freiheitsgrade verändert. In der zweiten Grafik können Sie sehen, dass die t-Verteilung bereits ab 30 Freiheitsgraden bereits nahezu identisch mit der [Standardnormalverteilung](../../glossar/standardnormalverteilung/index.html) ist. Optisch ist kein Unterschied mehr erkennbar.
+
+<center>
+
+
+![t-Verteilung (Freiheitsgrade verändert)](../images/tdist.gif)
+
+![t-Verteilung und Standardnormalverteilung](../images/tverte_standnormv2.png)
+
+{{% notice tip %}}
+Siehe auch: @Bortz2010 [Kapitel 5.5.2]
+{{% /notice %}}

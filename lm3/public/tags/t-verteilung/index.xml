@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>t-verteilung on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM3/tags/t-verteilung/</link>
+    <description>Recent content in t-verteilung on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM3/tags/t-verteilung/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>t-Verteilung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM3/chapter3/page-3-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM3/chapter3/page-3-c/</guid>
+      <description>Eine weitere wichtige Verteilungsform neben Normal- und Standardnormalverteilung ist die t-Verteilung.
+Die t-Verteilung ist glockenförmig, aber flacher als die Normalverteilung. Sie wird insbesondere dann genutzt, wenn weniger als 30 Stichproben herangezogen werden oder wir die Varianz (\(\sigma^2\)) nicht kennen. Dies wird insbesondere bei einigen Hypothesentests in der Statistik angewendet. Des Weiteren geht die t-Verteilung bei großen Fallzahlen in eine Normalverteilung über.
+Die t-Verteilung geht zurück auf William S. Gosset und stellt eine „genauere“ z-Verteilung dar.</description>
+    </item>
+    
+  </channel>
+</rss>

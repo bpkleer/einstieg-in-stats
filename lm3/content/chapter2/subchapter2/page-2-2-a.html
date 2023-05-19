@@ -1,0 +1,53 @@
+---
+title: "Spearman's Rho"
+weight: 221
+tags: ["rho", "spearman", "lernvideo"]
+bibliography: [../../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../../static/files/apa.csl]
+---
+
+
+
+<p>{{% buttonGit href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="mailto:?subject=Schau%20dir%20das%20mal%20an%3A%20" icon="fas fa-paper-plane" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://t.me/share/url?url=" icon="fab fa-telegram" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://api.whatsapp.com/send?text=" icon="fab fa-whatsapp" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://twitter.com/share?url=" icon="fab fa-twitter" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://www.facebook.com/sharer/sharer.php?u=" icon="fab fa-facebook" %}} {{% /buttonGit %}}</p>
+<p>Für den Zusammenhang zweier <a href="../../../glossar/ordinalskala/index.html">ordinaler Variablen</a> kann man die <strong>Rangkorrelation</strong> nach <strong>Spearman (<span class="math inline">\(\rho\)</span>)</strong> benutzen. Voraussetzung hierfür sind die <em>Monotonie</em> des Zusammenhangs und mindestens ordinale Variablen des Zusammenhangs. Auch kann ein <em>nicht-linearer</em>, aber <em>monotoner</em> Zusammenhang zweier <a href="../glossar/metrischesSkalenniveau.html">metrischer Variablen</a> mit <strong>Spearmans <span class="math inline">\(\rho\)</span></strong> analysiert werden.</p>
+<p>Wie auch der <a href="../../../glossar/pearsonsr/index.html">Korrelationskoeffizient nach Pearson</a> nimmt <strong>Spearmans <span class="math inline">\(\rho\)</span></strong> Werte im Intervall <span class="math inline">\([-1;+1]\)</span> an. Für den <em>perfekt positiven</em> Zusammenhang nimmt er die Maßzahl $+1 $ an, für den <em>perfekt negativen</em> den Wert <span class="math inline">\(-1\)</span>.</p>
+<p>Für die Berechnung von <strong>Spearmans <span class="math inline">\(\rho\)</span></strong> müssen zuerst Rangwerte der Variablen <span class="math inline">\(x\)</span> und <span class="math inline">\(y\)</span> erstellt werden (<span class="math inline">\(R(x)\)</span> und <span class="math inline">\(R(y)\)</span>). Die Datenreihen werden der Größe nach sortiert.</p>
+<p>Als Besonderheit gilt bei <strong>Spearmans <span class="math inline">\(\rho\)</span></strong>, dass die Abstände <em>äquidistant</em> (wie bei metrischen Variablen) sein müssen. Es muss also gewährleistet sein, dass die Rangdifferenzen tatsächlich die inhaltlichen Differenzen abbilden.</p>
+<p>Für die Berechnung von geteilten Rängen werden Durchschnittsränge ermittelt. Sollte der Wert <span class="math inline">\(1\)</span>, die 1., 2. und 3. Position beinhalten, wäre der Rang für die drei <a href="../glossar/Merkmalsauspraegung.html">Merkmalsausprägungen</a> mit dem Wert <span class="math inline">\(1\)</span> folgender: <span class="math inline">\(Rang = \frac {1} {3} \ast (1+ 2 +3) = 2\)</span> . Anstatt des <a href="../../../glossar/mittelwert/index.html">Mittelwertes</a> wird in der Berechnung von <strong>Spearmans <span class="math inline">\(\rho\)</span></strong> der Durchschnittsrang verwendet: <span class="math inline">\(\bar{R(x)}\)</span> oder <span class="math inline">\(\bar{R(y)}\)</span></p>
+<p>Für die Berechnung kann eine vereinfachte Formel herangezogen werden. Hier werden die wahren Werte durch die Rangwerte ersetzt, und mit diesen Rangwerten erfolgt die Berechnung der <strong>Rangkorrelation</strong>. Die Berechnung von <strong>Spearmans <span class="math inline">\(\rho\)</span></strong> beruht daher nur auf der Ordnung der Daten (<span class="math inline">\(&gt;\)</span>, <span class="math inline">\(&lt;\)</span>).</p>
+<p>Die vereinfachte Formel zur Berechnung von <strong>Spearman´s <span class="math inline">\(\rho\)</span></strong>:</p>
+<p><span class="math inline">\(\rho = 1 - \frac {6 \ast \sum\limits_{i=1}^n d^2_i}{n \ast (n^2 -1)}\)</span>, wobei <span class="math inline">\(d_i = R(x_i) - R(y_i)\)</span> ist.</p>
+<p>Diese Formel gilt nur, wenn keine <a href="../../../glossar/rangbindung/index.html">Rangbindungen</a> auftreten oder höchstens 20 Prozent der Paare Rangbindung haben.</p>
+<div id="beispiele" class="section level3">
+<h3>Beispiele</h3>
+<p>Sie können nun anhand zweier Beispiele (einmal im Lernvideo und ein weiteres unten im Text) die Berechnung der <a href="../../../glossar/spearmansrho/index.html">Spearman-Korrelation</a> nachvollziehen.</p>
+<center>
+<iframe src="https://player.vimeo.com/video/506077781?quality=720p&amp;dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer">
+</iframe>
+</center>
+<p>Nehmen wir ein weiteres Beispiel: Wir messen die Note von Studierenden einer Statistik-Vorlesung. Wir wollen testen, inwieweit die Endnote (<span class="math inline">\(x\)</span>) mit der Note des Zwischentests (<span class="math inline">\(y\)</span>) korreliert. Da es sich um eine Beispielrechnung handelt, erheben wir zum leichteren Verständnis nur Daten von fünf Studierenden (ohne <a href="../../../glossar/rangbindung/index.html">Rangbindung</a>).</p>
+<div class="float">
+<img src="../images/spearman1.png" alt="Rangkorrelation" />
+<div class="figcaption">Rangkorrelation</div>
+</div>
+<p>Diese Daten übertragen wir nun in eine geordnete Tabelle der Rangreihen und extrahieren daraus die sortierte Rangreihe nach der Endnote (<span class="math inline">\(R(x_i)\)</span>). Hierbei benötigen wir nur noch die Rangreihen und nicht mehr die eigentlichen Notenpunkte im Zwischen- bzw. Endtest.</p>
+<div class="float">
+<img src="../images/spearman2.png" alt="Rangkorrelation (sortiert nach Rang x)" />
+<div class="figcaption">Rangkorrelation (sortiert nach Rang x)</div>
+</div>
+<p>Diese Daten müssen wir nun einfach in unsere vereinfachte Formel einsetzen:
+<span class="math inline">\(\rho = 1 - \frac {6 \ast \sum\limits_{i=1}^n d^2_i} {n \ast (n^2 - 1)}\)</span>, wobei <span class="math inline">\(d_i = R(x_i) - R(y_i)\)</span> ist.</p>
+<p><span class="math display">\[ \begin{align*} \rho &amp;= 1 - \frac {6 \ast [(1-2)^2 + (2-1)^2 + (3-3)^2 + (4-5)^2 + (5-4)^2]} {5 \ast (5^2 -1)} \\ &amp;= 1- 0.2 \\ &amp;= 0.8 \end{align*}\]</span></p>
+<p>In unserer Beispielrechnung erhalten wir ein <span class="math inline">\(\rho = 0,8\)</span>. Die Endnote korreliert folglich sehr stark mit der Note des Zwischentests. Interpretativ heißt dies, dass Personen, die bereits im Zwischentest eine gute Note erreicht haben, auch eine gute Endnote erreicht haben.</p>
+<p>{{% notice tip %}}
+Siehe auch: <span class="citation">Bortz &amp; Schuster (<a href="#ref-Bortz2010">2010</a>, Kapitel 10.3.6)</span>; <span class="citation">Behnke &amp; Behnke (<a href="#ref-Behnke2006">2006</a>, Kapitel 14.3.2)</span>; <span class="citation">Cleff (<a href="#ref-Cleff2011">2011</a>, Kapitel 4.4.1)</span>.
+{{% /notice %}}</p>
+</div>

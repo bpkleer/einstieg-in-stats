@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Konfidenzintervall on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM4/chapter1/subchapter1/</link>
+    <description>Recent content in Konfidenzintervall on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM4/chapter1/subchapter1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Konfidenzintervall</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter1/subchapter1/page-1-1-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter1/subchapter1/page-1-1-a/</guid>
+      <description>Ein Konfidenzintervall bezeichnet in den Sozialwissenschaften ein Intervall, in dem ein erwarteter Wert \(\mu\) sehr wahrscheinlich liegt. Wie wir aus der Normalverteilung wissen, bildet die Fläche unterhalb des Graphen die Wahrscheinlichkeit ab. Innerhalb dieser Flächen testen Hypothesentests, ob der angegebene Wert in diesem Intervall liegt. Für die Sozialwissenschaften hat das Intervall von [\(\mu−1.96\sigma,\mu + 1.96\sigma\)] hohe Relevanz. Dies ist das sogenannte 95%-Konfidenzintervall, da genau \(95\%\) der Fälle in diesem Intervall liegen.</description>
+    </item>
+    
+    <item>
+      <title>z-Verteilung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter1/subchapter1/page-1-1-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter1/subchapter1/page-1-1-b/</guid>
+      <description>Nutzt man die \(z\)-Verteilung muss die Standardabweichung der Grundgesamtheit (\(\sigma_x\)) bekannt sein, oder durch die Stichprobe geschätzt werden. Das Intervall berechnet sich wie folgt:
+\(\bar{x} \pm z_{1-\frac{\alpha}{2}} \ast {\sigma_{\bar{x}}}\)
+Obergrenze Intervall:
+\(x_U = \bar{x} - z_{1-\frac{\alpha}{2}} \ast {\sigma_{\bar{x}}}\)
+Untergrenze Intervall:
+\(x_O = \bar{x} + z_{1-\frac{\alpha}{2}} \ast {\sigma_{\bar{x}}}\)
+Zur Erinnerung: Der Standardfehler des Mittelwertes (Stichprobenfehler) wird wie folgt aus der Varianz der Grundgesamtheit berechnet.
+\(\sigma_{\bar{x}} = \sqrt{ \frac{\sigma^2_{x} } {n} } = \frac{ \sigma_{x}} { \sqrt{n}}\)</description>
+    </item>
+    
+    <item>
+      <title>t-Verteilung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter1/subchapter1/page-1-1-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter1/subchapter1/page-1-1-c/</guid>
+      <description>Bei Stichproben mit kleinem \(n\) und unbekannter Varianz in der Grundgesamtheit (\(\sigma_x\)) empfiehlt es sich statt der \(z\)-Verteilung die \(t\)-Verteilung für die Berechnung eines Konfidenzintervalls zu nutzen.
+Bei der t-Verteilung ist abhängig von den Freiheitsgraden (\(\nu\)). Freiheitsgrade geben an, wie viele Werte in einem statistischen Ausdruck frei variieren können. In der \(t\)-Verteilung berechnen sich die Freiheitsgrade wie folgt: \(\nu = n-1\).
+Neben den Freiheitsgraden muss zum Bestimmen des \(t\)-Wertes auch noch die Irrtumswahrscheinlichkeit (\(\alpha\)) festgelegt werden.</description>
+    </item>
+    
+    <item>
+      <title>Beispiele</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter1/subchapter1/page-1-1-d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter1/subchapter1/page-1-1-d/</guid>
+      <description>Im Folgenden werden zwei Beispiele berechnet, die auch in dem Lernvideo nochmals erklärt werden.
+bekanntes \(\sigma_x\) Wir haben eine Umfrage mit \(2064\) Befragten (\(n=2064\)) mit einem Durchschnittsalter von \(42.7\) Jahren (\(\bar{x}_{Alter} = 42.7\)) und einer Standardabweichung in der Grundgesamtheit von \(11.2\) Jahren (\(\sigma_{Alter} = 11.2\)). Wir wollen das \(90\%\)-Konfidenzintervall berechnen.
+\(n = 2064\)
+\(\bar{x}_{Alter} = 42.7\)
+\(\sigma_{Alter} = 11.2\)
+\(z_{0.95} = 1.645\)
+Geschätzter Standardfehler der Grundgesamtheit ist daher:
+\(\hat{\sigma}_\bar{x} = \frac{\sigma_x}{\sqrt{n}} = \frac{11.</description>
+    </item>
+    
+  </channel>
+</rss>

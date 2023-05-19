@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>daten on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM2/tags/daten/</link>
+    <description>Recent content in daten on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM2/tags/daten/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Urliste</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-c/</guid>
+      <description>Qua Definition bezeichnet man eine Urliste als Ausdruck für die Auflistung der Messwerte einer Variablen. In dieser ist das Merkmal (z.B. Augenfarbe oder Alter) eingetragen und die zugehörigen Merkmalsausprägungen (blau, grün, etc. für die Augenfarbe und \(34\) Jahre, \(27\) Jahre, etc. für das Alter) für jede befragte Person (Zeile für Zeile) festgehalten.
+Urliste Aus einer (umfangreicheren) Urliste kann nur mit Mühe ersehen werden, wie sich die Personen auf die verschiedenen Merkmalsausprägungen verteilen.</description>
+    </item>
+    
+    <item>
+      <title>Datenmatrix</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-f/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-f/</guid>
+      <description>Als Datenmatrix bezeichnet man die Anordnung der Daten vor allem (aber nicht nur) in Statistik-Programmen. Im Gegensatz zur Urliste beinhaltet die Datenmatrix nicht nur eine Variable, sondern alle erhobenen Variablen.
+Hier im Beispiel: Es wurden Personen nach ihrem Alter, ihrem Schulabschluss und nach ihrer Lesehäufigkeit befragt. In dem unten dargestellten Beispiel liegen die Daten somit als Antworten zu den Fragen der Befragung vor.
+Datenmatrix In Statistikprogrammen wird in der Regel jedes erfragte Merkmal mit einer Kurzbezeichnung charakterisiert (z.</description>
+    </item>
+    
+  </channel>
+</rss>

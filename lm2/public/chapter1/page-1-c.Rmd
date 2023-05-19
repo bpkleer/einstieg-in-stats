@@ -1,0 +1,32 @@
+---
+title: "Urliste"
+weight: 103
+tags: ["urliste", "daten"]
+bibliography: [../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../static/files/apa.csl]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Qua Definition bezeichnet man eine **Urliste** als Ausdruck für die Auflistung der Messwerte einer [Variablen](../../glossar/variable/index.html). In dieser ist das Merkmal (z.B. Augenfarbe oder Alter) eingetragen und die zugehörigen [Merkmalsausprägungen](../../glossar/merkmalsauspraegung/index.html) (blau, grün, etc. für die Augenfarbe und $34$ Jahre, $27$ Jahre, etc. für das Alter) für jede befragte Person (Zeile für Zeile) festgehalten.
+
+![Urliste](../images/urliste.png)
+
+Aus einer (umfangreicheren) **Urliste** kann nur mit Mühe ersehen werden, wie sich die Personen auf die verschiedenen Merkmalsausprägungen verteilen. Die **Urliste** stellt deshalb den Ausgangspunkt für [univariate Auswertungen](../../glossar/univariatestatistik/index.html) dar.
+
+{{% notice tip %}}
+Siehe auch: @Gehring2009 [Kapitel 6]
+{{% /notice %}}

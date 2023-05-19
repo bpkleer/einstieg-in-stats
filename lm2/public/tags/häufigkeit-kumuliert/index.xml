@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>häufigkeit kumuliert on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM2/tags/h%C3%A4ufigkeit-kumuliert/</link>
+    <description>Recent content in häufigkeit kumuliert on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM2/tags/h%C3%A4ufigkeit-kumuliert/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kumulierte Häufigkeiten</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-e/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-e/</guid>
+      <description>Wie im Kapitel Grundbegriffe dargestellt, stellen Häufigkeitstabellen die Darstellung der absoluten und relativen Häufigkeiten der Merkmalsausprägung einer Variablen dar. Neben den absoluten und relativen Häufigkeiten, werden oftmals auch kumulierte relative Häufigkeiten zusätzlich angegeben. Für kumulierte relative Häufigkeiten muss eine Rangordnung zwischen den Ausprägungen vorhanden sein, also mindestens ein ordinales Skalenniveau vorliegen.
+Nehmen wir ein Beispiel, bei dem wir von \(100\) Befragten die Anzahl abgefragt haben, in wie viele Länder der Welt sie bereits gereist sind.</description>
+    </item>
+    
+  </channel>
+</rss>

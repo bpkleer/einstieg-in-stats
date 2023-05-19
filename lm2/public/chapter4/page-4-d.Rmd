@@ -1,0 +1,44 @@
+---
+title: "Verteilungsformen"
+weight: 404
+tags: ["grafik", "verteilungsform", "spannweite"]
+bibliography: [../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../static/files/apa.csl]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Empirisch erhobene Daten können anhand von **Häufigkeitsverteilungen** tabellarisch zusammengefasst oder grafisch dargestellt werden, wie zuvor erläutert wurde. Darüber hinaus lässt sich die Form einer Verteilung in [Histogrammen](../../glossar/histogramm/index.html) auch verbal beschreiben. Hier spielen die Verteilungen der drei Maße der zentralen Tendenz - [Modus](../../glossar/modus/index.html), [Median](../../glossar/median/index.html) und [arithmetisches Mittel](../../glossar/mittelwert/index.html) - eine Rolle.
+
+Von einer **symmetrischen Verteilung** und **Eingipfligkeit** ([unimodal](../../glossar/unimodaleverteilung/index.html)) wird gesprochen, wenn die gleiche Anzahl von Werten rechts und links des Gipfels liegt. Bei dieser Verteilungsform nehmen Modus, Median und artihmetisches Mittel den gleichen Wert an ($x_{Modus}=\tilde{x}=\bar{x}$).
+
+![Unimodale, symmetrische Verteilung](../images/normaldist.png)
+
+Bei einer [bimodalen Verteilung](../../glossar/bimodaleverteilung/index.html) erkennt man zwei Gipfel, die möglicherweise auf zwei Subgruppen innerhalb der Verteilung hinweisen. Manchmal kommen diese Gipfel mit der gleichen Häufigkeit vor, so dass der Modus in diesen Verteilungen zwei Werte annimmt. Auch wenn ein Wert eindeutig als häufigster benennbar ist, ist bei dieser Verteilungsform der Modus nicht klar interpretierbar. Median und artihmetisches Mittel nehmen sehr ähnliche Werte an.
+
+![Bimodale Verteilung](../images/bimodal.png)
+
+Bei einer **linkssteilen** bzw. **rechtsschiefen** Verteilung sind die größten Datenwerte relativ weit vom Zentrum der Verteilung entfernt. Eine **linkssteile** bzw. **rechtsschiefe** Verteilung ist oft bei der Betrachtung des Einkommens zu erkennen: Die [Spannweite](../../glossar/spannweite/index.html) vom Einkommen ist sehr hoch, da insbesondere einzelne sehr hohe Einkommen vorliegen. Daraus ergibt sich die **linkssteile** bzw. **rechtsschiefe** Verteilung. Der Modus befindet sich weit links, also unter den niedrigen bis mittleren Einkommen, und ist hierbei der niedrigste der drei Maße der zentralen Tendenz. Der Median liegt in der Mitte und ist deshalb größer als der Modus. Das arithmetische Mittel wird durch Ausreißer weit rechts beeinflusst und ist deshalb größer als der Median. Daher gilt: $x_{Modus} < \tilde{x} < \bar{x}$
+
+![Linkssteile bzw. rechtsschiefe Verteilung](../images/rightskewed.png)
+
+Von einer **rechtssteilen** bzw. **linksschiefen** Verteilung wird gesprochen, wenn die kleinsten Datenwerte relativ weit vom Zentrum der Verteilung entfernt liegen. Anders als bei der **linkssteilen** bzw. **rechtsschiefen** Verteilung liegt die häufigste Ausprägung weit rechts, damit ist der Modus der größte der drei Maße der zentralen Tendenz. Der Median liegt in der Mitte und ist deshalb kleiner als der Modus. Das arithmetische Mittel wird stärker durch Ausreißer weit links beeinflusst und ist deshalb noch kleiner als der Median. Aus diesem Grund gilt hier: $\bar{x} < \tilde{x} < x_{Modus}$.
+
+![Linksschiefe bzw. rechtssteile Verteilung](../images/leftskewed.png)
+
+{{% notice tip %}}
+Siehe auch: @Bortz2010 [Kapitel 3.2].
+{{% /notice %}}

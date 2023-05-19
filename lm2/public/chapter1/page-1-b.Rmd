@@ -1,0 +1,27 @@
+---
+title: "Uni-, bi & multivariat"
+weight: 102
+tags: ["univariat", "bivariat", "multivariat", "grundbegriffe"]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+In der Statistik wird zusätzlich zwischen **univariaten**, **bivariaten** und **multivariaten Verfahren** unterschieden.
+
+Bei der **univariaten Datenanalyse** interessiert die Frage, was bei einem/r ausgewählten [Merkmal/Variable](../../glossar/variable/index.html) über die erhobenen [Ausprägungen](../../glossar/merkmalsauspraegung/index.html) ausgesagt werden kann. Zum Beispiel interessiert die Frage, wie viele Personen den einzelnen Antwortmöglichkeiten eines/r Merkmals/Variable zugestimmt haben. Hierzu wird eine Häufigkeitsverteilung erstellt oder [Lage-](../../glossar/lagemasse/index.html) und [Streumaße](../../glossar/streumasse/index.html) dieses/r Merkmals/Variable berechnet. Einfache Häufigkeitsverteilung beschreiben, wie sich die untersuchten Personen auf die Merkmalsausprägungen des/r gewählten Merkmals/Variablen verteilen (*häufen*).
+
+Die **bivariate Datenanalyse** nimmt, wie der Name schon sagt, nicht nur ein/e Variable/Merkmal als Ausgangspunkt der Analyse, sondern zwei. Hierbei wird oft der Zusammenhang zwischen zwei Variablen/Merkmalen analysiert, wie beispielsweise bei [Zusammenhangsmaßen](../../glossar/zusammenhangsmasse/index.html). Ein Zusammenhang zweier Variablen bedeutet, dass sich die Ausprägung der einen Variablen mit der Ausprägung der anderen Variable verändert. Ein Zusammenhang liegt dann vor, wenn dies systematisch ist. Wenn z.B. bei immer höher werdenden Ausprägungen der einen Variablen, die andere Variable immer weiter sinkt oder immer weiter steigt. Wichtig ist, dass mit der Analyse eines Zusammenhangs noch keinerlei Aussagen zur [Kausalität](../../glossar/kausalitaet/index.html) getroffen werden. Wir überprüfen also nur den Zusammenhang und nicht, ob die eine Variable die Veränderungen in der anderen Variable verursacht.
+
+**Bivariate Analysen** sind die Vorstufe zu **multivariaten Analyseverfahren**, die die gleichzeitige Analyse von mehr als zwei Variablen erlauben. In den meisten Fällen erfordern sozialwissenschaftliche Theorien, dass nicht nur die Verteilung einer Variablen oder die gemeinsame Verteilung von zwei Variablen untersucht wird, sondern eine große Zahl von Variablen gleichzeitig beachtet wird. Die Kontrolle zusätzlicher Variablen wird auch Drittvariablenkontrolle genannt und ist im Rahmen der **multivariaten Analyse** bei der Überprüfung sozialwissenschaftlicher Theorien in der Regel unverzichtbar (vgl. Schnell/Hill/Esser 2013: 436f.). Denn sozialwissenschaftliche Zusammenhänge werden oftmals durch weitere Variablen beeinflusst. Für die **multivariate Datenanalyse** steht eine Vielzahl verschiedener Analysetechniken zur Verfügung (wie z.B. die Regression). Hierbei werden Drittvariablen kontrolliert.               
+
+![Begriffe der Statistik](../images/statistik.png)

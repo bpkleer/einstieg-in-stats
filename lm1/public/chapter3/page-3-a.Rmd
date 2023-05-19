@@ -1,0 +1,29 @@
+---
+title: "Bewusste Auswahl"
+weight: 301
+tags: ["bewusst", "grundbegriff"]
+bibliography: [../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../static/files/apa.csl]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Die **bewusste Auswahl** ist eine gezielte Auswahl, die oft in [explorativen](../../explorativeuntersuchung/index.html) Vorstudien eingesetzt wird, um Hypothesen zu gewinnen. Es wird planvoll, meist aufgrund vorhergehender Überlegungen nach angebbaren und intersubjektiv nachvollziehbaren Kriterien eine Auswahl vorgenommen [@Kromrey2016, 268]. Oft werden hierbei „typische Fälle“ untersucht, wofür allerdings Vorkenntnisse der [Grundgesamtheit](../../glossar/grundgesamtheit/index.html) vorliegen müssen. Eine **bewusste Auswahl** findet ebenfalls statt, wenn ausschlaggebende/extreme Fälle untersucht werden ([Auswahl nach dem Konzentrationsprinzip](../../glossar/auswahlkonzentrationsprinzip/index.html)). Auch hier wird aufgrund vorheriger Merkmale festgelegt, welche Fälle als ausschlaggebend gelten. Die Fälle haben aufgrund ihres „Ausschlags“ Bedeutsamkeit.
+
+Die **bewusste Auswahl** eignet sich daher nur bei speziellen und eingeschränkten Fragestellungen.
+
+**Beispiel:**
+Ein Beispiel einer **bewussten Auswahl** sind zum Beispiel Befragungen homosexueller Menschen. Die Grundgesamtheit ist nicht eindeutig identifizierbar, da Homosexualität nicht als Merkmal wie Wahlberechtigung feststellbar ist. Oftmals werden hierbei *Schneeballverfahren* angewendet, um dennoch eine [Stichprobe](../../glossar/stichprobe/index.html) ziehen zu können. Hierbei wird über einen Erstzugang von Befragten nach weiteren Kontakten befragt. Die Wahrscheinlichkeit, Teil dieser Stichprobe zu sein, ist daher nicht gleich für alle Personen, die homosexuell sind. Für Personen, die nicht offen homosexuell leben, ist die Wahrscheinlichkeit, über Bekannte Teil der Stichprobe zu werden, also deutlich geringer als für Personen, die offen homosexuell leben. Dennoch wäre die Grundgesamtheit homosexueller Menschen eben die Menge beider Personengruppen. Die Ergebnisse dieser Stichprobe können daher nicht auf eine Grundgesamtheit verallgemeinert werden, sondern gelten nur für die Stichprobe.

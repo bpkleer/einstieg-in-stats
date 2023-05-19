@@ -1,0 +1,34 @@
+---
+title: "Angegebene Differenzwerte"
+weight: 222
+tags: ["t-test", "gepaart", "mittelwertvergleich", "lernvideo"]
+---
+
+
+
+<p>{{% buttonGit href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="mailto:?subject=Schau%20dir%20das%20mal%20an%3A%20" icon="fas fa-paper-plane" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://t.me/share/url?url=" icon="fab fa-telegram" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://api.whatsapp.com/send?text=" icon="fab fa-whatsapp" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://twitter.com/share?url=" icon="fab fa-twitter" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://www.facebook.com/sharer/sharer.php?u=" icon="fab fa-facebook" %}} {{% /buttonGit %}}</p>
+<p>Man kann den <span class="math inline">\(t\)</span>-Test für abhängige Stichproben auch berechnen, wenn die Werte des Mittelwerts der Differenzen der gepaarten Mittelwerte (<span class="math inline">\(\bar{x}_d\)</span>) sowie die Standardabweichung der Differenzen der gepaarten Mittelwerte (<span class="math inline">\(\hat{\sigma}_d\)</span>) angegeben sind. Wir nehmen das Beispiel von oben, gehen aber nun von folgenden Werten für eine Stichprobe mit <span class="math inline">\(1.000\)</span> Schüler:innen aus.</p>
+<p><span class="math inline">\(\bar{x}_d = -3.7\)</span></p>
+<p><span class="math inline">\(\hat{\sigma}_d = 1.3\)</span></p>
+<p><span class="math inline">\(n = 1000\)</span></p>
+<p>Hier müssen nun nur die Rechenschritte aus dem vorherigen Beispiel ab <em>Punkt 3</em> berechnet werden:</p>
+<p><span class="math inline">\(\hat{\sigma}_{\bar{x}_d} = \frac{\hat{\sigma}_d}{\sqrt{n}} = \frac{1.3}{\sqrt{1000}} \approx 0.041\)</span></p>
+<p><span class="math inline">\(t_{emp} = \frac{\bar{x}_d}{\hat{\sigma}_{\bar{x}_d}} = \frac{-3.7}{0.041} \approx -90.003\)</span></p>
+<p><span class="math inline">\(\nu = 2 * n -2 = 2* 1000 - 2 = 1998\)</span></p>
+<p>Nun müssen wir den Betrag der Prüfgröße (<span class="math inline">\(|t_{emp}|\)</span>) gegenüber dem kritischen Wert prüfen. Wir prüfen auf das konventionellen <span class="math inline">\(90\%\)</span>-Niveau und haben insgesamt <span class="math inline">\(1998\)</span> Freiheitsgrade (<span class="math inline">\(\nu\)</span>). Wir führen einen zweiseitigen Test durch. Da die meisten <span class="math inline">\(t\)</span>-Tabellen nur bis <span class="math inline">\(1000\)</span> Freiheitsgrade verzeichnet sind nehmen wir approximativ den kritischen Wert an der Stelle <span class="math inline">\(t_{krit(\nu=1000; p = 0.90)}\)</span>.</p>
+<p>Der kritische Wert beträgt an der genannten Stelle:</p>
+<p><span class="math inline">\(t_{krit_{(\nu=1000; p=0.90)}} = 1.282\)</span>.</p>
+<p>Damit das errechnete Ergebnis der Signifikanz gilt, muss:</p>
+<p><span class="math inline">\(|t_{emp} | &gt; t_{krit}\)</span></p>
+<p>Im Beispiel ist dies erfüllt: <span class="math inline">\(|-90.003| &gt; 1.282\)</span></p>
+<p>Wir können somit schlussfolgern, dass das politische Wissen nach der Teilnahme signifikant im Mittel um <span class="math inline">\(3.7\)</span> Punkte steigt.</p>
+<p>Hier ein weiteres Beispiel im Video:</p>
+<center>
+<iframe src="https://player.vimeo.com/video/512545278?quality=720p&amp;dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer">
+</iframe>
+</center>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spannweite on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM2/tags/spannweite/</link>
+    <description>Recent content in spannweite on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM2/tags/spannweite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Variationsweite</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter3/page-3-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter3/page-3-a/</guid>
+      <description>Als Variationsweite, auch Spannweite, wird die Differenz zwischen dem größten (xmax) und dem kleinsten Wert (xmin) der Verteilung bezeichnet. Sie beschreibt die Größe des Bereichs, innerhalb derer sich die Daten befinden. Variationsweite wird teilweise auf Englisch als Range bezeichnet. Da es ein Minimum und Maximum geben muss, setzt die Variationsweite voraus, dass die Daten eine Rangordnung haben, also ordinalskaliert sind.
+\[V=R=x_{max} – x_{min}\]
+Im Beispiel von oben, der Anzahl von politikwissenschaftlichen Büchern, war:</description>
+    </item>
+    
+    <item>
+      <title>Verteilungsformen</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter4/page-4-d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter4/page-4-d/</guid>
+      <description>Empirisch erhobene Daten können anhand von Häufigkeitsverteilungen tabellarisch zusammengefasst oder grafisch dargestellt werden, wie zuvor erläutert wurde. Darüber hinaus lässt sich die Form einer Verteilung in Histogrammen auch verbal beschreiben. Hier spielen die Verteilungen der drei Maße der zentralen Tendenz - Modus, Median und arithmetisches Mittel - eine Rolle.
+Von einer symmetrischen Verteilung und Eingipfligkeit (unimodal) wird gesprochen, wenn die gleiche Anzahl von Werten rechts und links des Gipfels liegt.</description>
+    </item>
+    
+  </channel>
+</rss>

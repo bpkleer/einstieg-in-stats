@@ -1,0 +1,77 @@
+---
+title: "Pearson's r"
+weight: 231
+tags: ["pearsons r", "lernvideo", "metrisch"]
+bibliography: [../../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../../static/files/apa.csl]
+---
+
+
+
+<p>{{% buttonGit href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="mailto:?subject=Schau%20dir%20das%20mal%20an%3A%20" icon="fas fa-paper-plane" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://t.me/share/url?url=" icon="fab fa-telegram" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://api.whatsapp.com/send?text=" icon="fab fa-whatsapp" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://twitter.com/share?url=" icon="fab fa-twitter" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://www.facebook.com/sharer/sharer.php?u=" icon="fab fa-facebook" %}} {{% /buttonGit %}}</p>
+<p>Die <strong>Korrelation nach Pearson</strong> ist ein Standardmaß für den Zusammenhang zwischen zwei <a href="../../../glossar/metrischesskalenniveau/index.html">metrischen Variablen</a>. Eine weitere Voraussetzung für dieses Maß ist, dass der Zusammenhang <em>linear</em> und <em>monoton</em> ist.</p>
+<p>Bei der Berechnung einer <strong>Korrelation nach Pearson</strong> sollte daher immer ein <a href="../../../glossar/scatterplot/index.html">Scatterplot</a> der zwei zu untersuchenden <a href="../../../glossar/variable/index.html">Variablen</a> ausgegeben werden, um diese zwei Annahmen zu überprüfen. Dies wird im folgenden Lernvideo dargestellt. Ein weiteres Beispiel folgt im Text nach dem Lernvideo.</p>
+<center>
+<iframe src="https://player.vimeo.com/video/506077330?quality=720p&amp;dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer">
+</iframe>
+</center>
+<p>Die Grafik zeigt einen Scatterplot zwischen <em>Körpergröße in cm</em> und <em>Körpergewicht in kg</em>. Man kann erkennen, dass der Zusammenhang <em>linear</em> und <em>monoton</em> ist.</p>
+<p>Der <strong>Korrelationskoeffizient</strong> für diese zwei Variablen beträgt <span class="math inline">\(r = 0.801\)</span>. Es besteht also ein <em>starker positiver</em> Zusammenhang. Da die Punkte (Fälle) nicht alle auf einer Linie liegen, weicht der <strong>Korrelationskoeffizient</strong> von <span class="math inline">\(1\)</span> ab.</p>
+<p>Wir können den <strong>Korrelationskoeffizienten</strong> wie folgt interpretieren: Je höher die Körpergröße ist, desto höher ist auch das Gewicht bzw. je höher das Gewicht ist, desto höher ist auch die Körpergröße.</p>
+<div class="float">
+<img src="../images/korrelation3.png" alt="Scatterplot zwischen Körpergröße und Körpergewicht" />
+<div class="figcaption">Scatterplot zwischen Körpergröße und Körpergewicht</div>
+</div>
+<div id="beispiel" class="section level3">
+<h3>Beispiel</h3>
+<p>Kommen wir nun zur Berechnung des <a href="../../../glossar/pearsonsr/index.html">Korrelationskoeffizienten nach Pearson</a>: Die Berechnung des Korrelationskoeffizienten beruht auf der <strong>Kovarianz</strong> der Variablen. Die <strong>Kovarianz</strong> ist ähnlich der <a href="../../../glossar/varianz/index.html">Varianz</a>, sie umfasst die quadrierten Abstände zum Mittelpunkt. Der Mittelpunkt ist hier nur nicht auf eine Variable bezogen, sondern man nimmt den <strong>bivariaten Schwerpunkt</strong> <span class="math inline">\((\bar{x}; \bar{y})\)</span>, der die zwei <a href="../../../glossar/mittelwert/index.html">Mittelwerte</a> beider Variablen darstellt. Die <strong>Korrelation</strong> gibt an, wie eng die Wertepaare zweier Variablen um eine fiktive Gerade liegen. Sie gibt nicht an, wie steil diese Gerade ist.</p>
+<p>Dabei gilt für die Variablen <span class="math inline">\(x\)</span> und <span class="math inline">\(y\)</span>:</p>
+<p><span class="math inline">\(X = (x_1, x_2, x_3, ..., x_n)\)</span>
+<span class="math inline">\(Y = (y_1, y_2, y_3, ..., y_n)\)</span></p>
+<p>Die <strong>Korrelation</strong> berechnet sich für Werte aus einer Grundgesamtheit wie folgt:
+<span class="math display">\[\begin{align*}r&amp;= \frac {cov(x;y)}{s_x \ast s_y} \\ &amp;= \frac { \frac{1}{n} \ast \sum\limits_{i=1} ^n (x_i - \bar{x}) \ast (y_i - \bar{y})} {\sqrt { \frac {1} {n} \ast \sum \limits_{i=1} ^n (x_i - \bar{x})^2 ) \ast \frac {1} {n} \ast \sum \limits_{i=1} ^n (y_i - \bar{y})^2})} \end{align*}\]</span></p>
+<p>Dabei ist die <strong>Kovarianz</strong> <span class="math inline">\(cov(x;y)\)</span> als durchschnittliche Abweichung vom <strong>bivariaten Schwerpunkt</strong> zu verstehen, analog zur Varianz.
+<span class="math display">\[\begin{align*}cov(x;y) &amp;= \frac {1} {n} \ast \sum \limits_{i=1}^n (x_i - \bar{x}) \ast (y_i - \bar{y}) \\ &amp;= \frac {1} {n} \ast \sum\limits_{i=1}^n x_i \ast y_i - \bar{x} \ast \bar{y} \end{align*}\]</span></p>
+<p>Beispielrechnung: Im Beispiel wollen wir nun die <strong>Korrelation</strong> zwischen <em>Alter</em> (offene Abfrage) und <em>Wahlpräferenz CDU</em> (Skala 0 (sehr unwahrscheinlich) bis 100 (sehr wahrscheinlich)) berechnen. In diesem Rechenbeispiel verkleinern wir die Stichprobe zu Illustrationszwecken auf 5 Personen. Am Ende der Seite finden Sie die Berechnung auch in einem Lernvideo erklärt.</p>
+<div class="float">
+<img src="../images/korrelation-datentabelle.png" alt="Datenmatrix Alter und Präferenz CDU" />
+<div class="figcaption">Datenmatrix Alter und Präferenz CDU</div>
+</div>
+<p>Das <a href="../../../glossar/scatterplot/index.html">Scatterplot</a> für diese Daten sieht wie folgt aus: Die blauen Punkte bilden unsere fünf Datenpunkte und die gestrichelte Linie ist bereits eine Trendlinie der <strong>Korrelation</strong>. Wir sehen, dass der Zusammenhang annähernd monoton und linear ist.</p>
+<div class="float">
+<img src="../images/korrelation-plot.png" alt="Scatterplot: Präferenz CDU und Alter" />
+<div class="figcaption">Scatterplot: Präferenz CDU und Alter</div>
+</div>
+<p>Für die Berechnung der <strong>Korrelation</strong> benötigen wir entsprechend der Formel die Varianz der Variablen und die <a href="../../../glossar/kovarianz/index.html">Kovarianz</a>, wofür wir wiederum die Mittelwerte benötigen.</p>
+<p><strong>1) Berechnung der Mittelwerte</strong>
+Für Alter:
+<span class="math display">\[\begin{align*}\bar{x} &amp;= \sum\limits_{i=1}^5 \frac {x_i} {5} \\ &amp;= \frac {19 + 34 + 27 + 56 + 69}{5} \\ &amp;= 41 \end{align*}\]</span></p>
+<p>Für Präferenz CDU:
+<span class="math display">\[\begin{align*}\bar{y} &amp;= \sum\limits_{i=1}^5 \frac {y_i} {5} \\ &amp;= \frac {24 + 41 + 20 + 74 + 81}{5} \\ &amp;= 48 \end{align*}\]</span></p>
+<p><strong>2) Berechnung der Varianz und <a href="../../../glossar/standardabweichung/index.html">Standardabweichung</a> von x und y:</strong>
+<br></p>
+<p><span class="math display">\[\begin{align*}s_{x}^2 &amp;= \frac {1}{n} \ast \sum\limits_{i=1}^n (x_i - \bar{x})^2 \\ &amp;= \frac {1} {5} \ast [(19-41)^2 + (34-41)^2 + (27-41)^2 + (56-41)^2 + (69-41)^2] \\ &amp;= 347.6 \end{align*}\]</span></p>
+<p><span class="math display">\[\begin{align*}s_x &amp;= \sqrt s^2_{x} \\ &amp;= \sqrt 347.6 \\ &amp;\approx 18.64 \end{align*}\]</span></p>
+<p><span class="math display">\[\begin{align*}s_{y}^2 &amp;= \frac {1}{n} \ast \sum\limits_{i=1}^n (y_i - \bar{y})^2 \\ &amp;= \frac {1} {5} \ast [(24-48)^2 + (41-48)^2 + (20-48)^2 + (74-48)^2 + (81-48)^2] \\ &amp;= 634.8 \end{align*}\]</span></p>
+<p><span class="math display">\[\begin{align*}s_y &amp;= \sqrt s^2_{y} \\ &amp;= \sqrt 634.8 \\ &amp;\approx 25.20 \end{align*}\]</span></p>
+<p><strong>3) Nun muss noch die Kovarianz berechnet werden:</strong>
+<span class="math display">\[\begin{align*}cov(x;y) &amp;= \frac {1} {n} \sum\limits_{i=1}^n (x_i - \bar{x}) \ast (y_i - \bar{y}) \\ &amp;= \frac {1}{5} \ast [((19-41) \ast (24-48)) + ((34-41) \ast (41-48)) + ((27-41) \ast (20-48)) + ((56-41) \ast (74-48)) + ((69-41) \ast (81-48))] \\ &amp;= \frac {1}{5} \ast (528+49+392+390+924) \\ &amp;= 456.6 \end{align*}\]</span></p>
+<p><strong>4) Einsetzen in Formel für Pearson’s r</strong>
+<span class="math display">\[\begin{align*} r &amp;= \frac {cov(x;y)}{s_x \ast s_y} \\ &amp;= \frac {456.6} {18.64 \ast 25.20} \\ &amp;\approx 0.972 \end{align*}\]</span></p>
+<p>In diesem Beispiel ist also die <strong>Korrelation</strong> zwischen den Variablen Alter und Präferenz für die CDU positiv und bildet einen sehr starken Zusammenhang aus <span class="math inline">\(r=0.972\)</span>.</p>
+<center>
+<iframe src="https://player.vimeo.com/video/506077587" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer">
+</iframe>
+</center>
+<p>{{% notice tip %}}
+Siehe auch: <span class="citation">Gehring &amp; Weins (<a href="#ref-Gehring2009">2009</a>, Kapitel 7.6)</span>; <span class="citation">Behnke &amp; Behnke (<a href="#ref-Behnke2006">2006</a>, Kapitel 14.4)</span>; <span class="citation">Cleff (<a href="#ref-Cleff2011">2011</a>, Kapitel 4.3.2)</span>
+{{% /notice %}}</p>
+</div>

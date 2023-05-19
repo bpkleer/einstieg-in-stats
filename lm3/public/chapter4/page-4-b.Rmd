@@ -1,0 +1,48 @@
+---
+title: "Zentrales Grenzwerttheorem"
+weight: 402
+tags: ["grenzwerttheorem", "inferenz"]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Wenn man theoretisch unendlich viele [Stichproben](../../glossar/stichprobe/index.html) vom jeweils gleichen Umfang $n$ aus derselben [Population](../../glossar/grundgesamtheit/index.html) zieht, ergibt sich für die Verteilung der [Mittelwerte](../../glossar/mittelwert/index.html) der Stichproben folgendes Bild.
+
+![Histogramm der Stichprobenmittelwerte](../images/normalverteilung_stata1.png)
+
+Jedes $x$ in der Grafik stellt den Mittelwert des Alters ($\bar{x}_{Alter}$) einer Stichprobe dar. Auf der $y$-Achse ist die Häufigkeit dargestellt, auf der $x$-Achse die einzelnen Mittelwerte der Stichproben. Wie angenommen weisen die einzelnen Stichprobenmittelwerte unterschiedliche Werte auf. Allerdings erkennt man ebenso, dass sich die Verteilung dieser Mittelwerte als [Normalverteilung](../../glossar/normalverteilung/index.html) darstellt.
+
+![Histogramm der Stichprobenmittelwerte](../images/normalverteilung_stata2.png){Width=60%}
+
+Der berechnete [Mittelwerte](../../glossar/mittelwert/index.html) dieser [Stichprobenkennwerteverteilung](../../glossar/stichprobenkennwerteverteilung/index.html) lautet $\bar{\bar{x}}$, da er der *Mittelwert der Mittelwerte* ist. Dieser *Mittelwert der Mittelwerte* halbiert die [Stichprobenkennwerteverteilung](../../glossar/stichprobenkennwerteverteilung/index.html) und ist am wahrscheinlichsten, da er gleichzeitig den [Modus](../../glossar/modus/index.html) und [Median](../../glossar/median/index.html) der Verteilung darstellt. Dieser *Mittelwert der Mittelwerte* ($\bar{\bar{x}}$) wird auch Erwartungswert $E(\bar{x})$ genannt.
+
+![Histogramm der Stichprobenmittelwerte](../images/normalverteilung_stata3.png)
+
+Bei unendlich vielen Stichproben nähert sich dieser Wert dem wahren Wert der Grundgesamtheit $\mu$ an.
+
+![Histogramm der Stichprobenmittelwerte](../images/normalverteilung_stata4.png)
+
+Durch Monte-Carlo-Berechnungen lässt sich beweisen, dass dieser Erwartungswert dem [Populationsmittelwert](../../glossar/populationsmittelwert/index.html) $\mu$ entspricht. Man spricht daher von einem *erwartungstreuen* Schätzer. Das was bis hierhin beschrieben wurde, beschreibt das **zentrale Grenzwerttheorem**. Dieses ist wie folgt definiert: Eine Stichprobenverteilung der Mittelwerte von unendlich vielen Stichproben nähert sich der Normalverteilung asymptotisch an, unabhängig von der Form der zugrundeliegenden Verteilung Daten. Voraussetzung ist, dass die Daten [unabhängig und identisch verteilt](../../glossar/iid/index.html) sind. 
+
+Formal ausgedrückt lautet das **zentrale Grenzwerttheorem**: $\frac {\bar{x} - \mu}{\frac{s}{\sqrt{n}}} \sim \mathcal{N}(0,1)$
+
+Aufgrund der zentralen Tendenz werden sich die Mittelwerte um den Populationsmittelwert scharen, erwartungsgemäß gibt es einige Abweichungen. Generell gilt, dass eine größere Stichprobe in aller Regel besser repräsentiert, so dass Mittelwerte sich auf Basis relativ großer Stichproben nah um den Populationsmittelwert scharen. Daher können wir dank des **zentralen Grenzwerttheorems** Hypothesentests durchführen, auch wenn die Grundgesamtheit nicht normalverteilt ist, sofern die Stichprobe ausreichend groß ist. Mittelwerte auf Basis relativ kleiner Stichproben können stärker um den Populationsmittelwert streuen. Die Berechnung des [Stichprobenfehlers](../../glossar/stichprobenfehler/index.html) der Stichprobenkennwerteverteilung ist ein Maß der Güte der Schätzung. Dieser berechnet die Streuung der Stichprobenkennwerteverteilung. Also im Beispiel, wie sehr die einzelnen Mittelwerte um den Mittelwert der Stichprobenkennwerteverteilung streuen. Dieser [Stichprobenfehlers](../../glossar/stichprobenfehler/index.html) (auch [Standardfehler](../../glossar/standardfehler/index.html)) wird über folgende Formel berechnet:
+
+$\sigma_{\bar{x}} = \sqrt{ \frac{\sigma^2_{x} } {n} } = \frac{ \sigma_{x}} { \sqrt{n}}$
+
+Der Standardfehler wird aus der [Populationsvarianz](../../glossar/populationsvarianz/index.html) des Merkmals $x$ ($\sigma^2_{x}$) durch den Stichprobenumfang $n$ geteilt. Auch ist es möglich, die [Standardabweichung](../../glossar/standardabweichung/index.html) der Population ($\sigma_{x}$) durch die Wurzel der Stichprobengröße ($\sqrt {n}$) zu teilen und damit den Standardfehler zu berechnen. Der Standardfehler steigt mit steigender [Varianz](../../glossar/varianz/index.html) und mit sinkender Stichprobengröße. Daher lohnt es sich, große Stichproben zu ziehen, da der Standardfehler dann sinkt. Die Populationsvarianz ist in der Regel nicht bekannt und wird daher geschätzt. Die Populationsvarianz wird wie folgt geschätzt:
+
+$\hat{\sigma}^2_{x} = \frac{ \sum\limits_{i=1}^n (x_{i} - \bar{x})^2} {n-1}$
+
+Der jeweilige Rohwert der Person $i$ wird zu ihrem Mittelwert ($\bar{x}_{i}$) in Betracht gezogen und mit den Werten aller Einheiten summiert. Anschließend wird diese Summe durch die [Stichprobengröße](../../glossar/stichprobenumfang/index.html) minus 1 geteilt.
+Ein relativ kleiner (großer) Standardfehler bedeutet, dass die Stichprobenmittelwerte alle relativ ähnlich (unähnlich) sind, d.h. grafisch wenig (stark) streuen. Wie anhand der Formel zu erkennen, ist der Standardfehler beeinflusst durch die Varianz des Merkmals in der Population bzw. die Stichprobengröße.

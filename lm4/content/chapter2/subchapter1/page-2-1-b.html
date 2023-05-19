@@ -1,0 +1,46 @@
+---
+title: "Beispiel gleiche Varianzen"
+weight: 212
+tags: ["t-test", "gleiche varianzen", "mittelwertvergleich", "lernvideo"]
+---
+
+
+
+<p>{{% buttonGit href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="mailto:?subject=Schau%20dir%20das%20mal%20an%3A%20" icon="fas fa-paper-plane" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://t.me/share/url?url=" icon="fab fa-telegram" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://api.whatsapp.com/send?text=" icon="fab fa-whatsapp" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://twitter.com/share?url=" icon="fab fa-twitter" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://www.facebook.com/sharer/sharer.php?u=" icon="fab fa-facebook" %}} {{% /buttonGit %}}</p>
+<p>Kommen wir nun zu einem Rechenbeispiel des zweiseitigen t-Tests für unabhängige Stichproben mit gleichen Varianzen. Als Beispiel übernehmen wir die Fragestellung, die wir eingangs als Beispiel benannt haben: Weisen Frauen und Männer einen unterschiedlichen Mittelwert bei der wöchentlichen Arbeitszeit auf? Falls ja, sind diese Unterschiede statistisch signifikant?</p>
+<p>Aus einem Survey haben wir folgende Daten:</p>
+<p>Frauen: <span class="math inline">\(\bar{x}_1 = 34.14084, s_1 = 10.89673, n_1 = 884\)</span></p>
+<p>Männer: <span class="math inline">\(\bar{x}_2 = 43.64809, s_2 = 9.541511, n_2 = 1023\)</span></p>
+<p>Die Hypothesen zum Hypothesentest lauten:
+<span class="math inline">\(H_0: \mu_1 = \mu_2\)</span>, Die Mittelwerte der Stichproben unterscheidet sich nicht.
+<span class="math inline">\(H_1: \mu_1 \neq \mu_2\)</span>, Die Mittelwerte der Stichproben unterscheiden sich, sind nicht gleich.</p>
+<p>Aus dem Hypothesen folgt, dass wir annehmen: <span class="math inline">\(\mu_1 - \mu_2 = 0\)</span></p>
+<p>Die Formel zur Berechnung des unabhängigen t-Tests mit gleichen Varianzen ist:</p>
+<p><span class="math inline">\(t_{emp} = \frac{\bar{x}_1 - \bar{x}_2}{\hat{\sigma}_{(\bar{x}_1 - \bar{x}_2)}}\)</span></p>
+<p>Vereinfacht ausgedrückt berechnet die Prüfgröße:</p>
+<p><span class="math inline">\(t_{emp} = \frac{Mittelwertdifferenz \, der \, Stichproben}{Standardfehler \, der \, Mittelwertdifferenz}\)</span></p>
+<p>Der Standardfehler der Mittelwertdifferenz berechnet sich wie folgt:</p>
+<p><span class="math inline">\(\hat{\sigma}_{(\bar{x}_1 - \bar{x}_2)} = \sqrt{\frac{(n_1 - 1)*s^2_1 + (n_2 - 1)*s^2_2}{n_1 + n_2 -2}} * \sqrt{ \frac{1}{n_1} + \frac{1}{n_2}}\)</span></p>
+<p>Nun muss nur noch die Anzahl der Freiheitsgrade errechnet werden, um den kritischen <span class="math inline">\(t\)</span>-Wert bestimmen zu können:</p>
+<p><span class="math inline">\(\nu = n_1 + n_2 -2\)</span></p>
+<p>Nun setzen wir die Werte in die Formel ein:</p>
+<p><span class="math inline">\(\hat{\sigma}_{(\bar{x}_1 - \bar{x}_2)}= \sqrt{\frac{(884 - 1)*10.89673^2 + (1023 - 1)*9.541511^2}{884 + 1023 - 2}} * \sqrt{\frac{1}{884} + \frac{1}{1023}} \approx 0.468\)</span></p>
+<p><span class="math inline">\(t_{emp} = \frac {34.14084 - 43.64809}{0.468} \approx -20.313\)</span></p>
+<p><span class="math inline">\(\nu = n_1 + n_2 - 2 = 884 + 1023 - 2 = 1905\)</span></p>
+<p>Nun müssen wir den Betrag der Prüfgröße (<span class="math inline">\(|t_{emp}|\)</span>) gegenüber dem kritischen Wert prüfen. Wir prüfen auf das konventionellen <span class="math inline">\(95\%\)</span>-Niveau und haben insgesamt <span class="math inline">\(1905\)</span> Freiheitsgrade (<span class="math inline">\(\nu\)</span>). Wir führen einen zweiseitigen Test durch. Da die meisten <span class="math inline">\(t\)</span>-Tabellen nur bis <span class="math inline">\(1000\)</span> Freiheitsgrade verzeichnet sind, nehmen wir approximativ den kritischen Wert an der Stelle <span class="math inline">\(t_{krit(\nu=1000; p = 0.975)}\)</span>.</p>
+<p>Der kritische Wert beträgt an der genannten Stelle:</p>
+<p><span class="math inline">\(t_{krit_{(\nu=1000; p=0.975)}} = 1.962\)</span>.</p>
+<p>Damit das errechnete Ergebnis der Signifikanz gilt, muss:</p>
+<p><span class="math inline">\(|t_{emp} | &gt; t_{krit}\)</span></p>
+<p>Im Beispiel ist dies erfüllt: <span class="math inline">\(|-20.313| &gt; 1.962\)</span></p>
+<p>Wir können somit schlussfolgern, dass Frauen im Mittel <span class="math inline">\(6.909\)</span> Stunden weniger als Männer in Erwerbsarbeit tätig sind.</p>
+<p>Hier ein weiteres Beispiel im Video:</p>
+<center>
+<iframe src="https://player.vimeo.com/video/512526079?quality=720p&amp;dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer">
+</iframe>
+</center>

@@ -1,0 +1,37 @@
+---
+title: "F-Test"
+weight: 312
+tags: ["f-test", "regression"]
+bibliography: [../../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../../static/files/apa.csl]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Neben $R^2$ muss ein weiteres Modellmaß interpretiert werden: der $F$-Test des Bestimmtheitsmaßes: Der $F$-Test ist ein [Hypothesentest](../../../glossar/signifikanztest/index.html) und prüft in der [Nullhypothese](../../../glossar/nullhypothese/index.html), dass das [Bestimmtheitsmaß $R^2$](../../../glossar/bestimmtheitsmass/index.html) $=0$ ist, also dass das zugrunde gelegte Modell keine [Varianz](../../../glossar/varianz/index.html) der [abhängigen Variable](../../../glossar/abhaengigevariable/index.html) erklärt. Trifft diese Nullhypothese zu, muss das Modell verworfen werden. In Veröffentlichungen findet man daher nur Modelle, die diesen $F$-Test „bestanden haben“, also in denen mindestens ein [Regressionskoeffizient](../../../glossar/regressionskoeffizienten/index.html) einer [unabhängigen Variable](../../../glossar/unabhaengigevariable/index.html) von $0$ abweicht.
+
+Wie interpretieren wir den $F$-Test nun: In der Abbildung sehen wir einen weiteren Auszug aus der Ausgabe unserer Beispielregression in SPSS.
+
+![F-Test (lineare Regression) (SPSS)](../images/spss-multi-anova.png)
+
+![F-Test (lineare Regression) (R)](../images/r-reg-multi.PNG)
+
+Im Output von SPSS sehen wir In der Spalte $F$ den $F$-Wert, entsprechend der Freiheitsgerade und des [Konfidenzintervalls](../../../glossar/konfidenzintervall/index.html) können wir entsprechend einer Tabelle der [$F$-Verteilung](../../../glossar/fverteilung/index.html) ablesen, ob der $F$-Wert über dem Grenzwert liegt. Dieser Schritt ist hinfällig, da das Computerprogramm SPSS dies in der Spalte *Sig.* direkt ausgibt. SPSS gibt hier den Signifikanzwert des $F$-Tests direkt an. Dieser beträgt im Beispiel $0.000$. Dieser $p$-Wert ist unterhalb der konventionellen $5\%$-Hürde (p-Wert $0.05$) und damit kann die Nullhypothese (dass das Modell keine Varianz der abhängigen Variable erklärt) verworfen werden und das Modell weiter interpretiert werden.
+Im Output der Software R müssen wir in die letzte Zeile sehen. Dort ist zuerst der gerundete F-Wert angegeben und die Parameter der Verteilung und anschließend der p-Wert, hier mit $< 2.2e^{-16}$. Dieser Wert ist also auch kleiner als $0.05$, denn $2.2e^{-16} = 0.00000000000000022$.
+
+{{% notice tip %}}
+Für eine weitergehende Auseinandersetzung, vor allem zur Berechnung der Teststatistik, ist folgende Literatur zu empfehlen: @Urban2011 [Kapitel 3.4.2, Kapitel 3.3.3 & Kapitel 3.4.3].
+{{% /notice %}}

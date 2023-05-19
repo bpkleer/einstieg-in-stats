@@ -1,0 +1,46 @@
+---
+title: "Gamma"
+weight: 222
+tags: ["gamma", "pre maß"]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+$\gamma$ ist ein [PRE-Maß](../../../glossar/premass/index.html) und wird angewendet, um den Zusammenhang zweier Merkmale, deren Skalenniveau mindestens ordinal ist, in einer Kreuztabelle zu überprüfen. Hierbei werden die Zahl konkordanter Paare $C$ ($x_i < x_j$) und diskonkordanter Paare $D$ ($y_i < y_j$) in Relation gesetzt. Im Unterschied zu anderen Zusammenhangsmaßen bleiben sogenannte *Ties* außen vor. *Ties* werden auch Rangbindungen genannt. Diese liegen vor, wenn mehrere Fälle denselben Rang in der geordneten Datenstruktur vorliegen. Wenn wir zum Beispiel das Klausurergebnis einer Prüfung nehmen, werden mehrere Personen *8 Notenpunkte* erhalten und erhalten dann in der geordneten Auflistung denselben Rang, da unter den Personen mit *8 Notenpunkten* keine weitere Rangfolge zu bilden ist. Dies ist eine Schwäche von $\gamma$, da der Koeffizient so bei Vorliegen von *ties* einen zu hohen Wert ausgibt.
+
+Die Gesamtanzahl zweier Variablen wird wie folgt berechnet: $Anzahl \, möglicher \, Paare = \frac{N(N-1)}{2} $
+
+### Beispiel
+Nehmen wir folgendes Beispiel des höchsten Bildungslevels und des gruppierten Einkommens:
+
+![Beispiel Gamma](../images/gamma-tabelle1.png)
+
+Die konkordanten ($N_C$ und diskonkordanten ($N_D$) Paare lassen sich aus der Kreuztabelle auslesen.
+
+Dazu nehmen wir diese leicht veränderte Tabelle, in der wir pro Zelle einen Buchstaben eingetragen haben:
+
+![Beispiel Gamma](../images/gamma-tabelle2.png)
+
+Die Paare sich wie folgt zählen: 
+$$\begin{align*}N_C &= a(e + f) +b(f) \\ &= 500(400+300) + 200(300) \\ &= 410000 \end{align*}$$
+
+$$\begin{align*}N_D &= c(d+e) +b(d) \\ &= 100(200+400) + 200(200) \\ &= 100000 \end{align*}$$
+
+Die Gesamtzahl ergibt sich wie folgt: $Anzahl \, möglicher \, Paare = \frac{N(N-1)}{2} = 1444150$.
+Hier wird bereits deutlich, dass durch das Nicht-Beachten der *Ties* viele Wertepaare nicht berücksichtigt werden. Denn $N_C + N_D = 510000$.
+
+Die Formel für $\gamma$ lautet wie folgt:
+$\gamma = \frac{N_C - N_D}{N_C + N_D}$
+
+Im Beispiel erhalten wir folgende Werte:
+$$\begin{align*}\gamma &= \frac{410000 - 100000}{410000+100000} \\ &= \frac{310000}{510000} \\ &\approx 0.608 \end{align*}$$

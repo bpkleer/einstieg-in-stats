@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lernmodul 2 on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM2/</link>
+    <description>Recent content in Lernmodul 2 on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deskriptiv- &amp; Inferenzstatistik</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-a/</guid>
+      <description>Deskriptive oder auch explorative Statistik, trifft immer Aussagen über vorhandene Daten, d.h. es handelt sich hierbei um eine beschreibende Statistik. Dazu zählen Verfahren zur Berechnung von Lage- und Streumaßen, aber auch alle grafischen Darstellungen wie z.B. Box-Plots. Korrelationen und Regressionen können auch als deskriptive Verfahren genutzt werden, üblicher ist aber, dass diese inferenzstatistisch genutzt werden. Daher werden diese beide Verfahren in Lernmodul 4 vorgestellt.
+Mithilfe der Inferenzstatistik werden Wahrscheinlichkeitsaussagen über Populationswerte getroffen.</description>
+    </item>
+    
+    <item>
+      <title>Uni-, bi &amp; multivariat</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-b/</guid>
+      <description>In der Statistik wird zusätzlich zwischen univariaten, bivariaten und multivariaten Verfahren unterschieden.
+Bei der univariaten Datenanalyse interessiert die Frage, was bei einem/r ausgewählten Merkmal/Variable über die erhobenen Ausprägungen ausgesagt werden kann. Zum Beispiel interessiert die Frage, wie viele Personen den einzelnen Antwortmöglichkeiten eines/r Merkmals/Variable zugestimmt haben. Hierzu wird eine Häufigkeitsverteilung erstellt oder Lage- und Streumaße dieses/r Merkmals/Variable berechnet. Einfache Häufigkeitsverteilung beschreiben, wie sich die untersuchten Personen auf die Merkmalsausprägungen des/r gewählten Merkmals/Variablen verteilen (häufen).</description>
+    </item>
+    
+    <item>
+      <title>Urliste</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-c/</guid>
+      <description>Qua Definition bezeichnet man eine Urliste als Ausdruck für die Auflistung der Messwerte einer Variablen. In dieser ist das Merkmal (z.B. Augenfarbe oder Alter) eingetragen und die zugehörigen Merkmalsausprägungen (blau, grün, etc. für die Augenfarbe und \(34\) Jahre, \(27\) Jahre, etc. für das Alter) für jede befragte Person (Zeile für Zeile) festgehalten.
+Urliste Aus einer (umfangreicheren) Urliste kann nur mit Mühe ersehen werden, wie sich die Personen auf die verschiedenen Merkmalsausprägungen verteilen.</description>
+    </item>
+    
+    <item>
+      <title>Häufigkeitstabelle</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-d/</guid>
+      <description>Eine univariate Datenanalyse in tabellarischer Form ergibt eine Häufigkeitstabelle. Diese Häufigkeitstabelle beschreibt, wie sich die Personen auf die Ausprägungen des einen Merkmals verteilen. Nehmen wir das Beispiel der Urliste von der vorherigen Seite wieder auf: Die Variable Augenfarbe (\(X\)) hat die Ausprägungen grün, blau und braun. Dieses Merkmal \(X\) umfasst mehrere Merkmalsausprägungen, in unserem konkreten Fall \(3\) (grün, blau und braun).
+Urliste In der Notation werden die Fälle einer Variablen wie folgt zusammengefasst: \(i \in {1, 2, …, n}\).</description>
+    </item>
+    
+    <item>
+      <title>Kumulierte Häufigkeiten</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-e/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-e/</guid>
+      <description>Wie im Kapitel Grundbegriffe dargestellt, stellen Häufigkeitstabellen die Darstellung der absoluten und relativen Häufigkeiten der Merkmalsausprägung einer Variablen dar. Neben den absoluten und relativen Häufigkeiten, werden oftmals auch kumulierte relative Häufigkeiten zusätzlich angegeben. Für kumulierte relative Häufigkeiten muss eine Rangordnung zwischen den Ausprägungen vorhanden sein, also mindestens ein ordinales Skalenniveau vorliegen.
+Nehmen wir ein Beispiel, bei dem wir von \(100\) Befragten die Anzahl abgefragt haben, in wie viele Länder der Welt sie bereits gereist sind.</description>
+    </item>
+    
+    <item>
+      <title>Datenmatrix</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-f/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-f/</guid>
+      <description>Als Datenmatrix bezeichnet man die Anordnung der Daten vor allem (aber nicht nur) in Statistik-Programmen. Im Gegensatz zur Urliste beinhaltet die Datenmatrix nicht nur eine Variable, sondern alle erhobenen Variablen.
+Hier im Beispiel: Es wurden Personen nach ihrem Alter, ihrem Schulabschluss und nach ihrer Lesehäufigkeit befragt. In dem unten dargestellten Beispiel liegen die Daten somit als Antworten zu den Fragen der Befragung vor.
+Datenmatrix In Statistikprogrammen wird in der Regel jedes erfragte Merkmal mit einer Kurzbezeichnung charakterisiert (z.</description>
+    </item>
+    
+    <item>
+      <title>Modus</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter2/page-2-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter2/page-2-a/</guid>
+      <description>Der Modus, auch Modalwert, ist der am häufigsten vorkommende Wert (Ausprägung). Somit ist die Wahrscheinlichkeit, dass dieser Wert/diese Ausprägung zufällig aus den ermittelten Werten gezogen wird, am größten. Dieses Maß der zentralen Tendenz ist besonders wichtig für nominalskalierte Skalenniveau Variablen, da bei diesen die Angabe eines arithmetischen Mittelwertes oder Medians nicht sinnvoll angewendet werden kann.
+So kann für die Variable Augenfarbe kein Durchschnittswert angegeben, der häufigste Wert (Modus) dagegen erscheint sinnvoll.</description>
+    </item>
+    
+    <item>
+      <title>Median</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter2/page-2-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter2/page-2-b/</guid>
+      <description>Der Median ist jene Ausprägung/Wert, welcher die Verteilung genau in zwei gleich große Abschnitte teilt. Der Median ist der Wert, der in einer geordneten Liste genau in der Mitte liegt, d.h. dass sich genauso viele Werte oberhalb wie unterhalb des Wertes befinden (jeweils \(50\%\) der Fälle). Folglich setzt der Median eine Ordnung der Werte voraus und damit ein ordinales Skalenniveau. Sowohl bei der Berechnung des Medians als auch beim ordinalen Skalenniveau sind die Werte der Größe nach sortiert.</description>
+    </item>
+    
+    <item>
+      <title>arithm. Mittelwert</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter2/page-2-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter2/page-2-c/</guid>
+      <description>Der Mittelwert, auch arithmetisches Mittel, gibt den durchschnittlichen Wert einer/s Variable/Merkmals an. Dazu müssen die Abstände zwischen den Werte interpretierbar sein, also muss mindestens Intervallskalenniveau vorliegen.
+Der Mittelwert wird berechnet aus der Summe aller Werte, die durch die Anzahl der Werte (n) geteilt wird.
+\[\bar{x}=\frac{1}{n} \ast \sum_{i=1}^n x_i = \frac{\sum_{i=1}^n x_i}{n}\]
+Werte, die weit von den restlichen Werten abweichen, verzerren dieses Maß der zentralen Tendenz. Der Mittelwert ist daher anfällig für Ausreißer und nicht gut geeignet, um schiefe Verteilungen (mit Extremwerten) zu beschreiben.</description>
+    </item>
+    
+    <item>
+      <title>Maße der zentralen Tendenz Lernvideo</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter2/page-2-d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter2/page-2-d/</guid>
+      <description>In diesem Lernvideo wird Ihnen die Berechnung des Modus, des Medians und arithmetischen Mittelwertes dargestellt.
+Je nach Verteilung, Skalenniveau und Art der Daten sind unterschiedliche Lagemaße sinnvoll. Der Modus wird für nominale Daten verwendet, der Median für mind. ordinale Daten sowie intervall- oder ratio-skalierte Daten mit extremen Ausreißern und der Mittelwert für intervall- oder ratioskalierte Variablen (ohne Ausreißer).
+Übersicht Maße der zentralen Tendenz Siehe auch: Gehring &amp;amp; Weins (2009, Kapitel 6.</description>
+    </item>
+    
+    <item>
+      <title>Perzentile</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter2/page-2-e/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter2/page-2-e/</guid>
+      <description>Perzentile teilen die Ausprägungen der Variablen in gleich große Gruppen, sodass sich in jeder Gruppe der gleiche Prozentsatz an Werten befindet. Häufig genutzt werden die Quartile (= Viertel, jeweils \(25\%\)). Bei Dezilen handelt es sich hingegen um Gruppen von jeweils \(10\%\) der Werte.
+Quartile teilen die Verteilung in vier gleich große Viertel: \(25\%\) der Werte sind kleiner oder gleich groß mit dem 1. Quartil oder unterem Quartil (\(\tilde{x}_{0.25}\)), \(50\%\) sind kleiner oder gleich groß wie das 2.</description>
+    </item>
+    
+    <item>
+      <title>Variationsweite</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter3/page-3-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter3/page-3-a/</guid>
+      <description>Als Variationsweite, auch Spannweite, wird die Differenz zwischen dem größten (xmax) und dem kleinsten Wert (xmin) der Verteilung bezeichnet. Sie beschreibt die Größe des Bereichs, innerhalb derer sich die Daten befinden. Variationsweite wird teilweise auf Englisch als Range bezeichnet. Da es ein Minimum und Maximum geben muss, setzt die Variationsweite voraus, dass die Daten eine Rangordnung haben, also ordinalskaliert sind.
+\[V=R=x_{max} – x_{min}\]
+Im Beispiel von oben, der Anzahl von politikwissenschaftlichen Büchern, war:</description>
+    </item>
+    
+    <item>
+      <title>Interquartilsabstand</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter3/page-3-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter3/page-3-b/</guid>
+      <description>Mit dem Interquartilsabstand (IQR) wird die Differenz zwischen dem oberen Quartil und dem unteren Quartil angegeben. Anders als die Variationsweite ist diese Kennzahl weniger anfällig für Ausreißer, berücksichtigt allerdings auch nur die mittleren \(50\%\) einer Verteilung. Dieser Wert enthält also die Information, zwischen welchen Werten sich die mittleren \(50\%\) einer Variablen befinden. Auch hier gilt wieder, dass dieser Kennwert die Ordnung der Werte (ordinalskaliert) voraussetzt.
+\[IQR=\tilde{x}_{0.75} - \tilde{x}_{0.25}\]
+Dieser Wert dient zur Einschätzung der Streuung einer Häufigkeitsverteilung und ist dann sinnvoll, wenn der Kernbereich einer Verteilung interessiert.</description>
+    </item>
+    
+    <item>
+      <title>Varianz</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter3/page-3-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter3/page-3-c/</guid>
+      <description>Die Varianz ist eine Kennzahl, welche die Streuung der Variable ausdrückt und alle Werte berücksichtigt. Sie wird berechnet, indem man den Durchschnitt der quadrierten Abweichung vom arithmetischen Mittel berechnet. Die Varianz beschreibt also den durchschnittlichen quadrierten Abstand zum Mittelwert.
+Die Formel zur Anwendung auf eine Vollerhebung ist folgende:
+\[\sigma^2=\frac{1}{n} \ast \sum_{i=1}^n(x_i - \bar{x})^2 = \frac{\sum_{i=1}^n(x_i - \bar{x})^2}{n}\]
+Wenn nur eine Stichprobe erhoben wird, muss die Formel um \(\frac{1}{n-1}\) korrigiert werden:</description>
+    </item>
+    
+    <item>
+      <title>Standardabweichung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter3/page-3-d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter3/page-3-d/</guid>
+      <description>Die Standardabweichung ist die Wurzel der Varianz, also die Wurzel der quadrierten durchschnittlichen Abweichung der Werte zum Mittelwert. Diese ist wieder in der Maßeinheit der Variablen zu interpretieren und wird deshalb auch häufiger genutzt. Die Standardabweichung gibt somit die durchschnittliche Abweichung der Werte zum Mittelwert an. Mit diesem Maß wird nicht die Abweichung einzelner Werte zum Mittelwert berechnet, sondern die durchschnittliche Größe der Abweichungen zum Mittelwert repräsentiert (Bortz/Schuster 2010: 31).</description>
+    </item>
+    
+    <item>
+      <title>Variationskoeffizient</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter3/page-3-e/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter3/page-3-e/</guid>
+      <description>Da Merkmale mit einem höheren arithmetischen Mittel auch häufig eine größere Standardabweichung aufweisen, wird der Variationskoeffizient genutzt, um dies zu relativieren (Gehring &amp;amp; Weins, 2009, p. 138). Bei der Berechnung des Variationskoeffizienten kürzt sich die Maßeinheit heraus, daher ist er eine dimensionslose Größe (Gehring &amp;amp; Weins, 2009, p. 138). Es ist zusätzlich ein relatives Maß, da die Werte ins Verhältnis zum Mittelwert berechnet werden. So können verschiedene Streuungen verglichen werden, die nicht die gleiche Maßeinheit haben.</description>
+    </item>
+    
+    <item>
+      <title>Lernvideo zu Streumaßen</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter3/page-3-f/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter3/page-3-f/</guid>
+      <description>In diesem Lernvideo werden die hier vorgestellten Streumaße an einem Rechenbeispiel erklärt.</description>
+    </item>
+    
+    <item>
+      <title>Kreisdiagramme</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter4/page-4-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter4/page-4-a/</guid>
+      <description>Pie Charts werden im Deutschen oft als Kreisdiagramme bezeichnet. Ein Kreis wird so in Kreissektoren unterteilt, dass die Flächen der Kreissektoren zu den beobachteten Häufigkeiten der einzelnen Ausprägungen proportional sind. Diese Darstellungsform wird vor allem für nominale Daten verwendet (vgl. Gehring &amp;amp; Weins, 2009, p. 112).
+Ausgangspunkt ist eine fiktive Befragung des Wohnorts von \(100\) Studierenden des Masters Demokratie und Governance.
+Häufigkeitstabelle Pie-Chart Siehe auch: Gehring &amp;amp; Weins (2009, Kapitel 5.</description>
+    </item>
+    
+    <item>
+      <title>Säulendiagramme</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter4/page-4-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter4/page-4-b/</guid>
+      <description>Säulendiagramme sind auch bekannt als Linien- oder Stabdiagramme, die Säulen sind dann zu Linien bzw. Stäben verschmälert. In Säulendiagrammen sind die Säulen horizontal angeordnet. Bei Balkendiagrammen sind die Säulen dagegen vertikal angeordnet.
+Für jede Merkmalsausprägung wird eine Säule erstellt. Die Höhe bzw. Länge einer Säule stellt die absolute oder relative Häufigkeit dar. Säulendiagramme können sowohl für nominal- wie ordinal-skalierte Merkmale verwendet werden.
+Die Ausprägungen werden bei ordinal-skalierten Merkmalen nach ihrer Ordnung sortiert und nicht nach der Häufigkeit.</description>
+    </item>
+    
+    <item>
+      <title>Histogramm</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter4/page-4-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter4/page-4-c/</guid>
+      <description>Histogramme sind auch bekannt als Flächendiagramme. Auf der \(x\)-Achse ist die Merkmalsausprägung abgetragen und auf der \(y\)-Achse die absolute Häufigkeit der jeweiligen Merkmalsausprägung. Merkmale müssen mindestens intervall-skaliert sein, damit Histogramme ausgegeben werden können. Histogramme beschreiben daher ein Ausprägungskontinuum. Damit schließen die Ausprägungskategorien nahtlos aneinander an (vgl. Gehring &amp;amp; Weins, 2009, p. 113). Da bei intervall-skalierten Variablen ebenfalls eine Ordnung vorliegt, wird in einem Histogramm immer die Ordnung der Merkmalsausprägungen befolgt.</description>
+    </item>
+    
+    <item>
+      <title>Verteilungsformen</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter4/page-4-d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter4/page-4-d/</guid>
+      <description>Empirisch erhobene Daten können anhand von Häufigkeitsverteilungen tabellarisch zusammengefasst oder grafisch dargestellt werden, wie zuvor erläutert wurde. Darüber hinaus lässt sich die Form einer Verteilung in Histogrammen auch verbal beschreiben. Hier spielen die Verteilungen der drei Maße der zentralen Tendenz - Modus, Median und arithmetisches Mittel - eine Rolle.
+Von einer symmetrischen Verteilung und Eingipfligkeit (unimodal) wird gesprochen, wenn die gleiche Anzahl von Werten rechts und links des Gipfels liegt.</description>
+    </item>
+    
+    <item>
+      <title>Boxplots</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter4/page-4-e/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter4/page-4-e/</guid>
+      <description>Die Darstellung eines Boxplots ist in diesem Lernvideo erklärt. Alternativ können Sie weiter runterscrollen und die Textbeschreibung lesen.
+Der Boxplot, auch Box-Whisker-Plot, ist eine kompakte deskriptive Darstellung verschiedener univariater Kennwerte eines Merkmals. Die Fünf-Punkte-Zusammenfassung einer Verteilung inkludiert das Minimum, das 1. Quartil, den Median, das 3. Quartil sowie das Maximum. Boxplots weisen damit eine extrem hohe Informationsdichte auf. Durch diese konzentrierten Informationen erlauben sie eine sehr schnelle Abschätzung der Streuung.</description>
+    </item>
+    
+    <item>
+      <title>z-Standardisierung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter5/page-5-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter5/page-5-a/</guid>
+      <description>Die z-Transformation wird auch als Standardisierung bezeichnet. Nach der Transformation sind die Werte nicht mehr in den Originalmaßeinheiten gemessen, sondern in Vielfachen der Standardabweichung des Merkmals.
+Aus Rohwerten (\(x\)-Werte) kann häufig nur sehr bedingt auf deren relative Position innerhalb einer Verteilung geschlossen werden, das arithmetische Mittel und die Standardabweichung vermitteln zusätzliche Informationen. Werden Rohwerte in z-Werte transformiert, erhält man anhand der Berücksichtigung des arithmetischen Mittels und der Standardabweichung exakte Informationen über die relative Position des jeweiligen Rohwertes.</description>
+    </item>
+    
+    <item>
+      <title>absolute Häufgkeit</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/absolutehaeufigkeit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/absolutehaeufigkeit/</guid>
+      <description>Darstellung der tatsächlich beobachteten Häufigkeiten einer Merkmalsausprägung;
+Beispiel: fünf Personen haben grüne Augen, d.h. die absolute Häufigkeit der Merkmalsausprägung grün auf dem Merkmal der Augenfarbe beträgt fünf.
+Als Zeichen der beobachteten Häufigkeiten wird \(f_{x_{k}}\) verwendet.</description>
+    </item>
+    
+    <item>
+      <title>Beobachtungseinheit</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/beobachtungseinheit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/beobachtungseinheit/</guid>
+      <description>Die Beobachtungseinheit ist der Merkmalsträger bzw. im Speziellen sind es die Objekte, an denen etwas beobachtet wird. Hierbei werden zwei Analyseebenen unterschieden: Die Mikro-(Verlinkung) und die Makroebene(Verlinkung).
+Eine Wahlstudie beobachtet das Wahlverhalten von Individuen, damit ist die Beobachtungseinheit das Individuum (Mikroebene).</description>
+    </item>
+    
+    <item>
+      <title>bimodale Verteilung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/bimodaleverteilung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/bimodaleverteilung/</guid>
+      <description>Verteilung mit zwei Modalwerten, also zwei Ausprägungen, die beide am häufigsten vorkommen.</description>
+    </item>
+    
+    <item>
+      <title>Boxplot</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/boxplot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/boxplot/</guid>
+      <description>Form der univariaten Analyse; grafische Darstellung von Minimum, 1. Quartil, Median, 3. Quartil, Maximum, Interquartilsabstand und Spannweiter einer Variablen; ggf. werden auch Ausreißer und Extremwerte angegeben.</description>
+    </item>
+    
+    <item>
+      <title>Credits</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/credits/</guid>
+      <description>Contributors Web-Based-Training (since v1.0) @B. Philipp Kleer 19 commits Contributors to hugo-learner-theme Thanks to them for making Open Source Software a better place!
+@matcornic 158 commits @matalo33 48 commits @coliff 19 commits @lierdakil 16 commits @mdavids 10 commits @ozobi 5 commits @Xipas 5 commits @Alan-Cha 4 commits @pdelaby 4 commits @helfper 4 commits @Chris-Greaves 3 commits @mreithub 3 commits @massimeddu 3 commits @LinuxSuRen 3 commits @dptelecom 3 commits @willwade 3 commits @diemol 2 commits @denisvm 2 commits @hucste 2 commits @ImgBotApp 2 commits @jamesbooker 2 commits @jice-lavocat 2 commits @wikijm 2 commits @lfalin 2 commits @JianLoong 2 commits @armsnyder 1 commits @afilini 1 commits @MrAkaki 1 commits @AmirLavasani 1 commits @afs2015 1 commits @arifpedia 1 commits @berryp 1 commits @MrMoio 1 commits @ChrisLasar 1 commits @DCsunset 1 commits @IEvangelist 1 commits @fritzmg 1 commits @bogaertg 1 commits @geoffreybauduin 1 commits @giuliov 1 commits @haitch 1 commits @zeegin 1 commits @RealOrangeOne 1 commits @jared-stehler 1 commits @JohnBlood 1 commits @JohnAllen2tgt 1 commits @kamilchm 1 commits @gwleclerc 1 commits @lloydbenson 1 commits @massimocireddu 1 commits @sykesm 1 commits @nvasudevan 1 commits @nnja 1 commits @owulveryck 1 commits @654wak654 1 commits @PierreAdam 1 commits @qiwenmin 1 commits @ripienaar 1 commits @stou 1 commits @razonyang 1 commits @HontoNoRoger 1 commits @pocc 1 commits @EnigmaCurry 1 commits @taiidani 1 commits @exKAZUu 1 commits @Oddly 1 commits @sandrogauci 1 commits @shelane 1 commits @mbbx6spp 1 commits @swenzel 1 commits @tedyoung 1 commits @Thiht 1 commits @editicalu 1 commits @fossabot 1 commits @kamar535 1 commits @mtbt03 1 commits @ngocbichdao 1 commits @nonumeros 1 commits @pgorod 1 commits @proelbtn 1 commits And a special thanks to vjeantet for his work on docdock, a fork of hugo-theme-learn.</description>
+    </item>
+    
+    <item>
+      <title>Daten</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/daten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/daten/</guid>
+      <description>Mithilfe sozialwissenschaftlicher Methoden/Techniken gewonnene Informationen (quantitativ und qualitativ), die dann mit verschiedenen Verfahren analysiert werden.</description>
+    </item>
+    
+    <item>
+      <title>Datenanalyse</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/datenanalyse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/datenanalyse/</guid>
+      <description>Bei der Datenanalyse werden vorhandene, also erhobene Daten genutzt, um daraus Erkenntnisse zu generieren; je nach Fragestellung und/oder Thema können verschiedene Verfahren der Datenanalyse geeignet sein.</description>
+    </item>
+    
+    <item>
+      <title>Datenerhebung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/datenerhebung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/datenerhebung/</guid>
+      <description>Sammeln und Auswerten von Daten; je nach Fragestellung und/oder Thema können verschiedene Methoden der Datenerhebung geeignet sein; bspw. Befragung, Beobachtung oder Inhaltsanalyse.</description>
+    </item>
+    
+    <item>
+      <title>Deskriptive Statistik</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/deskriptivestatistik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/deskriptivestatistik/</guid>
+      <description>Deskriptive (oder auch explorative Statistik) trifft immer Aussagen über vorhandene Daten, d.h. es handelt sich hierbei um eine beschreibende Statistik. Dazu zählen Verfahren zur Berechnung von Lage- und Streumaßen, aber auch grafische Darstellungen wie z.B. Box-Plots.</description>
+    </item>
+    
+    <item>
+      <title>Grundgesamtheit</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/grundgesamtheit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/grundgesamtheit/</guid>
+      <description>auch Zielpopulation oder angestrebte Grundgesamtheit; Menge aller Einheiten, über die wir eine Aussage treffen wollen.</description>
+    </item>
+    
+    <item>
+      <title>Häufigkeitstabelle</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/haeufigkeitstabellen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/haeufigkeitstabellen/</guid>
+      <description>enthält die absoluten oder relativen Häufigkeiten einer Variable; wird die Kombination mehrerer Variablen mit absoluten oder relativen Häufigkeiten dargestellt, wird dies als Kreuztabelle benannt; die Kontingenztabelle (auch Kontingenztabelle) stellt dabei die Sonderform der Kombination der absoluten/relativen Häufigkeiten von zwei Variablen dar.</description>
+    </item>
+    
+    <item>
+      <title>Histogramm</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/histogramm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/histogramm/</guid>
+      <description>grafische Darstellung einer univariaten Häufigkeitsverteilung in Form von direkt nebeneinanderliegenden Säulen, die den Häufigkeiten der Messwerte entsprechen. Mithilfe von Histogrammen wird oftmals die Verteilungsform der Variablen grafisch betrachtet.</description>
+    </item>
+    
+    <item>
+      <title>Interquartilsabstand</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/interquartilsabstand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/interquartilsabstand/</guid>
+      <description>Differenz zwischen dem 3. Quartil und dem 1. Quartil; beschreibt die mittleren 50 Prozent einer Verteilung.
+Formel zur Berechnung: \(IQR=\bar{x}_{75} - \bar{x}_{25}\).</description>
+    </item>
+    
+    <item>
+      <title>Intervall-Skala</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/intervallskala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/intervallskala/</guid>
+      <description>dritthöchste Skala der vier Skalenniveaus; Zusammen mit der Ratio-Skala stellt die Intervall-Skal das metrische Messniveau dar.
+Die Intervall-Skala besitzt die Eigenschaften der Nominal-skala (Verlinkung) und Ordinal-Skala (Verlinkung) und zusätzlich haben die Ausprägungen eines Merkmals auf dieser Skala gleich große Abstände. Die Intervall-Skala besitzt allerdings keinen natürlichen Nullpunkt.
+Mathematische Operatoren: \(=/≠ ; &amp;lt;/&amp;gt; ; −/ +\)
+Messbare Eigenschaften: Häufigkeit, Reihenfolge, Abstand
+Beispiel: IQ-Testscore</description>
+    </item>
+    
+    <item>
+      <title>Kausalität</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/kausalitaet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/kausalitaet/</guid>
+      <description>Das Ziel insbesondere hypothesen- und theorie-prüfender Untersuchungen ist die Bestimmung von Ursache-Wirkungs-Beziehungen. Diese Ursache-Wirkungs-Beziehung wird auch als Kausalität bezeichnet.
+Eine Kausalaussage ist „eine Aussage, in der behauptet wird, dass bestimmte Phänomene Ursachen für andere Phänomene sind“ (Opp 2010). Die Ursache (X) muss zeitlich vor der Wirkung (Y) liegen.</description>
+    </item>
+    
+    <item>
+      <title>Lagemaße</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/lagemasse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/lagemasse/</guid>
+      <description>inkludieren Maße der zentralen Tendenz sowie Quartile oder generell Quantile; geben an, wo sich ein gewisser Punkt (z.B. Mittelwert) einer Variable befindet; Lagemaße werden zur Beschreibung einer Verteilung genutzt (Deskriptivstatistik).</description>
+    </item>
+    
+    <item>
+      <title>Median</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/median/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/median/</guid>
+      <description>Maß der zentralen Tendenz; stellt den Mittelpunkt der Verteilung dar und daher muss das Merkmal mind. ordinalskaliert sein. Der Median teilt die geordnete Verteilung genau in 50 % ein und stellt das mittlere Quartil dar.</description>
+    </item>
+    
+    <item>
+      <title>Merkmal</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/merkmal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/merkmal/</guid>
+      <description>Merkmale sind die Eigenschaften eines zu untersuchenden Objektes. Ein Objekt weist i.d.R. mehrere Merkmale auf.</description>
+    </item>
+    
+    <item>
+      <title>Merkmalsausprägung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/merkmalsauspraegung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/merkmalsauspraegung/</guid>
+      <description>Merkmale können verschiedene Werte annehmen, die Merkmalsausprägungen genannt werden (Bsp. Augenfarbe; Merkmalsausprägungen= grün, blau, braun).</description>
+    </item>
+    
+    <item>
+      <title>Mittelwert</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/mittelwert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/mittelwert/</guid>
+      <description>auch arithmetisches Mittel; Maß der zentralen Tendenz; stellt den Durchschnittswert der Verteilung dar und daher muss das Merkmal mind. intervallskaliert sein. Es werden alle erhobenen Werte aufsummiert und dann durch die Anzahl der vorhandenen Werte geteilt. Der Mittelwert wird durch Ausreißer und Extremwerte stark beeinflusst, da alle Werte gleichermaßen und ungewichtet in die Berechnung einbezogen werden.
+Formel zur Berechnung: \(\bar{x}=\frac {1} {n} * \sum_{i=1} ^n x_i\)</description>
+    </item>
+    
+    <item>
+      <title>Modus</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/modus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/modus/</guid>
+      <description>Maß der zentralen Tendenz; zu untersuchendes Merkmal muss mind. nominalskaliert sein; der Modus stellt die Ausprägung einer Variablen dar, die am häufigsten vorkommt.</description>
+    </item>
+    
+    <item>
+      <title>Nominal-Skala</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/nominalskala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/nominalskala/</guid>
+      <description>Niedrigste Skala der vier Skalenniveaus. Zu untersuchende Objekte können lediglich hinsichtlich ihres Vorhandenseins/Nichtvorhandenseins bzw. der Gleichheit/Ungleichheit untersucht werden.
+Mathematische Operatoren: \(=\) \(/\) \(≠\)
+Messbare Eigenschaften: Häufigkeit
+Beispiel: Wohnort, Universität, Augenfarbe.</description>
+    </item>
+    
+    <item>
+      <title>Ordinal-Skala</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/ordinalskala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/ordinalskala/</guid>
+      <description>Zweitniedrigste Skala der vier Skalenniveaus. Die Ordinal-Skala besitzt die Eigenschaften der Nominalskala (Verlinkung) und zusätzlich können die Ausprägungen in eine bestimmte Rangfolge bringen (größer/kleiner, schlechter/besser). Mathematische Operatoren: \(= / ≠ ; &amp;lt; / &amp;gt;\) Messbare Eigenschaften: Häufigkeit, Rangordnung Beispiel: Schulabschluss</description>
+    </item>
+    
+    <item>
+      <title>Quartil</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/quartil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/quartil/</guid>
+      <description>Sonderform eines Quantils, in der die Verteilung in vier gleiche Teile eingeteilt wird (1., 2., 3. (=Median) und 4. Quartil); Interquartilsabstand als Differenz zwischen 3. und 1. Quartil wichtig zur Beschreibung der Streuung einer Variable (mittlere 50 % einer Verteilung).</description>
+    </item>
+    
+    <item>
+      <title>Ratio-Skala</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/ratioskala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/ratioskala/</guid>
+      <description>Höchste Skala der vier Skalenniveaus; Die Ratio-Skala hat sowohl die Eigenschaften der Nominal-Skala (Verlinkung), Ordinal-Skala (Verlinkung) als auch der Intervall-Skala (Verlinkung). Zusätzlich können Merkmale mit diesem Skalenniveau, da ein natürlicher Nullpunkt vorliegt, Verhältnisse von Werten zu bilden.
+Mathematische Operatoren: \(=/≠; &amp;lt;/&amp;gt;; +/− ; ÷/*\)
+Messbare Eigenschaften: Häufigkeit, Reihenfolge, Abstand, natürlicher Nullpunkt
+Beispiel: Körpergröße</description>
+    </item>
+    
+    <item>
+      <title>relative Häufigkeit</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/relativehaeufigkeit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/relativehaeufigkeit/</guid>
+      <description>Anteil einer Ausprägung an der Gesamtanzahl; wird errechnet aus der absoluten Häufigkeit (\(\frac {f_{x_k}} {n}\)); gibt somit den Anteil der Elemente einer Menge wieder, bei denen eine bestimmte Merkmalsausprägung vorliegt.</description>
+    </item>
+    
+    <item>
+      <title>Signifikanztest</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/signifikanztest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/signifikanztest/</guid>
+      <description>auch Hypothesentest genannt; Test der Inferenzstatistik; es wird getestet, inwieweit ein Zusammenhang in der Stichprobe auch in der Grundgesamtheit wahrscheinlich ist (-&amp;gt;Inferenz); getestet wird die Nullhypothese (also das Gegenteil der Annahme muss widerlegt werden); Alternativhypothese beinhaltet theoretische Vermutung der Forscher*in; Entscheidung wird gegen Nullhypothese unter Irrtumswahrscheinlichkeit gefällt; Testgröße in Abhängigkeit der Verteilung (z.B. t-Test, F-Test oder z-Test); es wird zwischen einseitigen Signifikanztest (ungleich/gleich-Test) und zweiseitigen Signifikanztest (Richtungstest)</description>
+    </item>
+    
+    <item>
+      <title>Skalenniveau</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/skalenniveau/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/skalenniveau/</guid>
+      <description>Skalenniveaus werden zur Bestimmung der Relationen zwischen Variablen definiert. Man unterscheidet zwischen Nominal-, Ordinal-, Intervall- und Ratio-Skala.</description>
+    </item>
+    
+    <item>
+      <title>Spannweite</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/spannweite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/spannweite/</guid>
+      <description>auch Range; bezeichnet die Differenz zwischen Maximum und Minimum einer Verteilung; der Bereich, in dem alle Werte einer Verteilung liegen.</description>
+    </item>
+    
+    <item>
+      <title>Standardabweichung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/standardabweichung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/standardabweichung/</guid>
+      <description>Streuungsmaß; Angabe mit \(\sigma\); wird berechnet als Wurzel aus der Varianz (\(\sigma=\sqrt{\sigma^2}\); gibt die durchschnittliche Abweichung vom Mittelwert der Verteilung an (in der Maßeinheit der Variablen). Für die Berechnung einer Standardabweichung aus einer Stichprobe wird die Bessel-Korrektur angewendet (\(\frac{1}{n-1}\)): \(s = \sqrt{\frac{1}{n-1}*s^2}\)</description>
+    </item>
+    
+    <item>
+      <title>Statistik</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/statistik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/statistik/</guid>
+      <description>dient in den Sozialwissenschaften dient zur Analyse empirischer Informationen; im Vordergrund stehen aber nicht die mathematischen Grundlagen, sondern der Bezug zu sozialwissenschaftlichen Fragestellungen; Unterscheidung in Inferenzstatistik und Deskriptivstatistik.</description>
+    </item>
+    
+    <item>
+      <title>Stichprobe</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/stichprobe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/stichprobe/</guid>
+      <description>ist ein Teil der Grundgesamtheit; da oftmals keine Vollerhebung stattfinden kann, werden Stichproben aus der Grundgesamtheit gezogen; um inferenzstatistische Verfahren anwenden zu können, müssen Stichproben zufallsbasiert gezogen werden.</description>
+    </item>
+    
+    <item>
+      <title>Stichprobenumfang</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/stichprobenumfang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/stichprobenumfang/</guid>
+      <description>Anzahl der Beobachtungseinheiten in einer Stichprobe.</description>
+    </item>
+    
+    <item>
+      <title>Streumaße</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/streumasse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/streumasse/</guid>
+      <description>Auch Dispersionsmaße; statistische Kennwerte, die angeben, wie stark die Werte einer Stichprobe um den Mittelwert streuen; Beispiele: Standardabweichung, Varianz, Variationskoeffizient, IQR, Spannweite.</description>
+    </item>
+    
+    <item>
+      <title>unimodale Verteilung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/unimodaleverteilung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/unimodaleverteilung/</guid>
+      <description>Verteilung mit einem Modalwert, also einem einzigen häufigsten Wert.</description>
+    </item>
+    
+    <item>
+      <title>univariate Statistik</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/univariatestatistik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/univariatestatistik/</guid>
+      <description>es interessiert die Frage, was bei einem ausgewählten Merkmal bzw. einer Variable über die erhobenen Ausprägungen ausgesagt werden kann; Beispiel: Wie viele Personen haben den einzelnen Antwortmöglichkeiten eines Merkmals/einer Variable zugestimmt.</description>
+    </item>
+    
+    <item>
+      <title>Urliste</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/urliste/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/urliste/</guid>
+      <description>Ausdruck für die Auflistung der Messwerte einer Variablen
+In einer Urliste ist das Merkmal (z.B. Augenfarbe oder Alter) eingetragen und die zugehörigen Merkmalsausprägungen festgehalten.</description>
+    </item>
+    
+    <item>
+      <title>Variable</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/variable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/variable/</guid>
+      <description>Variablen sind die gemessenen Merkmale bzw. Eigenschaften von Beobachtungseinheiten. Jede Variable bildet ein Merkmal und dessen Merkmalsausprägungen ab.</description>
+    </item>
+    
+    <item>
+      <title>Varianz</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/varianz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/varianz/</guid>
+      <description>Streuungsmaß; Zeichen der Varianz \(\sigma^2\); Summe der quadrierten Abweichungen der Werte vom Mittelwert; Einheit der Varianz ist nicht interpretierbar; Berechnung: \(s^2=\sigma^2=\frac{1}{n} \ast \sum_{i=1}^n(x_i - \bar{x})^2\) Für die Berechnung einer Standardabweichung aus einer Stichprobe wird die Bessel-Korrektur angewendet (\(\frac{1}{n-1}\)):
+\[s^2 = \frac{1}{n-1}* \sum_{i=1}^n (x_i - \bar{x})^2\]</description>
+    </item>
+    
+    <item>
+      <title>Zusammenhangsmaße</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/glossar/zusammenhangsmasse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/glossar/zusammenhangsmasse/</guid>
+      <description>geben Vorhandensein, Stärke und ggf. Richtung eines Zusammenhangs zweier Variablen wieder; verschiedene Zusammenhangsmaße sind abhängig vom jeweiligen Skalenniveau der Variablen; Beispiele: Chi-Quadrat, Phi-Koeffizient, Cramer’s v, Pearson’s r, Spearman’s rho.</description>
+    </item>
+    
+  </channel>
+</rss>

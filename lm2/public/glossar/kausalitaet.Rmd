@@ -1,0 +1,20 @@
+---
+title: "Kausalität"
+---
+
+Das Ziel insbesondere hypothesen- und theorie-prüfender Untersuchungen ist die Bestimmung von Ursache-Wirkungs-Beziehungen. Diese Ursache-Wirkungs-Beziehung wird auch als Kausalität bezeichnet.
+
+Eine Kausalaussage ist „eine Aussage, in der behauptet wird, dass bestimmte Phänomene Ursachen für andere Phänomene sind“ (Opp 2010).
+Die Ursache (X) muss zeitlich vor der Wirkung (Y) liegen.
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}

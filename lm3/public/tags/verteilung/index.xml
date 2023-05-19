@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>verteilung on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM3/tags/verteilung/</link>
+    <description>Recent content in verteilung on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM3/tags/verteilung/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Normalverteilung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM3/chapter3/page-3-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM3/chapter3/page-3-a/</guid>
+      <description>Die Normalverteilung ist das wichtigste Verteilungsmodell der Statistik und wird für verschiedene Zwecke verwendet. Die Normalverteilung ist eine Verteilungsfunktion stetiger Variablen. Die Normalverteilung ist relevant als Verteilung empirischer Merkmale, als Verteilung von Stichprobenkennwerten und als Approximation anderer theoretischer Verteilungen (zentraler Grenzwertsatz, dazu im nächsten Kapitel mehr).
+Die Normalverteilung wird auch als Gauß-Verteilung beschrieben, da sie auf Carl Friedrich Gauß und Abraham de Moivre zurückgeht. Aufgrund der charakteristischen Form wird sie vereinfacht auch Glockenkurve genannt.</description>
+    </item>
+    
+    <item>
+      <title>Standardnormalverteilung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM3/chapter3/page-3-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM3/chapter3/page-3-b/</guid>
+      <description>Als besondere Form der Normalverteilung gibt es noch die Standardnormalverteilung: Diese liegt vor, wenn Erwartungswert \(\mu = 0\) ist und die Varianz \(\sigma^2 = 1\) und die Standardabweichung \(\sigma = 1\) ist.
+Man erreicht eine Standardnormalverteilung durch eine Transformation der Rohwerte. Diese Transformation wird z-Transformation genannt. Mit Hilfe der z-Transformation kann auf die relative Position innerhalb einer Verteilung geschlossen werden. Der numerische Wert informiert über die Distanz zwischen dem Rohwert und dessen Mittelwert in der Einheit Standardabweichungen.</description>
+    </item>
+    
+  </channel>
+</rss>

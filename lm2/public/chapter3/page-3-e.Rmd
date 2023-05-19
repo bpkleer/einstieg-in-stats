@@ -1,0 +1,55 @@
+---
+title: "Variationskoeffizient"
+weight: 305
+tags: ["streumasse", "variationskoeffizient"]
+bibliography: [../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../static/files/apa.csl]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Da [Merkmale](../../glossar/merkmal/index.html) mit einem höheren [arithmetischen Mittel](../../glossar/mittelwert/index.html) auch häufig eine größere [Standardabweichung](../../glossar/standardabweichung/index.html) aufweisen, wird der **Variationskoeffizient** genutzt, um dies zu relativieren [@Gehring2009, 138]. Bei der Berechnung des Variationskoeffizienten kürzt sich die Maßeinheit heraus, daher ist er eine **dimensionslose Größe** [@Gehring2009, 138]. Es ist zusätzlich ein **relatives Maß**, da die Werte ins Verhältnis zum Mittelwert berechnet werden. So können verschiedene Streuungen verglichen werden, die nicht die gleiche Maßeinheit haben.
+
+Der **Variationskoeffizient** berechnet sich wie folgt:
+
+$$V=\frac{s}{\bar{x}}$$
+
+Der **Variationskoeffizient** ist größer als $1$, wenn die Standardabweichung größer ist als das arithmetische Mittel. Die Berechnung ist außerdem nur möglich, wenn das arithmetische Mittel ungleich $0$ ($\bar{x} \neq 0$) ist.
+
+In unserem Beispiel vergleichen wir nun zwei Erhebungen des *Einkommens*, einmal von *Studierenden* und einmal von *Manager:innen*.
+
+Für die *Studierenden* ergeben sich folgende Werte des [Mittelwerts](../../glossar/mittelwert/index.html) und der [Standardabweichung](../../glossar/standardabweichung/index.html) $s_{Stud}= 40.82$ und $\bar{x_{Stud}} = 550$
+
+Für die *Manager:innen* ergeben sich folgende Werte des [Mittelwerts](../../glossar/mittelwert/index.html) und der Standardabweichung:
+
+$s_{Manager}= 40.82$ und $\bar{x_{Manager}} = 500050$
+
+Die Standardabweichung ist in beiden Fällen gleich, aber der Mittelwert unterscheidet sich erheblich. Der **Variationskoeffizient** hilft nun, diese Information auszudrücken.
+
+Daraus ergeben sich folgende **Variationskoeffizienten**:
+
+$$V_{Stud}=\frac{s_{Stud}}{\bar{x_{Stud}}}=\frac{40.82}{550} \approx 0.074$$
+
+$$V_{Manager}=\frac{s_{Manager}}{\bar{x_{Manager}}}=\frac {40.82}{500050} \approx 0.00008$$
+
+
+Aus der Information der Standardabweichungen können wir nicht lesen, wie sehr sich die Gruppen unterscheiden, aber wie homogen die Gruppen sind. Das heißt mit der Standardabweichung erhalten wir die Information, wie sehr die Werte durchschnittlich abweichen, also streuen.
+
+Der **Variationskoeffizient** gibt nun die zusätzliche Information, wie viel die Streuung des Einkommens im mittleren Durchschnitt ergibt: Bei den *Studierenden* beträgt die Streuung des Einkommens im mittleren Durchschnitt $7.4\%$, bei *Manager:innen* aber nur $0.0008\%$.
+
+{{% notice tip %}}
+Siehe auch: @Gehring2009 [Kapitel 6.2.6].
+{{% /notice %}}

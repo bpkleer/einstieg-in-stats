@@ -1,0 +1,57 @@
+---
+title: "Bivariate Regression"
+weight: 303
+tags: ["regression", "bivariat"]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Bei der Berechnung einer **linearen Regression** in den Sozialwissenschaften lässt sich das Regressionsmodell nur mit einer Anpassung als lineare Darstellung durchführen. Dies liegt daran, dass keine [abhängige](../../glossar/abhaengigevariable/index.html) Variable perfekt durch eine oder mehrere [unabhängige](../../glossar/unabhaengigevariable/index.html) Variable(n) darstellbar ist. In der Modellannahme wird deshalb davon ausgegangen, dass es einen nicht-erklärbaren Anteil gibt, der mit der [Störvariable](../../glossar/stoervariable/index.html) $\varepsilon$ (manchmal auch $U$) angegeben wird. In den Sozialwissenschaften ergibt sich diese Störvariable aus der Forschungslogik heraus: Wir können in den Sozialwissenschaften niemals alle Variablen, die auf etwas wirken, berücksichtigen, da ein soziales Ereignis stets umfassend ist. 
+
+Aus dieser Überlegung heraus ergibt sich die Anpassung einer linearen Gleichung zur bivariaten **linearen Regression** für die [Grundgesamtheit](../../glossar/grundgesamtheit/index.html):
+$(1) \quad y_i  = \beta_0 + \beta_1 \ast x_i + \varepsilon_i$
+
+Mit $Y = (y_1, y_2, ..., y_n), \thinspace X = (x_1, x_2, ..., x_n) \thinspace und \thinspace \varepsilon = (\varepsilon_1, \varepsilon_2, ..., \varepsilon_n)$
+
+Geschätzt werden im Modell die Regressionskoeffizienten $\beta_0$ und $\beta_1$ (bzw. weitere Regressionskoeffizienten im multivariaten Modell, dazu später mehr). Diese stellen mit den beobachteten Werten der unabhängigen Variablen die **systematische Komponente** dar. Die Störvariable $\varepsilon$ stellt die **stochastische Komponente** dar. Um die empirische Beobachtung der Wertepaare der zwei Variablen $Y$ und $X$ darzustellen, wird diese stochastische Komponente benötigt. Denn, wie oben bereits erwähnt, lassen sich niemals eine perfekt lineare Beziehungen in den Sozialwissenschaften darstellen. Die Störvariable $\varepsilon$ ist nicht beobachtbar und nicht messbar. $\varepsilon$ kann man sich inhaltlich als die Gesamtheit der nicht berücksichtigten Variablen vorstellen.
+
+In der [Stichprobe](../../glossar/stichprobe/index.html), mit dessen Variablen und Beobachtungen wir die **lineare Regression** berechnen, können wir die Störvariable(n) nicht messen. Es können nie perfekte Beobachtungen entstehen: Die beobachteten Werte von $y$ (aus der Stichprobe) weichen von den durch die Regressionsgerade geschätzten Werten ($\hat{y}$) ab. Diese Differenzen bezeichnet man im Modell (bzw. der Stichprobe) als [Residuen](../../glossar/residuum/index.html) und sie werden mathematisch im Term $e$ berücksichtigt. Dies ist als die Differenz von beobachteten $y$-Werten und geschätzten $\hat{y}$-Werten zu verstehen und ist ein Nebenprodukt der Schätzung der Regressionskoeffizienten $\hat{\beta}_0$ und $\hat{\beta}_1$.
+
+Die Residuen im geschätzten Modell ergeben sich also wie folgt:
+
+$e_i = y_i - \hat{y}_i = y_i - \hat{\beta}_0 - \hat{\beta}_1 * x_1$
+
+Für die geschätzte Regressionsrechnung einer Stichprobe müssen wir theoretisch also zwischen zwei Gleichungen unterscheiden: Einmal die Schätzung der Regressionsgleichung (später mehr zum Verfahren der Schätzung) und einmal die Modellgleichung.
+
+Modellgleichungen der linearen Regressionen sehen in aller Regel wie folgt aus:
+
+$(2) \quad y_i = \beta_0 + \beta_1 \ast x_i + e_i$
+
+Mit $Y = (y_1, y_2, ..., y_n), \thinspace X = (x_1, x_2, ..., x_n) \thinspace und \thinspace e= (e_1, e_2, ..., e_n) \thinspace bzw. \thinspace e_i=\hat{y}_i - y_i$
+
+Es wird der beobachtete Wert von $Y$ über die Konstante und die Steigerung der beobachteten unabhängigen Variablen ($X$) errechnet. Da sich diese Gleichung in aller Regel nicht perfekt linear darstellt, wird über das Residuum ($e$) ein Anpassungsterm errechnet.
+
+Für die geschätzte Regressionsgleichung, bei der für $Y$ Werte geschätzt werden, sieht die Formel wie folgt aus:
+$(3) \quad \hat{y_i} = \hat{\beta}_0 + \hat{\beta}_1 \ast x_i$
+
+Dieses Modell gilt mathematisch nur unter der Annahme, dass $\hat{Y}$ allein durch $X$ beeinflusst wird. 
+
+Die Schätzung der Regressionskoeffizienten $\hat{\beta}_0$ und $\hat{\beta}_1$ erfolgt über die beobachteten Werte von $X$ und $Y$:
+
+$\hat{\beta}_1$ wird über die Differenz zum Mittelwert der beobachten Variablen berechnet: $\hat{\beta}_1 = \frac{\sum_{i=1}^n {(x_i - \bar{x})(y_i - \bar{y})}}{\sum_{i=1}^n {(x_i-\bar{x})^2}}$
+
+$\hat{\beta}_0$ wird dann unter Zuhilfenahme der Berechnung von $\hat{\beta}_1$ berechnet: $\hat{\beta}_0 = \bar{y} - \hat{\beta}_1\bar{x} = \bar{y} - \frac{\sum_{i=1}^n {(x_i - \bar{x})(y_i - \bar{y})}}{\sum_{i=1}^n {(x_i-\bar{x})^2}}$
+
+Aus diesem Schätzmodell können dann geschätzte Werte von $Y$ berechnet werden. Ebenso können so die einzelnen Residuen der jeweiligen beobachteten Wertepaare von $X$ und $Y$ berechnet werden. Zur Erinnerung: Die Residuen in der Modellgleichung geben die Differenz zwischen beobachtetem $y_i$-Wert und dem geschätztem $\hat{y}_i$-Wert an ($e_i=\hat{y}_i - y_i$).
+
+Mithilfe dieser Gleichung (3) errechnen Statistikprogramme die beste Gerade unter Berücksichtigung des Residuums aus der vorherigen Gleichung (2). Das Ziel der Regressionsrechnung ist es, die Gerade zu finden, bei der das Residuum e minimal ist.

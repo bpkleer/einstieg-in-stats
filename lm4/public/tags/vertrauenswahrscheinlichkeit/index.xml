@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vertrauenswahrscheinlichkeit on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM4/tags/vertrauenswahrscheinlichkeit/</link>
+    <description>Recent content in vertrauenswahrscheinlichkeit on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM4/tags/vertrauenswahrscheinlichkeit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vertrauenswahrscheinlichkeit</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter1/page-1-d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter1/page-1-d/</guid>
+      <description>Die Vertrauenswahrscheinlichkeit (\(p = 1 − \alpha\)) gibt die Wahrscheinlichkeit an, dass das Intervall den wahren Wert enthält. Sollte der Wert also innerhalb dieses Intervalls liegen, muss die Nullhypothese beibehalten werden und die Alternativhypothese muss verworfen werden.
+Zum besseren Verständnis hier eine grafische Darstellung eines ungerichteten (zweiseitigen) Hypothesentests:
+Hypothesentest zweiseitig Zur Erinnerung: Die Fläche unterhalb des Grafens stellt die Wahrscheinlichkeit dar. Der blaue Bereich ist der Vertrauensbereich. Sollte die Prüfgröße innerhalb dieses Bereichs liegen, wird die Nullhypothese beibehalten.</description>
+    </item>
+    
+  </channel>
+</rss>

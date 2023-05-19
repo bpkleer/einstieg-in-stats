@@ -1,0 +1,33 @@
+---
+title: "t-Verteilung"
+weight: 113
+tags: ["t-verteilung", "konfidenzintervall", "signifikanz", "hypothesentest"]
+bibliography: [../../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../../static/files/apa.csl]
+---
+
+
+
+<p>{{% buttonGit href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="mailto:?subject=Schau%20dir%20das%20mal%20an%3A%20" icon="fas fa-paper-plane" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://t.me/share/url?url=" icon="fab fa-telegram" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://api.whatsapp.com/send?text=" icon="fab fa-whatsapp" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://twitter.com/share?url=" icon="fab fa-twitter" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://www.facebook.com/sharer/sharer.php?u=" icon="fab fa-facebook" %}} {{% /buttonGit %}}</p>
+<p>Bei Stichproben mit kleinem <span class="math inline">\(n\)</span> und unbekannter Varianz in der Grundgesamtheit (<span class="math inline">\(\sigma_x\)</span>) empfiehlt es sich statt der <span class="math inline">\(z\)</span>-Verteilung die <span class="math inline">\(t\)</span>-Verteilung für die Berechnung eines Konfidenzintervalls zu nutzen.</p>
+<p>Bei der t-Verteilung ist abhängig von den Freiheitsgraden (<span class="math inline">\(\nu\)</span>). Freiheitsgrade geben an, wie viele Werte in einem statistischen Ausdruck frei variieren können. In der <span class="math inline">\(t\)</span>-Verteilung berechnen sich die Freiheitsgrade wie folgt: <span class="math inline">\(\nu = n-1\)</span>.</p>
+<p>Neben den Freiheitsgraden muss zum Bestimmen des <span class="math inline">\(t\)</span>-Wertes auch noch die Irrtumswahrscheinlichkeit (<span class="math inline">\(\alpha\)</span>) festgelegt werden.</p>
+<p>Das Konfidenzintervall berechnet sich analog wie bei der <span class="math inline">\(z\)</span>-Verteilung:</p>
+<p><span class="math inline">\(\bar{x} \pm t_{(1-\frac{\alpha}{2}; n-1)} \ast {\sigma_{\bar{x}}}\)</span></p>
+<p>Untergrenze Intervall:
+<span class="math inline">\(x_U = \bar{x} - t_{(1-\frac{\alpha}{2}; n-1)} \ast {\sigma_{\bar{x}}}\)</span></p>
+<p>Obergrenze Intervall:
+<span class="math inline">\(x_O = \bar{x} + t_{(1-\frac{\alpha}{2}; n-1)} \ast {\sigma_{\bar{x}}}\)</span></p>
+<p>wobei <span class="math inline">\(\sigma_{\bar{x}} = \frac{\sigma_x}{\sqrt{n}}\)</span></p>
+<p>Auch hier wird <span class="math inline">\(\sigma_x\)</span> über die Stichprobe wie folgt geschätzt: <span class="math inline">\(\hat{\sigma}_x =\sqrt{\hat{\sigma}_x^2} = \sqrt{\frac{ \sum\limits_{i=1}^n (x_{i} - \bar{x})^2} {n-1}}\)</span></p>
+<p>{{% notice tip %}}
+Siehe auch: <span class="citation">Gehring &amp; Weins (<a href="#ref-Gehring2009">2009</a>, Kapitel 11)</span>; <span class="citation">Bortz &amp; Schuster (<a href="#ref-Bortz2010">2010</a>, Kapitel 6.5)</span>.
+{{% /notice %}}</p>

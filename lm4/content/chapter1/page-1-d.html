@@ -1,0 +1,31 @@
+---
+title: "Vertrauenswahrscheinlichkeit"
+weight: 104
+tags: ["vertrauenswahrscheinlichkeit", "signifikanz", "hypothesentest"]
+---
+
+
+
+<p>{{% buttonGit href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="mailto:?subject=Schau%20dir%20das%20mal%20an%3A%20" icon="fas fa-paper-plane" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://t.me/share/url?url=" icon="fab fa-telegram" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://api.whatsapp.com/send?text=" icon="fab fa-whatsapp" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://twitter.com/share?url=" icon="fab fa-twitter" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://www.facebook.com/sharer/sharer.php?u=" icon="fab fa-facebook" %}} {{% /buttonGit %}}</p>
+<p>Die Vertrauenswahrscheinlichkeit (<span class="math inline">\(p = 1 − \alpha\)</span>) gibt die Wahrscheinlichkeit an, dass das Intervall den wahren Wert enthält. Sollte der Wert also innerhalb dieses Intervalls liegen, muss die Nullhypothese beibehalten werden und die Alternativhypothese muss verworfen werden.</p>
+<p>Zum besseren Verständnis hier eine grafische Darstellung eines ungerichteten (zweiseitigen) Hypothesentests:</p>
+<div class="float">
+<img src="../images/testen-zweiseitig.png" alt="Hypothesentest zweiseitig" />
+<div class="figcaption">Hypothesentest zweiseitig</div>
+</div>
+<p>Zur Erinnerung: Die Fläche unterhalb des Grafens stellt die Wahrscheinlichkeit dar. Der blaue Bereich ist der Vertrauensbereich. Sollte die Prüfgröße innerhalb dieses Bereichs liegen, wird die Nullhypothese beibehalten. Erst wenn die Prüfgröße außerhalb dieser Grenzen (roter Bereich; auch kritischer Bereich genannt) liegt, ist die Nullhypothese zu verwerfen und die Alternativhypothese anzunehmen.</p>
+<p>Bei einem zweiseitigen Test ist die Irrtumswahrscheinlichkeit von <span class="math inline">\(5\%\)</span> auf beide Enden aufgeteilt. Die Grenzen ergeben sich ganz einfach aus: <span class="math inline">\(Grenze = \frac{\alpha}{2} = \frac{0,05}{2} = 0,025\)</span>. Wenn die Nullhypothese abgelehnt wird, liegt die Prüfgröße im Wahrscheinlichkeitsbereich von <span class="math inline">\(p \le 0.025\)</span> oder <span class="math inline">\(p \ge 0.975\)</span>.</p>
+<p>Bei einem gerichteten (einseitigen) Test ist entweder nur die rechte Seite (<span class="math inline">\(p \ge 0,95\)</span>) oder die linke Seite (<span class="math inline">\(p \le 0,05\)</span>) als kritischer Bereich anzusehen.</p>
+<div class="float">
+<img src="../images/testen-rechtsseitig.png" alt="Signifikanztest rechtsseitig" />
+<div class="figcaption">Signifikanztest rechtsseitig</div>
+</div>
+<div class="float">
+<img src="../images/testen-linksseitig.png" alt="Signifikanztest linksseitig" />
+<div class="figcaption">Signifikanztest linksseitig</div>
+</div>

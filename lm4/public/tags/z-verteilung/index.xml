@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>z-verteilung on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM4/tags/z-verteilung/</link>
+    <description>Recent content in z-verteilung on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM4/tags/z-verteilung/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>z-Verteilung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter1/subchapter1/page-1-1-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter1/subchapter1/page-1-1-b/</guid>
+      <description>Nutzt man die \(z\)-Verteilung muss die Standardabweichung der Grundgesamtheit (\(\sigma_x\)) bekannt sein, oder durch die Stichprobe geschätzt werden. Das Intervall berechnet sich wie folgt:
+\(\bar{x} \pm z_{1-\frac{\alpha}{2}} \ast {\sigma_{\bar{x}}}\)
+Obergrenze Intervall:
+\(x_U = \bar{x} - z_{1-\frac{\alpha}{2}} \ast {\sigma_{\bar{x}}}\)
+Untergrenze Intervall:
+\(x_O = \bar{x} + z_{1-\frac{\alpha}{2}} \ast {\sigma_{\bar{x}}}\)
+Zur Erinnerung: Der Standardfehler des Mittelwertes (Stichprobenfehler) wird wie folgt aus der Varianz der Grundgesamtheit berechnet.
+\(\sigma_{\bar{x}} = \sqrt{ \frac{\sigma^2_{x} } {n} } = \frac{ \sigma_{x}} { \sqrt{n}}\)</description>
+    </item>
+    
+  </channel>
+</rss>

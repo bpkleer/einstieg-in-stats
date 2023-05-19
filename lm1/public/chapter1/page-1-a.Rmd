@@ -1,0 +1,23 @@
+---
+title: "Primär- & Sekundärdaten"
+weight: 101
+tags: ["primärdaten", "sekundärdaten", "grundbegriff"]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+In der Datenerhebung wird zwischen **Primär- und Sekundärdaten** unterschieden. Dies trifft vor allem für die quantitative Sozialforschung zu.
+
+**Primärdaten** werden für ein direkt bestimmtes Forschungsvorhaben mit eigenen Instrumenten und Methoden von den Forschenden entwickelt und es werden spezifische Daten für genau dieses Vorhaben erhoben. Die Forschenden erheben selbstständig die zu untersuchenden Daten für ein Forschungsprojekt.
+
+Als **Sekundärdaten** werden die Daten bezeichnet, die von Dritten erhoben wurden und für spätere (Re-)Analysen oder sogenannte **Sekundärdatenanalysen** erneut genutzt werden. Viele der **Daten** der [empirischen Sozialforschung]() stehen in der Regel für weiterführende Analysen frei zur Verfügung wie beispielsweise die [Allgemeine Bevölkerungsumfrage der Sozialwissenschaften](http://www.gesis.org/allbus/allbus/), der [World Value Survey](http://www.worldvaluessurvey.org/wvs.jsp), der [European Social Survey](http://www.europeansocialsurvey.org/about/) oder die [German Longitudinal Election Studies](http://www.gles.eu/).

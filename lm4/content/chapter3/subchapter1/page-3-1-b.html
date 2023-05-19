@@ -1,0 +1,34 @@
+---
+title: "F-Test"
+weight: 312
+tags: ["f-test", "regression"]
+bibliography: [../../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../../static/files/apa.csl]
+---
+
+
+
+<p>{{% buttonGit href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="mailto:?subject=Schau%20dir%20das%20mal%20an%3A%20" icon="fas fa-paper-plane" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://t.me/share/url?url=" icon="fab fa-telegram" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://api.whatsapp.com/send?text=" icon="fab fa-whatsapp" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://twitter.com/share?url=" icon="fab fa-twitter" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://www.facebook.com/sharer/sharer.php?u=" icon="fab fa-facebook" %}} {{% /buttonGit %}}</p>
+<p>Neben <span class="math inline">\(R^2\)</span> muss ein weiteres Modellmaß interpretiert werden: der <span class="math inline">\(F\)</span>-Test des Bestimmtheitsmaßes: Der <span class="math inline">\(F\)</span>-Test ist ein <a href="../../../glossar/signifikanztest/index.html">Hypothesentest</a> und prüft in der <a href="../../../glossar/nullhypothese/index.html">Nullhypothese</a>, dass das <a href="../../../glossar/bestimmtheitsmass/index.html">Bestimmtheitsmaß <span class="math inline">\(R^2\)</span></a> <span class="math inline">\(=0\)</span> ist, also dass das zugrunde gelegte Modell keine <a href="../../../glossar/varianz/index.html">Varianz</a> der <a href="../../../glossar/abhaengigevariable/index.html">abhängigen Variable</a> erklärt. Trifft diese Nullhypothese zu, muss das Modell verworfen werden. In Veröffentlichungen findet man daher nur Modelle, die diesen <span class="math inline">\(F\)</span>-Test „bestanden haben“, also in denen mindestens ein <a href="../../../glossar/regressionskoeffizienten/index.html">Regressionskoeffizient</a> einer <a href="../../../glossar/unabhaengigevariable/index.html">unabhängigen Variable</a> von <span class="math inline">\(0\)</span> abweicht.</p>
+<p>Wie interpretieren wir den <span class="math inline">\(F\)</span>-Test nun: In der Abbildung sehen wir einen weiteren Auszug aus der Ausgabe unserer Beispielregression in SPSS.</p>
+<div class="float">
+<img src="../images/spss-multi-anova.png" alt="F-Test (lineare Regression) (SPSS)" />
+<div class="figcaption">F-Test (lineare Regression) (SPSS)</div>
+</div>
+<div class="float">
+<img src="../images/r-reg-multi.PNG" alt="F-Test (lineare Regression) (R)" />
+<div class="figcaption">F-Test (lineare Regression) (R)</div>
+</div>
+<p>Im Output von SPSS sehen wir In der Spalte <span class="math inline">\(F\)</span> den <span class="math inline">\(F\)</span>-Wert, entsprechend der Freiheitsgerade und des <a href="../../../glossar/konfidenzintervall/index.html">Konfidenzintervalls</a> können wir entsprechend einer Tabelle der <a href="../../../glossar/fverteilung/index.html"><span class="math inline">\(F\)</span>-Verteilung</a> ablesen, ob der <span class="math inline">\(F\)</span>-Wert über dem Grenzwert liegt. Dieser Schritt ist hinfällig, da das Computerprogramm SPSS dies in der Spalte <em>Sig.</em> direkt ausgibt. SPSS gibt hier den Signifikanzwert des <span class="math inline">\(F\)</span>-Tests direkt an. Dieser beträgt im Beispiel <span class="math inline">\(0.000\)</span>. Dieser <span class="math inline">\(p\)</span>-Wert ist unterhalb der konventionellen <span class="math inline">\(5\%\)</span>-Hürde (p-Wert <span class="math inline">\(0.05\)</span>) und damit kann die Nullhypothese (dass das Modell keine Varianz der abhängigen Variable erklärt) verworfen werden und das Modell weiter interpretiert werden.
+Im Output der Software R müssen wir in die letzte Zeile sehen. Dort ist zuerst der gerundete F-Wert angegeben und die Parameter der Verteilung und anschließend der p-Wert, hier mit <span class="math inline">\(&lt; 2.2e^{-16}\)</span>. Dieser Wert ist also auch kleiner als <span class="math inline">\(0.05\)</span>, denn <span class="math inline">\(2.2e^{-16} = 0.00000000000000022\)</span>.</p>
+<p>{{% notice tip %}}
+Für eine weitergehende Auseinandersetzung, vor allem zur Berechnung der Teststatistik, ist folgende Literatur zu empfehlen: <span class="citation">Urban &amp; Mayerl (<a href="#ref-Urban2011">2011</a>, Kapitel 3.4.2, Kapitel 3.3.3 &amp; Kapitel 3.4.3)</span>.
+{{% /notice %}}</p>

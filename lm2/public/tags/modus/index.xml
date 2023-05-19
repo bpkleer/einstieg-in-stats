@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>modus on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM2/tags/modus/</link>
+    <description>Recent content in modus on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM2/tags/modus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modus</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter2/page-2-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter2/page-2-a/</guid>
+      <description>Der Modus, auch Modalwert, ist der am häufigsten vorkommende Wert (Ausprägung). Somit ist die Wahrscheinlichkeit, dass dieser Wert/diese Ausprägung zufällig aus den ermittelten Werten gezogen wird, am größten. Dieses Maß der zentralen Tendenz ist besonders wichtig für nominalskalierte Skalenniveau Variablen, da bei diesen die Angabe eines arithmetischen Mittelwertes oder Medians nicht sinnvoll angewendet werden kann.
+So kann für die Variable Augenfarbe kein Durchschnittswert angegeben, der häufigste Wert (Modus) dagegen erscheint sinnvoll.</description>
+    </item>
+    
+  </channel>
+</rss>

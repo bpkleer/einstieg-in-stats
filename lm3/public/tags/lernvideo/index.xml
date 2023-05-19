@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lernvideo on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM3/tags/lernvideo/</link>
+    <description>Recent content in lernvideo on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM3/tags/lernvideo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beobachtete und erwartete Häufigkeiten</title>
+      <link>https://lehre.bpkleer.de/stats101/LM3/chapter1/page-1-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM3/chapter1/page-1-a/</guid>
+      <description>Mit Kreuztabellen wird versucht, die Unabhängigkeit von Variablen zu prüfen. Bei Unabhängigkeit muss die prozentuale Verteilung der abhängigen Variablen in jeder Ausprägung der unabhängigen Variable gelten. Im Beispiel hieße es, dass sowohl auf dem Land als auch in der Stadt die Aufteilung zwischen Wahl der CDU und Nicht-Wahl der CDU gleich der Gesamtaufteilung ist.
+Abweichungen von diesen Verteilungen lassen darauf schließen, dass die Variablen nicht unabhängig voneinander sind. Wenn die Variablen nicht unabhängig voneinander sind, wird dies als Zusammenhang gewertet.</description>
+    </item>
+    
+    <item>
+      <title>Chi-Quadrat, Phi-Koeffizient &amp; Cramers V</title>
+      <link>https://lehre.bpkleer.de/stats101/LM3/chapter2/subchapter1/page-2-1-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM3/chapter2/subchapter1/page-2-1-a/</guid>
+      <description>\(\chi^2\) (Chi-Quadrat) weist drei Probleme auf. Erstens ist \(\chi^2\) (Chi-Quadrat) abhängig von den absoluten Häufigkeiten. Verdoppeln sich bspw. die Häufigkeiten, so verdoppelt sich auch \(\chi^2\) (Chi-Quadrat). Die prozentuale Verteilung ändert sich jedoch nicht. Alternativ könnte der \(\chi^2\) (Chi-Quadrat)-Wert normiert werden.
+Für die zwei unten erklärten berechneten Koeffizienten finden Sie auf der nächsten Seite Rechenbeispiele in Lernvideos.
+Nur für 2x2-Kreuztabellen (wie im Beispiel) bietet sich \(\phi\) (Phi) an. Das Ziel von \(\phi\) (Phi) ist die Relativierung von \(\chi^2\) (Chi-Quadrat) für die Anzahl von Beobachtungen.</description>
+    </item>
+    
+    <item>
+      <title>Spearman&#39;s Rho</title>
+      <link>https://lehre.bpkleer.de/stats101/LM3/chapter2/subchapter2/page-2-2-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM3/chapter2/subchapter2/page-2-2-a/</guid>
+      <description>Für den Zusammenhang zweier ordinaler Variablen kann man die Rangkorrelation nach Spearman (\(\rho\)) benutzen. Voraussetzung hierfür sind die Monotonie des Zusammenhangs und mindestens ordinale Variablen des Zusammenhangs. Auch kann ein nicht-linearer, aber monotoner Zusammenhang zweier metrischer Variablen mit Spearmans \(\rho\) analysiert werden.
+Wie auch der Korrelationskoeffizient nach Pearson nimmt Spearmans \(\rho\) Werte im Intervall \([-1;+1]\) an. Für den perfekt positiven Zusammenhang nimmt er die Maßzahl $+1 $ an, für den perfekt negativen den Wert \(-1\).</description>
+    </item>
+    
+    <item>
+      <title>Pearson&#39;s r</title>
+      <link>https://lehre.bpkleer.de/stats101/LM3/chapter2/subchapter3/page-2-3-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM3/chapter2/subchapter3/page-2-3-a/</guid>
+      <description>Die Korrelation nach Pearson ist ein Standardmaß für den Zusammenhang zwischen zwei metrischen Variablen. Eine weitere Voraussetzung für dieses Maß ist, dass der Zusammenhang linear und monoton ist.
+Bei der Berechnung einer Korrelation nach Pearson sollte daher immer ein Scatterplot der zwei zu untersuchenden Variablen ausgegeben werden, um diese zwei Annahmen zu überprüfen. Dies wird im folgenden Lernvideo dargestellt. Ein weiteres Beispiel folgt im Text nach dem Lernvideo.
+Die Grafik zeigt einen Scatterplot zwischen Körpergröße in cm und Körpergewicht in kg.</description>
+    </item>
+    
+  </channel>
+</rss>

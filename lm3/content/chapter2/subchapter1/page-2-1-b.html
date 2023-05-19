@@ -1,0 +1,29 @@
+---
+title: "Kontingenzkoeffizient"
+weight: 212
+tags: ["kontingenzkoeffizient"]
+---
+
+
+
+<p>{{% buttonGit href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="mailto:?subject=Schau%20dir%20das%20mal%20an%3A%20" icon="fas fa-paper-plane" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://t.me/share/url?url=" icon="fab fa-telegram" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://api.whatsapp.com/send?text=" icon="fab fa-whatsapp" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://twitter.com/share?url=" icon="fab fa-twitter" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://www.facebook.com/sharer/sharer.php?u=" icon="fab fa-facebook" %}} {{% /buttonGit %}}</p>
+<p>Der Kontingenzkoeffizient <span class="math inline">\(C\)</span> ist ein weiteres auf <span class="math inline">\(\chi^2\)</span>-basiertes Zusammenhangsmaß. Es kann angewendet werden, wenn beide Variablen mindestens <a href="../../../glossar/nominalskala.html">nominalskaliert</a> sind. Idealerweise wird er erst angewendet, wenn beide Variablen mehr als drei Ausprägungen haben (mind. <span class="math inline">\(3x3\)</span> Tabelle). Bei <span class="math inline">\(2x2\)</span> Tabellen sollte stattdessen <span class="math inline">\(\phi\)</span> genutzt werden.</p>
+<p>Der Kontingenzkoeffizient <span class="math inline">\(C\)</span> berechnet sich nach folgender Formel: <span class="math inline">\(C = \sqrt {\frac {\chi^2}{\chi^2 + N}}\)</span></p>
+<p>Wichtig bei der Interpretation von <span class="math inline">\(C\)</span> ist, dass der Maximalwert von C von der Zahl der Ausprägungen der Variablen abhängt. <span class="math inline">\(C\)</span> kann also nur interpretiert werden, wenn auch der Wert von <span class="math inline">\(C_{max}\)</span> berechnet wurde. Auch wird so der Vergleich verschiedener Werte von <span class="math inline">\(C\)</span> erschwert.</p>
+<p>Die Formel zur Berechnung des Maximums lautet: <span class="math inline">\(C_{max} = \sqrt{\frac{R-1}{R}}\)</span>, wobei <span class="math inline">\(R = min(k,m)\)</span> ist.</p>
+<p>Kommen wir zu einem Beispiel zwischen dem Universitätswahl und Wohnort. Wir haben folgende Kreuztabelle zwischen beiden Variablen:</p>
+<div class="float">
+<img src="../images/kontingenzC.png" alt="Beispiel Kontingenzkoeffizient C" />
+<div class="figcaption">Beispiel Kontingenzkoeffizient C</div>
+</div>
+<p>Der Wert von <span class="math inline">\(\chi^2\)</span> beträgt: <span class="math inline">\(\chi^2 \approx 545.89\)</span>.</p>
+<p>Damit können wir nun den Kontigenzkoeffizienten <span class="math inline">\(C\)</span> berechnen:
+<span class="math display">\[\begin{align*} C &amp;= \sqrt{\frac{\chi^2}{\chi^2 + N}} \\ &amp;= \sqrt{\frac{545.89}{545.89 + 1150}} \\ &amp;\approx 0.567 \end{align*}\]</span></p>
+<p>Der maximale Wert beträgt bei dieser <span class="math inline">\(3x3\)</span> Tabelle:
+<span class="math display">\[ \begin{align*}C_{max} &amp;= \sqrt{\frac{R - 1}{R}} \\ &amp;= \sqrt{\frac{3-1}{3}} \\ &amp;\approx 0.667 \end{align*}\]</span></p>
+<p>In diesem Beispiel ist also der Zusammenhang zwischen den zwei <a href="../../../glossar/nominalskala/index.html">nominalskalierten</a> Variablen Wohnort und Universitätswahl stark. Der errechnete Wert des Kontingenzkoeffizienten <span class="math inline">\(C\)</span> kommt recht nah an den Wert von <span class="math inline">\(C_{max}\)</span>.</p>

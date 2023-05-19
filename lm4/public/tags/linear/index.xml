@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linear on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM4/tags/linear/</link>
+    <description>Recent content in linear on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM4/tags/linear/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lineare Gleichung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-b/</guid>
+      <description>Die Grundannahme einer linearen Regression ist die lineare Darstellung, in der die abhängige Variable \(Y\) über eine Linearkombination mit der unabhängigen Variable \(X\) dargestellt wird:
+\(y = \beta_0 + \beta_1 \ast x\)
+\(\beta_0\) stellt die Konstante (engl. intercept) dar, also den Schnittpunkt mit der \(y\)-Achse. In manchen Veröffentlichungen wird hierfür auch ein kleines \(a\) oder \(\alpha\) verwendet. \(\beta_1\) ist die Steigung der Geraden, in diesem Fall die Steigung der abhängigen Variable \(y\) durch die unabhängige Variable \(x\) (englt.</description>
+    </item>
+    
+  </channel>
+</rss>

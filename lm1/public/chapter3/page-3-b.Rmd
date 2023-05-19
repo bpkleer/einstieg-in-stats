@@ -1,0 +1,22 @@
+---
+title: "Willkürliche Auswahl"
+weight: 302
+tags: ["willkürlich", "grundbegriff"]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Die **willkürliche Auswahl** umfasst Auswahlverfahren *auf das Geratewohl*. Die Auswahl beruht nicht auf einem Plan, sondern auf der willkürlichen Entscheidung der ausführenden Person. Bei der Anwendung dieses Verfahrens ist die [Grundgesamtheit](../../glossar/grundgesamtheit/index.html) nicht identifizierbar. Daher sind auch keine statistisch kontrollierte wissenschaftliche Aussagen mit einer solchen [Stichprobe](../../glossar/stichprobe/index.html) möglich.
+
+**Beispiel:**
+Ein Beispiel ist, wenn eine Schüler:innen-Gruppe in der Einkaufsstraße der Stadt willkürlich die ersten 100 Personen anspricht und bezüglich ihres Einkaufverhaltens befragt. Hierbei ist weder eine Grundgesamtheit theoretisierbar und die Auswahl erfolgt auf der willkürlich (wenn evtl. auch teils unterbewussten) Auswahl der Schüler:innen.

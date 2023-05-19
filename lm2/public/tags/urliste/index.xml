@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>urliste on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM2/tags/urliste/</link>
+    <description>Recent content in urliste on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM2/tags/urliste/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Urliste</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-c/</guid>
+      <description>Qua Definition bezeichnet man eine Urliste als Ausdruck für die Auflistung der Messwerte einer Variablen. In dieser ist das Merkmal (z.B. Augenfarbe oder Alter) eingetragen und die zugehörigen Merkmalsausprägungen (blau, grün, etc. für die Augenfarbe und \(34\) Jahre, \(27\) Jahre, etc. für das Alter) für jede befragte Person (Zeile für Zeile) festgehalten.
+Urliste Aus einer (umfangreicheren) Urliste kann nur mit Mühe ersehen werden, wie sich die Personen auf die verschiedenen Merkmalsausprägungen verteilen.</description>
+    </item>
+    
+    <item>
+      <title>Häufigkeitstabelle</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter1/page-1-d/</guid>
+      <description>Eine univariate Datenanalyse in tabellarischer Form ergibt eine Häufigkeitstabelle. Diese Häufigkeitstabelle beschreibt, wie sich die Personen auf die Ausprägungen des einen Merkmals verteilen. Nehmen wir das Beispiel der Urliste von der vorherigen Seite wieder auf: Die Variable Augenfarbe (\(X\)) hat die Ausprägungen grün, blau und braun. Dieses Merkmal \(X\) umfasst mehrere Merkmalsausprägungen, in unserem konkreten Fall \(3\) (grün, blau und braun).
+Urliste In der Notation werden die Fälle einer Variablen wie folgt zusammengefasst: \(i \in {1, 2, …, n}\).</description>
+    </item>
+    
+  </channel>
+</rss>

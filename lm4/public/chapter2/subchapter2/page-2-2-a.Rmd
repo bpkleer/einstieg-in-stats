@@ -1,0 +1,87 @@
+---
+title: "Berechnung mit Rohwerten"
+weight: 221
+tags: ["t-test", "gepaart", "mittelwertvergleich", "lernvideo"]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Dazu nehmen wir folgendes Beispiel an: In einem Landtag wurde ein neues Bildungsprogramm für Schulen initiiert, dass u.a. das politische Wissen der teilnehmenden Schüler:innen steigern soll. Dazu wurde vor der Teilnahme und nach der Teilnahme jeweils das politische Wissen gemessen. Von jeder Schüler:in liegen also zwei Messwerte vor: einmal das politische Wissen vor der Teilnahme ($x_1$) und einmal das politische Wissen nach der Teilnahme ($x_2$).
+
+Wir haben folgende Messwerte für 5 fiktive Schüler:innen: $x_1$ ist der Messwert vor der Teilnahme, $x_2$ der Messwert nach der Teilnahme und $d$ die Differenz zwischen $x_1$ und $x_2$.
+
+<center>
+|Schüler-ID | $x_1$ | $x_2$ | $d$ |
+|:----|:-----:|:-----:|:-----:|
+| $1$ | $4$ | $7$ | $-3$ |
+| $2$ | $8$ | $8$ | $0$ |
+| $3$ | $3$ | $9$ | $-6$ |
+| $4$ | $2$ | $6$ | $-4$ |
+| $5$ | $7$ | $10$ | $-3$ | 
+</center> 
+
+Die Formel zur Berechnung des $t$-Tests für abhängige Stichproben lautet wie folgt:
+
+$t_{emp} = \frac{\bar{x}_d - \mu_d}{\hat{\sigma}_{\bar{x}_d}} = \frac{\bar{x}_d - 0}{\hat{\sigma}_{\bar{x}_d}} = \frac{\bar{x}_d}{\hat{\sigma}_{\bar{x}_d}}$
+
+mit $\hat{\sigma}_{\bar{x}_d} = \frac{\hat{\sigma}_d}{\sqrt{n}}$
+
+und $\hat{\sigma}_d = \frac{\sum_{i=1}^n (d_i - \bar{x}_d)^2}{n-1}$
+
+und $d_i = x_{1_i} - x_{2_i}$
+
+und $\bar{x}_d = \frac{1}{n}\sum_{i=1}^n {x_{1_i} - x_{2_i}}$
+
+Die Freiheitsgrade ($\nu$) ergeben sich aus $\nu = 2*n-2$, wobei $n$ die Größe einer Gruppe ist. Bei abhängigen Stichproben muss die Gruppengröße gleich sein.
+
+Berechnen wir nun den $t$-Test für abhängige Stichproben:
+
+1. $\bar{x}_d$
+
+$\bar{x}_d = \frac{1}{n}\sum_{i=1}^n {x_{1_i} - x_{2_i}} = \frac{1}{5}*((-3) + 0 + (-6) + (-4) + (-3)) = -3.2$
+
+2. $\hat{\sigma}_d$
+
+$\hat{\sigma}_d = \frac{\sum_{i=1}^n (d_i - \bar{x}_d)^2}{n-1} = \frac{(-3-(-3.2))^2+(0-(-3.2))^2 +(-6-(-3.2))^2+(-4-(-3.2))^2+(-3-(-3.2))^2}{5-1} = 4.7$
+
+3. $\hat{\sigma}_{\bar{x}_d}$
+
+$\hat{\sigma}_{\bar{x}_d} = \frac{\hat{\sigma}_d}{\sqrt{n}} = \frac{4.7}{\sqrt{5}} \approx 2.102$
+
+4. $t_{emp}$
+
+$t_{emp} = \frac{\bar{x}_d}{\hat{\sigma}_{\bar{x}_d}} = \frac{-3.2}{2.102} \approx -1.552$
+
+5. $\nu$
+
+$\nu = 2 * n - 2 = 2 * 5 -2 = 8$
+
+Auch hier würde man nun den empirischen $t$-Wert am kritischen $t$-Wert überprüfen. Dies werden wir hier nur zu Illustrationszwecken machen. Wir prüfen auf das $90\%$-Niveau und haben insgesamt $8$ Freiheitsgrade ($\nu$). Wir führen einen zweiseitigen Test durch. Der kritische $t$-Wert an dieser Stelle ist $t_{krit(\nu=8; p = 0.95)} = 1.860$.
+
+Der kritische Wert beträgt an der genannten Stelle:
+
+$t_{krit_{(\nu=8; p=0.95)}} = 1.860$.
+
+Damit das errechnete Ergebnis der Signifikanz gilt, muss:
+
+$|t_{emp} | > t_{krit}$
+
+Im Beispiel ist dies nicht erfüllt: $|-1.552| > 1.860$
+
+Wir haben also kein signifikantes Ergebnis in diesem Beispiel.
+
+Hier ein weiteres Beispiel im Video:
+
+<center>
+<iframe src="https://player.vimeo.com/video/512539180?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+</center>

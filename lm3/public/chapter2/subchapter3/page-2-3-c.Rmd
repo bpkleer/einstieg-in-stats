@@ -1,0 +1,79 @@
+---
+title: "Eta-Quadrat"
+weight: 233
+tags: ["eta-qudrat", "pre maß"]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Mit $\eta^2$ ist ein [PRE-Maß](../../../glossar/premass/index.html) und wird angewendet, um den Zusammenhang zweier Merkmale, von denen eine Variable ein [metrisches Skalenniveau](../../../glossar/metrischesskalenniveau/index.html) aufweist und die andere ein [nominales Skalenniveau](../../../glossar/nominalskala/index.html) besitzt.
+
+$\eta^2$ beruht auf der Zerlegung der Quadratsummen: Wir können die *Gesamt-Quadratsumme* in zwei Teile zerlegen. Zum einen wird die *Quadratsumme innerhalb der Gruppen* (der nominalen oder ordinalen Variable)  gebildet. Dies ist die Summe der quadrierten Abweichungen der Werte in den einzelnen Gruppen vom Gruppenmittelwert. Zum anderen kann die Summe der quadrierten Abweichungen der Gruppenmittelwerte vom Gesamtmittelwert gebildetet werden. Dies stellt die *Quadratsumme zwischen den Gruppen* dar. 
+
+Für $\eta^2$ gilt folgendes: 
+$\eta^2 = \frac {QS_{zwischen}}{QS_{gesamt}}= \frac{QS_{zwischen}}{QS_{zwischen} + QS_{in}}$
+
+Gibt es keine Unterschiede zwischen den Gruppen, so erreicht man auch bei Kenntnis der Gruppenzugehörigkeit keine Verbesserung der Vorhersage ($QS_{zwischen} = 0$). Je größer aber die Unterschiede zwischen den Gruppen ($QS_{zwischen} > 0$) relativ zu den Unterschieden innerhalb der Gruppen sind, desto besser wird die Vorhersage.
+
+Für die Interpretation von $\eta^2$ gelten folgende Daumenregeln (Cohen 1998): 
+
+- $\eta^2 < 0.01$ kein Zusammenhang
+
+- $0.01 \leq \eta^2 < 0.04$ geringer Zusammenhang
+
+- $0.04 \leq \eta^2 < 0.16$ mittlerer Zusammenhang und
+
+- $0.16 \leq \eta^2$ starker Zusammenhang
+
+Nehmen wir dazu ein Rechenbeispiel auf: Wir möchten den Zusammenhang zwischen Zufriedenheit mit der Demokratie und dem Geschlecht prüfen. Zu Illustatrionszwecken nehmen wir folgendes Beispiel der Tabelle auf:
+
+![Beispiel Eta](../images/eta-tabelle.png)
+
+Zur Berechnung von $\eta^2$ gehen wir in vier Schritten vor:
+
+1. Mittelwerte berechnen
+
+2. quadrierte Abweichungen innerhalb der Gruppen berechnen und summieren ($QS_{in}$)
+
+3. quadrierte Abweichungen der Gruppenmittelwerte vom Gesamtmittelwert berechnen und summieren ($QS_{zwischen}$)
+
+4. $\eta^2$ berechnen
+
+1. Mittelwerte berechnen
+a) Frauen
+$\bar{x}_w = \frac{5.5 + 4.5 + 5.2 + 4.9}{4} = 5.025$
+b) Männer
+$\bar{x}_m = \frac{7.2 + 8.1 + 7.8 + 8.4}{4} = 7.875$
+c) gesamt
+$\bar{x} = \frac{5.5+4.5+5.2+4.9+7.2+8.1+7.8+8.4}{8} = 6.45$
+
+2. quadrierte Abweichungen innerhalb der Gruppen berechnen und summieren ($QS_in$)
+a) Frauen
+$QS_{in_w}= (5.5 - 5.025)^2 + (4.5 - 5.025)^2 + ( 5.2 - 5.025)^2 + (4.9 - 5.025)^2 = 0.5475$
+b) Männer
+$QS_{in_m} = (7.2 - 7.875)^2 + (8.1-7.875)^2 +(7.8-7.875)^2 + (8.4-7.875)^2 = 0.7875$
+
+**Summe** $QS_{in} = QS_{in_w} + QS_{in_m} = 0.5475 + 0.7875 = 1.335$
+
+3. quadrierte Abweichungen der Gruppenmittelwerte vom Gesamtmittelwert berechnen und summieren ($QS_{zwischen}$)
+a) Frauen
+$n_w * (\bar{x_w} - \bar{x})^2= 4 * (5.025-6.45)^2 = 8.1225$
+b) Männer
+$n_m * (\bar{x_m} - \bar{x})^2= 4 * (7.875-6.45)^2 = 8.1225$
+
+**Summe**: $QS_{zwischen} = 8.1225 + 8.1225 = 16.245$
+
+4. $\eta^2$ berechnen
+$\eta^2 = \frac {QS_{zwischen}}{QS_{gesamt}} = \frac {QS_{zwischen}}{QS_{zwischen} + QS_{in}}= \frac{16.245}{16.245 + 1.335} \approx 0.924$
+
+Wir haben also ein $\eta^2 \approx 0.924$, das auf einen starken Zusammenhang hinweist. Dies liegt u.a. daran, dass wir in den Gruppen kaum Varianz vorliegen haben.

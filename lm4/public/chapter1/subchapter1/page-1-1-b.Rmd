@@ -1,0 +1,37 @@
+---
+title: "z-Verteilung"
+weight: 112
+tags: ["z-verteilung", "konfidenzintervall", "signifikanz", "hypothesentest"]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Nutzt man die $z$-Verteilung muss die Standardabweichung der Grundgesamtheit ($\sigma_x$) bekannt sein, oder durch die Stichprobe geschätzt werden. Das Intervall berechnet sich wie folgt:
+
+$\bar{x} \pm z_{1-\frac{\alpha}{2}} \ast {\sigma_{\bar{x}}}$
+
+Obergrenze Intervall:
+
+$x_U = \bar{x} - z_{1-\frac{\alpha}{2}} \ast {\sigma_{\bar{x}}}$
+
+Untergrenze Intervall:
+
+$x_O = \bar{x} + z_{1-\frac{\alpha}{2}} \ast {\sigma_{\bar{x}}}$
+
+**Zur Erinnerung**: Der Standardfehler des Mittelwertes (Stichprobenfehler) wird wie folgt aus der Varianz der Grundgesamtheit berechnet.
+
+$\sigma_{\bar{x}} = \sqrt{ \frac{\sigma^2_{x} } {n} } = \frac{ \sigma_{x}} { \sqrt{n}}$
+
+Für ein zweiseitiges $99\%$-Konfidenzintervall beträgt $z = 2.58$, für ein zweiseitiges $95\%$-Konfidenzintervall beträgt $z= 1.96$ und für ein zweiseitiges $90\%$-Konfidenzintervall beträgt $z = 1.645$.
+
+Wenn die Varianz der Grundgesamtheit ($\sigma_x$) nicht bekannt ist, muss auch diese geschätzt werden ($\hat{\sigma}_x$). Somit ergibt sich eine doppelte Schätzung. Für Stichproben mit großem $n$ ist dies unproblematisch, bei kleinem $n$ sollte statt der $z$-Verteilung die $t$-Verteilung genutzt werden. Die Berechnung des Konfidenzintervalls mit der $t$-Verteilung wird nachfolgend dargestellt.

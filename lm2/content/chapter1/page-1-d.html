@@ -1,0 +1,53 @@
+---
+title: "Häufigkeitstabelle"
+weight: 104
+tags: ["häufigkeit", "urliste"]
+bibliography: [../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../static/files/apa.csl]
+---
+
+
+
+<p>{{% buttonGit href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="mailto:?subject=Schau%20dir%20das%20mal%20an%3A%20" icon="fas fa-paper-plane" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://t.me/share/url?url=" icon="fab fa-telegram" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://api.whatsapp.com/send?text=" icon="fab fa-whatsapp" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://twitter.com/share?url=" icon="fab fa-twitter" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://www.facebook.com/sharer/sharer.php?u=" icon="fab fa-facebook" %}} {{% /buttonGit %}}</p>
+<p>Eine <a href="../../glossar/univariatestatistik/index.html">univariate Datenanalyse</a> in tabellarischer Form ergibt eine <strong>Häufigkeitstabelle</strong>. Diese <strong>Häufigkeitstabelle</strong> beschreibt, wie sich die Personen auf die <a href="../../glossar/merkmalsauspraegung/index.html">Ausprägungen</a> des einen <a href="../../glossar/merkmal/index.html">Merkmals</a> verteilen.
+Nehmen wir das Beispiel der <a href="../../glossar/urliste/index.html">Urliste</a> von der vorherigen Seite wieder auf:
+Die <a href="../../glossar/variable/index.html">Variable</a> Augenfarbe (<span class="math inline">\(X\)</span>) hat die Ausprägungen grün, blau und braun. Dieses Merkmal <span class="math inline">\(X\)</span> umfasst mehrere Merkmalsausprägungen, in unserem konkreten Fall <span class="math inline">\(3\)</span> (grün, blau und braun).</p>
+<div class="float">
+<img src="../images/urliste.png" alt="Urliste" />
+<div class="figcaption">Urliste</div>
+</div>
+<p>In der Notation werden die Fälle einer Variablen wie folgt zusammengefasst: <span class="math inline">\(i \in {1, 2, …, n}\)</span>.
+Wobei die Werte des Index <span class="math inline">\(i\)</span> von <span class="math inline">\(1\)</span> bis <span class="math inline">\(n\)</span> (Anzahl Fälle) gehen. Der fünfte Fall (<span class="math inline">\(i=5\)</span>) ist <em>Person E</em> und diese hat eine grüne Augenfarbe (<span class="math inline">\(x_{5}=grün\)</span>).</p>
+<p>Um die Ausprägungen einer Variable <span class="math inline">\(X\)</span> zu unterscheiden, wird ein zusätzlicher Laufindex <span class="math inline">\(k\)</span> verwendet. Jede Variable <span class="math inline">\(X\)</span> besitzt <span class="math inline">\(m\)</span> Ausprägungen, somit gilt <span class="math inline">\(k \in {1, 2, …, n}\)</span>.</p>
+<p>In unserem Beispiel hat der Laufindex <span class="math inline">\(k\)</span> den Maximalwert <span class="math inline">\(3\)</span> (<span class="math inline">\(m=3\)</span>), da <span class="math inline">\(3\)</span> verschiedene Ausprägungen vorliegen. Die Ausprägungen einer Variablen werden daher auch mit <span class="math inline">\(x_k\)</span> angegeben.</p>
+<p>In anderen Lehrbüchern wird für die Angabe der Ausprägungen einer Variable der griechische Buchstabe <span class="math inline">\(\xi\)</span> (<em>xi</em>) oder der Buchstabe <span class="math inline">\(a\)</span> verwendet. Auch hier gilt, dass beide Angaben einen Laufindex <span class="math inline">\(k\)</span> besitzen, der die Anzahl der Ausprägungen beinhalten: also <span class="math inline">\(\xi_k\)</span> oder <span class="math inline">\(a_k\)</span>, wobei <span class="math inline">\(k\)</span> <span class="math inline">\(m\)</span> Ausprägungen hat (<span class="math inline">\(k \in 1, ..., m\)</span>). In unserem Fall liegen wie gesagt <span class="math inline">\(3\)</span> Ausprägungen vor:</p>
+<div class="float">
+<img src="../images/merkmalsauspraegung.png" alt="Merkmalsausprägungen von Augenfarbe" />
+<div class="figcaption">Merkmalsausprägungen von Augenfarbe</div>
+</div>
+<p>Die <strong>Häufigkeit</strong> wird mit <span class="math inline">\(f\)</span> oder <span class="math inline">\(H\)</span> angegeben. Die <strong>absoluten Häufigkeiten</strong> geben die Anzahl der Fälle pro <a href="../../glossar/merkmalsauspraegung/index.html">Merkmalsausprägung</a> (<span class="math inline">\(x_k\)</span>) der interessierenden <a href="../../glossar/variable/index.html">Variablen</a> (<span class="math inline">\(X\)</span>) wieder. Sie werden daher mit <span class="math inline">\(f_{x_k}\)</span> oder <span class="math inline">\(H_{x_k}\)</span> angegeben.</p>
+<p>In Lehrbüchern, die für die Ausprägungen <span class="math inline">\(\xi\)</span> oder <span class="math inline">\(a\)</span> nutzen, wird die <strong>absolute Häufigkeit</strong> oft mit folgendem angegeben: <span class="math inline">\(h_{\xi_k}\)</span> bzw. <span class="math inline">\(h_{a_k}\)</span>.</p>
+<div class="float">
+<img src="../images/haeufigkeit-absolut.png" alt="Merkmalsausprägungen von Augenfarbe" />
+<div class="figcaption">Merkmalsausprägungen von Augenfarbe</div>
+</div>
+<p>Die absolute Häufigkeit der Ausprägung <em>grün</em> (<span class="math inline">\(k=1\)</span>) ist im Beispiel also:</p>
+<p><span class="math display">\[f_{x_1} = H_{x_1} = h_{\xi_1} = h_{a_1} = 2\]</span></p>
+<p>Neben den <strong>absoluten Häufigkeiten</strong> finden sich in <strong>Häufigkeitstabellen</strong> auch oftmals <strong>relative Häufigkeiten</strong> wieder. Diese geben uns Information über die Häufigkeit in Bezug zur Gesamtzahl der Fälle. <strong>Relative Häufigkeiten</strong> werden mit <span class="math inline">\(h\)</span> bezeichnet. Sie sind der prozentuale Anteil der Ausprägung an allen Fällen und werden wie folgt berechnet: <span class="math inline">\(h_{x_k} = \frac {H_{x_k}} {n}\)</span>, wobei <span class="math inline">\(n\)</span> die Gesamtzahl der Fälle ist und <span class="math inline">\(H_{x_k}\)</span> die jeweilige absolute Häufigkeit der Merkmalsausprägung <span class="math inline">\(k\)</span>.</p>
+<p>In Lehrbüchern, die <span class="math inline">\(\xi\)</span> und <span class="math inline">\(a\)</span> zur Darstellung von Ausprägungen nutzen, werden die <strong>relativen Häufigkeiten</strong> oft mit <span class="math inline">\(p_{\xi_k} = \frac{h_{\xi_k}}{n}\)</span> bzw. <span class="math inline">\(p_{a_k} = \frac{h_{a_k}}{n}\)</span> angegeben</p>
+<div class="float">
+<img src="../images/haeufigkeit-relativ.png" alt="Häufigkeitstabelle" />
+<div class="figcaption">Häufigkeitstabelle</div>
+</div>
+<p><strong>Relative Häufigkeiten</strong> sind somit der Anteil der Ausprägung an allen Fällen und somit Prozentwerte: <span class="math inline">\(33.3\%\)</span> der Befragten eine grüne Augenfarbe (<span class="math inline">\(h_{x_1} = p_{\xi_1} = p_{a_1} \approx 0.333\)</span>), <span class="math inline">\(50\%\)</span> der Befragten haben eine blaue Augenfarbe (<span class="math inline">\(h_{x_2} = p_{\xi_2} = p_{a_2} = 0.5\)</span>) und <span class="math inline">\(16.7\%\)</span> der Befragten eine braune Augenfarbe (<span class="math inline">\(h_{x_3} = p_{\xi_3} = p_{a_3} \approx 0.167\)</span>).</p>
+<p>{{% notice tip %}}
+Siehe auch: <span class="citation">Gehring &amp; Weins (<a href="#ref-Gehring2009">2009</a>, Kapitel 6)</span>
+{{% /notice %}}</p>

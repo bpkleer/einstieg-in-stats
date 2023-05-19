@@ -1,0 +1,29 @@
+---
+title: "Einfache Zufallsauswahl"
+weight: 304
+tags: ["zufallsstichprobe", "grundbegriff"]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Die **einfache Zufallsauwahl** ist ein gängiges Instrument, vor allem für Befragungen auf der [Mikroebene](../../glossar/mikroebene/index.html). Ein einfaches Beispiel verdeutlicht das Vorgehen hierbei sehr simpel: Nehmen wir an, es soll eine Wahlstudie in Deutschland durchgeführt werden. Bei der **einfachen Zufallsstichprobe** werfen wir (theoretisch) nun alle Wahlberechtigten in einen "Topf" (siehe Abbildung, jeder Ball stellt eine andere Person der [Grundgesamtheit](../../glossar/grundgesamtheit/index.html) dar). Dann ziehen wir aus diesem "Topf" (Grundgesamtheit) eine gewisse Anzahl an Personen (Kreise), die dann unsere [Stichprobe](../../glossar/stichprobe/index.html) darstellen. Jede Person hat hierbei die gleiche Chance, gezogen zu werden, und die Wahrscheinlichkeit, gezogen zu werden, bleibt dabei konstant. Dies bedeutet, dass die Wahrscheinlichkeit nach jedem Zug konstant bleibt zwischen den verbliebenen Personen.
+
+![Zufallsstichprobe](../images/zufallsstichprobe.png)
+
+
+Solch perfekte Bedingungen lassen sich dann realisieren, wenn Listen der Grundgesamtheit vorliegen (wie z.B. Mitgliederverzeichnisse, zentrales Melderegister, Liste aller Abgeordneten).
+
+**Beispiel**:
+Es soll eine Befragung aller steuerzahlenden Personen in Norwegen durchgeführt werden. In Norwegen gibt eine amtliche Liste Auskunft darüber, welche Person wie viel Steuern zahlt. Mithilfe dieser können alle Personen, die Steuern in Norwegen zahlen, zusammengestellt werden. Aus dieser Gesamtliste der steuerzahlenden Personen in Norwegen (Grundgesamtheit) wählen wir mithilfe eines Programms zufällig 1000 Personen (Stichprobe) aus, die wir anschließend befragen.
+
+In der heutigen Anwendung der Ziehung von **Zufallsstichproben** werden öfters mehrstufige Auswahlverfahren angewendet. Diese beruhen meist auf der **einfachen Zufallsstichprobe**, kombinieren aber mehrere Abfragen. Ein oft genutztes Verfahren ist das **Random Route Verfahren**. Dieses wird z.B. bei Bevölkerungsbefragungen angewendet. **Random Route Verfahren** starten (bei telefonischen Befragungen) mit dem zufälligen Wählen einer Festnetz- oder Handynummer (ungültige Nummern werden durch den Computer bereits gefiltert) und dann wird mit einer oder mehreren Anweisungen eine Person eines Haushalts gefiltert. Zum Beispiel wird oftmals als zweite Route gefragt, welche Person zuletzt Geburtstag hatte. Diese Person wird dann befragt.

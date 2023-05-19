@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kategoriale Variablen on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter2/</link>
+    <description>Recent content in Kategoriale Variablen on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beispiel 1</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter2/page-3-2-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter2/page-3-2-a/</guid>
+      <description>Nun möchten wir das Bildungslevel der Befragten in die Regressionsrechnung einfügen. Insgesamt hat diese Variable drei Ausprägungen: \((1)\) Haupt-/Realschule, \((2)\) Abitur und \((3)\) mind. BA-Abschluss. Der Bildungslevel beschreibt die höchste formale Bildungsqualifikation.
+Ein Statistikprogramm kann ausschließlich mit Zahlen operieren. Warum wir die Variable nicht wie eine metrische Variable einfügen können, erklärt folgendes Problem: Bei metrischen Variablen können wir die Steigerung um eine Einheit interpretieren, da die Abstände eindeutig sind. Bei einer Variable wie dem Bildungslevel können wir dies nicht.</description>
+    </item>
+    
+    <item>
+      <title>Beispiel 2</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter2/page-3-2-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter2/page-3-2-b/</guid>
+      <description>In den zwei Lernvideos wird zum einen gezeigt wie Dummy-Variablen grafisch zu interpretieren sind und wie Dummy-Variablen gebildet werden.
+Nehmen wir ein weiteres Beispiel für dummykodierte Variablen mit ordinalen Skalenniveau: Wir möchten testen, welchen Einfluss - neben den bereits genutzten Variable (Alter, Arbeitszeit, Geschlecht) - der Schulabschluss auf das Einkommen einer Person hat. Der Schulabschluss ist in unserem Beispiel mit drei Merkmalsausprägungen kodiert:
+\(1:Hauptschule\)
+\(2:Realschule\)
+\(3:(Fach−)Abitur\)
+Welche Ausprägung die Referenzkategorie ist, liegt in der Entscheidung der Forscher:in.</description>
+    </item>
+    
+  </channel>
+</rss>

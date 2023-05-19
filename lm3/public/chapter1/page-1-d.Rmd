@@ -1,0 +1,67 @@
+---
+title: "Korrelation"
+weight: 104
+tags: ["korrelation"]
+bibliography: [../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../static/files/apa.csl]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+**Korrelationen** werden berechnet, um den *Zusammenhang*, die *Richtung* und die *Stärke* des Zusammenhangs zweier Variablen festzustellen. Eine **Korrelation** misst allerdings keine [Kausalität](../../glossar/kausalitaet/index.html).
+
+In einem Beispiel erklärt, bedeutet dies, wenn *Arbeitszeit* und *Einkommen* positiv miteinander korrelieren, das daraus nicht geschlussfolgert werden kann, dass das *Einkommen* aufgrund höherer *Arbeitszeit* steigt bzw. dass die *Arbeitszeit* aufgrund höherem *Einkommen* steigt. Die Kausalität kann mit einer **Korrelationsanalyse** nicht belegt werden.
+
+Entsprechend der [Skalenniveaus](../../glossar/skalenniveau/index.html) einer Variable gibt es verschiedene Korrelationskoeffizienten:
+
+- **Pearson's r** (wird für den Zusammenhang zweier [metrischer Variablen](../../glossar/metrischesskalenniveau/index.html) genutzt)
+
+- **Spearman's $\rho$** (für mindestens [ordinale Variablen](../../glossar/ordinalskala/index.html))
+
+Gemeinsam haben diese **Korrelationskoeffizienten**, dass sie alle Werte zwischen $[-1;+1]$ einnehmen und gleich interpretiert werden. *Positive Werte* bedeuten, dass mit dem Steigen der Variable $A$ auch Variable $B$ steigt und *negative Werte* bedeuten, dass beim Steigen der Variable $A$ die Variable $B$ sinkt.
+
+![Beispiel positiver und negativer Zusammenhang](../images/korrelation1.png)
+
+Im Beispiel der roten Linie sinkt die Variable $B$, wenn Variable $A$ steigt und im Beispiel der grünen Linie steigt die Variable $B$, wenn die Variable $A$ steigt. Für die grüne Linie würde sich ein *positiver* **Korrelationskoeffizient** ergeben, für die rote Linie ein *negativer*.
+
+Im Beispiel der roten Linie sinkt die Variable B um $1,5$ je Steigen um ein $x$ und im Beispiel grünen Linien steigt die Variable B um $1,5$ je Steigen um ein $x$.
+
+![Beispiel positiver und negativer Zusammenhang](../images/korrelation2.png)
+
+Je näher der **Korrelationskoeffizient** an das Ende des Intervalls kommt (also an $+1$ oder $−1$), desto stärker ist der Zusammenhang zwischen den zwei [Variablen](../../glossar/variable/index.html).
+
+Ist der **Korrelationskoeffizient** nahe $0$, liegt nur ein sehr schwacher Zusammenhang vor. Ein **Korrelationskoeffizient** von $0$ bedeutet, dass es keinen Zusammenhang zwischen den zwei Variablen gibt.
+
+Als Grenzwerte für die **Korrelationskoeffizienten** werden folgende festgehalten:
+
+|Wert des Korrelationskoeffizienten | Interpretation | 
+|:---:|:---:|
+| $\leq |0.05|$ | zu vernachlässigen | 
+| $|0.05| \leq |0.2|$ | geringer Zusammenhang |
+| $|0.2| \leq |0.5|$ | mittlerer Zusammenhang |
+| $|0.5| \leq |0.7|$ | starker Zusammenhang |
+| $\geq |0.7|$ |  sehr starker Zusammenhang |
+<center>Quelle: Kühnel/Krebs 2010, S. 404/405</center>
+
+In den folgenden Teilen des Web-Based-Trainings werden zwei Korrelationsmaße vorgestellt:
+
+- **Pearsons r** 
+
+- **Spearmans $\rho$**
+
+{{% notice tip %}}
+Siehe auch: @Gehring2009 [Kapitel 7.6: Pearson's r]; @Behnke2006 [Kapitel 14.3.2: Spearman's rho]; @Behnke2006 [Kapitel 14.4: Kovarianz und Pearson-Korrelation]; @Bortz2010 [Kapitel 10.3.2: Pearson's r]; @Bortz2010 [Kapitel 10.3.6: Spearman's rho]; @Cleff2011 [Kapitel 4.3.2 Pearson's r]; @Cleff2011 [Kapitel 4.4.1 Spearman's rho].
+{{% /notice %}}

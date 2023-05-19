@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pre maß on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM3/tags/pre-ma%C3%9F/</link>
+    <description>Recent content in pre maß on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM3/tags/pre-ma%C3%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lambda</title>
+      <link>https://lehre.bpkleer.de/stats101/LM3/chapter2/subchapter1/page-2-1-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM3/chapter2/subchapter1/page-2-1-c/</guid>
+      <description>Mit \(\lambda\) ist ein PRE-Maß und wird angewendet, um den Zusammenhang zweier Merkmale, deren Skalenniveau mindestens nominal ist, in einer Kreuztabelle zu überprüfen.
+Hierzu nehmen wir wieder das Beispiel von vorher auf (Wahl der CDU in Abhängigkeit des Wohnorts). Wichtig: Die Wahl der CDU war unsere abhängige Variable und der Wohnort die unabhängige Varible.
+Beispiel Kontingenztabelle Um \(\lambda\) zu berechnen, benötigen wir drei Schritte:
+Vorhersagefehler der abhängigen Variable ohne Kenntnis der unabhängigen Variable</description>
+    </item>
+    
+    <item>
+      <title>Gamma</title>
+      <link>https://lehre.bpkleer.de/stats101/LM3/chapter2/subchapter2/page-2-2-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM3/chapter2/subchapter2/page-2-2-b/</guid>
+      <description>\(\gamma\) ist ein PRE-Maß und wird angewendet, um den Zusammenhang zweier Merkmale, deren Skalenniveau mindestens ordinal ist, in einer Kreuztabelle zu überprüfen. Hierbei werden die Zahl konkordanter Paare \(C\) (\(x_i &amp;lt; x_j\)) und diskonkordanter Paare \(D\) (\(y_i &amp;lt; y_j\)) in Relation gesetzt. Im Unterschied zu anderen Zusammenhangsmaßen bleiben sogenannte Ties außen vor. Ties werden auch Rangbindungen genannt. Diese liegen vor, wenn mehrere Fälle denselben Rang in der geordneten Datenstruktur vorliegen.</description>
+    </item>
+    
+    <item>
+      <title>Eta-Quadrat</title>
+      <link>https://lehre.bpkleer.de/stats101/LM3/chapter2/subchapter3/page-2-3-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM3/chapter2/subchapter3/page-2-3-c/</guid>
+      <description>Mit \(\eta^2\) ist ein PRE-Maß und wird angewendet, um den Zusammenhang zweier Merkmale, von denen eine Variable ein metrisches Skalenniveau aufweist und die andere ein nominales Skalenniveau besitzt.
+\(\eta^2\) beruht auf der Zerlegung der Quadratsummen: Wir können die Gesamt-Quadratsumme in zwei Teile zerlegen. Zum einen wird die Quadratsumme innerhalb der Gruppen (der nominalen oder ordinalen Variable) gebildet. Dies ist die Summe der quadrierten Abweichungen der Werte in den einzelnen Gruppen vom Gruppenmittelwert.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>f-test on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM4/tags/f-test/</link>
+    <description>Recent content in f-test on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM4/tags/f-test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>F-Test</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter1/page-3-1-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter1/page-3-1-b/</guid>
+      <description>Neben \(R^2\) muss ein weiteres Modellmaß interpretiert werden: der \(F\)-Test des Bestimmtheitsmaßes: Der \(F\)-Test ist ein Hypothesentest und prüft in der Nullhypothese, dass das Bestimmtheitsmaß \(R^2\) \(=0\) ist, also dass das zugrunde gelegte Modell keine Varianz der abhängigen Variable erklärt. Trifft diese Nullhypothese zu, muss das Modell verworfen werden. In Veröffentlichungen findet man daher nur Modelle, die diesen \(F\)-Test „bestanden haben“, also in denen mindestens ein Regressionskoeffizient einer unabhängigen Variable von \(0\) abweicht.</description>
+    </item>
+    
+  </channel>
+</rss>

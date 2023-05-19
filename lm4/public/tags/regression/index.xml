@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>regression on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM4/tags/regression/</link>
+    <description>Recent content in regression on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM4/tags/regression/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Einführung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-a/</guid>
+      <description>Im ersten Schritt werden nun die mathematischen Grundlagen des Verfahrens der linearen Regression am Beispiel einer bivariaten linearen Regression vorgestellt. Aufbauend darauf werden die Grundlagen auf eine multivariate lineare Regression übertragen und die Interpretation der wichtigsten Kennzahlen vorgestellt. Abschließend wird zum besseren Verständnis ein Praxisbeispiel aktueller Forschung der empirischen Demokratieforschung dargestellt.
+Die Regressionsanalyse ist eine statistische Methode, um die Beziehungsstruktur zwischen mehreren Variablen zu untersuchen. Dabei findet eine Informationsreduktion statt, so dass die Untersuchung auf wenige Kennzahlen beschränkt werden kann.</description>
+    </item>
+    
+    <item>
+      <title>Bivariate Regression</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-c/</guid>
+      <description>Bei der Berechnung einer linearen Regression in den Sozialwissenschaften lässt sich das Regressionsmodell nur mit einer Anpassung als lineare Darstellung durchführen. Dies liegt daran, dass keine abhängige Variable perfekt durch eine oder mehrere unabhängige Variable(n) darstellbar ist. In der Modellannahme wird deshalb davon ausgegangen, dass es einen nicht-erklärbaren Anteil gibt, der mit der Störvariable \(\varepsilon\) (manchmal auch \(U\)) angegeben wird. In den Sozialwissenschaften ergibt sich diese Störvariable aus der Forschungslogik heraus: Wir können in den Sozialwissenschaften niemals alle Variablen, die auf etwas wirken, berücksichtigen, da ein soziales Ereignis stets umfassend ist.</description>
+    </item>
+    
+    <item>
+      <title>Beispiel</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-d/</guid>
+      <description>Kommen wir nun zu einem eingängigeren Beispiel: Die folgenden Daten sind fiktiv generiert, damit diese das Verfahren gut simulieren können. Wir möchten eine bivariate lineare Regression berechnen, in der die Zufriedenheit mit der Demokratie (satdem) durch die Zufriedenheit mit der ökonomischen Leistung (sateco) berechnet wird. Wir prüfen also, ob und inwieweit die Zufriedenheit mit der ökonomischen Leistung die Zufriedenheit mit der Demokratie beeinflusst.
+Die Formel unseres Modells lautet daher: \(satdem_i= \beta_0 + \beta_1 \ast sateco_i + e_i\), wobei \(i=1,…,n\).</description>
+    </item>
+    
+    <item>
+      <title>Schätzverfahren</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-e/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-e/</guid>
+      <description>In diesem Lernvideo werden die relevanten Teile der Regressionsberechnung an einem weiteren Beispiel vereinfacht dargestellt und das mathematische Vorgehen der Berechnung der besten Regressionsgeraden kurz erläutert. Weitergehende Ausführungen sind unterhalb des Lernvideos im Text zu finden.
+Kommen wir zurück zur Modellschätzung. Die Gleichung einer Modellschätzung lautet: \(Y = \beta_0 + \beta_1 \ast X + e\) Mit \(Y = (y_1, y_2, ..., y_n), X = (x_1, x_2, ..., x_n)\) und \(e=(e_1, e_2, .</description>
+    </item>
+    
+    <item>
+      <title>Multivariate lineare Regression</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-f/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/page-3-f/</guid>
+      <description>Nun erweitern wir die Annahmen auf mehrere unabhängige Variablen. Mit der Regression als multivariate Analyse können Einflüsse möglicher Drittvariablen kontrolliert werden und es wird Aufschluss über die Abhängigkeitsstrukturen zwischen mehreren Variablen gegeben. Die Regression ist daher ein strukturprüfendes Verfahren.
+Bei der multivariaten Regression betrachten wir nicht mehr nur eine unabhängige Variable, sondern beziehen mehrere unabhängige Variablen in das Modell hinein. Der Einbezug von unabhängigen Variablen findet stets theoriegeleitet statt. Die Modellformulierung der multivariaten linearen Regression ändert sich daher auf folgende:</description>
+    </item>
+    
+    <item>
+      <title>Kennzahlen</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter1/</guid>
+      <description>Kapitel 3.1 Kennzahlen Ein Vorteil der linearen Regression ist, dass die Interpretation dieser Berechnung auf wenige Kennzahlen beschränkt ist. In der Anwendung ist dieses Verfahren durchaus anspruchsvoll, in der Interpretation genügt dagegen schon die Kenntnis weniger Werte. Für die Interpretation einer Regression sind vier Kennzahlen wichtig: Das Bestimmtsheitsmaß R2, der F-Test des Bestimmtheitsmaßes als Signifikanz des Modells, die Regressionskoeffizienten und die Signifikanz der einzelnen Regressionskoeffizienten.</description>
+    </item>
+    
+    <item>
+      <title>Bestimmtheitsmaß</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter1/page-3-1-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter1/page-3-1-a/</guid>
+      <description>Um zu messen, wie aussagekräftig die Regression ist, wird über eine Varianzzerlegung das Bestimmtheitsmaß \(R^2\) bestimmt. Vereinfacht dargestellt beschreibt \(R^2\) den Anteil der erklärten Varianz am Gesamtanteil.
+Umgangssprachlich könnte man sagen, dass \(R^2\) angibt, wie viel die unabhängigen Variablen (an der Varianz) der abhängigen Variable erklären. Es ist somit ein Maß der Güte des Modells. Das Ziel ist es, ein Modell zu finden, dass möglichst einen großen Anteil der Varianz einer abhängigen Variable erklären kann (also ein hohes \(R^2\) aufweist).</description>
+    </item>
+    
+    <item>
+      <title>F-Test</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter1/page-3-1-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter1/page-3-1-b/</guid>
+      <description>Neben \(R^2\) muss ein weiteres Modellmaß interpretiert werden: der \(F\)-Test des Bestimmtheitsmaßes: Der \(F\)-Test ist ein Hypothesentest und prüft in der Nullhypothese, dass das Bestimmtheitsmaß \(R^2\) \(=0\) ist, also dass das zugrunde gelegte Modell keine Varianz der abhängigen Variable erklärt. Trifft diese Nullhypothese zu, muss das Modell verworfen werden. In Veröffentlichungen findet man daher nur Modelle, die diesen \(F\)-Test „bestanden haben“, also in denen mindestens ein Regressionskoeffizient einer unabhängigen Variable von \(0\) abweicht.</description>
+    </item>
+    
+    <item>
+      <title>Regressionskoeffizienten</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter1/page-3-1-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter1/page-3-1-c/</guid>
+      <description>In Veröffentlichungen von Regressionsmodellen finden Sie neben der Angabe des Bestimmtheitsmaßes \(R^2\) auch immer die Angabe der einzelnen Regressionskoeffizienten und deren Signifikanz. Denn in den meisten Regressionsmodellen geht es nicht nur um die Erklärungskraft eines Modells, sondern auch darum, wie einzelne Faktoren auf die abhängige Variable wirken. Daher ist die Angabe und die Interpretation der Regressionskoeffizienten wichtig.
+In der Abbildung sehen wir wieder einen Auszug der Beispielregression: Im Computerprogramm SPSS wird dieser als Koeffizientenblock bezeichnet, in R finden wir diese auch wie zuvor in der normalen Modell-Ausgabe.</description>
+    </item>
+    
+    <item>
+      <title>Lernvideo</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter1/page-3-1-d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter1/page-3-1-d/</guid>
+      <description>In diesem Lernvideo werden die drei Schritte nochmals dargestellt:</description>
+    </item>
+    
+    <item>
+      <title>Kategoriale Variablen</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter2/</guid>
+      <description>Kapitel 3.2 Kategoriale Variablen Bisher wurden nur metrische Variablen in das Regressionsmodell aufgenommen. Als zusätzliche Variable könnte zum Beispiel das Geschlecht die Höhe des Einkommens erklären (ein weiteres Beispiel finden Sie im Lernvideo am Ende der Seite). Das Geschlecht ist eine Variable, die kein metrisches Skalenniveau aufweist, sondern ein nominales. Da viele Variablen in den Sozialwissenschaften ein nominales oder ordinales Skalenniveau aufweisen, gibt es eine Möglichkeit, diese in ein Regressionsmodell einzufügen.</description>
+    </item>
+    
+    <item>
+      <title>Beispiel 1</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter2/page-3-2-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter2/page-3-2-a/</guid>
+      <description>Nun möchten wir das Bildungslevel der Befragten in die Regressionsrechnung einfügen. Insgesamt hat diese Variable drei Ausprägungen: \((1)\) Haupt-/Realschule, \((2)\) Abitur und \((3)\) mind. BA-Abschluss. Der Bildungslevel beschreibt die höchste formale Bildungsqualifikation.
+Ein Statistikprogramm kann ausschließlich mit Zahlen operieren. Warum wir die Variable nicht wie eine metrische Variable einfügen können, erklärt folgendes Problem: Bei metrischen Variablen können wir die Steigerung um eine Einheit interpretieren, da die Abstände eindeutig sind. Bei einer Variable wie dem Bildungslevel können wir dies nicht.</description>
+    </item>
+    
+    <item>
+      <title>Beispiel 2</title>
+      <link>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter2/page-3-2-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM4/chapter3/subchapter2/page-3-2-b/</guid>
+      <description>In den zwei Lernvideos wird zum einen gezeigt wie Dummy-Variablen grafisch zu interpretieren sind und wie Dummy-Variablen gebildet werden.
+Nehmen wir ein weiteres Beispiel für dummykodierte Variablen mit ordinalen Skalenniveau: Wir möchten testen, welchen Einfluss - neben den bereits genutzten Variable (Alter, Arbeitszeit, Geschlecht) - der Schulabschluss auf das Einkommen einer Person hat. Der Schulabschluss ist in unserem Beispiel mit drei Merkmalsausprägungen kodiert:
+\(1:Hauptschule\)
+\(2:Realschule\)
+\(3:(Fach−)Abitur\)
+Welche Ausprägung die Referenzkategorie ist, liegt in der Entscheidung der Forscher:in.</description>
+    </item>
+    
+  </channel>
+</rss>

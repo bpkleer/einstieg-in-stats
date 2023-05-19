@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Auswahlverfahren on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM1/chapter3/</link>
+    <description>Recent content in Auswahlverfahren on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM1/chapter3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bewusste Auswahl</title>
+      <link>https://lehre.bpkleer.de/stats101/LM1/chapter3/page-3-a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM1/chapter3/page-3-a/</guid>
+      <description>Die bewusste Auswahl ist eine gezielte Auswahl, die oft in explorativen Vorstudien eingesetzt wird, um Hypothesen zu gewinnen. Es wird planvoll, meist aufgrund vorhergehender Überlegungen nach angebbaren und intersubjektiv nachvollziehbaren Kriterien eine Auswahl vorgenommen (Kromrey et al., 2016, p. 268). Oft werden hierbei „typische Fälle“ untersucht, wofür allerdings Vorkenntnisse der Grundgesamtheit vorliegen müssen. Eine bewusste Auswahl findet ebenfalls statt, wenn ausschlaggebende/extreme Fälle untersucht werden (Auswahl nach dem Konzentrationsprinzip). Auch hier wird aufgrund vorheriger Merkmale festgelegt, welche Fälle als ausschlaggebend gelten.</description>
+    </item>
+    
+    <item>
+      <title>Willkürliche Auswahl</title>
+      <link>https://lehre.bpkleer.de/stats101/LM1/chapter3/page-3-b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM1/chapter3/page-3-b/</guid>
+      <description>Die willkürliche Auswahl umfasst Auswahlverfahren auf das Geratewohl. Die Auswahl beruht nicht auf einem Plan, sondern auf der willkürlichen Entscheidung der ausführenden Person. Bei der Anwendung dieses Verfahrens ist die Grundgesamtheit nicht identifizierbar. Daher sind auch keine statistisch kontrollierte wissenschaftliche Aussagen mit einer solchen Stichprobe möglich.
+Beispiel: Ein Beispiel ist, wenn eine Schüler:innen-Gruppe in der Einkaufsstraße der Stadt willkürlich die ersten 100 Personen anspricht und bezüglich ihres Einkaufverhaltens befragt. Hierbei ist weder eine Grundgesamtheit theoretisierbar und die Auswahl erfolgt auf der willkürlich (wenn evtl.</description>
+    </item>
+    
+    <item>
+      <title>Quota-Verfahren</title>
+      <link>https://lehre.bpkleer.de/stats101/LM1/chapter3/page-3-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM1/chapter3/page-3-c/</guid>
+      <description>Quota-Verfahren beruhen auf zum Teil auf bewusster Auswahl, zum Teil auf willkürlicher Auswahl. Quota-Verfahren können nur angewandt werden, sofern die Verteilung von Merkmalen in der Grundgesamtheit bekannt ist. Entsprechend dieser werden Quoten aufgestellt, die zu erfüllen sind (einfach oder kombiniert). Somit ist das Quota-Verfahren partiell bewusst, durch die Planung der Quoten. Der Unterschied zur zufallsbasierten Schichtung liegt darin, dass die letztendliche Auswahl nicht per Zufall erfolgt, sondern über eine willkürliche Auswahl des Durchführenden (partiell willkürlich).</description>
+    </item>
+    
+    <item>
+      <title>Einfache Zufallsauswahl</title>
+      <link>https://lehre.bpkleer.de/stats101/LM1/chapter3/page-3-d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM1/chapter3/page-3-d/</guid>
+      <description>Die einfache Zufallsauwahl ist ein gängiges Instrument, vor allem für Befragungen auf der Mikroebene. Ein einfaches Beispiel verdeutlicht das Vorgehen hierbei sehr simpel: Nehmen wir an, es soll eine Wahlstudie in Deutschland durchgeführt werden. Bei der einfachen Zufallsstichprobe werfen wir (theoretisch) nun alle Wahlberechtigten in einen “Topf” (siehe Abbildung, jeder Ball stellt eine andere Person der Grundgesamtheit dar). Dann ziehen wir aus diesem “Topf” (Grundgesamtheit) eine gewisse Anzahl an Personen (Kreise), die dann unsere Stichprobe darstellen.</description>
+    </item>
+    
+    <item>
+      <title>Schichtung</title>
+      <link>https://lehre.bpkleer.de/stats101/LM1/chapter3/page-3-e/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM1/chapter3/page-3-e/</guid>
+      <description>Bei der Schichtung wird eine Grundgesamtheit nach einem Merkmal gegliedert. Somit ergeben sich die Schichten. Aus diesen Schichten werden wie in der einfachen Zufallsstichprobe Beobachtungseinheiten gezogen. Je homogener die Schichten sind, desto präziser wird das Verfahren. Um eine Zufallsstichprobe per Schichtung durchführen zu können, müssen Informationen über Merkmalsverteilungen in der Grundgesamtheit vorliegen. Denn erst mit dieser Information können Schichten gebildet werden.
+Bei einer Bevölkerungsbefragung kann z.B. die Bevölkerung nach Bundesländern geschichtet werden, bevor per Zufall einzelne Individuen gezogen werden.</description>
+    </item>
+    
+    <item>
+      <title>Klumpenstichprobe</title>
+      <link>https://lehre.bpkleer.de/stats101/LM1/chapter3/page-3-f/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM1/chapter3/page-3-f/</guid>
+      <description>Bei manchen Untersuchungen wird eine geklumpte Grundgesamtheit untersucht. Dies liegt vor, wenn sich die Grundgesamtheit in Einheiten organisieren lässt. Ein Beispiel wären Schüler:innen in Schulklassen oder Beschäftigte in Betrieben oder Wähler:innen in Staaten (wenn mehrere Staaten betrachtet werden). Hierbei wird dann oft eine Klumpenstichprobe gezogen. Klumpenstichproben werden gezogen, wenn die Miterhebung von sozialen Kontexten (aus den Klumpen) relevant ist. Bei der Klumpenstichprobe werden Klumpen bestimmt und gemeinsame Klumpen werden in je einem “Topf” gesammelt.</description>
+    </item>
+    
+  </channel>
+</rss>

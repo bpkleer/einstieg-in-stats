@@ -1,0 +1,56 @@
+---
+title: "z-Standardisierung"
+weight: 501
+tags: ["standardisierung", "z-standardisierung"]
+bibliography: [../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../static/files/apa.csl]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Die **z-Transformation** wird auch als **Standardisierung** bezeichnet. Nach der Transformation sind die Werte nicht mehr in den Originalmaßeinheiten gemessen, sondern in Vielfachen der [Standardabweichung](../../glossar/standardabweichung/index.html) des Merkmals.
+
+Aus Rohwerten ($x$-Werte) kann häufig nur sehr bedingt auf deren relative Position innerhalb einer Verteilung geschlossen werden, das [arithmetische Mittel](../../glossar/mittelwert/index.html) und die Standardabweichung vermitteln zusätzliche Informationen. Werden Rohwerte in z-Werte transformiert, erhält man anhand der Berücksichtigung des arithmetischen Mittels und der Standardabweichung exakte Informationen über die relative Position des jeweiligen Rohwertes. Der Mittelwert von **z-transformierten Merkmalen** ist immer $0$ ($\bar{x}=0$).
+
+Die **z-Transformation** wird wie folgt berechnet:
+
+$$z_i = \frac{x_i - \bar{x}}{s}$$
+
+Das Vorzeichen **z-transformierter Werte** gibt an, ob sich der jeweilige Wert oberhalb ($+$) oder unterhalb ($−$) des Mittelwertes befindet, der numerische Wert informiert über die Distanz zwischen dem Rohwert und dessen Mittelwert in Standardabweichungseinheiten. Der Mittelwert aller *z-Werte* ist immer $0$, [Varianz](../../glossar/varianz/index.html) und Standardabweichung sind immer $1$ ($\bar{x}=0, s^2=s =1$).
+
+Ein **z-Wert** von $1.5$ bedeutet, dass der entsprechende $x$-Wert $1.5$ Standardabweichungen oberhalb des Mittelwertes liegt. Ein **z-Wert** von $−0.5$ dagegen bedeutet, dass der entsprechende $x$-Wert $0.5$ Standardabweichungen unterhalb des Mittelwertes liegt.
+
+Durch die **z-Transformation** gehen zwar Informationen über die absoluten Abstände zwischen Messwerten verloren, gleichzeitig gewinnt man Informationen über die relativen Abstände zwischen Messwerten. Gleichzeitig lässt sich eine normalverteilte Variable über die **z-Transformation** in eine **Standardnormalverteilung** transformieren ($\bar{x}=0, s^2 =s=1$).
+
+Im folgenden Lernvideo sehen Sie ein Beispiel der **z-Standardisierung**. Alternativ finden Sie unterhalb des Lernvideos ein weiteres Textbeispiel.
+
+<center>
+
+<iframe src="https://player.vimeo.com/video/506076549?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+
+</center>
+
+**Beispiel**: Bei einer Verteilung von IQ-Werten mit $\bar{x}=100$ und $s=15$ würde ein Rohwert $x=130$ einem z-Wert von $z=+2,00$ entsprechen.
+
+Da der Wert ein positives Vorzeichen aufweist, liegt der Rohwert oberhalb des Mittelwertes. Der Rohwert befindet sich außerdem zwei Standardabweichungen über dem Mittelwert (da 30 Punkte über Mittelwert).
+
+![Urliste](../images/zstand1.png)
+
+![z-standardisierte Werte](../images/zstand2.png)
+
+{{% notice tip %}}
+Siehe auch: @Bortz2010 [Kapitel 2.4.2]; @Gehring2009 [Kapitel 10.3.1].
+{{% /notice %}}

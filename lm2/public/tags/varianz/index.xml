@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>varianz on WBT Statistik für die Sozialwissenschaften</title>
+    <link>https://lehre.bpkleer.de/stats101/LM2/tags/varianz/</link>
+    <description>Recent content in varianz on WBT Statistik für die Sozialwissenschaften</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://lehre.bpkleer.de/stats101/LM2/tags/varianz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Varianz</title>
+      <link>https://lehre.bpkleer.de/stats101/LM2/chapter3/page-3-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lehre.bpkleer.de/stats101/LM2/chapter3/page-3-c/</guid>
+      <description>Die Varianz ist eine Kennzahl, welche die Streuung der Variable ausdrückt und alle Werte berücksichtigt. Sie wird berechnet, indem man den Durchschnitt der quadrierten Abweichung vom arithmetischen Mittel berechnet. Die Varianz beschreibt also den durchschnittlichen quadrierten Abstand zum Mittelwert.
+Die Formel zur Anwendung auf eine Vollerhebung ist folgende:
+\[\sigma^2=\frac{1}{n} \ast \sum_{i=1}^n(x_i - \bar{x})^2 = \frac{\sum_{i=1}^n(x_i - \bar{x})^2}{n}\]
+Wenn nur eine Stichprobe erhoben wird, muss die Formel um \(\frac{1}{n-1}\) korrigiert werden:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+---
+title: "Beispiel Veröffentlichung"
+weight: 214
+bibliography: [../../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../../static/files/apa.csl]
+---
+
+
+
+<p>{{% buttonGit href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="mailto:?subject=Schau%20dir%20das%20mal%20an%3A%20" icon="fas fa-paper-plane" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://t.me/share/url?url=" icon="fab fa-telegram" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://api.whatsapp.com/send?text=" icon="fab fa-whatsapp" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://twitter.com/share?url=" icon="fab fa-twitter" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://www.facebook.com/sharer/sharer.php?u=" icon="fab fa-facebook" %}} {{% /buttonGit %}}</p>
+<p>In Veröffentlichungen sind die Ergebnisse oft verkürzt dargestellt. Hier kommen wir auf ein ähnliches Beispiel wie auf der vorherigen Seite zurück, allerdings mit Daten aus dem ALLBUS 2008. Bei einem Mittelwertvergleich werden immer die Mittelwerte (<span class="math inline">\(\bar{x}\)</span>) beider Gruppen sowie die Differenz angegeben.</p>
+<div class="float">
+<img src="../images/mittelwertvergleich-beispiel1.png" alt="Mittelwertvergleich (Wochenarbeitsstunden nach Geschlecht)" />
+<div class="figcaption">Mittelwertvergleich (Wochenarbeitsstunden nach Geschlecht)</div>
+</div>
+<p>Anhand dieser Ausgabe erkennt man, dass sich die <em>mittlere wöchentliche Arbeitszeit</em> zwischen den beiden Gruppen (<em>Männer</em> und <em>Frauen</em>) um ca. <span class="math inline">\(9\)</span> Stunden unterscheidet. Dies gilt in dem Maße nur für die Stichprobe.</p>
+<p>Um nun den Rückschluss auf die Grundgesamtheit ziehen zu können, wird ein t-test durchgeführt. Diese Teststatistik wird angenommen, da wir so testen können, ob die für die aufgeteilte Stichprobe (es ergeben sich so formal zwei unabhängige Stichproben) ergebene Differenz der Mittelwerte auch in der Gesamtpopulation wahrscheinlich ist.</p>
+<p>Grundlage dafür ist immer eine durch zufalls-gesteuerte Stichprobe. Für die Stichproben wird eine Normalverteilung angenommen und somit ist die Differenz beider Stichprobenmittelwerte ebenfalls normalverteilt (genaueres siehe Behnke und Behnke 2006, Kapitel 24).</p>
+<p>Für die Differenz wird entsprechend der t-Verteilung eine Prüfgröße (auch <span class="math inline">\(t−Wert\)</span>) berechnet, die entsprechend ihrer Freiheitsgerade (<em>degrees of freedom</em>) und ihrer Irrtumswahrscheinlichkeit einen bestimmten kritischen Wert annimmt. Wenn die Prüfgröße größer als der kritische Wert ist, gilt die Differenz als signifikant.</p>
+<p>Kommen wir zurück auf das Beispiel: Neben den einzelnen Mittelwerten der Gruppen und der Differenz wird immer die Signifikanz der Differenz angegeben. Zur Wiederholung: Die Signifikanz drückt aus, wie wahrscheinlich es ist, dass diese Differenz auch in der Grundgesamtheit messbar ist.</p>
+<div class="float">
+<img src="../images/mittelwertvergleich-beispiel2.png" alt="Mittelwertvergleich (Wochenarbeitsstunden nach Geschlecht)" />
+<div class="figcaption">Mittelwertvergleich (Wochenarbeitsstunden nach Geschlecht)</div>
+</div>
+<p>Die Signifikanz wird in Veröffentlichungen und in Statistikprogrammen meist mit einem Sternchen angegeben. In der Legende einer Tabelle kann man i.d.R. den <span class="math inline">\(p−Wert\)</span> ablesen. Dieser von Statistikprogrammen ausgegebene <span class="math inline">\(p−Wert\)</span> ersetzt die Angabe der Prüfgröße und erspart den Nutzer*innen das Nachschlagen von Verteilungstabellen.</p>
+<p>Der <span class="math inline">\(p−Wert\)</span> ist die Wahrscheinlichkeit, dass die Prüfgröße bei Gültigkeit der Nullhypothese mindestens den in der Stichprobe berechneten Wert annimmt. Es ist somit die Irrtumswahrscheinlichkeit, mit der die Nullhypothese gerade noch widerlegt werden kann. Der <span class="math inline">\(p−Wert\)</span> trifft somit eine Entscheidung über den Ablehnungsbereich der Nullhypothese.</p>
+<p>Bei der Verwendung dieser <span class="math inline">\(p−Werte\)</span> (statt des kritischen Wertes und Prüfgröße) wird ein Test wie folgt entschieden:
+<span class="math inline">\(p &lt; \alpha : Nullhypothese \thinspace wird \thinspace abgelehnt\)</span>
+<span class="math inline">\(p &gt; \alpha : Nullhypothese \thinspace wird \thinspace bestätigt\)</span></p>
+<p>Der Tabelle können wir entnehmen, dass das Ergebnis signifikant ist, da der <span class="math inline">\(p−Wert\)</span> kleiner als die Irrtumswahrscheinlichkeit <span class="math inline">\(\alpha\)</span> ist (<span class="math inline">\(p &lt; \alpha \Rightarrow Ablehnung \thinspace Nullhypothese\)</span>).</p>
+<p>Die angegebene Differenz der mittleren wöchentlichen Arbeitszeit zwischen Männern und Frauen ist also nicht nur in der Stichprobe gegeben, sondern ist bei einer 5%-Fehlerwahrscheinlichkeit auch für die Grundgesamtheit sehr wahrscheinlich (Grundgesamtheit ist hierbei die über 18-Jährige Wohnbevölkerung in Deutschland).</p>
+<p>{{% notice tip %}}
+Siehe auch: <span class="citation">Behnke &amp; Behnke (<a href="#ref-Behnke2006">2006</a>, Kapitel 24)</span>; <span class="citation">Bortz &amp; Schuster (<a href="#ref-Bortz2010">2010</a>, Kapitel 8.2)</span>.
+{{% /notice %}}</p>

@@ -1,0 +1,37 @@
+---
+title: "Kumulierte Häufigkeiten"
+weight: 105
+tags: ["häufigkeit kumuliert", "häufigkeit"]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Wie im Kapitel Grundbegriffe dargestellt, stellen [Häufigkeitstabellen](../../glossar/haeufigkeitstabellen/index.html) die Darstellung der [absoluten](../../glossar/absolutehaeufigkeit/index.html) und [relativen Häufigkeiten](../../glossar/relativehaeufigkeit/index.html) der [Merkmalsausprägung](../../glossar/merkmalsauspraegung/index.html) einer [Variablen](../../glossar/variable/index.html) dar. Neben den absoluten und relativen Häufigkeiten, werden oftmals auch **kumulierte relative Häufigkeiten** zusätzlich angegeben. Für **kumulierte relative Häufigkeiten** muss eine Rangordnung zwischen den Ausprägungen vorhanden sein, also mindestens ein [ordinales Skalenniveau](../../glossar/ordinalskala/index.html) vorliegen.
+
+Nehmen wir ein Beispiel, bei dem wir von $100$ Befragten die Anzahl abgefragt haben, in wie viele Länder der Welt sie bereits gereist sind.
+
+![Häufigkeitstabelle mit kumulierten relativen Häufigkeiten](../images/kreuztabelle1.png)
+
+**Kumulierte relative Häufigkeiten** summieren die jeweiligen relativen Häufigkeiten bis zur jeweiligen Ausprägung auf ($\sum_{k=1}^m h_{x_k} = \sum_{k=1}^m p_{\xi_k}= \sum_{k=1}^m p_{a_k}$). Sie geben also an, wie häufig eine bestimmte Ausprägung und alle niedrigeren Ausprägung eines [Merkmals](../../glossar/merkmal/index.html) beobachtet wurden. **Kumulierte relative Häufigkeiten** werden auch als Prozentränge bezeichnet. Mithilfe der Ausgabe von **kumulierten relativen Häufigkeiten** können die [Quartile](../../glossar/quartil/index.html) aus der Tabelle abgelesen werden.
+
+Die Quartile können nun anhand der **kumulierten relativen Häufigkeiten** einfach abgelesen werden: Die Quartile befinden sich an den Werten, an denen der jeweilige Grenzwert des Quartils erreicht oder überschritten wird ($0.25$ für das untere Quartil, $0.5$ für den [Median](../../glossar/median/index.html) bzw. das mittlere Quartil, und $0.75$ für das obere Quartil).
+
+Für unser Beispiel heißt dies also folgendes:
+
+$$\tilde{x}_{0.25}=x_3=5$$
+
+$$\tilde{x}_{0.5}=\tilde{x}=x_4=7$$
+
+$$\tilde{x}_{0.75}=x_5=9$$
+
+$25\%$ der Befragten haben maximal fünf Länder bereist, $50\%$ haben maximal sieben Länder bereist und $75\%$ haben maximal neun Länder bereist.

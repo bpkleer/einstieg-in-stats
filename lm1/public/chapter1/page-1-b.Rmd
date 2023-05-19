@@ -1,0 +1,23 @@
+---
+title: "Grundgesamtheit & Stichprobe"
+weight: 102
+tags: ["grundgesamtheit", "stichprobe", "grundbegriff"]
+---
+
+{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+
+{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+
+{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+
+Insbesondere wenn Daten auf der Mikroebene erhoben werden, sind die Begriffe **Grundgesamtheit** und **Stichprobe** wichtig. Auch wird dabei synonym zwischen Voll- und Teilerhebung unterschieden.
+
+Bei einer Vollerhebung werden alle Beobachtungobjekte erfasst, die die Studien umfasst. Diese Menge an Beobachtungsobjekten wird auch als **Grundgesamtheit** bezeichnet. Die **Grundgesamtheit** umfasst dabei die Menge aller möglichen Beobachtungseinheiten (auf der Mikroebene: Individuen), über die eine Aussage getroffen werden soll. Da diese **Grundgesamtheit** in der Regel sehr groß ist und nicht vollständig untersucht werden kann, ist es oft notwendig, nur eine Teilerhebung durchzuführen.
+
+In einer Teilerhebung werden nicht alle Beobachtungsobjekte, über die eine Aussage getroffen wird, erhoben, sondern nur ein Ausschnitt davon. Dies bezeichnet man auch als **Stichprobe**. Die **Stichprobe** ist also eine Teilmenge der **Grundgesamtheit**. Um zuverlässige Rückschlüsse von den Ergebnissen der **Stichprobe** auf die **Grundgesamtheit** führen zu können, muss die **Stichprobe** ein *getreues Abbild* der **Grundgesamtheit** sein. Mehr zur Auswahl einer Stichprobe erfahren Sie in [Lernmodul 3](https://lehre.bpkleer.de/stats101/LM3/).
