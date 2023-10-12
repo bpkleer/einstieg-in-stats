@@ -10,7 +10,7 @@ library("httr")
 library("jsonlite")
 
 # your private token (read_api only) ----
-token <- "VjZ_NARSEgs-wqbz68ku"
+token <- ""
 
 # get group members ----
 group <-  GET(
