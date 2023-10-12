@@ -1,4 +1,4 @@
-baseURL = "https://lehre.bpkleer.de/stats101/LM1/"
+baseURL = "https://ilias.uni-giessen.de/data/JLUG/lm_data/lm_746625/LM1/"
 languageCode = "en-US"
 defaultContentLanguage = "de"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
@@ -10,7 +10,7 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= false
 
 [params]
-  baseURL = "https://lehre.bpkleer.de/stats101/LM1"
+  baseURL = "https://ilias.uni-giessen.de/data/JLUG/lm_data/lm_746625/LM1/"
   themeVariant = "jlug"
 #  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
   description = "Lernomdul 1. WBT für die Vorlesung Statistik in den Sozialwissenschaften"
@@ -28,7 +28,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-home'></i> Main"
-url = "https://lehre.bpkleer.de/stats101/"
+url = "https://ilias.uni-giessen.de/data/JLUG/lm_data/lm_746625/index.html"
 weight = 1
 
 [[menu.shortcuts]]
@@ -38,12 +38,12 @@ weight = 10
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-bullhorn'></i> Credits"
-url = "/credits"
+url = "/credits/index.html"
 weight = 20
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-tags'></i> Tags"
-url = "/tags"
+url = "/tags/index.html"
 weight = 30
 
 # no different languages so far

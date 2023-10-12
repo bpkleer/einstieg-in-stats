@@ -1,4 +1,4 @@
-baseURL = "https://lehre.bpkleer.de/stats101/"
+baseURL = "https://ilias.uni-giessen.de/data/JLUG/lm_data/lm_746625/"
 languageCode = "en-US"
 defaultContentLanguage = "de"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
@@ -10,7 +10,7 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= false
 
 [params]
-  baseURL = "https://lehre.bpkleer.de/stats101/"
+  baseURL = "https://ilias.uni-giessen.de/data/JLUG/lm_data/lm_746625/"
   themeVariant = "jlug"
 #  editURL = "https://lehre.bpkleer.de/stats101/"
   description = "WBT für die Vorlesung Statistik in den Sozialwissenschaften"
@@ -28,22 +28,22 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-chalkboard-teacher'></i> Lernmodul 1"
-url = "https://lehre.bpkleer.de/stats101/LM1/"
+url = "https://ilias.uni-giessen.de/data/JLUG/lm_data/lm_746625/LM1/index.html"
 weight = 10
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-chalkboard-teacher'></i> Lernmodul 2"
-url = "https://lehre.bpkleer.de/stats101/LM2/"
+url = "https://ilias.uni-giessen.de/data/JLUG/lm_data/lm_746625/LM2/index.html"
 weight = 20
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-chalkboard-teacher'></i> Lernmodul 3"
-url = "https://lehre.bpkleer.de/stats101/LM3/"
+url = "https://ilias.uni-giessen.de/data/JLUG/lm_data/lm_746625/LM3/index.html"
 weight = 30
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-chalkboard-teacher'></i> Lernmodul 4"
-url = "https://lehre.bpkleer.de/stats101/LM4/"
+url = "https://ilias.uni-giessen.de/data/JLUG/lm_data/lm_746625/LM4/index.html"
 weight = 40
 
 [[menu.shortcuts]]
@@ -53,12 +53,12 @@ weight = 50
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-bullhorn'></i> Credits"
-url = "/credits"
+url = "/credits/index.html"
 weight = 60
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-tags'></i> Tags"
-url = "/tags"
+url = "/tags/index.html"
 weight = 70
 
 # no different languages so far
