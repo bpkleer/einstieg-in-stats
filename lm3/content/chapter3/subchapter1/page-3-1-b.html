@@ -1,0 +1,52 @@
+---
+title: "Stetige Zufallsvariable"
+weight: 312
+tags: ["stetig", "zufallsvariable"]
+bibliography: [../../../static/files/publications.bib]
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../../static/files/apa.csl]
+---
+
+
+
+<p>{{% buttonGit href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="mailto:?subject=Schau%20dir%20das%20mal%20an%3A%20" icon="fas fa-paper-plane" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://t.me/share/url?url=" icon="fab fa-telegram" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://api.whatsapp.com/send?text=" icon="fab fa-whatsapp" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://twitter.com/share?url=" icon="fab fa-twitter" %}} {{% /buttonGit %}}</p>
+<p>{{% buttonGit href="https://www.facebook.com/sharer/sharer.php?u=" icon="fab fa-facebook" %}} {{% /buttonGit %}}</p>
+<p>Bei <a href="../../../glossar/stetig/index.html">stetigen</a> Variablen können Wahrscheinlichkeiten nicht direkt berechnet werden. Auch die Dichtefunktion liefert im Gegensatz zur Wahrscheinlichkeitsfunktion nicht direkt Wahrscheinlichkeiten. Aber aus der Fläche der Dichtefunktion wird die Wahrscheinlichkeit berechenbar. Die Verteilungsfunktion bei stetigen Variablen ergibt sich durch ein Integral der Dichtefunktion: <span class="math inline">\(F(x) = P(X \leq x) = \int_{-\infty}^{x} f(x)dx\)</span>. Wichtig ist hierbei folgendes: Die Wahrscheinlichkeit, dass die Zufallsvariable <span class="math inline">\(X\)</span> einen genauen Wert <span class="math inline">\(x\)</span> annimmt ist gleich 0 (<span class="math inline">\(P(X=x)=0\)</span>, die Fläche unter diesem Teil ist <span class="math inline">\(0\)</span>). Das kann man ganz einfach aus der Formel ableiten: <span class="math inline">\(P(X=x) = \int_{x}^{x} f(x) dx= F(x) -F(x) = 0\)</span>. Auch hier gilt, dass die Verteilungsfunktion Werte als Gesamtwert <span class="math inline">\(1\)</span> annimmt (<span class="math inline">\(F(x) = \int_{-\infty}^{+\infty} f(x)dx = 1\)</span>). Die Dichtefunktion (<span class="math inline">\(f(x)\)</span>) dagegen ist immer positiv, kann aber auch Werte über <span class="math inline">\(1\)</span> annehmen (<span class="math inline">\(f(x)\geq 0\)</span> für alle <span class="math inline">\(x \in \mathbb{R}\)</span>).</p>
+<p>Über die Dichteverteilung erhalten wir einen visuellen Eindruck: Die Darstellung zeigt uns, in welchen Teilen Werte der Zufallsvariablen besonders dicht beianeinander sind. Die Dichtefunktion kann nur positive Werte annehmen (<span class="math inline">\(f(x) \geq 0\)</span> für alle <span class="math inline">\(x \in \mathbb{R}\)</span>). Die Wahrscheinlichkeit <span class="math inline">\(P(X \leq x)\)</span> errechnet sich durch Integration der Dichtefunktion: <span class="math inline">\(F(x) = P(X \leq x) = \int_{-\infty}^{x} f(x)dx\)</span> (Verteilungsfunktion stetiger Zufallsvariablen). Dabei gilt, dass die Fläche unter der Dichtefunktion (im Gegensatz zur Verteilungsfunktion bei diskreten Variablen) den Inhalt 1 besitzt (<span class="math inline">\(\int_{-\infty}^{+\infty} f(x)dx = 1\)</span>). Da Integrale nicht so einfach berechenbar sind, wird die Berechnung hier nur grafisch vorgestellt.</p>
+<p>Schauen wir uns Beispiele an:</p>
+<div class="float">
+<img src="../images/stetig1.png" alt="Dichtefunktion (keine Auswahl)" />
+<div class="figcaption">Dichtefunktion (keine Auswahl)</div>
+</div>
+<div class="float">
+<img src="../images/stetig2.png" alt="Dichtefunktion" />
+<div class="figcaption">Dichtefunktion</div>
+</div>
+<div class="float">
+<img src="../images/stetig3.png" alt="Dichtefunktion" />
+<div class="figcaption">Dichtefunktion</div>
+</div>
+<div class="float">
+<img src="../images/stetig4.png" alt="Dichtefunktion" />
+<div class="figcaption">Dichtefunktion</div>
+</div>
+<p>Die Verteilungsfunktion wird zwar meist über die Fläche der Dichtefunktion dargestellt, es kann aber auch die Verteilungsfunktion ausgegeben werden. Hier sehen Sie das Beispiel:</p>
+<div class="float">
+<img src="../images/stetig5.png" alt="Verteilungsfunktion" />
+<div class="figcaption">Verteilungsfunktion</div>
+</div>
+<p>Gegenüber diskreten Variablen gibt es einen immens wichtigen Unterschied. Aus <span class="math inline">\(F(x) = P(X \leq x) = \int_{-\infty}^{x} f(x)dx\)</span> könne wir folgende Eigenschaft ableiten: <span class="math inline">\(P(X = x) = 0\)</span>. Das heißt, bei stetigen Variablen ist die Wahrscheinlichkeit, dass die Zufallsvariable genau einen bestimmten Wert annimt immer <span class="math inline">\(0\)</span>. Ursache dafür ist, dass die Fläche unter einem Punkt <span class="math inline">\(x\)</span> gleich Null ist: <span class="math inline">\(P(X=x) \int_x^x f(x)dx = F(x)- F(x) =0\)</span>. Die Wahrscheinlichkeitsfunktoin ist also für stetige Zufallsvariablen nicht definiert.</p>
+<p>Im Folgenden werden nun die stetigen Verteilungsfunktionen Normalverteilung, Standardnormalverteilung und t-Verteilung vorgestellt.</p>
+<p>{{% notice tip %}}
+Siehe auch: <span class="citation">Bortz &amp; Schuster (<a href="#ref-Bortz2010">2010</a>, Kapitel 5.3, 5.4)</span>.
+{{% /notice %}}</p>
+<div id="refs" class="references csl-bib-body hanging-indent" line-spacing="2">
+<div id="ref-Bortz2010" class="csl-entry">
+Bortz, J., &amp; Schuster, C. (2010). <em>Statistik für human- und sozialwissenschaftler</em> (7th ed.). Springer-Lehrbuch.
+</div>
+</div>
