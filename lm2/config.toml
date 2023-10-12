@@ -10,7 +10,7 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= false
 
 [params]
-  baseURL = "hhttps://ilias.uni-giessen.de/data/JLUG/lm_data/lm_746625/LM2"
+  baseURL = "hhttps://ilias.uni-giessen.de/data/JLUG/lm_data/lm_746625/LM2/"
   themeVariant = "jlug"
 #  editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
   description = "Lernmodul 2. WBT für die Vorlesung Statistik in den Sozialwissenschaften"
