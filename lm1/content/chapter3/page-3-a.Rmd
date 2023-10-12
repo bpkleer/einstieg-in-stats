@@ -9,17 +9,19 @@ link-citations: true
 csl: [../../static/files/apa.csl]
 ---
 
-{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+{{% buttonShare href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonShare %}} 
 
-{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonShare %}}
 
-{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonShare %}}
 
-{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonShare %}}
 
-{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-x-twitter\" %}} {{% /buttonShare %}}
 
-{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonShare %}}
+
+{{% button href=\"https\:\/\/bmc.link\/bpkleerw\" icon=\"fa-solid fa-beer-mug-empty\" %}} {{% /button %}}
 
 Die **bewusste Auswahl** ist eine gezielte Auswahl, die oft in [explorativen](../../explorativeuntersuchung/index.html) Vorstudien eingesetzt wird, um Hypothesen zu gewinnen. Es wird planvoll, meist aufgrund vorhergehender Überlegungen nach angebbaren und intersubjektiv nachvollziehbaren Kriterien eine Auswahl vorgenommen [@Kromrey2016, 268]. Oft werden hierbei „typische Fälle“ untersucht, wofür allerdings Vorkenntnisse der [Grundgesamtheit](../../glossar/grundgesamtheit/index.html) vorliegen müssen. Eine **bewusste Auswahl** findet ebenfalls statt, wenn ausschlaggebende/extreme Fälle untersucht werden ([Auswahl nach dem Konzentrationsprinzip](../../glossar/auswahlkonzentrationsprinzip/index.html)). Auch hier wird aufgrund vorheriger Merkmale festgelegt, welche Fälle als ausschlaggebend gelten. Die Fälle haben aufgrund ihres „Ausschlags“ Bedeutsamkeit.
 
