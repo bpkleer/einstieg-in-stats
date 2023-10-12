@@ -28,22 +28,22 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-chalkboard-teacher'></i> Lernmodul 1"
-url = "https://ilias.uni-giessen.de/data/JLUG/lm_data/lm_746625/LM1/index.html"
+url = "/LM1/index.html"
 weight = 10
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-chalkboard-teacher'></i> Lernmodul 2"
-url = "https://ilias.uni-giessen.de/data/JLUG/lm_data/lm_746625/LM2/index.html"
+url = "/LM2/index.html"
 weight = 20
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-chalkboard-teacher'></i> Lernmodul 3"
-url = "https://ilias.uni-giessen.de/data/JLUG/lm_data/lm_746625/LM3/index.html"
+url = "/LM3/index.html"
 weight = 30
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-chalkboard-teacher'></i> Lernmodul 4"
-url = "https://ilias.uni-giessen.de/data/JLUG/lm_data/lm_746625/LM4/index.html"
+url = "/LM4/index.html"
 weight = 40
 
 [[menu.shortcuts]]

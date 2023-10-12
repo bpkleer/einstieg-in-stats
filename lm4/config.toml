@@ -28,7 +28,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-home'></i> Main"
-url = "https://ilias.uni-giessen.de/data/JLUG/lm_data/lm_746625/index.html"
+url = "../index.html"
 weight = 1
 
 [[menu.shortcuts]]
