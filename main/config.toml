@@ -28,22 +28,22 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-chalkboard-teacher'></i> Lernmodul 1"
-url = "/LM1/index.html"
+url = "/lm1/index.html"
 weight = 10
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-chalkboard-teacher'></i> Lernmodul 2"
-url = "/LM2/index.html"
+url = "/lm2/index.html"
 weight = 20
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-chalkboard-teacher'></i> Lernmodul 3"
-url = "/LM3/index.html"
+url = "/lm3/index.html"
 weight = 30
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-chalkboard-teacher'></i> Lernmodul 4"
-url = "/LM4/index.html"
+url = "/lm4/index.html"
 weight = 40
 
 [[menu.shortcuts]]
