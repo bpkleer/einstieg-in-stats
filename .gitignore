@@ -3,6 +3,7 @@
 .RData
 .Ruserdata
 
+**/.DS_Store
 .DS_Store
 /lm1/public/
 /lm2/public/
