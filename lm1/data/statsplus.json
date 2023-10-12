@@ -1,9 +1,11 @@
 [
   {
-    "name": "B. Philipp Kleer",
+    "name": "Philipp Kleer",
     "email": "philipp.kleer@sowi.uni-giessen.de",
-    "commits": 22,
+    "commits": 30,
     "additions": 0,
-    "deletions": 0
+    "deletions": 0,
+    "web_url": "https://gitlab.ub.uni-giessen.de/bpkleer",
+    "avatar_url": "https://gitlab.ub.uni-giessen.de/uploads/-/system/user/avatar/147/avatar.png"
   }
 ]
