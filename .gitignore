@@ -4,8 +4,15 @@
 .Ruserdata
 
 .DS_Store
-/lm1/public
-/lm2/public
-/lm3/public
-/lm4/public
-/main/public
+/lm1/public/
+/lm2/public/
+/lm3/public/
+/lm4/public/
+/main/public/
+
+/lm1/content/**/*.html
+/lm2/content/**/*.html
+/lm3/content/**/*.html
+/lm4/content/**/*.html
+/main/content/**/*.html
+
