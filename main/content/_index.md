@@ -10,13 +10,13 @@ Das Web-Based-Training ist als begleitendes Lernmaterial für die Vorlesungen *S
 
 Hier geht es zu den einzelnen Lernmodulen: 
 
-[Lernmodul 1](./LM1/index.html)
+[Lernmodul 1](./lm1/index.html)
 
-[Lernmodul 2](./LM2/index.html)
+[Lernmodul 2](./lm2/index.html)
 
-[Lernmodul 3](./LM3/index.html)
+[Lernmodul 3](./lm3/index.html)
 
-[Lernmodul 4](./LM4/index.html)
+[Lernmodul 4](./lm4/index.html)
 
 Über diesen Button {{% buttonShare href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonShare %}} kannst du Fehler auf Seiten direkt an uns melden. Dazu musst du dich einmalig mit der JLU-Kennung anmelden. Du findest den Button auf jeder Seite.
 
