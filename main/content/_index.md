@@ -28,7 +28,7 @@ Hier geht es zu den einzelnen Lernmodulen:
 
 {{% buttonShare href="https://api.whatsapp.com/send?text=" icon="fab fa-whatsapp" %}} {{% /buttonShare %}}
 
-{{% buttonShare href="https://twitter.com/share?url=" icon="fab fa-twitter" %}} {{% /buttonShare %}}
+{{% buttonShare href="https://twitter.com/share?url=" icon="fab fa-x-twitter" %}} {{% /buttonShare %}}
 
 {{% buttonShare href="https://www.facebook.com/sharer/sharer.php?u=" icon="fab fa-facebook" %}} {{% /buttonShare %}}
 

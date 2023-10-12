@@ -10,7 +10,7 @@ In diesem Lernmodul werden Ihnen verschiedene Zusammenhangsmaße vorgestellt ([K
 
 ![Aufbau Lernmodul3](images/lernmodul3.png)
 
-Über diesen Button {{% buttonGit href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonGit %}} kannst du Fehler auf Seiten direkt an uns melden. Dazu musst du dich einmalig mit der JLU-Kennung anmelden. Du findest den Button auf jeder Seite.
+Über diesen Button {{% buttonShare href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonShare %}} kannst du Fehler auf Seiten direkt an uns melden. Dazu musst du dich einmalig mit der JLU-Kennung anmelden. Du findest den Button auf jeder Seite.
 
 {{% buttonShare href="https://gitlab.ub.uni-giessen.de/methoden-politik/einstieg-in-statistik/issues/new?issue[title]=" icon="fas fa-bug" %}} {{% /buttonShare %}} 
 
