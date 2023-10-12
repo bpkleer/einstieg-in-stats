@@ -33,6 +33,7 @@ main <- GET(
 
 main <-  fromJSON(rawToChar(main$content))
 
+main$name[main$name=="B. Philipp Kleer"] <- "Philipp Kleer"
 main$web_url <- NA_character_
 main$avatar_url <- NA_character_
 
