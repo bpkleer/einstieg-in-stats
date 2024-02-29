@@ -26,8 +26,8 @@ csl: [../../static/files/apa.csl]
 In diesem Lernvideo wird Ihnen die Berechnung des Modus, des Medians und arithmetischen Mittelwertes dargestellt.
 
 <center>
-<div class="embed-container">
-<iframe src="https://player.vimeo.com/video/506075882?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+<div class="embed-container"> 
+<iframe src="https://flash.uni-giessen.de/vod/90d129f94ab4e0a929f5e3a4729a9779.mp4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
 </div>
 </center>
 
