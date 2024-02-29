@@ -41,7 +41,7 @@ Im folgenden Lernvideo sehen Sie ein Beispiel der **z-Standardisierung**. Altern
 
 <center>
 
-<iframe src="https://player.vimeo.com/video/506076549?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+<iframe src="https://flash.uni-giessen.de/vod/be931a57891565c8b2a43a908fa8a6a1.mp4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
 
 </center>
 

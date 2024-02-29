@@ -27,7 +27,7 @@ Die Darstellung eines Boxplots ist in diesem Lernvideo erklärt. Alternativ kön
 
 <center>
 
-<iframe src="https://player.vimeo.com/video/506074146?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+<iframe src="https://flash.uni-giessen.de/vod/5b9b60c40b4e351e98b14e25ee6cb337.mp4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
 
 </center>
 
