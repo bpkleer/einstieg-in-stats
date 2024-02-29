@@ -21,5 +21,5 @@ tags: ["Kennzahlen", "regression", "lernvideo"]
 In diesem Lernvideo werden die drei Schritte nochmals dargestellt:
 
 <center>
-<iframe src="https://player.vimeo.com/video/506079166?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+<iframe src="https://flash.uni-giessen.de/vod/ffdfd82b568c45dc609aecaf79ef58de.mp4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
 </center>

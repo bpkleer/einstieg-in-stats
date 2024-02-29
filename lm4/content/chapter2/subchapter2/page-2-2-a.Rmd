@@ -85,5 +85,5 @@ Wir haben also kein signifikantes Ergebnis in diesem Beispiel.
 Hier ein weiteres Beispiel im Video:
 
 <center>
-<iframe src="https://player.vimeo.com/video/512539180?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+<iframe src="https://flash.uni-giessen.de/vod/779ee5b444a54ea075007fedd4d25132.mp4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
 </center>

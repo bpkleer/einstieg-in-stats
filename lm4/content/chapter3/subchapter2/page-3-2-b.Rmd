@@ -26,11 +26,11 @@ csl: [../../../static/files/apa.csl]
 In den zwei Lernvideos wird zum einen gezeigt wie Dummy-Variablen grafisch zu interpretieren sind und wie Dummy-Variablen gebildet werden.
 
 <center>
-<iframe src="https://player.vimeo.com/video/506078732?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+<iframe src="https://flash.uni-giessen.de/vod/0b9a234ebf6f36526f6e15e9d103eaca.mp4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
 </center>
 
 <center>
-<iframe src="https://player.vimeo.com/video/506078203?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+<iframe src="https://flash.uni-giessen.de/vod/f9ff324965a943ad7808edbf02a55a85.mp4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
 </center>
 
 Nehmen wir ein weiteres Beispiel für [dummykodierte Variablen](../../../glossar/dummykodiertevariable/index.html) mit [ordinalen Skalenniveau](../../../glossar/ordinalskala/index.html): Wir möchten testen, welchen Einfluss - neben den bereits genutzten [Variable](../../../glossar/variable/index.html) (*Alter, Arbeitszeit, Geschlecht*) - der *Schulabschluss* auf das *Einkommen* einer Person hat. Der *Schulabschluss* ist in unserem Beispiel mit drei [Merkmalsausprägungen](../../../glossar/merkmalsauspraegung/index.html) kodiert:

@@ -59,5 +59,5 @@ Siehe auch: @Gehring2009 [Kapitel 7.1].
 Im folgenden Lernvideo wird Ihnen an zwei Beispielen die Berechnung der erwarteten Werte dargestellt.
 
 <center>
-<iframe src="https://player.vimeo.com/video/506077011?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+<iframe src="https://flash.uni-giessen.de/vod/e5a80b1fd3ee6c9441d3c2d29bdbbc8c.mp4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
 </center>

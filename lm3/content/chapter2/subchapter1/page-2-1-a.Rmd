@@ -74,5 +74,5 @@ Siehe auch: @Gehring2009 [Kapitel 7.3.1]; @Bortz2010 [Kapitel 10.3.4].
 In diesem Lernvideo wird Ihnen die Berechnung von $\chi^2$ sowie der Koeffizienten $\phi$ und Cramers V anhand zweier Beispiel gezeigt.
 
 <center>
-<iframe src="https://player.vimeo.com/video/507516082?quality=720p&dnt=1" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+<iframe src="https://flash.uni-giessen.de/vod/e9960ccf567bdd8d3271b4d6279e0c16.mp4" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
 </center>

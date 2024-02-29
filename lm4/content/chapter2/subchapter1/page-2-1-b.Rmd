@@ -73,5 +73,5 @@ Wir können somit schlussfolgern, dass Frauen im Mittel $6.909$ Stunden weniger 
 Hier ein weiteres Beispiel im Video:
 
 <center>
-<iframe src="https://player.vimeo.com/video/512526079?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+<iframe src="https://flash.uni-giessen.de/vod/bea139553b3c62b7b39e7a1eb1fee235.mp4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
 </center>

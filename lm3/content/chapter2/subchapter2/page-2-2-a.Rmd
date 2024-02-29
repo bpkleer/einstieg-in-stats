@@ -46,7 +46,7 @@ Diese Formel gilt nur, wenn keine [Rangbindungen](../../../glossar/rangbindung/i
 Sie können nun anhand zweier Beispiele (einmal im Lernvideo und ein weiteres unten im Text) die Berechnung der [Spearman-Korrelation](../../../glossar/spearmansrho/index.html) nachvollziehen.
 
 <center>
-<iframe src="https://player.vimeo.com/video/506077781?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+<iframe src="https://flash.uni-giessen.de/vod/b486aafbe3524aea920ce2bf70893c3e.mp4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
 </center>
 
 

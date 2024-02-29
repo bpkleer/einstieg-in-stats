@@ -50,7 +50,7 @@ Das $90\%$-Konfidenzintervall um den Mittelwert $\bar{x} = 42.7$ geht von $[42.2
 Hier ein weiteres Beispiel im Video:
 
 <center>
-<iframe src="https://player.vimeo.com/video/512456402?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+<iframe src="https://flash.uni-giessen.de/vod/c097e06b0af84d5d002e7219e02a41da.mp4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
 </center>
 
 ## Unbekanntes $\sigma_x$ ($z$-Verteilung)
@@ -83,7 +83,7 @@ Das $99\%$-Konfidenzintervall um den Mittelwert $\bar{x} = 34.5$ geht von $[34.4
 Hier ein weiteres Beispiel im Video:
 
 <center>
-<iframe src="https://player.vimeo.com/video/512462872?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+<iframe src="https://flash.uni-giessen.de/vod/0e24dca3f43a491d61f38208b32890d5.mp4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
 </center>
 
 
@@ -117,5 +117,5 @@ Das $95\%$-Konfidenzintervall um den Mittelwert $\bar{x} = 51.4$ geht von $[51.3
 Hier ein weiteres Beispiel im Video:
 
 <center>
-<iframe src="https://player.vimeo.com/video/512472262?quality=720p&dnt=1" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+<iframe src="https://flash.uni-giessen.de/vod/34ccf838cda7ba37b34f6d48ce6a0546.mp4" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
 </center>
