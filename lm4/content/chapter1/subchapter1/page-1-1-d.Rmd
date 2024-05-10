@@ -4,17 +4,19 @@ weight: 114
 tags: ["konfidenzintervall", "signifikanz", "hypothesentest", "lernvideo"]
 ---
 
-{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+{{% buttonShare href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonShare %}} 
 
-{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonShare %}}
 
-{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonShare %}}
 
-{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonShare %}}
 
-{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-x-twitter\" %}} {{% /buttonShare %}}
 
-{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonShare %}}
+
+{{% button href=\"https\:\/\/bmc.link\/bpkleerw\" icon=\"fa-solid fa-beer-mug-empty\" %}} {{% /button %}}
 
 Im Folgenden werden zwei Beispiele berechnet, die auch in dem Lernvideo nochmals erklärt werden.
 
@@ -48,7 +50,7 @@ Das $90\%$-Konfidenzintervall um den Mittelwert $\bar{x} = 42.7$ geht von $[42.2
 Hier ein weiteres Beispiel im Video:
 
 <center>
-<iframe src="https://player.vimeo.com/video/512456402?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+<iframe src="https://flash.uni-giessen.de/vod/c097e06b0af84d5d002e7219e02a41da.mp4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
 </center>
 
 ## Unbekanntes $\sigma_x$ ($z$-Verteilung)
@@ -81,7 +83,7 @@ Das $99\%$-Konfidenzintervall um den Mittelwert $\bar{x} = 34.5$ geht von $[34.4
 Hier ein weiteres Beispiel im Video:
 
 <center>
-<iframe src="https://player.vimeo.com/video/512462872?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+<iframe src="https://flash.uni-giessen.de/vod/0e24dca3f43a491d61f38208b32890d5.mp4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
 </center>
 
 
@@ -115,5 +117,5 @@ Das $95\%$-Konfidenzintervall um den Mittelwert $\bar{x} = 51.4$ geht von $[51.3
 Hier ein weiteres Beispiel im Video:
 
 <center>
-<iframe src="https://player.vimeo.com/video/512472262?quality=720p&dnt=1" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+<iframe src="https://flash.uni-giessen.de/vod/34ccf838cda7ba37b34f6d48ce6a0546.mp4" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
 </center>

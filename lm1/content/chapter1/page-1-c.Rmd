@@ -4,17 +4,19 @@ weight: 103
 tags: ["variable", "grundbegriff"]
 ---
 
-{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+{{% buttonShare href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonShare %}} 
 
-{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonShare %}}
 
-{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonShare %}}
 
-{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonShare %}}
 
-{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-x-twitter\" %}} {{% /buttonShare %}}
 
-{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonShare %}}
+
+{{% button href=\"https\:\/\/bmc.link\/bpkleerw\" icon=\"fa-solid fa-beer-mug-empty\" %}} {{% /button %}}
 
 **Variablen** sind die gemessenen Merkmale bzw. Eigenschaften von [Beobachtungseinheiten](../../glossar/beobachtungseinheit/index.html). **Variablen** haben verschiedene Merkmalsausprägungen. Beispielsweise kann die **Variable** *Wohnort* die [Merkmalsausprägungen](../../glossar/merkmalsauspraegung/index.html) *Gießen*, *Frankfurt* oder *Wetterau* annehmen. Wie viele Ausprägungen eine **Variable** hat, hängt von der Definition des theoretischen Begriffs und der Entscheidung der [Messung](../../glossar/messung/index.html) ab. So kann die Variable *Wohnort* alle Ortschaften Deutschlands umfassen, wenn diese nicht eingegrenzt wird oder keine Sammelkategorie *sonstige* geschaffen wird.
 
@@ -47,7 +49,7 @@ Im folgenden Lernvideo werden Ihnen anhand zweier Beispiele (auf der [Mikro-](..
 
 <center>
 
-<iframe src="https://player.vimeo.com/video/506052954?quality=720p&dnt=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+<iframe src="https://flash.uni-giessen.de/vod/4601fe88f095f18ef657ac61431e764b.mp4"  width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
 
 </center>
 

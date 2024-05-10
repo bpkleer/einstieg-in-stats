@@ -4,17 +4,19 @@ weight: 306
 tags: ["klumpenstichprobe", "zufallsstichprobe", "grundbegriff"]
 ---
 
-{{% buttonGit href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonGit %}} 
+{{% buttonShare href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonShare %}} 
 
-{{% buttonGit href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonShare %}}
 
-{{% buttonGit href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonShare %}}
 
-{{% buttonGit href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonShare %}}
 
-{{% buttonGit href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-twitter\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-x-twitter\" %}} {{% /buttonShare %}}
 
-{{% buttonGit href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonGit %}}
+{{% buttonShare href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonShare %}}
+
+{{% button href=\"https\:\/\/bmc.link\/bpkleerw\" icon=\"fa-solid fa-beer-mug-empty\" %}} {{% /button %}}
 
 Bei manchen Untersuchungen wird eine **geklumpte** [Grundgesamtheit](../../glossar/grundgesamtheit/index.html) untersucht. Dies liegt vor, wenn sich die Grundgesamtheit in Einheiten organisieren lässt. Ein Beispiel wären Schüler:innen in Schulklassen oder Beschäftigte in Betrieben oder Wähler:innen in Staaten (wenn mehrere Staaten betrachtet werden). Hierbei wird dann oft eine **Klumpenstichprobe** gezogen. **Klumpenstichproben** werden gezogen, wenn die Miterhebung von sozialen Kontexten (aus den *Klumpen*) relevant ist. Bei der **Klumpenstichprobe** werden *Klumpen* bestimmt und gemeinsame Klumpen werden in je einem "Topf" gesammelt. Aus diesen "Klumpen-Töpfen" (grau markierte Kästchen) werden dann einzelnen *Klumpen* zufällig ausgewählt. Abschließend werden dann aus diesen Klumpen wiederum alle einzelnen Elemente ausgewählt. Das Verfahren der **Klumpenstichprobe** ist präziser, je heterogener die Elemente in den *Klumpen* sind.
 

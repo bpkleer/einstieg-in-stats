@@ -1,0 +1,74 @@
+---
+title: "Aufbau & Prozentuierung"
+weight: 501
+tags: ["kreuztabllen", "bivariat"]
+bibliography: [../../static/files/publications.bib]
+suppress-bibliography: true
+link-citations: true
+# nocite: "@*" um einfach alle Angaben zu printen am Ende
+csl: [../../static/files/apa.csl]
+---
+
+{{% buttonShare href=\"https\:\/\/gitlab.ub.uni-giessen.de\/methoden-politik\/einstieg-in-statistik\/issues\/new?issue[title]=\" icon=\"fas fa-bug\" %}} {{% /buttonShare %}} 
+
+{{% buttonShare href=\"mailto\:?subject=Schau\%20dir\%20das\%20mal\%20an\%3A\%20\" icon=\"fas fa-paper-plane\" %}} {{% /buttonShare %}}
+
+{{% buttonShare href=\"https\:\/\/t.me\/share\/url?url=\" icon=\"fab fa-telegram\" %}} {{% /buttonShare %}}
+
+{{% buttonShare href=\"https\:\/\/api.whatsapp.com\/send?text=\" icon=\"fab fa-whatsapp\" %}} {{% /buttonShare %}}
+
+{{% buttonShare href=\"https\:\/\/twitter.com\/share?url=\" icon=\"fab fa-x-twitter\" %}} {{% /buttonShare %}}
+
+{{% buttonShare href=\"https\:\/\/www.facebook.com\/sharer\/sharer.php?u=\" icon=\"fab fa-facebook\" %}} {{% /buttonShare %}}
+
+{{% button href=\"https\:\/\/bmc.link\/bpkleerw\" icon=\"fa-solid fa-beer-mug-empty\" %}} {{% /button %}}
+
+Unter Kreuztabellen (auch Kontingenztafeln genannt) versteht man die tabellarische Darstellung der Häufigkeiten, welche bei der Kombination der Ausprägungen von zwei oder mehr Variablen auftreten. Es handelt sich also um eine Kombination der Häufigkeitstabellen für i.d.R. zwei Variablen. Wenn z.B. zwei Variablen vorliegen, werden die Ausprägungen der Variablen A in Spalten von links nach rechts und die Ausprägungen der Variablen B in Zeilen von oben nach unten eingetragen. In jeder einzelnen Zelle wird sodann die spezifische Häufigkeit der jeweiligen Kombination der Ausprägung der Variablen A mit Ausprägung der Variablen B vermerkt.
+
+Als Konvention der Erstellung von Kreuztabellen gilt dabei, dass die unabhängige Variable in den Spalten eingetragen wird, die abhängige Variable in den Zeilen.
+
+Kreuztabellen eignen sich vor allem für nominale und ordinale Daten, für intervall- oder ratio-skalierte Variablen müssen die Werte vorher gruppiert werden, da sonst die Tabellen unübersichtlich werden.
+
+Im Beispiel stellen wir dar, wie viele Personen aus Städten oder ländlichen Räumen bei der letzten Bundestagswahl CDU gewählt haben. Dabei nehmen wir an, dass der Wohnort (Stadt oder ländlicher Raum) die Wahl verursacht. Die unabhängige und damit Spaltenvariable ist der Wohnort und die abhängige und Zeilenvariable ist damit die Wahlentscheidung (CDU oder nicht-CDU).
+
+| | Stadt | Land | Gesamt |
+|:-- | :--: | :--: | :--: |
+| **CDU** | 100 | 300 | 400 |
+| **nicht-CDU** | 400 | 200 | 600 |
+| **Gesamt**| 500 | 500 | 1000 |
+
+Wir können also sehen, dass von den  1.000  befragten Personen  500  Personen in der Stadt wohnen und  500  Personen auf dem Land. Von den 500  in der Stadt lebenden Personen, haben  100  die CDU gewählt und  400  Personen haben nicht die CDU gewählt. Von den  500  auf dem Land lebenden Personen haben  350  die CDU gewählt und  150  Personen haben nicht die CDU gewählt.
+
+In diesem Lernvideo werden Ihnen die drei Möglichkeiten der Prozentuierung in einer Kreuztabelle nacheinander vorgestellt: Die Gesamtprozentuierung, die Spaltenprozentuierung und die Zeilenprozentuierung.
+
+<iframe src="https://flash.uni-giessen.de/vod/9c5936de863c127bca089d7f4d1cb596.mp4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="noreferrer"></iframe>
+
+Hier sind die Tabellen nochmal zum Verständnis abgebildet:
+
+### Gesamtprozentuierung
+
+| | Stadt | Land | Gesamt |
+|:-- | :--: | :--: | :--: |
+| **CDU** | <font color='blue'>10%</font> (100) | <font color='blue'>30%</font> (300) | <font color='blue'>40%</font> (400) |
+| **nicht-CDU** | <font color='blue'>40%</font> (400) | <font color='blue'>20%</font> (200) | <font color='blue'>60%</font> (600) |
+| **Gesamt**| <font color='blue'>50%</font> (500) | <font color='blue'>50%</font> (500) | <font color='blue'>100%</font> (1000) |
+
+### Spaltenprozentuierung
+
+| | Stadt | Land | Gesamt |
+|:-- | :--: | :--: | :--: |
+| **CDU** | <font color='green'>20%</font> (100) | <font color='green'>60%</font> (300) | <font color='green'>40%</font> (400) |
+| **nicht-CDU** | <font color='green'>80%</font> (400) | <font color='green'>40%</font> (200) | <font color='green'>60%</font> (600) |
+| **Gesamt**| <font color='green'>100%</font> (500) | <font color='green'>100%</font> (500) | <font color='green'>100%</font> (1000) |
+
+### Zeilenprozentuierung
+
+| | Stadt | Land | Gesamt |
+|:-- | :--: | :--: | :--: |
+| **CDU** | <font color='red'>25%</font> (100) | <font color='red'>75%</font> (300) | <font color='red'>100%</font> (400) |
+| **nicht-CDU** | <font color='red'>66,67%</font> (400) | <font color='red'>33,33%</font> (200) | <font color='red'>100%</font> (600) |
+| **Gesamt**| <font color='red'>50%</font> (500) | <font color='red'>50%</font> (500) | <font color='red'>100%</font> (1000) |
+
+{{% notice tip %}}
+Siehe auch: @Gehring2009 [Kapitel 7.1].
+{{% /notice %}}
